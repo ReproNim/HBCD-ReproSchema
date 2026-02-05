@@ -2,7 +2,7 @@
 # Extract a specific HBCD release from lst_dds.rda to CSV
 #
 # Usage: Rscript extract_release.R <rda_path> <release_version> <output_csv>
-# Example: Rscript extract_release.R NBDCtoolsData/data/lst_dds.rda 1.1 hbcd_1.1.csv
+# Example: Rscript extract_release.R NBDCtoolsData/data/lst_dds.rda 1.0 hbcd_1.0.csv
 
 args <- commandArgs(trailingOnly = TRUE)
 
@@ -15,10 +15,25 @@ rda_path <- args[1]
 release_version <- args[2]
 output_csv <- args[3]
 
-# Load tibble BEFORE loading RDA - required for proper deserialization
+# Load required packages BEFORE loading the RDA file
+# This is required for proper reconstruction of tibble objects from serialized format
 if (requireNamespace("tibble", quietly = TRUE)) {
   library(tibble)
   cat("Loaded tibble package\n")
+} else {
+  cat("WARNING: tibble package not available - tibble columns may not load correctly\n")
+}
+
+# Load vctrs if available (needed for some tibble unpacking operations)
+if (requireNamespace("vctrs", quietly = TRUE)) {
+  library(vctrs)
+  cat("Loaded vctrs package\n")
+}
+
+# Load dplyr if available (for collect() to materialize lazy tibbles)
+if (requireNamespace("dplyr", quietly = TRUE)) {
+  library(dplyr)
+  cat("Loaded dplyr package\n")
 }
 
 cat(sprintf("R version: %s\n", R.version.string))
@@ -50,13 +65,13 @@ if (!release_key %in% names(hbcd_data)) {
 cat(sprintf("Extracting release: %s\n", release_key))
 release_data <- hbcd_data[[release_key]]
 
-# Get expected dimensions from row.names attribute
+# Get dimensions before conversion
 n_rows <- nrow(release_data)
 n_cols <- ncol(release_data)
 col_names <- names(release_data)
-cat(sprintf("Dimensions: %d x %d\n", n_rows, n_cols))
+cat(sprintf("Original dimensions: %d rows x %d cols\n", n_rows, n_cols))
 
-# Check if columns have data
+# Check if columns have 0 length (ALTREP/lazy column issue)
 first_col_len <- length(release_data[[1]])
 cat(sprintf("First column length: %d (expected: %d)\n", first_col_len, n_rows))
 
@@ -66,146 +81,164 @@ if (output_dir != "." && !dir.exists(output_dir)) {
   dir.create(output_dir, recursive = TRUE)
 }
 
-# If columns are empty (GA Ubuntu issue), try alternative extraction methods
+# Try different materialization approaches
 if (first_col_len == 0 && n_rows > 0) {
-  cat("Columns appear empty - trying alternative extraction methods\n")
+  cat("Detected 0-length columns - trying materialization approaches...\n")
 
-  # Method 1: Try direct write.csv on tibble (uses format.data.frame internally)
-  cat("Method 1: Trying direct write.csv...\n")
-  success <- tryCatch({
-    write.csv(release_data, output_csv, row.names = FALSE)
-    # Verify it wrote data
-    test_read <- read.csv(output_csv, nrows = 5)
-    if (nrow(test_read) > 0 && ncol(test_read) == n_cols) {
-      cat("Direct write.csv succeeded!\n")
-      TRUE
-    } else {
-      FALSE
-    }
-  }, error = function(e) {
-    cat(sprintf("Direct write.csv failed: %s\n", e$message))
-    FALSE
-  })
-
-  if (!success) {
-    # Method 2: Use .subset2 to access raw list elements
-    cat("Method 2: Trying .subset2 access...\n")
-    success <- tryCatch({
-      raw_list <- lapply(seq_len(n_cols), function(i) .subset2(release_data, i))
-      names(raw_list) <- col_names
-      first_len <- length(raw_list[[1]])
-      cat(sprintf("  .subset2 first column length: %d\n", first_len))
-
-      if (first_len > 0) {
-        df <- as.data.frame(raw_list, stringsAsFactors = FALSE)
-        write.csv(df, output_csv, row.names = FALSE)
-        cat(".subset2 method succeeded!\n")
-        TRUE
+  # Approach 1: Try dplyr::collect() to materialize lazy tibble
+  if (requireNamespace("dplyr", quietly = TRUE)) {
+    cat("Trying dplyr::collect()...\n")
+    release_data <- tryCatch({
+      collected <- dplyr::collect(release_data)
+      if (length(collected[[1]]) > 0) {
+        cat("dplyr::collect() succeeded\n")
+        collected
       } else {
-        FALSE
+        stop("collect() did not materialize columns")
       }
     }, error = function(e) {
-      cat(sprintf(".subset2 method failed: %s\n", e$message))
-      FALSE
+      cat(sprintf("dplyr::collect() failed: %s\n", e$message))
+      release_data
     })
+    first_col_len <- length(release_data[[1]])
   }
 
-  if (!success) {
-    # Method 3: Unclass to raw list and rebuild
-    cat("Method 3: Trying unclass...\n")
-    success <- tryCatch({
-      raw <- unclass(release_data)
-      cat(sprintf("  Unclassed type: %s, length: %d\n", typeof(raw), length(raw)))
-      first_len <- length(raw[[1]])
-      cat(sprintf("  Unclassed first element length: %d\n", first_len))
-
-      if (first_len > 0) {
-        # Build data frame from raw list
-        df <- data.frame(raw, stringsAsFactors = FALSE, check.names = FALSE)
-        write.csv(df, output_csv, row.names = FALSE)
-        cat("Unclass method succeeded!\n")
-        TRUE
-      } else {
-        FALSE
-      }
-    }, error = function(e) {
-      cat(sprintf("Unclass method failed: %s\n", e$message))
-      FALSE
-    })
-  }
-
-  if (!success) {
-    # Method 4: format() each column and rebuild
-    cat("Method 4: Trying format()...\n")
-    success <- tryCatch({
-      # format.data.frame accesses data differently
-      formatted <- format(release_data)
-      cat(sprintf("  Formatted dim: %d x %d\n", nrow(formatted), ncol(formatted)))
-      if (nrow(formatted) > 0) {
-        write.csv(formatted, output_csv, row.names = FALSE)
-        cat("Format method succeeded!\n")
-        TRUE
-      } else {
-        FALSE
-      }
-    }, error = function(e) {
-      cat(sprintf("Format method failed: %s\n", e$message))
-      FALSE
-    })
-  }
-
-  if (!success) {
-    # Method 5: Print to text and parse (last resort)
-    cat("Method 5: Trying print capture...\n")
-    success <- tryCatch({
-      tmp_file <- tempfile(fileext = ".txt")
-      sink(tmp_file)
-      print(release_data, n = Inf, width = Inf)
-      sink()
-
-      # Read and parse the printed output
-      lines <- readLines(tmp_file)
+  # Approach 2: Try writing to tempfile and reading back
+  if (first_col_len == 0 && n_rows > 0) {
+    cat("Trying tempfile round-trip...\n")
+    release_data <- tryCatch({
+      tmp_file <- tempfile(fileext = ".rds")
+      saveRDS(release_data, tmp_file)
+      reloaded <- readRDS(tmp_file)
       unlink(tmp_file)
-
-      cat(sprintf("  Captured %d lines\n", length(lines)))
-
-      # This is fragile but might work as last resort
-      if (length(lines) > 10) {
-        cat("Print capture got data, but parsing not implemented\n")
+      if (length(reloaded[[1]]) > 0) {
+        cat("Tempfile round-trip succeeded\n")
+        reloaded
+      } else {
+        stop("Round-trip did not materialize columns")
       }
-      FALSE
     }, error = function(e) {
-      cat(sprintf("Print capture failed: %s\n", e$message))
-      FALSE
+      cat(sprintf("Tempfile round-trip failed: %s\n", e$message))
+      release_data
     })
+    first_col_len <- length(release_data[[1]])
   }
 
-  if (!success) {
-    cat("ERROR: All extraction methods failed!\n")
-    cat("This appears to be a tibble serialization incompatibility issue.\n")
-    cat("The RDA file may need to be re-saved with a compatible R version.\n")
-    quit(status = 1)
+  # Approach 3: Force copy by modifying then reverting
+  if (first_col_len == 0 && n_rows > 0) {
+    cat("Trying force copy via modification...\n")
+    release_data <- tryCatch({
+      # Adding and removing a column forces a copy
+      release_data[["__temp__"]] <- seq_len(n_rows)
+      release_data[["__temp__"]] <- NULL
+      if (length(release_data[[1]]) > 0) {
+        cat("Force copy succeeded\n")
+      }
+      release_data
+    }, error = function(e) {
+      cat(sprintf("Force copy failed: %s\n", e$message))
+      release_data
+    })
+    first_col_len <- length(release_data[[1]])
   }
-} else {
-  # Normal case - columns have data
-  cat("Columns have data, using standard conversion\n")
+}
 
-  # Convert to plain data.frame, handling list columns
-  result <- as.data.frame(release_data, stringsAsFactors = FALSE)
+# Re-check after materialization attempts
+first_col_len <- length(release_data[[1]])
+if (first_col_len == 0 && n_rows > 0) {
+  cat("Detected 0-length columns in tibble - using row-by-row extraction\n")
 
-  # Handle any list columns
-  for (col in names(result)) {
-    if (is.list(result[[col]])) {
-      cat(sprintf("Converting list column: %s\n", col))
-      result[[col]] <- sapply(result[[col]], function(x) {
-        if (is.null(x) || length(x) == 0) NA_character_
-        else paste(as.character(x), collapse = "; ")
+  # Extract data row by row using tibble's [ indexing
+  # This forces materialization of lazy columns
+  result_list <- vector("list", n_cols)
+  names(result_list) <- col_names
+
+  # Initialize each column as the correct type
+  for (j in seq_len(n_cols)) {
+    result_list[[j]] <- vector("character", n_rows)
+  }
+
+  # Extract in chunks to avoid memory issues
+  chunk_size <- 10000
+  n_chunks <- ceiling(n_rows / chunk_size)
+
+  for (chunk in seq_len(n_chunks)) {
+    start_row <- (chunk - 1) * chunk_size + 1
+    end_row <- min(chunk * chunk_size, n_rows)
+    cat(sprintf("Processing rows %d-%d of %d...\n", start_row, end_row, n_rows))
+
+    # Extract this chunk of rows - this forces materialization
+    chunk_data <- release_data[start_row:end_row, , drop = FALSE]
+
+    # Convert chunk to data.frame (should work on smaller subsets)
+    chunk_df <- tryCatch({
+      as.data.frame(chunk_data, stringsAsFactors = FALSE)
+    }, error = function(e) {
+      # If that fails, extract column by column from the chunk
+      temp_list <- lapply(col_names, function(cn) {
+        val <- chunk_data[[cn]]
+        if (is.list(val)) {
+          sapply(val, function(x) {
+            if (is.null(x) || length(x) == 0) NA_character_
+            else paste(as.character(x), collapse = "; ")
+          })
+        } else {
+          as.character(val)
+        }
       })
+      names(temp_list) <- col_names
+      as.data.frame(temp_list, stringsAsFactors = FALSE)
+    })
+
+    # Store in result
+    for (j in seq_len(n_cols)) {
+      result_list[[j]][start_row:end_row] <- as.character(chunk_df[[j]])
     }
   }
 
-  write.csv(result, output_csv, row.names = FALSE)
+  release_data <- as.data.frame(result_list, stringsAsFactors = FALSE)
+  cat(sprintf("Row-by-row extraction complete: %d x %d\n",
+              nrow(release_data), ncol(release_data)))
+} else {
+  # Standard conversion
+  release_data <- tryCatch({
+    as.data.frame(release_data, stringsAsFactors = FALSE)
+  }, error = function(e) {
+    cat(sprintf("Standard conversion failed: %s\n", e$message))
+    cat("Attempting column-by-column extraction...\n")
+
+    result_list <- lapply(col_names, function(cn) {
+      val <- release_data[[cn]]
+      if (is.list(val)) {
+        sapply(val, function(x) {
+          if (is.null(x) || length(x) == 0) NA_character_
+          else paste(as.character(x), collapse = "; ")
+        })
+      } else {
+        as.character(val)
+      }
+    })
+    names(result_list) <- col_names
+    as.data.frame(result_list, stringsAsFactors = FALSE)
+  })
 }
+
+# Handle any list columns
+for (col in names(release_data)) {
+  if (is.list(release_data[[col]])) {
+    cat(sprintf("Converting list column: %s\n", col))
+    release_data[[col]] <- sapply(release_data[[col]], function(x) {
+      if (is.null(x) || length(x) == 0) NA_character_
+      else paste(as.character(x), collapse = "; ")
+    })
+  }
+}
+
+# Diagnose structure
+cat(sprintf("Dimensions: %d rows x %d cols\n", nrow(release_data), ncol(release_data)))
+
+# Write to CSV
+write.csv(release_data, output_csv, row.names = FALSE)
 
 # Verify output
 cat(sprintf("Verifying output: %s\n", output_csv))
