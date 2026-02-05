@@ -221,7 +221,7 @@ cat(sprintf("Sample columns: %s\n", paste(head(names(final_data), 5), collapse =
 
 if ("name" %in% names(final_data)) {
   sample_names <- head(final_data$name[!is.na(final_data$name)], 3)
-  cat(sprintf("Sample names: %s\n", paste(sample_names), collapse = ", "))
+  cat(sprintf("Sample names: %s\n", paste(sample_names, collapse = ", ")))
 }
 
 cat("Done!\n")
