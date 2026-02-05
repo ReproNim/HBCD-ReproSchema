@@ -15,6 +15,12 @@ rda_path <- args[1]
 release_version <- args[2]
 output_csv <- args[3]
 
+# Load arrow BEFORE loading RDA - provides ALTREP support for lazy columns
+if (requireNamespace("arrow", quietly = TRUE)) {
+  library(arrow)
+  cat("Loaded arrow package\n")
+}
+
 # Load tibble BEFORE loading RDA - required for proper deserialization
 if (requireNamespace("tibble", quietly = TRUE)) {
   library(tibble)

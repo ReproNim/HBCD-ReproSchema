@@ -52,8 +52,8 @@ jobs:
 
       - name: Install R packages
         run: |
-          # Install tibble and related packages BEFORE loading RDA
-          # This is critical for proper deserialization of tibble objects
+          # Install arrow first (requires cmake, takes ~5 min to compile)
+          Rscript -e 'install.packages("arrow", repos="https://cloud.r-project.org")'
           Rscript -e 'install.packages(c("tibble", "vctrs", "dplyr"), repos="https://cloud.r-project.org")'
 
       - name: Set up Python
