@@ -83,124 +83,47 @@ if (output_dir != "." && !dir.exists(output_dir)) {
 
 # Try different materialization approaches
 if (first_col_len == 0 && n_rows > 0) {
-  cat("Detected 0-length columns - trying materialization approaches...\n")
+  cat("Detected 0-length columns - trying as.data.frame() conversion first...\n")
 
-  # Approach 1: Try dplyr::collect() to materialize lazy tibble
-  if (requireNamespace("dplyr", quietly = TRUE)) {
-    cat("Trying dplyr::collect()...\n")
-    release_data <- tryCatch({
-      collected <- dplyr::collect(release_data)
-      if (length(collected[[1]]) > 0) {
-        cat("dplyr::collect() succeeded\n")
-        collected
-      } else {
-        stop("collect() did not materialize columns")
-      }
-    }, error = function(e) {
-      cat(sprintf("dplyr::collect() failed: %s\n", e$message))
-      release_data
-    })
-    first_col_len <- length(release_data[[1]])
-  }
-
-  # Approach 2: Try writing to tempfile and reading back
-  if (first_col_len == 0 && n_rows > 0) {
-    cat("Trying tempfile round-trip...\n")
-    release_data <- tryCatch({
-      tmp_file <- tempfile(fileext = ".rds")
-      saveRDS(release_data, tmp_file)
-      reloaded <- readRDS(tmp_file)
-      unlink(tmp_file)
-      if (length(reloaded[[1]]) > 0) {
-        cat("Tempfile round-trip succeeded\n")
-        reloaded
-      } else {
-        stop("Round-trip did not materialize columns")
-      }
-    }, error = function(e) {
-      cat(sprintf("Tempfile round-trip failed: %s\n", e$message))
-      release_data
-    })
-    first_col_len <- length(release_data[[1]])
-  }
-
-  # Approach 3: Force copy by modifying then reverting
-  if (first_col_len == 0 && n_rows > 0) {
-    cat("Trying force copy via modification...\n")
-    release_data <- tryCatch({
-      # Adding and removing a column forces a copy
-      release_data[["__temp__"]] <- seq_len(n_rows)
-      release_data[["__temp__"]] <- NULL
-      if (length(release_data[[1]]) > 0) {
-        cat("Force copy succeeded\n")
-      }
-      release_data
-    }, error = function(e) {
-      cat(sprintf("Force copy failed: %s\n", e$message))
-      release_data
-    })
-    first_col_len <- length(release_data[[1]])
-  }
-}
-
-# Re-check after materialization attempts
-first_col_len <- length(release_data[[1]])
-if (first_col_len == 0 && n_rows > 0) {
-  cat("Detected 0-length columns in tibble - using row-by-row extraction\n")
-
-  # Extract data row by row using tibble's [ indexing
-  # This forces materialization of lazy columns
-  result_list <- vector("list", n_cols)
-  names(result_list) <- col_names
-
-  # Initialize each column as the correct type
-  for (j in seq_len(n_cols)) {
-    result_list[[j]] <- vector("character", n_rows)
-  }
-
-  # Extract in chunks to avoid memory issues
-  chunk_size <- 10000
-  n_chunks <- ceiling(n_rows / chunk_size)
-
-  for (chunk in seq_len(n_chunks)) {
-    start_row <- (chunk - 1) * chunk_size + 1
-    end_row <- min(chunk * chunk_size, n_rows)
-    cat(sprintf("Processing rows %d-%d of %d...\n", start_row, end_row, n_rows))
-
-    # Extract this chunk of rows - this forces materialization
-    chunk_data <- release_data[start_row:end_row, , drop = FALSE]
-
-    # Convert chunk to data.frame (should work on smaller subsets)
-    chunk_df <- tryCatch({
-      as.data.frame(chunk_data, stringsAsFactors = FALSE)
-    }, error = function(e) {
-      # If that fails, extract column by column from the chunk
-      temp_list <- lapply(col_names, function(cn) {
-        val <- chunk_data[[cn]]
-        if (is.list(val)) {
-          sapply(val, function(x) {
-            if (is.null(x) || length(x) == 0) NA_character_
-            else paste(as.character(x), collapse = "; ")
-          })
-        } else {
-          as.character(val)
-        }
-      })
-      names(temp_list) <- col_names
-      as.data.frame(temp_list, stringsAsFactors = FALSE)
-    })
-
-    # Store in result
-    for (j in seq_len(n_cols)) {
-      result_list[[j]][start_row:end_row] <- as.character(chunk_df[[j]])
+  # Approach 0: Try as.data.frame() FIRST - this is the most reliable
+  # method for forcing ALTREP/lazy column materialization
+  release_data <- tryCatch({
+    converted <- as.data.frame(release_data, stringsAsFactors = FALSE)
+    if (length(converted[[1]]) > 0) {
+      cat(sprintf("as.data.frame() succeeded: %d x %d\n", nrow(converted), ncol(converted)))
+      converted
+    } else {
+      stop("as.data.frame() did not materialize columns")
     }
-  }
+  }, error = function(e) {
+    cat(sprintf("as.data.frame() failed: %s\n", e$message))
+    cat("Trying alternative extraction methods...\n")
 
-  release_data <- as.data.frame(result_list, stringsAsFactors = FALSE)
-  cat(sprintf("Row-by-row extraction complete: %d x %d\n",
-              nrow(release_data), ncol(release_data)))
+    # Alternative: Extract column by column directly
+    result_list <- lapply(col_names, function(cn) {
+      cat(sprintf("  Extracting column: %s\n", cn))
+      val <- release_data[[cn]]
+      if (is.list(val)) {
+        sapply(val, function(x) {
+          if (is.null(x) || length(x) == 0) NA_character_
+          else paste(as.character(x), collapse = "; ")
+        })
+      } else {
+        as.character(val)
+      }
+    })
+    names(result_list) <- col_names
+    as.data.frame(result_list, stringsAsFactors = FALSE)
+  })
+
+  # Re-check length
+  first_col_len <- length(release_data[[1]])
+  if (first_col_len == 0) {
+    stop("Failed to materialize columns - all extraction methods returned 0-length data")
+  }
 } else {
-  # Standard conversion
+  # Standard conversion for normal tibbles
+  cat("Converting tibble to data.frame...\n")
   release_data <- tryCatch({
     as.data.frame(release_data, stringsAsFactors = FALSE)
   }, error = function(e) {
