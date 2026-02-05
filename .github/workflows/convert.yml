@@ -1,0 +1,90 @@
+name: Convert HBCD Releases
+
+on:
+  # Manual trigger
+  workflow_dispatch:
+    inputs:
+      release:
+        description: 'HBCD Release Version (e.g., 1.0, 1.1)'
+        required: true
+        type: string
+      create_tag:
+        description: 'Create git tag for this release'
+        type: boolean
+        default: true
+  # Automated trigger from GitHub App when NBDC releases new data
+  repository_dispatch:
+    types: [nbdc-release]
+
+# Prevent concurrent runs
+concurrency:
+  group: convert-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    env:
+      # Support both manual (workflow_dispatch) and automated (repository_dispatch) triggers
+      RELEASE_VERSION: ${{ inputs.release || github.event.client_payload.release }}
+      CREATE_TAG: ${{ inputs.create_tag == true || github.event.client_payload.create_tag == true }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Checkout NBDCtoolsData
+        uses: actions/checkout@v4
+        with:
+          repository: nbdc-datahub/NBDCtoolsData
+          path: NBDCtoolsData
+
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends cmake
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          # Pin to R 4.3.x for compatibility with RDA serialization format
+          # The RDA file was serialized with an older R version
+          r-version: '4.3'
+
+      - name: Install R packages
+        run: |
+          # Install tibble and related packages BEFORE loading RDA
+          # This is critical for proper deserialization of tibble objects
+          Rscript -e 'install.packages(c("tibble", "vctrs", "dplyr"), repos="https://cloud.r-project.org")'
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install reproschema-py
+        run: |
+          pip install pyreadr
+          pip install git+https://github.com/ReproNim/reproschema-py.git@1.1.0
+
+      - name: Convert and validate HBCD release
+        run: |
+          python scripts/convert.py --release ${{ env.RELEASE_VERSION }}
+
+      - name: Commit and tag
+        if: env.CREATE_TAG
+        run: |
+          git config user.name 'github-actions'
+          git config user.email 'actions@github.com'
+
+          # Check if there are changes to commit
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git add -A
+          git commit -m "Convert HBCD release ${{ env.RELEASE_VERSION }}"
+          git tag -a ${{ env.RELEASE_VERSION }} -m "HBCD Release ${{ env.RELEASE_VERSION }}"
+          git push origin main --follow-tags
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
