@@ -1,0 +1,56 @@
+{
+    "id": "pex_bm_health_preg__healthhx__exp__pnv_006__01",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/preghealth/healthhx"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "pex_bm_hlth_preg_hlthhx_0095"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "pex_bm_hlth_preg_hlthhx_0095"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "pex_bm_health_preg__healthhx"
+        }
+    ],
+    "prefLabel": {
+        "en": "pex_bm_health_preg__healthhx__exp__pnv_006__01"
+    },
+    "question": {
+        "en": "What day did you start taking these vitamins? (If you starting taking them prior to your last menstrual period ([screening_arm_1][setup_lmp]), please enter the date of your last menstrual period.)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

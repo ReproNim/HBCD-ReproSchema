@@ -1,0 +1,66 @@
+{
+    "id": "img_osprey_HERCULES_diff2_rawWaterScaled_Voxel_1_Basis_1_Cr",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "note",
+            "source": "nbdc",
+            "value": "Signal of Cr as a ratio to raw water, but corrected for CSF fraction: WaterScaled/ (1 - fCSF)"
+        },
+        {
+            "column": "unit",
+            "source": "nbdc",
+            "value": "arbitrary"
+        },
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular Imaging"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/mrs"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "img_osp_hrc_d2_rws_vb1_0009"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "img_osp_hrc_d2_rws_vb1_0009"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "img_osprey_HERCULES_diff2_rawWaterScaled_Voxel_1_Basis_1"
+        }
+    ],
+    "prefLabel": {
+        "en": "img_osprey_HERCULES_diff2_rawWaterScaled_Voxel_1_Basis_1_Cr"
+    },
+    "question": {
+        "en": "Cr to raw water ratio, corrected for CSF fraction"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

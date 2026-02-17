@@ -1,0 +1,57 @@
+{
+    "id": "par_visit_data_cohort",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Demographics"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "General"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/demo/visitinfo"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "par_visit_data_0002"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "par_visit_data_0002"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "par_visit_data"
+        }
+    ],
+    "prefLabel": {
+        "en": "par_visit_data_cohort"
+    },
+    "question": {
+        "en": "The candidate cohort name."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

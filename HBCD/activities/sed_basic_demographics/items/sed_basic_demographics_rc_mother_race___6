@@ -1,0 +1,56 @@
+{
+    "id": "sed_basic_demographics_rc_mother_race___6",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Demographics"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "General"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/demo/basicdemo"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "sed_basic_demographics_0010"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "sed_basic_demographics_0010"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "sed_basic_demographics"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_basic_demographics_rc_mother_race___6"
+    },
+    "question": {
+        "en": "Defined by REDCap 'sed_bm_demo' instrument, from fields 'herit_002'.  Which categories describe you? Select all that apply. Note, you may select more than one group. [Multi-select]: White (For example: English, European, French, German, Irish, Italian, Polish, etc.)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

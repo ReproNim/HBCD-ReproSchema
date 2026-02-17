@@ -1,0 +1,53 @@
+{
+    "id": "eeg_qc_task-FACE_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "eeg_qc_task-FACE"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/eeg_qc_task-FACE_qc_pass_fail",
+            "items/eeg_qc_task-FACE_capping_quality",
+            "items/eeg_qc_task-FACE_FACE_UpInv",
+            "items/eeg_qc_task-FACE_FACE_Inv",
+            "items/eeg_qc_task-FACE_FACE_Obj",
+            "items/eeg_qc_task-FACE_FACE_UpObj"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/eeg_qc_task-FACE_qc_pass_fail",
+                "isVis": true,
+                "variableName": "eeg_qc_task-FACE_qc_pass_fail"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-FACE_capping_quality",
+                "isVis": true,
+                "variableName": "eeg_qc_task-FACE_capping_quality"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-FACE_FACE_UpInv",
+                "isVis": true,
+                "variableName": "eeg_qc_task-FACE_FACE_UpInv"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-FACE_FACE_Inv",
+                "isVis": true,
+                "variableName": "eeg_qc_task-FACE_FACE_Inv"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-FACE_FACE_Obj",
+                "isVis": true,
+                "variableName": "eeg_qc_task-FACE_FACE_Obj"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-FACE_FACE_UpObj",
+                "isVis": true,
+                "variableName": "eeg_qc_task-FACE_FACE_UpObj"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

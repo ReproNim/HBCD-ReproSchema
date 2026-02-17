@@ -1,0 +1,56 @@
+{
+    "id": "pex_bm_health_preg__meds_018__05__00",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/preghealth/medications"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "pex_bm_health_preg_meds_0230"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "pex_bm_health_preg_meds_0230"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "pex_bm_health_preg__meds"
+        }
+    ],
+    "prefLabel": {
+        "en": "pex_bm_health_preg__meds_018__05__00"
+    },
+    "question": {
+        "en": "What day did you stop taking [pex_bm_health_preg_i_meds_018_i_01]?  \u00a0{pex_bm_health_preg_i_meds_018_i_05_i_01} {pex_bm_health_preg_i_meds_018_i_05_i_01_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

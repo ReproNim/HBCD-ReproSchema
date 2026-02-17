@@ -1,0 +1,47 @@
+{
+    "id": "eeg_qc_task-MMN_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "eeg_qc_task-MMN"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/eeg_qc_task-MMN_qc_pass_fail",
+            "items/eeg_qc_task-MMN_capping_quality",
+            "items/eeg_qc_task-MMN_MMN_Standard",
+            "items/eeg_qc_task-MMN_MMN_PreDev",
+            "items/eeg_qc_task-MMN_MMN_Dev"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/eeg_qc_task-MMN_qc_pass_fail",
+                "isVis": true,
+                "variableName": "eeg_qc_task-MMN_qc_pass_fail"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-MMN_capping_quality",
+                "isVis": true,
+                "variableName": "eeg_qc_task-MMN_capping_quality"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-MMN_MMN_Standard",
+                "isVis": true,
+                "variableName": "eeg_qc_task-MMN_MMN_Standard"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-MMN_MMN_PreDev",
+                "isVis": true,
+                "variableName": "eeg_qc_task-MMN_MMN_PreDev"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-MMN_MMN_Dev",
+                "isVis": true,
+                "variableName": "eeg_qc_task-MMN_MMN_Dev"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

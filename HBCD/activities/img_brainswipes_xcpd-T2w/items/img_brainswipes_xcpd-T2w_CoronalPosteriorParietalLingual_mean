@@ -1,0 +1,61 @@
+{
+    "id": "img_brainswipes_xcpd-T2w_CoronalPosteriorParietalLingual_mean",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "unit",
+            "source": "nbdc",
+            "value": "percentage"
+        },
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular Imaging"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/smri"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "img_brainswipes_xcpd_t2w_0014"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "img_brainswipes_xcpd_t2w_0014"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "img_brainswipes_xcpd-T2w"
+        }
+    ],
+    "prefLabel": {
+        "en": "img_brainswipes_xcpd-T2w_CoronalPosteriorParietalLingual_mean"
+    },
+    "question": {
+        "en": "Mean QC score for T2w surfaces in coronal plane (Posterior Parietal Lingual area). Derived from average scores of 0 (Fail) and 1 (Pass) (or NA if QC was not performed)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

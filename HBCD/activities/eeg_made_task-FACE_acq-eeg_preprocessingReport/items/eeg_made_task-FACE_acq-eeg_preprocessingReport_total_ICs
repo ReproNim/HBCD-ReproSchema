@@ -1,0 +1,57 @@
+{
+    "id": "eeg_made_task-FACE_acq-eeg_preprocessingReport_total_ICs",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular EEG"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/faces"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "eeg_made_face_eeg_ppr_0007"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "eeg_made_face_eeg_ppr_0007"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "eeg_made_task-FACE_acq-eeg_preprocessingReport"
+        }
+    ],
+    "prefLabel": {
+        "en": "eeg_made_task-FACE_acq-eeg_preprocessingReport_total_ICs"
+    },
+    "question": {
+        "en": "number of independent components identified."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

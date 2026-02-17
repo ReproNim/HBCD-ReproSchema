@@ -1,0 +1,56 @@
+{
+    "id": "pex_bm_health_preg__erhosp_candidate_age",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/preghealth/er-hosp"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "pex_bm_health_preg_erhosp_0002"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "pex_bm_health_preg_erhosp_0002"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "pex_bm_health_preg__erhosp"
+        }
+    ],
+    "prefLabel": {
+        "en": "pex_bm_health_preg__erhosp_candidate_age"
+    },
+    "question": {
+        "en": "Candidate Age (Years) - e.g. 0.500 = 6 months, 0.250 = 3 months, 0.083 = 1 month"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

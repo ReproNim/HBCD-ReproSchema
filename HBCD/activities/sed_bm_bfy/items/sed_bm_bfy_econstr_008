@@ -1,0 +1,56 @@
+{
+    "id": "sed_bm_bfy_econstr_008",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Social and Environmental Determinants"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/bfy"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "sed_bm_bfy_0028"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "sed_bm_bfy_0028"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "sed_bm_bfy"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_bm_bfy_econstr_008"
+    },
+    "question": {
+        "en": "There are many reasons people do not get medical care. During the past 12 months, was there any time when you or your [child/children] needed medical or dental care but did not get it?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

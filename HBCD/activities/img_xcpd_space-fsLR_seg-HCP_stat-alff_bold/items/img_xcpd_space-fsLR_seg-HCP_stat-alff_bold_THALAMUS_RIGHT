@@ -1,0 +1,61 @@
+{
+    "id": "img_xcpd_space-fsLR_seg-HCP_stat-alff_bold_THALAMUS_RIGHT",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "unit",
+            "source": "nbdc",
+            "value": "Amplitude of Low Frequency Fluctuations (arbitrary units)"
+        },
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular Imaging"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/fmri"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "img_xcp_lr_hcp_alff_bold_0014"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "img_xcp_lr_hcp_alff_bold_0014"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "img_xcpd_space-fsLR_seg-HCP_stat-alff_bold"
+        }
+    ],
+    "prefLabel": {
+        "en": "img_xcpd_space-fsLR_seg-HCP_stat-alff_bold_THALAMUS_RIGHT"
+    },
+    "question": {
+        "en": "XCP-D HCP Parc. Amplitude of Low Frequency Fluctuations (ALFF) Values for region THALAMUS_RIGHT"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,56 @@
+{
+    "id": "sed_bm_demo_herit__oth_002___7",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Social and Environmental Determinants"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/v01-demo"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "sed_bm_demo_0404"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "sed_bm_demo_0404"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "sed_bm_demo"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_bm_demo_herit__oth_002___7"
+    },
+    "question": {
+        "en": "Which categories describe the other biological parent? Select all that apply. Note, you may select more than one group. [Multi-select]: None of these fully describe the other biological parent"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

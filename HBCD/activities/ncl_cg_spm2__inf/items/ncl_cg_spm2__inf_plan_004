@@ -1,0 +1,56 @@
+{
+    "id": "ncl_cg_spm2__inf_plan_004",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Neurocognition and Language"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/neurocog/spm2"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "ncl_cg_spm2_inf_0080"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "ncl_cg_spm2_inf_0080"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "ncl_cg_spm2__inf"
+        }
+    ],
+    "prefLabel": {
+        "en": "ncl_cg_spm2__inf_plan_004"
+    },
+    "question": {
+        "en": "This child has difficulty climbing down from a chair, couch, or high surface."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

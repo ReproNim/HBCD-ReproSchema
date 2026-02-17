@@ -1,0 +1,56 @@
+{
+    "id": "pex_bm_healthv2_preg__meds_058_00",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/preghealth/end-preg"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "pex_bm_healthv2_preg_0332"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "pex_bm_healthv2_preg_0332"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "pex_bm_healthv2_preg"
+        }
+    ],
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg__meds_058_00"
+    },
+    "question": {
+        "en": "How many over-the-counter medications have you taken since we last met that we have not yet discussed? {pex_bm_healthv2_preg_i_meds_058} {pex_bm_healthv2_preg_i_meds_058_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

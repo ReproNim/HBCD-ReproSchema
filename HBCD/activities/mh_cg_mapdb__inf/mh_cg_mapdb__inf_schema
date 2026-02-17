@@ -1,0 +1,173 @@
+{
+    "id": "mh_cg_mapdb__inf_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mh_cg_mapdb__inf"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mh_cg_mapdb__inf_date_taken",
+            "items/mh_cg_mapdb__inf_candidate_age",
+            "items/mh_cg_mapdb__inf_gestational_age",
+            "items/mh_cg_mapdb__inf_adjusted_age",
+            "items/mh_cg_mapdb__inf_lang",
+            "items/mh_cg_mapdb__inf_location",
+            "items/mh_cg_mapdb__inf_001",
+            "items/mh_cg_mapdb__inf_002",
+            "items/mh_cg_mapdb__inf_003",
+            "items/mh_cg_mapdb__inf_004",
+            "items/mh_cg_mapdb__inf_005",
+            "items/mh_cg_mapdb__inf_006",
+            "items/mh_cg_mapdb__inf_007",
+            "items/mh_cg_mapdb__inf_008",
+            "items/mh_cg_mapdb__inf_009",
+            "items/mh_cg_mapdb__inf_010",
+            "items/mh_cg_mapdb__inf_011",
+            "items/mh_cg_mapdb__inf_012",
+            "items/mh_cg_mapdb__inf_013",
+            "items/mh_cg_mapdb__inf_014",
+            "items/mh_cg_mapdb__inf_015",
+            "items/mh_cg_mapdb__inf_016",
+            "items/mh_cg_mapdb__inf_017",
+            "items/mh_cg_mapdb__inf_total_score",
+            "items/mh_cg_mapdb__inf_answered_count",
+            "items/mh_cg_mapdb__inf_administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_date_taken",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_date_taken"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_candidate_age",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_candidate_age"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_gestational_age",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_gestational_age"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_adjusted_age",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_adjusted_age"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_lang",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_lang"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_location",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_location"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_001",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_001"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_002",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_002"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_003",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_003"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_004",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_004"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_005",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_005"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_006",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_006"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_007",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_007"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_008",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_008"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_009",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_009"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_010",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_010"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_011",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_011"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_012",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_012"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_013",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_013"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_014",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_014"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_015",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_015"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_016",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_016"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_017",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_017"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_total_score",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_total_score"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_answered_count",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_answered_count"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb__inf_administration",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb__inf_administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

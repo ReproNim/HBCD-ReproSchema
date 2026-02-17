@@ -1,0 +1,59 @@
+{
+    "id": "bio_bm_biosample_nails_type_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "bio_bm_biosample_nails_type"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/bio_bm_biosample_nails_type_candidate_age",
+            "items/bio_bm_biosample_nails_type_gestational_age",
+            "items/bio_bm_biosample_nails_type_sample_type",
+            "items/bio_bm_biosample_nails_type_sample_header",
+            "items/bio_bm_biosample_nails_type_collection_status",
+            "items/bio_bm_biosample_nails_type_collection_nail_type",
+            "items/bio_bm_biosample_nails_type_shipping_received_status"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/bio_bm_biosample_nails_type_candidate_age",
+                "isVis": true,
+                "variableName": "bio_bm_biosample_nails_type_candidate_age"
+            },
+            {
+                "isAbout": "items/bio_bm_biosample_nails_type_gestational_age",
+                "isVis": true,
+                "variableName": "bio_bm_biosample_nails_type_gestational_age"
+            },
+            {
+                "isAbout": "items/bio_bm_biosample_nails_type_sample_type",
+                "isVis": true,
+                "variableName": "bio_bm_biosample_nails_type_sample_type"
+            },
+            {
+                "isAbout": "items/bio_bm_biosample_nails_type_sample_header",
+                "isVis": true,
+                "variableName": "bio_bm_biosample_nails_type_sample_header"
+            },
+            {
+                "isAbout": "items/bio_bm_biosample_nails_type_collection_status",
+                "isVis": true,
+                "variableName": "bio_bm_biosample_nails_type_collection_status"
+            },
+            {
+                "isAbout": "items/bio_bm_biosample_nails_type_collection_nail_type",
+                "isVis": true,
+                "variableName": "bio_bm_biosample_nails_type_collection_nail_type"
+            },
+            {
+                "isAbout": "items/bio_bm_biosample_nails_type_shipping_received_status",
+                "isVis": true,
+                "variableName": "bio_bm_biosample_nails_type_shipping_received_status"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,56 @@
+{
+    "id": "pex_bm_healthv2_preg__illness_018__12__00",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/preghealth/end-preg"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "pex_bm_healthv2_preg_0540"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "pex_bm_healthv2_preg_0540"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "pex_bm_healthv2_preg"
+        }
+    ],
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg__illness_018__12__00"
+    },
+    "question": {
+        "en": "What was the highest temperature of the fever? {pex_bm_healthv2_preg_i_illness_018_i_12} {pex_bm_healthv2_preg_i_illness_018_i_12_i_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

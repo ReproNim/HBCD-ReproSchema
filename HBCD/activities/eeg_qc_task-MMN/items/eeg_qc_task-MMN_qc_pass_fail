@@ -1,0 +1,57 @@
+{
+    "id": "eeg_qc_task-MMN_qc_pass_fail",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular EEG"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/mmn"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "eeg_qc_task_mmn_0001"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "eeg_qc_task_mmn_0001"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "eeg_qc_task-MMN"
+        }
+    ],
+    "prefLabel": {
+        "en": "eeg_qc_task-MMN_qc_pass_fail"
+    },
+    "question": {
+        "en": "Overall pass/fail rating for the acquisiton."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

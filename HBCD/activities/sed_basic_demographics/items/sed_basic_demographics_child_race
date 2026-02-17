@@ -1,0 +1,57 @@
+{
+    "id": "sed_basic_demographics_child_race",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Demographics"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "General"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/demo/basicdemo"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "sed_basic_demographics_0002"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "sed_basic_demographics_0002"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "sed_basic_demographics"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_basic_demographics_child_race"
+    },
+    "question": {
+        "en": "Child's race defined by Ripple."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,57 @@
+{
+    "id": "nt_ch_sens__qtn_3_adjusted_age",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Novel Tech"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/sensors/questionnaire"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "nt_ch_sens_qtn_3_0004"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "nt_ch_sens_qtn_3_0004"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "nt_ch_sens__qtn_3"
+        }
+    ],
+    "prefLabel": {
+        "en": "nt_ch_sens__qtn_3_adjusted_age"
+    },
+    "question": {
+        "en": "Adjusted Chronological Age at Administration (Weeks)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

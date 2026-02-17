@@ -1,0 +1,56 @@
+{
+    "id": "pex_bm_healthv2_preg__meds_030",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/preghealth/end-preg"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "pex_bm_healthv2_preg_0127"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "pex_bm_healthv2_preg_0127"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "pex_bm_healthv2_preg"
+        }
+    ],
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg__meds_030"
+    },
+    "question": {
+        "en": "For [v01_arm_1][pex_bm_health_preg_i_meds_008_i_01], have you continued to take this medication until today?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

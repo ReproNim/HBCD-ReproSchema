@@ -1,0 +1,57 @@
+{
+    "id": "eeg_qc_task-VEP_total_epochs_post_artifact_rej",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular EEG"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/vep"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "eeg_qc_task_vep_0003"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "eeg_qc_task_vep_0003"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "eeg_qc_task-VEP"
+        }
+    ],
+    "prefLabel": {
+        "en": "eeg_qc_task-VEP_total_epochs_post_artifact_rej"
+    },
+    "question": {
+        "en": "The number of VEP epochs surviving QC."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

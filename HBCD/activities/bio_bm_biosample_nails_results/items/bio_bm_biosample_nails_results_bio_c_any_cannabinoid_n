@@ -1,0 +1,56 @@
+{
+    "id": "bio_bm_biosample_nails_results_bio_c_any_cannabinoid_n",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "BioSpecimens"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/biospec/nails"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "bio_bm_nails_results_0029"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "bio_bm_nails_results_0029"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "bio_bm_biosample_nails_results"
+        }
+    ],
+    "prefLabel": {
+        "en": "bio_bm_biosample_nails_results_bio_c_any_cannabinoid_n"
+    },
+    "question": {
+        "en": "Any cannabinoids in nails (based on confirmatory results for Carboxy-delta-9-THC)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,61 @@
+{
+    "id": "img_xcpd_space-fsLR_seg-4S1056Parcels_stat-mean_desc-sulc_morph_RH_Vis_1",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "unit",
+            "source": "nbdc",
+            "value": "Distance (millimeters)"
+        },
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular Imaging"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/smri"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "img_xcp_lr_10p_mn_sul_mor_0503"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "img_xcp_lr_10p_mn_sul_mor_0503"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "img_xcpd_space-fsLR_seg-4S1056Parcels_stat-mean_desc-sulc_morph"
+        }
+    ],
+    "prefLabel": {
+        "en": "img_xcpd_space-fsLR_seg-4S1056Parcels_stat-mean_desc-sulc_morph_RH_Vis_1"
+    },
+    "question": {
+        "en": "XCP-D 4S-1056-Region Parc. Sulc Values for region RH_Vis_1"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

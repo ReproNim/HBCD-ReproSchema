@@ -1,0 +1,56 @@
+{
+    "id": "nt_ch_sens__qtn_2_candidate_age",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Novel Tech"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/sensors/questionnaire"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "nt_ch_sens_qtn_2_0002"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "nt_ch_sens_qtn_2_0002"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "nt_ch_sens__qtn_2"
+        }
+    ],
+    "prefLabel": {
+        "en": "nt_ch_sens__qtn_2_candidate_age"
+    },
+    "question": {
+        "en": "Candidate Age (Years) - e.g. 0.500 = 6 months, 0.250 = 3 months, 0.083 = 1 month"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

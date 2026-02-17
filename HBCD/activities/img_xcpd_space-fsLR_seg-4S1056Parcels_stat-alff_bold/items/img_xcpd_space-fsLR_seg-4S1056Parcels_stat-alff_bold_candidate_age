@@ -1,0 +1,62 @@
+{
+    "id": "img_xcpd_space-fsLR_seg-4S1056Parcels_stat-alff_bold_candidate_age",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "unit",
+            "source": "nbdc",
+            "value": "years"
+        },
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular Imaging"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/fmri"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "img_xcp_lr_10p_alff_bold_0001"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "img_xcp_lr_10p_alff_bold_0001"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "img_xcpd_space-fsLR_seg-4S1056Parcels_stat-alff_bold"
+        }
+    ],
+    "prefLabel": {
+        "en": "img_xcpd_space-fsLR_seg-4S1056Parcels_stat-alff_bold_candidate_age"
+    },
+    "question": {
+        "en": "Age (in years) of the candidate at the time of the first acquired scan"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

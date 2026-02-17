@@ -1,0 +1,56 @@
+{
+    "id": "pex_bm_health_preg__healthhx__preghx_003__post",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/preghealth/healthhx"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "pex_bm_hlth_preg_hlthhx_0040"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "pex_bm_hlth_preg_hlthhx_0040"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "pex_bm_health_preg__healthhx"
+        }
+    ],
+    "prefLabel": {
+        "en": "pex_bm_health_preg__healthhx__preghx_003__post"
+    },
+    "question": {
+        "en": "On what date did your last pregnancy prior to this most recent one end (regardless of the outcome)?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

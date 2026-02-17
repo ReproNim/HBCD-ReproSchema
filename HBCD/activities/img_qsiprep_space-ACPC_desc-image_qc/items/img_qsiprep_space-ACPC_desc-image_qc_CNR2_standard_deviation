@@ -1,0 +1,57 @@
+{
+    "id": "img_qsiprep_space-ACPC_desc-image_qc_CNR2_standard_deviation",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular Imaging"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/dmri"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "img_qsiprep_acpc_image_qc_0048"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "img_qsiprep_acpc_image_qc_0048"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "img_qsiprep_space-ACPC_desc-image_qc"
+        }
+    ],
+    "prefLabel": {
+        "en": "img_qsiprep_space-ACPC_desc-image_qc_CNR2_standard_deviation"
+    },
+    "question": {
+        "en": "Standard deviation of the in-brain Contrast to Noise Ratio (CNR) for the preprocessed b=1000 images. Calculated in Eddy"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,2027 @@
+{
+    "id": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_candidate_age",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_adjusted_age",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_1",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_1",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMmouth_1",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_2",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_1",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_3",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_1",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_2",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_2",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_1",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_1",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_MedialParietal_1",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_ParietoOccip_1",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_ParietoOccip_2",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_3",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_4",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_5",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_2",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_3",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_6",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_1",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_2",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_1",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_3",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_4",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_5",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_3",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_4",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Salience_1",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_2",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_3",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_4",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_5",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_5",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_6",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_7",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_8",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_9",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMmouth_2",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_6",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_1",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_2",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_3",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_6",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_10",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_11",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_12",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_13",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_4",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_14",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_5",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_6",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMmouth_3",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_15",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_7",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_16",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_17",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_18",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMmouth_4",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_2",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_3",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_4",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_7",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_2",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_3",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_4",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_5",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_6",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_7",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_8",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_8",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_9",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_4",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_8",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_5",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_10",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_9",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_4",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_6",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_7",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_11",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_12",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Salience_2",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_13",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_8",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_9",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_9",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_10",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_MedialParietal_2",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_7",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_11",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_12",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_MedialParietal_3",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_7",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_13",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_5",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_8",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_9",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_10",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_14",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_14",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_10",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_15",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_11",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_16",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_15",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_16",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_6",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_7",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_17",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_17",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_18",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_18",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_8",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_5",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_9",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_10",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_6",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_7",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_8",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_9",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_10",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_11",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_12",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_13",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_11",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_12",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_14",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_15",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_ParietoOccip_3",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_11",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_12",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_16",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_17",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_18",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_13",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_14",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_15",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_16",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_17",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_18",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_19",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_ParietoOccip_4",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_20",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_13",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_14",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_19",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_8",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_9",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_15",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_16",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_17",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_20",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_18",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_19",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_19",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_20",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_10",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_21",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_12",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_11",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_21",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_19",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMmouth_5",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_22",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_19",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_10",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_11",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_20",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_12",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_13",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_22",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_MedialParietal_4",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_ParietoOccip_5",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_21",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_22",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_23",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_23",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_24",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_21",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_22",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_13",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Salience_3",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_23",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_23",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_24",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_24",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_25",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_20",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_20",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_21",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_26",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_22",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_23",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_24",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_27",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMmouth_6",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_28",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_21",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_25",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_25",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_26",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_22",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_27",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_28",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_29",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_30",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_23",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_31",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_32",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_24",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMmouth_7",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_33",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_34",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_35",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_36",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_37",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMmouth_8",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_29",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_26",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_12",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_13",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_30",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_14",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_27",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_14",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_15",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_15",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_16",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_16",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_17",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_17",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_18",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_31",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_32",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_25",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_18",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_33",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_19",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_14",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_19",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_20",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_21",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_20",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_34",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_35",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Salience_4",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_36",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_37",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_26",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_24",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_27",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_28",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_MedialParietal_5",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_25",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_26",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_28",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_27",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_29",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_15",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_16",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_29",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_28",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_29",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_30",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_30",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_31",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_21",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_22",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_38",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_31",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_17",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_18",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_38",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_32",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_19",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_20",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_30",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_31",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_25",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_26",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_27",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_28",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_29",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_30",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_31",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_32",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_33",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_34",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_32",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_35",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_36",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_32",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_ParietoOccip_6",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_ParietoOccip_7",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_37",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_38",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_33",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_34",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_39",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_40",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_41",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_42",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_43",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_44",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_45",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_35",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_36",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_37",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_38",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_39",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_46",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_ParietoOccip_8",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_47",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_33",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_34",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_39",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_40",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_21",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_22",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_35",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_36",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_37",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_38",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_39",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_40",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_23",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_24",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_23",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_24",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_41",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_22",
+            "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_23"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_candidate_age",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_candidate_age"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_adjusted_age",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_adjusted_age"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_1",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_1"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_1",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_1"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMmouth_1",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMmouth_1"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_2",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_2"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_1",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_1"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_3",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_3"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_1",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_1"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_2",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_2"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_2",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_2"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_1",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_1"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_1",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_1"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_MedialParietal_1",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_MedialParietal_1"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_ParietoOccip_1",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_ParietoOccip_1"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_ParietoOccip_2",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_ParietoOccip_2"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_3",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_3"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_4",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_4"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_5",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_5"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_2",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_2"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_3",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_3"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_6",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_6"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_1",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_1"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_2",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_2"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_1",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_1"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_3",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_3"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_4",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_4"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_5",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_5"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_3",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_3"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_4",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_4"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Salience_1",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Salience_1"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_2",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_2"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_3",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_3"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_4",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_4"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_5",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_5"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_5",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_5"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_6",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_6"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_7",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_7"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_8",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_8"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_9",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_9"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMmouth_2",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMmouth_2"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_6",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_6"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_1",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_1"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_2",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_2"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_3",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_3"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_6",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_6"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_10",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_10"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_11",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_11"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_12",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_12"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_13",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_13"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_4",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_4"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_14",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_14"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_5",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_5"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_6",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_6"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMmouth_3",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMmouth_3"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_15",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_15"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_7",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_7"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_16",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_16"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_17",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_17"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_18",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMhand_18"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMmouth_4",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_SMmouth_4"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_2",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_2"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_3",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_3"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_4",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_4"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_7",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_7"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_2",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_2"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_3",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_3"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_4",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_4"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_5",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_5"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_6",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_6"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_7",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_7"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_8",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_8"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_8",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_8"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_9",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_9"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_4",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_4"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_8",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_8"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_5",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_5"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_10",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_10"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_9",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_9"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_4",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_4"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_6",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_6"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_7",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_7"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_11",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_11"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_12",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_12"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Salience_2",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Salience_2"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_13",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_13"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_8",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_8"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_9",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_9"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_9",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_9"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_10",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_10"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_MedialParietal_2",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_MedialParietal_2"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_7",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_7"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_11",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_11"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_12",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_12"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_MedialParietal_3",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_MedialParietal_3"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_7",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_7"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_13",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_13"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_5",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_5"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_8",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_8"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_9",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_9"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_10",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_10"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_14",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_14"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_14",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_14"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_10",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_10"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_15",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_15"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_11",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_11"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_16",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_16"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_15",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_15"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_16",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_16"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_6",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_6"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_7",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_7"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_17",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_17"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_17",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_17"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_18",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_18"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_18",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_18"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_8",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_8"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_5",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_5"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_9",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_9"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_10",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_10"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_6",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_6"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_7",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_7"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_8",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_8"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_9",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_9"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_10",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_10"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_11",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_11"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_12",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_12"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_13",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_13"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_11",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_11"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_12",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_12"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_14",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_14"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_15",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_15"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_ParietoOccip_3",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_ParietoOccip_3"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_11",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_11"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_12",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_12"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_16",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_16"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_17",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_17"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_18",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_18"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_13",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_13"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_14",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_14"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_15",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_15"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_16",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_16"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_17",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_17"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_18",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Visual_18"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_19",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_19"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_ParietoOccip_4",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_ParietoOccip_4"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_20",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_20"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_13",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_13"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_14",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_14"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_19",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_19"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_8",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_8"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_9",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_FrontoParietal_9"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_15",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_15"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_16",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_16"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_17",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_17"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_20",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_CinguloOperc_20"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_18",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_18"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_19",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_DorsalAttn_19"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_19",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_19"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_20",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Default_20"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_10",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_10"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_21",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_None_21"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_12",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_Auditory_12"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_11",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_L_VentralAttn_11"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_21",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_21"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_19",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_19"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMmouth_5",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMmouth_5"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_22",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_22"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_19",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_19"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_10",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_10"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_11",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_11"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_20",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_20"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_12",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_12"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_13",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_13"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_22",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_22"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_MedialParietal_4",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_MedialParietal_4"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_ParietoOccip_5",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_ParietoOccip_5"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_21",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_21"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_22",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_22"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_23",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_23"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_23",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_23"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_24",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_24"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_21",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_21"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_22",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_22"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_13",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_13"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Salience_3",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Salience_3"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_23",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_23"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_23",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_23"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_24",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_24"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_24",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_24"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_25",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_25"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_20",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_20"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_20",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_20"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_21",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_21"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_26",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_26"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_22",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_22"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_23",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_23"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_24",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_24"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_27",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_27"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMmouth_6",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMmouth_6"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_28",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_28"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_21",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_21"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_25",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_25"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_25",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_25"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_26",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_26"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_22",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_22"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_27",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_27"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_28",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_28"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_29",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_29"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_30",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_30"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_23",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_23"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_31",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_31"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_32",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_32"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_24",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_24"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMmouth_7",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMmouth_7"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_33",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_33"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_34",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_34"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_35",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_35"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_36",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_36"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_37",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_37"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMmouth_8",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMmouth_8"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_29",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_29"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_26",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_26"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_12",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_12"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_13",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_13"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_30",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_30"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_14",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_14"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_27",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_27"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_14",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_14"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_15",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_15"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_15",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_15"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_16",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_16"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_16",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_16"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_17",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_17"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_17",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_17"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_18",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_18"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_31",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_31"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_32",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_32"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_25",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_25"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_18",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_18"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_33",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_33"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_19",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_19"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_14",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_14"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_19",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_19"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_20",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_20"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_21",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_21"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_20",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_20"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_34",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_34"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_35",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_35"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Salience_4",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Salience_4"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_36",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_36"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_37",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_37"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_26",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_26"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_24",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_24"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_27",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_27"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_28",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_28"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_MedialParietal_5",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_MedialParietal_5"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_25",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_25"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_26",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_26"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_28",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_28"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_27",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_27"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_29",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_29"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_15",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_15"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_16",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_16"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_29",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_29"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_28",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_28"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_29",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_29"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_30",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_30"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_30",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_30"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_31",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_31"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_21",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_21"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_22",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_22"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_38",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_SMhand_38"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_31",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_31"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_17",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_17"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_18",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_18"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_38",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_38"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_32",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_DorsalAttn_32"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_19",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_19"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_20",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_20"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_30",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_30"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_31",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_31"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_25",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_25"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_26",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_26"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_27",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_27"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_28",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_28"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_29",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_29"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_30",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_30"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_31",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_31"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_32",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_32"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_33",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_33"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_34",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_34"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_32",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_32"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_35",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_35"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_36",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_36"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_32",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_32"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_ParietoOccip_6",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_ParietoOccip_6"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_ParietoOccip_7",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_ParietoOccip_7"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_37",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_37"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_38",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_38"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_33",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_33"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_34",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_34"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_39",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_39"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_40",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_40"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_41",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_41"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_42",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_42"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_43",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_43"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_44",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_44"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_45",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_45"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_35",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_35"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_36",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_36"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_37",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_37"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_38",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_38"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_39",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Visual_39"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_46",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_46"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_ParietoOccip_8",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_ParietoOccip_8"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_47",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_None_47"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_33",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_33"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_34",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_34"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_39",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_39"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_40",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_CinguloOperc_40"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_21",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_21"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_22",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_22"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_35",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_35"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_36",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_36"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_37",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_37"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_38",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_38"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_39",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_39"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_40",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_40"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_23",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_23"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_24",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_FrontoParietal_24"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_23",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_23"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_24",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Auditory_24"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_41",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_Default_41"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_22",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_22"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_23",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-Gordon_stat-mean_desc-curv_morph_R_VentralAttn_23"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

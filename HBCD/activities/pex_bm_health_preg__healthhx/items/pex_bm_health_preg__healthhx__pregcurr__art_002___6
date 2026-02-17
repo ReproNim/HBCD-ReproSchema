@@ -1,0 +1,56 @@
+{
+    "id": "pex_bm_health_preg__healthhx__pregcurr__art_002___6",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/preghealth/healthhx"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "pex_bm_hlth_preg_hlthhx_0049"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "pex_bm_hlth_preg_hlthhx_0049"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "pex_bm_health_preg__healthhx"
+        }
+    ],
+    "prefLabel": {
+        "en": "pex_bm_health_preg__healthhx__pregcurr__art_002___6"
+    },
+    "question": {
+        "en": "Why did you seek assisted reproductive technology (check all that apply)? [Multi-select]: Other"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

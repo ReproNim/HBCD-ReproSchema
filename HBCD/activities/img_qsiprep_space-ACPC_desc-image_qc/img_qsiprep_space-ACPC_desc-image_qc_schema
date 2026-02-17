@@ -1,0 +1,371 @@
+{
+    "id": "img_qsiprep_space-ACPC_desc-image_qc_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "img_qsiprep_space-ACPC_desc-image_qc"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/img_qsiprep_space-ACPC_desc-image_qc_candidate_age",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_adjusted_age",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_raw_dimension_x",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_raw_dimension_y",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_raw_dimension_z",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_raw_voxel_size_x",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_raw_voxel_size_y",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_raw_voxel_size_z",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_raw_max_b",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_raw_neighbor_corr",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_raw_masked_neighbor_corr",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_raw_dwi_contrast",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_raw_num_bad_slices",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_raw_num_directions",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_raw_coherence_index",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_t1_dimension_x",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_t1_dimension_y",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_t1_dimension_z",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_t1_voxel_size_x",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_t1_voxel_size_y",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_t1_voxel_size_z",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_t1_max_b",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_t1_neighbor_corr",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_t1_masked_neighbor_corr",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_t1_dwi_contrast",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_t1_num_bad_slices",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_t1_num_directions",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_t1_coherence_index",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_mean_fd",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_max_fd",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_max_rotation",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_max_translation",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_max_rel_rotation",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_max_rel_translation",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_t1_dice_distance",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_CNR0_mean",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_CNR1_mean",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_CNR2_mean",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_CNR3_mean",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_CNR4_mean",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_CNR0_median",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_CNR1_median",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_CNR2_median",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_CNR3_median",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_CNR4_median",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_CNR0_standard_deviation",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_CNR1_standard_deviation",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_CNR2_standard_deviation",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_CNR3_standard_deviation",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_CNR4_standard_deviation",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_file_name",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_subject_id",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_session_id",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_task_id",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_dir_id",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_acq_id",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_space_id",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_rec_id",
+            "items/img_qsiprep_space-ACPC_desc-image_qc_run_id"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_candidate_age",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_candidate_age"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_adjusted_age",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_adjusted_age"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_raw_dimension_x",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_raw_dimension_x"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_raw_dimension_y",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_raw_dimension_y"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_raw_dimension_z",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_raw_dimension_z"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_raw_voxel_size_x",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_raw_voxel_size_x"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_raw_voxel_size_y",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_raw_voxel_size_y"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_raw_voxel_size_z",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_raw_voxel_size_z"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_raw_max_b",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_raw_max_b"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_raw_neighbor_corr",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_raw_neighbor_corr"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_raw_masked_neighbor_corr",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_raw_masked_neighbor_corr"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_raw_dwi_contrast",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_raw_dwi_contrast"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_raw_num_bad_slices",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_raw_num_bad_slices"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_raw_num_directions",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_raw_num_directions"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_raw_coherence_index",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_raw_coherence_index"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_t1_dimension_x",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_t1_dimension_x"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_t1_dimension_y",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_t1_dimension_y"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_t1_dimension_z",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_t1_dimension_z"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_t1_voxel_size_x",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_t1_voxel_size_x"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_t1_voxel_size_y",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_t1_voxel_size_y"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_t1_voxel_size_z",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_t1_voxel_size_z"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_t1_max_b",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_t1_max_b"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_t1_neighbor_corr",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_t1_neighbor_corr"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_t1_masked_neighbor_corr",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_t1_masked_neighbor_corr"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_t1_dwi_contrast",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_t1_dwi_contrast"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_t1_num_bad_slices",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_t1_num_bad_slices"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_t1_num_directions",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_t1_num_directions"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_t1_coherence_index",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_t1_coherence_index"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_mean_fd",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_mean_fd"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_max_fd",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_max_fd"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_max_rotation",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_max_rotation"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_max_translation",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_max_translation"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_max_rel_rotation",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_max_rel_rotation"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_max_rel_translation",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_max_rel_translation"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_t1_dice_distance",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_t1_dice_distance"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_CNR0_mean",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_CNR0_mean"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_CNR1_mean",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_CNR1_mean"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_CNR2_mean",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_CNR2_mean"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_CNR3_mean",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_CNR3_mean"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_CNR4_mean",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_CNR4_mean"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_CNR0_median",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_CNR0_median"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_CNR1_median",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_CNR1_median"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_CNR2_median",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_CNR2_median"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_CNR3_median",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_CNR3_median"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_CNR4_median",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_CNR4_median"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_CNR0_standard_deviation",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_CNR0_standard_deviation"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_CNR1_standard_deviation",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_CNR1_standard_deviation"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_CNR2_standard_deviation",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_CNR2_standard_deviation"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_CNR3_standard_deviation",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_CNR3_standard_deviation"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_CNR4_standard_deviation",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_CNR4_standard_deviation"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_file_name",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_file_name"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_subject_id",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_subject_id"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_session_id",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_session_id"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_task_id",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_task_id"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_dir_id",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_dir_id"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_acq_id",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_acq_id"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_space_id",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_space_id"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_rec_id",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_rec_id"
+            },
+            {
+                "isAbout": "items/img_qsiprep_space-ACPC_desc-image_qc_run_id",
+                "isVis": true,
+                "variableName": "img_qsiprep_space-ACPC_desc-image_qc_run_id"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

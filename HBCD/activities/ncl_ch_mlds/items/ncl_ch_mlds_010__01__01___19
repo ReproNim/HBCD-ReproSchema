@@ -1,0 +1,56 @@
+{
+    "id": "ncl_ch_mlds_010__01__01___19",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Neurocognition and Language"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/neurocog/mlds"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "ncl_ch_mlds_0604"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "ncl_ch_mlds_0604"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "ncl_ch_mlds"
+        }
+    ],
+    "prefLabel": {
+        "en": "ncl_ch_mlds_010__01__01___19"
+    },
+    "question": {
+        "en": "What other language(s) are spoken in this non-parental childcare arrangement? (can check all that apply) [Multi-select]: German"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

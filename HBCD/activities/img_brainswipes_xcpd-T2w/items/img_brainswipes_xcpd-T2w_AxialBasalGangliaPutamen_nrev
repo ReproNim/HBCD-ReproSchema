@@ -1,0 +1,57 @@
+{
+    "id": "img_brainswipes_xcpd-T2w_AxialBasalGangliaPutamen_nrev",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular Imaging"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/smri"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "img_brainswipes_xcpd_t2w_0007"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "img_brainswipes_xcpd_t2w_0007"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "img_brainswipes_xcpd-T2w"
+        }
+    ],
+    "prefLabel": {
+        "en": "img_brainswipes_xcpd-T2w_AxialBasalGangliaPutamen_nrev"
+    },
+    "question": {
+        "en": "Number of reviewers for T2w surfaces in axial plane (BasalGanglia-Putamen area)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

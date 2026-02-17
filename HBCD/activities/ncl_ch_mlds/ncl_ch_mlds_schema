@@ -1,0 +1,4967 @@
+{
+    "id": "ncl_ch_mlds_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ncl_ch_mlds"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ncl_ch_mlds_date_taken",
+            "items/ncl_ch_mlds_candidate_age",
+            "items/ncl_ch_mlds_gestational_age",
+            "items/ncl_ch_mlds_adjusted_age",
+            "items/ncl_ch_mlds_lang",
+            "items/ncl_ch_mlds_location",
+            "items/ncl_ch_mlds_001__01___1",
+            "items/ncl_ch_mlds_001__01___2",
+            "items/ncl_ch_mlds_001__01___3",
+            "items/ncl_ch_mlds_001__01__01___1",
+            "items/ncl_ch_mlds_001__01__01___2",
+            "items/ncl_ch_mlds_001__01__01___3",
+            "items/ncl_ch_mlds_001__01__01___4",
+            "items/ncl_ch_mlds_001__01__01___5",
+            "items/ncl_ch_mlds_001__01__01___6",
+            "items/ncl_ch_mlds_001__01__01___7",
+            "items/ncl_ch_mlds_001__01__01___8",
+            "items/ncl_ch_mlds_001__01__01___9",
+            "items/ncl_ch_mlds_001__01__01___10",
+            "items/ncl_ch_mlds_001__01__01___11",
+            "items/ncl_ch_mlds_001__01__01___12",
+            "items/ncl_ch_mlds_001__01__01___13",
+            "items/ncl_ch_mlds_001__01__01___14",
+            "items/ncl_ch_mlds_001__01__01___15",
+            "items/ncl_ch_mlds_001__01__01___16",
+            "items/ncl_ch_mlds_001__01__01___17",
+            "items/ncl_ch_mlds_001__01__01___18",
+            "items/ncl_ch_mlds_001__01__01___19",
+            "items/ncl_ch_mlds_001__01__01___20",
+            "items/ncl_ch_mlds_001__01__01___21",
+            "items/ncl_ch_mlds_001__01__01___22",
+            "items/ncl_ch_mlds_001__01__01___23",
+            "items/ncl_ch_mlds_001__01__01___24",
+            "items/ncl_ch_mlds_001__01__01___25",
+            "items/ncl_ch_mlds_001__01__01___26",
+            "items/ncl_ch_mlds_001__01__01___27",
+            "items/ncl_ch_mlds_001__01__01___28",
+            "items/ncl_ch_mlds_001__01__01___29",
+            "items/ncl_ch_mlds_001__01__01___30",
+            "items/ncl_ch_mlds_001__01__01___31",
+            "items/ncl_ch_mlds_001__01__01___32",
+            "items/ncl_ch_mlds_001__01__01___33",
+            "items/ncl_ch_mlds_001__01__01___34",
+            "items/ncl_ch_mlds_001__01__01___35",
+            "items/ncl_ch_mlds_001__01__01___36",
+            "items/ncl_ch_mlds_001__01__01___37",
+            "items/ncl_ch_mlds_001__01__01___38",
+            "items/ncl_ch_mlds_001__01__01___39",
+            "items/ncl_ch_mlds_001__01__01___40",
+            "items/ncl_ch_mlds_001__01__01___41",
+            "items/ncl_ch_mlds_001__01__01___42",
+            "items/ncl_ch_mlds_001__01__01___43",
+            "items/ncl_ch_mlds_001__01__01___44",
+            "items/ncl_ch_mlds_001__01__01___45",
+            "items/ncl_ch_mlds_001__01__01___46",
+            "items/ncl_ch_mlds_001__01__01___47",
+            "items/ncl_ch_mlds_001__01__01___48",
+            "items/ncl_ch_mlds_001__01__01___49",
+            "items/ncl_ch_mlds_001__01__01___50",
+            "items/ncl_ch_mlds_001__01__01___51",
+            "items/ncl_ch_mlds_001__01__01___52",
+            "items/ncl_ch_mlds_001__01__01___53",
+            "items/ncl_ch_mlds_001__01__01___54",
+            "items/ncl_ch_mlds_001__01__01___55",
+            "items/ncl_ch_mlds_001__01__01___56",
+            "items/ncl_ch_mlds_001__01__02",
+            "items/ncl_ch_mlds_000",
+            "items/ncl_ch_mlds_000__01",
+            "items/ncl_ch_mlds_001__02",
+            "items/ncl_ch_mlds_001__02__dk",
+            "items/ncl_ch_mlds_001__03",
+            "items/ncl_ch_mlds_001__03__dk",
+            "items/ncl_ch_mlds_001__04",
+            "items/ncl_ch_mlds_001__04__dk",
+            "items/ncl_ch_mlds_001__05",
+            "items/ncl_ch_mlds_002",
+            "items/ncl_ch_mlds_002__01",
+            "items/ncl_ch_mlds_003__09",
+            "items/ncl_ch_mlds_003__01___1",
+            "items/ncl_ch_mlds_003__01___2",
+            "items/ncl_ch_mlds_003__01___3",
+            "items/ncl_ch_mlds_003__01__01___1",
+            "items/ncl_ch_mlds_003__01__01___2",
+            "items/ncl_ch_mlds_003__01__01___3",
+            "items/ncl_ch_mlds_003__01__01___4",
+            "items/ncl_ch_mlds_003__01__01___5",
+            "items/ncl_ch_mlds_003__01__01___6",
+            "items/ncl_ch_mlds_003__01__01___7",
+            "items/ncl_ch_mlds_003__01__01___8",
+            "items/ncl_ch_mlds_003__01__01___9",
+            "items/ncl_ch_mlds_003__01__01___10",
+            "items/ncl_ch_mlds_003__01__01___11",
+            "items/ncl_ch_mlds_003__01__01___12",
+            "items/ncl_ch_mlds_003__01__01___13",
+            "items/ncl_ch_mlds_003__01__01___14",
+            "items/ncl_ch_mlds_003__01__01___15",
+            "items/ncl_ch_mlds_003__01__01___16",
+            "items/ncl_ch_mlds_003__01__01___17",
+            "items/ncl_ch_mlds_003__01__01___18",
+            "items/ncl_ch_mlds_003__01__01___19",
+            "items/ncl_ch_mlds_003__01__01___20",
+            "items/ncl_ch_mlds_003__01__01___21",
+            "items/ncl_ch_mlds_003__01__01___22",
+            "items/ncl_ch_mlds_003__01__01___23",
+            "items/ncl_ch_mlds_003__01__01___24",
+            "items/ncl_ch_mlds_003__01__01___25",
+            "items/ncl_ch_mlds_003__01__01___26",
+            "items/ncl_ch_mlds_003__01__01___27",
+            "items/ncl_ch_mlds_003__01__01___28",
+            "items/ncl_ch_mlds_003__01__01___29",
+            "items/ncl_ch_mlds_003__01__01___30",
+            "items/ncl_ch_mlds_003__01__01___31",
+            "items/ncl_ch_mlds_003__01__01___32",
+            "items/ncl_ch_mlds_003__01__01___33",
+            "items/ncl_ch_mlds_003__01__01___34",
+            "items/ncl_ch_mlds_003__01__01___35",
+            "items/ncl_ch_mlds_003__01__01___36",
+            "items/ncl_ch_mlds_003__01__01___37",
+            "items/ncl_ch_mlds_003__01__01___38",
+            "items/ncl_ch_mlds_003__01__01___39",
+            "items/ncl_ch_mlds_003__01__01___40",
+            "items/ncl_ch_mlds_003__01__01___41",
+            "items/ncl_ch_mlds_003__01__01___42",
+            "items/ncl_ch_mlds_003__01__01___43",
+            "items/ncl_ch_mlds_003__01__01___44",
+            "items/ncl_ch_mlds_003__01__01___45",
+            "items/ncl_ch_mlds_003__01__01___46",
+            "items/ncl_ch_mlds_003__01__01___47",
+            "items/ncl_ch_mlds_003__01__01___48",
+            "items/ncl_ch_mlds_003__01__01___49",
+            "items/ncl_ch_mlds_003__01__01___50",
+            "items/ncl_ch_mlds_003__01__01___51",
+            "items/ncl_ch_mlds_003__01__01___52",
+            "items/ncl_ch_mlds_003__01__01___53",
+            "items/ncl_ch_mlds_003__01__01___54",
+            "items/ncl_ch_mlds_003__01__01___55",
+            "items/ncl_ch_mlds_003__01__01___56",
+            "items/ncl_ch_mlds_003__01__02",
+            "items/ncl_ch_mlds_003__02",
+            "items/ncl_ch_mlds_003__02__dk",
+            "items/ncl_ch_mlds_003__03",
+            "items/ncl_ch_mlds_003__03__dk",
+            "items/ncl_ch_mlds_003__04",
+            "items/ncl_ch_mlds_003__04__dk",
+            "items/ncl_ch_mlds_003__05",
+            "items/ncl_ch_mlds_003__07",
+            "items/ncl_ch_mlds_003__08__01",
+            "items/ncl_ch_mlds_003__08__02",
+            "items/ncl_ch_mlds_003__08_dk",
+            "items/ncl_ch_mlds_004__09",
+            "items/ncl_ch_mlds_004__01___1",
+            "items/ncl_ch_mlds_004__01___2",
+            "items/ncl_ch_mlds_004__01___3",
+            "items/ncl_ch_mlds_004__01__01___1",
+            "items/ncl_ch_mlds_004__01__01___2",
+            "items/ncl_ch_mlds_004__01__01___3",
+            "items/ncl_ch_mlds_004__01__01___4",
+            "items/ncl_ch_mlds_004__01__01___5",
+            "items/ncl_ch_mlds_004__01__01___6",
+            "items/ncl_ch_mlds_004__01__01___7",
+            "items/ncl_ch_mlds_004__01__01___8",
+            "items/ncl_ch_mlds_004__01__01___9",
+            "items/ncl_ch_mlds_004__01__01___10",
+            "items/ncl_ch_mlds_004__01__01___11",
+            "items/ncl_ch_mlds_004__01__01___12",
+            "items/ncl_ch_mlds_004__01__01___13",
+            "items/ncl_ch_mlds_004__01__01___14",
+            "items/ncl_ch_mlds_004__01__01___15",
+            "items/ncl_ch_mlds_004__01__01___16",
+            "items/ncl_ch_mlds_004__01__01___17",
+            "items/ncl_ch_mlds_004__01__01___18",
+            "items/ncl_ch_mlds_004__01__01___19",
+            "items/ncl_ch_mlds_004__01__01___20",
+            "items/ncl_ch_mlds_004__01__01___21",
+            "items/ncl_ch_mlds_004__01__01___22",
+            "items/ncl_ch_mlds_004__01__01___23",
+            "items/ncl_ch_mlds_004__01__01___24",
+            "items/ncl_ch_mlds_004__01__01___25",
+            "items/ncl_ch_mlds_004__01__01___26",
+            "items/ncl_ch_mlds_004__01__01___27",
+            "items/ncl_ch_mlds_004__01__01___28",
+            "items/ncl_ch_mlds_004__01__01___29",
+            "items/ncl_ch_mlds_004__01__01___30",
+            "items/ncl_ch_mlds_004__01__01___31",
+            "items/ncl_ch_mlds_004__01__01___32",
+            "items/ncl_ch_mlds_004__01__01___33",
+            "items/ncl_ch_mlds_004__01__01___34",
+            "items/ncl_ch_mlds_004__01__01___35",
+            "items/ncl_ch_mlds_004__01__01___36",
+            "items/ncl_ch_mlds_004__01__01___37",
+            "items/ncl_ch_mlds_004__01__01___38",
+            "items/ncl_ch_mlds_004__01__01___39",
+            "items/ncl_ch_mlds_004__01__01___40",
+            "items/ncl_ch_mlds_004__01__01___41",
+            "items/ncl_ch_mlds_004__01__01___42",
+            "items/ncl_ch_mlds_004__01__01___43",
+            "items/ncl_ch_mlds_004__01__01___44",
+            "items/ncl_ch_mlds_004__01__01___45",
+            "items/ncl_ch_mlds_004__01__01___46",
+            "items/ncl_ch_mlds_004__01__01___47",
+            "items/ncl_ch_mlds_004__01__01___48",
+            "items/ncl_ch_mlds_004__01__01___49",
+            "items/ncl_ch_mlds_004__01__01___50",
+            "items/ncl_ch_mlds_004__01__01___51",
+            "items/ncl_ch_mlds_004__01__01___52",
+            "items/ncl_ch_mlds_004__01__01___53",
+            "items/ncl_ch_mlds_004__01__01___54",
+            "items/ncl_ch_mlds_004__01__01___55",
+            "items/ncl_ch_mlds_004__01__01___56",
+            "items/ncl_ch_mlds_004__01__02",
+            "items/ncl_ch_mlds_004__02",
+            "items/ncl_ch_mlds_004__02__dk",
+            "items/ncl_ch_mlds_004__03",
+            "items/ncl_ch_mlds_004__03__dk",
+            "items/ncl_ch_mlds_004__04",
+            "items/ncl_ch_mlds_004__04__dk",
+            "items/ncl_ch_mlds_004__05",
+            "items/ncl_ch_mlds_004__07",
+            "items/ncl_ch_mlds_004__08__01",
+            "items/ncl_ch_mlds_004__08__02",
+            "items/ncl_ch_mlds_004__08_dk",
+            "items/ncl_ch_mlds_005__09",
+            "items/ncl_ch_mlds_005__01___1",
+            "items/ncl_ch_mlds_005__01___2",
+            "items/ncl_ch_mlds_005__01___3",
+            "items/ncl_ch_mlds_005__01__01___1",
+            "items/ncl_ch_mlds_005__01__01___2",
+            "items/ncl_ch_mlds_005__01__01___3",
+            "items/ncl_ch_mlds_005__01__01___4",
+            "items/ncl_ch_mlds_005__01__01___5",
+            "items/ncl_ch_mlds_005__01__01___6",
+            "items/ncl_ch_mlds_005__01__01___7",
+            "items/ncl_ch_mlds_005__01__01___8",
+            "items/ncl_ch_mlds_005__01__01___9",
+            "items/ncl_ch_mlds_005__01__01___10",
+            "items/ncl_ch_mlds_005__01__01___11",
+            "items/ncl_ch_mlds_005__01__01___12",
+            "items/ncl_ch_mlds_005__01__01___13",
+            "items/ncl_ch_mlds_005__01__01___14",
+            "items/ncl_ch_mlds_005__01__01___15",
+            "items/ncl_ch_mlds_005__01__01___16",
+            "items/ncl_ch_mlds_005__01__01___17",
+            "items/ncl_ch_mlds_005__01__01___18",
+            "items/ncl_ch_mlds_005__01__01___19",
+            "items/ncl_ch_mlds_005__01__01___20",
+            "items/ncl_ch_mlds_005__01__01___21",
+            "items/ncl_ch_mlds_005__01__01___22",
+            "items/ncl_ch_mlds_005__01__01___23",
+            "items/ncl_ch_mlds_005__01__01___24",
+            "items/ncl_ch_mlds_005__01__01___25",
+            "items/ncl_ch_mlds_005__01__01___26",
+            "items/ncl_ch_mlds_005__01__01___27",
+            "items/ncl_ch_mlds_005__01__01___28",
+            "items/ncl_ch_mlds_005__01__01___29",
+            "items/ncl_ch_mlds_005__01__01___30",
+            "items/ncl_ch_mlds_005__01__01___31",
+            "items/ncl_ch_mlds_005__01__01___32",
+            "items/ncl_ch_mlds_005__01__01___33",
+            "items/ncl_ch_mlds_005__01__01___34",
+            "items/ncl_ch_mlds_005__01__01___35",
+            "items/ncl_ch_mlds_005__01__01___36",
+            "items/ncl_ch_mlds_005__01__01___37",
+            "items/ncl_ch_mlds_005__01__01___38",
+            "items/ncl_ch_mlds_005__01__01___39",
+            "items/ncl_ch_mlds_005__01__01___40",
+            "items/ncl_ch_mlds_005__01__01___41",
+            "items/ncl_ch_mlds_005__01__01___42",
+            "items/ncl_ch_mlds_005__01__01___43",
+            "items/ncl_ch_mlds_005__01__01___44",
+            "items/ncl_ch_mlds_005__01__01___45",
+            "items/ncl_ch_mlds_005__01__01___46",
+            "items/ncl_ch_mlds_005__01__01___47",
+            "items/ncl_ch_mlds_005__01__01___48",
+            "items/ncl_ch_mlds_005__01__01___49",
+            "items/ncl_ch_mlds_005__01__01___50",
+            "items/ncl_ch_mlds_005__01__01___51",
+            "items/ncl_ch_mlds_005__01__01___52",
+            "items/ncl_ch_mlds_005__01__01___53",
+            "items/ncl_ch_mlds_005__01__01___54",
+            "items/ncl_ch_mlds_005__01__01___55",
+            "items/ncl_ch_mlds_005__01__01___56",
+            "items/ncl_ch_mlds_005__01__02",
+            "items/ncl_ch_mlds_005__02",
+            "items/ncl_ch_mlds_005__02__dk",
+            "items/ncl_ch_mlds_005__03",
+            "items/ncl_ch_mlds_005__03__dk",
+            "items/ncl_ch_mlds_005__04",
+            "items/ncl_ch_mlds_005__04__dk",
+            "items/ncl_ch_mlds_005__05",
+            "items/ncl_ch_mlds_005__07",
+            "items/ncl_ch_mlds_005__08__01",
+            "items/ncl_ch_mlds_005__08__02",
+            "items/ncl_ch_mlds_005__08_dk",
+            "items/ncl_ch_mlds_006__09",
+            "items/ncl_ch_mlds_006__01___1",
+            "items/ncl_ch_mlds_006__01___2",
+            "items/ncl_ch_mlds_006__01___3",
+            "items/ncl_ch_mlds_006__01__01___1",
+            "items/ncl_ch_mlds_006__01__01___2",
+            "items/ncl_ch_mlds_006__01__01___3",
+            "items/ncl_ch_mlds_006__01__01___4",
+            "items/ncl_ch_mlds_006__01__01___5",
+            "items/ncl_ch_mlds_006__01__01___6",
+            "items/ncl_ch_mlds_006__01__01___7",
+            "items/ncl_ch_mlds_006__01__01___8",
+            "items/ncl_ch_mlds_006__01__01___9",
+            "items/ncl_ch_mlds_006__01__01___10",
+            "items/ncl_ch_mlds_006__01__01___11",
+            "items/ncl_ch_mlds_006__01__01___12",
+            "items/ncl_ch_mlds_006__01__01___13",
+            "items/ncl_ch_mlds_006__01__01___14",
+            "items/ncl_ch_mlds_006__01__01___15",
+            "items/ncl_ch_mlds_006__01__01___16",
+            "items/ncl_ch_mlds_006__01__01___17",
+            "items/ncl_ch_mlds_006__01__01___18",
+            "items/ncl_ch_mlds_006__01__01___19",
+            "items/ncl_ch_mlds_006__01__01___20",
+            "items/ncl_ch_mlds_006__01__01___21",
+            "items/ncl_ch_mlds_006__01__01___22",
+            "items/ncl_ch_mlds_006__01__01___23",
+            "items/ncl_ch_mlds_006__01__01___24",
+            "items/ncl_ch_mlds_006__01__01___25",
+            "items/ncl_ch_mlds_006__01__01___26",
+            "items/ncl_ch_mlds_006__01__01___27",
+            "items/ncl_ch_mlds_006__01__01___28",
+            "items/ncl_ch_mlds_006__01__01___29",
+            "items/ncl_ch_mlds_006__01__01___30",
+            "items/ncl_ch_mlds_006__01__01___31",
+            "items/ncl_ch_mlds_006__01__01___32",
+            "items/ncl_ch_mlds_006__01__01___33",
+            "items/ncl_ch_mlds_006__01__01___34",
+            "items/ncl_ch_mlds_006__01__01___35",
+            "items/ncl_ch_mlds_006__01__01___36",
+            "items/ncl_ch_mlds_006__01__01___37",
+            "items/ncl_ch_mlds_006__01__01___38",
+            "items/ncl_ch_mlds_006__01__01___39",
+            "items/ncl_ch_mlds_006__01__01___40",
+            "items/ncl_ch_mlds_006__01__01___41",
+            "items/ncl_ch_mlds_006__01__01___42",
+            "items/ncl_ch_mlds_006__01__01___43",
+            "items/ncl_ch_mlds_006__01__01___44",
+            "items/ncl_ch_mlds_006__01__01___45",
+            "items/ncl_ch_mlds_006__01__01___46",
+            "items/ncl_ch_mlds_006__01__01___47",
+            "items/ncl_ch_mlds_006__01__01___48",
+            "items/ncl_ch_mlds_006__01__01___49",
+            "items/ncl_ch_mlds_006__01__01___50",
+            "items/ncl_ch_mlds_006__01__01___51",
+            "items/ncl_ch_mlds_006__01__01___52",
+            "items/ncl_ch_mlds_006__01__01___53",
+            "items/ncl_ch_mlds_006__01__01___54",
+            "items/ncl_ch_mlds_006__01__01___55",
+            "items/ncl_ch_mlds_006__01__01___56",
+            "items/ncl_ch_mlds_006__01__02",
+            "items/ncl_ch_mlds_006__02",
+            "items/ncl_ch_mlds_006__02__dk",
+            "items/ncl_ch_mlds_006__03",
+            "items/ncl_ch_mlds_006__03__dk",
+            "items/ncl_ch_mlds_006__04",
+            "items/ncl_ch_mlds_006__04__dk",
+            "items/ncl_ch_mlds_006__05",
+            "items/ncl_ch_mlds_006__07",
+            "items/ncl_ch_mlds_006__08__01",
+            "items/ncl_ch_mlds_006__08__02",
+            "items/ncl_ch_mlds_006__08_dk",
+            "items/ncl_ch_mlds_007__09",
+            "items/ncl_ch_mlds_007__01___1",
+            "items/ncl_ch_mlds_007__01___2",
+            "items/ncl_ch_mlds_007__01___3",
+            "items/ncl_ch_mlds_007__01__01___1",
+            "items/ncl_ch_mlds_007__01__01___2",
+            "items/ncl_ch_mlds_007__01__01___3",
+            "items/ncl_ch_mlds_007__01__01___4",
+            "items/ncl_ch_mlds_007__01__01___5",
+            "items/ncl_ch_mlds_007__01__01___6",
+            "items/ncl_ch_mlds_007__01__01___7",
+            "items/ncl_ch_mlds_007__01__01___8",
+            "items/ncl_ch_mlds_007__01__01___9",
+            "items/ncl_ch_mlds_007__01__01___10",
+            "items/ncl_ch_mlds_007__01__01___11",
+            "items/ncl_ch_mlds_007__01__01___12",
+            "items/ncl_ch_mlds_007__01__01___13",
+            "items/ncl_ch_mlds_007__01__01___14",
+            "items/ncl_ch_mlds_007__01__01___15",
+            "items/ncl_ch_mlds_007__01__01___16",
+            "items/ncl_ch_mlds_007__01__01___17",
+            "items/ncl_ch_mlds_007__01__01___18",
+            "items/ncl_ch_mlds_007__01__01___19",
+            "items/ncl_ch_mlds_007__01__01___20",
+            "items/ncl_ch_mlds_007__01__01___21",
+            "items/ncl_ch_mlds_007__01__01___22",
+            "items/ncl_ch_mlds_007__01__01___23",
+            "items/ncl_ch_mlds_007__01__01___24",
+            "items/ncl_ch_mlds_007__01__01___25",
+            "items/ncl_ch_mlds_007__01__01___26",
+            "items/ncl_ch_mlds_007__01__01___27",
+            "items/ncl_ch_mlds_007__01__01___28",
+            "items/ncl_ch_mlds_007__01__01___29",
+            "items/ncl_ch_mlds_007__01__01___30",
+            "items/ncl_ch_mlds_007__01__01___31",
+            "items/ncl_ch_mlds_007__01__01___32",
+            "items/ncl_ch_mlds_007__01__01___33",
+            "items/ncl_ch_mlds_007__01__01___34",
+            "items/ncl_ch_mlds_007__01__01___35",
+            "items/ncl_ch_mlds_007__01__01___36",
+            "items/ncl_ch_mlds_007__01__01___37",
+            "items/ncl_ch_mlds_007__01__01___38",
+            "items/ncl_ch_mlds_007__01__01___39",
+            "items/ncl_ch_mlds_007__01__01___40",
+            "items/ncl_ch_mlds_007__01__01___41",
+            "items/ncl_ch_mlds_007__01__01___42",
+            "items/ncl_ch_mlds_007__01__01___43",
+            "items/ncl_ch_mlds_007__01__01___44",
+            "items/ncl_ch_mlds_007__01__01___45",
+            "items/ncl_ch_mlds_007__01__01___46",
+            "items/ncl_ch_mlds_007__01__01___47",
+            "items/ncl_ch_mlds_007__01__01___48",
+            "items/ncl_ch_mlds_007__01__01___49",
+            "items/ncl_ch_mlds_007__01__01___50",
+            "items/ncl_ch_mlds_007__01__01___51",
+            "items/ncl_ch_mlds_007__01__01___52",
+            "items/ncl_ch_mlds_007__01__01___53",
+            "items/ncl_ch_mlds_007__01__01___54",
+            "items/ncl_ch_mlds_007__01__01___55",
+            "items/ncl_ch_mlds_007__01__01___56",
+            "items/ncl_ch_mlds_007__01__02",
+            "items/ncl_ch_mlds_007__02",
+            "items/ncl_ch_mlds_007__02__dk",
+            "items/ncl_ch_mlds_007__03",
+            "items/ncl_ch_mlds_007__03__dk",
+            "items/ncl_ch_mlds_007__04",
+            "items/ncl_ch_mlds_007__04__dk",
+            "items/ncl_ch_mlds_007__05",
+            "items/ncl_ch_mlds_007__07",
+            "items/ncl_ch_mlds_007__08__01",
+            "items/ncl_ch_mlds_007__08__02",
+            "items/ncl_ch_mlds_007__08_dk",
+            "items/ncl_ch_mlds_008__09",
+            "items/ncl_ch_mlds_008__01___1",
+            "items/ncl_ch_mlds_008__01___2",
+            "items/ncl_ch_mlds_008__01___3",
+            "items/ncl_ch_mlds_008__01__01___1",
+            "items/ncl_ch_mlds_008__01__01___2",
+            "items/ncl_ch_mlds_008__01__01___3",
+            "items/ncl_ch_mlds_008__01__01___4",
+            "items/ncl_ch_mlds_008__01__01___5",
+            "items/ncl_ch_mlds_008__01__01___6",
+            "items/ncl_ch_mlds_008__01__01___7",
+            "items/ncl_ch_mlds_008__01__01___8",
+            "items/ncl_ch_mlds_008__01__01___9",
+            "items/ncl_ch_mlds_008__01__01___10",
+            "items/ncl_ch_mlds_008__01__01___11",
+            "items/ncl_ch_mlds_008__01__01___12",
+            "items/ncl_ch_mlds_008__01__01___13",
+            "items/ncl_ch_mlds_008__01__01___14",
+            "items/ncl_ch_mlds_008__01__01___15",
+            "items/ncl_ch_mlds_008__01__01___16",
+            "items/ncl_ch_mlds_008__01__01___17",
+            "items/ncl_ch_mlds_008__01__01___18",
+            "items/ncl_ch_mlds_008__01__01___19",
+            "items/ncl_ch_mlds_008__01__01___20",
+            "items/ncl_ch_mlds_008__01__01___21",
+            "items/ncl_ch_mlds_008__01__01___22",
+            "items/ncl_ch_mlds_008__01__01___23",
+            "items/ncl_ch_mlds_008__01__01___24",
+            "items/ncl_ch_mlds_008__01__01___25",
+            "items/ncl_ch_mlds_008__01__01___26",
+            "items/ncl_ch_mlds_008__01__01___27",
+            "items/ncl_ch_mlds_008__01__01___28",
+            "items/ncl_ch_mlds_008__01__01___29",
+            "items/ncl_ch_mlds_008__01__01___30",
+            "items/ncl_ch_mlds_008__01__01___31",
+            "items/ncl_ch_mlds_008__01__01___32",
+            "items/ncl_ch_mlds_008__01__01___33",
+            "items/ncl_ch_mlds_008__01__01___34",
+            "items/ncl_ch_mlds_008__01__01___35",
+            "items/ncl_ch_mlds_008__01__01___36",
+            "items/ncl_ch_mlds_008__01__01___37",
+            "items/ncl_ch_mlds_008__01__01___38",
+            "items/ncl_ch_mlds_008__01__01___39",
+            "items/ncl_ch_mlds_008__01__01___40",
+            "items/ncl_ch_mlds_008__01__01___41",
+            "items/ncl_ch_mlds_008__01__01___42",
+            "items/ncl_ch_mlds_008__01__01___43",
+            "items/ncl_ch_mlds_008__01__01___44",
+            "items/ncl_ch_mlds_008__01__01___45",
+            "items/ncl_ch_mlds_008__01__01___46",
+            "items/ncl_ch_mlds_008__01__01___47",
+            "items/ncl_ch_mlds_008__01__01___48",
+            "items/ncl_ch_mlds_008__01__01___49",
+            "items/ncl_ch_mlds_008__01__01___50",
+            "items/ncl_ch_mlds_008__01__01___51",
+            "items/ncl_ch_mlds_008__01__01___52",
+            "items/ncl_ch_mlds_008__01__01___53",
+            "items/ncl_ch_mlds_008__01__01___54",
+            "items/ncl_ch_mlds_008__01__01___55",
+            "items/ncl_ch_mlds_008__01__01___56",
+            "items/ncl_ch_mlds_008__01__02",
+            "items/ncl_ch_mlds_008__02",
+            "items/ncl_ch_mlds_008__02__dk",
+            "items/ncl_ch_mlds_008__03",
+            "items/ncl_ch_mlds_008__03__dk",
+            "items/ncl_ch_mlds_008__04",
+            "items/ncl_ch_mlds_008__04__dk",
+            "items/ncl_ch_mlds_008__05",
+            "items/ncl_ch_mlds_008__07",
+            "items/ncl_ch_mlds_008__08__01",
+            "items/ncl_ch_mlds_008__08__02",
+            "items/ncl_ch_mlds_008__08_dk",
+            "items/ncl_ch_mlds_009__09",
+            "items/ncl_ch_mlds_009__01___1",
+            "items/ncl_ch_mlds_009__01___2",
+            "items/ncl_ch_mlds_009__01___3",
+            "items/ncl_ch_mlds_009__01__01___1",
+            "items/ncl_ch_mlds_009__01__01___2",
+            "items/ncl_ch_mlds_009__01__01___3",
+            "items/ncl_ch_mlds_009__01__01___4",
+            "items/ncl_ch_mlds_009__01__01___5",
+            "items/ncl_ch_mlds_009__01__01___6",
+            "items/ncl_ch_mlds_009__01__01___7",
+            "items/ncl_ch_mlds_009__01__01___8",
+            "items/ncl_ch_mlds_009__01__01___9",
+            "items/ncl_ch_mlds_009__01__01___10",
+            "items/ncl_ch_mlds_009__01__01___11",
+            "items/ncl_ch_mlds_009__01__01___12",
+            "items/ncl_ch_mlds_009__01__01___13",
+            "items/ncl_ch_mlds_009__01__01___14",
+            "items/ncl_ch_mlds_009__01__01___15",
+            "items/ncl_ch_mlds_009__01__01___16",
+            "items/ncl_ch_mlds_009__01__01___17",
+            "items/ncl_ch_mlds_009__01__01___18",
+            "items/ncl_ch_mlds_009__01__01___19",
+            "items/ncl_ch_mlds_009__01__01___20",
+            "items/ncl_ch_mlds_009__01__01___21",
+            "items/ncl_ch_mlds_009__01__01___22",
+            "items/ncl_ch_mlds_009__01__01___23",
+            "items/ncl_ch_mlds_009__01__01___24",
+            "items/ncl_ch_mlds_009__01__01___25",
+            "items/ncl_ch_mlds_009__01__01___26",
+            "items/ncl_ch_mlds_009__01__01___27",
+            "items/ncl_ch_mlds_009__01__01___28",
+            "items/ncl_ch_mlds_009__01__01___29",
+            "items/ncl_ch_mlds_009__01__01___30",
+            "items/ncl_ch_mlds_009__01__01___31",
+            "items/ncl_ch_mlds_009__01__01___32",
+            "items/ncl_ch_mlds_009__01__01___33",
+            "items/ncl_ch_mlds_009__01__01___34",
+            "items/ncl_ch_mlds_009__01__01___35",
+            "items/ncl_ch_mlds_009__01__01___36",
+            "items/ncl_ch_mlds_009__01__01___37",
+            "items/ncl_ch_mlds_009__01__01___38",
+            "items/ncl_ch_mlds_009__01__01___39",
+            "items/ncl_ch_mlds_009__01__01___40",
+            "items/ncl_ch_mlds_009__01__01___41",
+            "items/ncl_ch_mlds_009__01__01___42",
+            "items/ncl_ch_mlds_009__01__01___43",
+            "items/ncl_ch_mlds_009__01__01___44",
+            "items/ncl_ch_mlds_009__01__01___45",
+            "items/ncl_ch_mlds_009__01__01___46",
+            "items/ncl_ch_mlds_009__01__01___47",
+            "items/ncl_ch_mlds_009__01__01___48",
+            "items/ncl_ch_mlds_009__01__01___49",
+            "items/ncl_ch_mlds_009__01__01___50",
+            "items/ncl_ch_mlds_009__01__01___51",
+            "items/ncl_ch_mlds_009__01__01___52",
+            "items/ncl_ch_mlds_009__01__01___53",
+            "items/ncl_ch_mlds_009__01__01___54",
+            "items/ncl_ch_mlds_009__01__01___55",
+            "items/ncl_ch_mlds_009__01__01___56",
+            "items/ncl_ch_mlds_009__01__02",
+            "items/ncl_ch_mlds_009__02",
+            "items/ncl_ch_mlds_009__02__dk",
+            "items/ncl_ch_mlds_009__03",
+            "items/ncl_ch_mlds_009__03__dk",
+            "items/ncl_ch_mlds_009__04",
+            "items/ncl_ch_mlds_009__04__dk",
+            "items/ncl_ch_mlds_009__05",
+            "items/ncl_ch_mlds_009__07",
+            "items/ncl_ch_mlds_009__08__01",
+            "items/ncl_ch_mlds_009__08__02",
+            "items/ncl_ch_mlds_009__08_dk",
+            "items/ncl_ch_mlds_010__09",
+            "items/ncl_ch_mlds_010__01___1",
+            "items/ncl_ch_mlds_010__01___2",
+            "items/ncl_ch_mlds_010__01___3",
+            "items/ncl_ch_mlds_010__01__01___1",
+            "items/ncl_ch_mlds_010__01__01___2",
+            "items/ncl_ch_mlds_010__01__01___3",
+            "items/ncl_ch_mlds_010__01__01___4",
+            "items/ncl_ch_mlds_010__01__01___5",
+            "items/ncl_ch_mlds_010__01__01___6",
+            "items/ncl_ch_mlds_010__01__01___7",
+            "items/ncl_ch_mlds_010__01__01___8",
+            "items/ncl_ch_mlds_010__01__01___9",
+            "items/ncl_ch_mlds_010__01__01___10",
+            "items/ncl_ch_mlds_010__01__01___11",
+            "items/ncl_ch_mlds_010__01__01___12",
+            "items/ncl_ch_mlds_010__01__01___13",
+            "items/ncl_ch_mlds_010__01__01___14",
+            "items/ncl_ch_mlds_010__01__01___15",
+            "items/ncl_ch_mlds_010__01__01___16",
+            "items/ncl_ch_mlds_010__01__01___17",
+            "items/ncl_ch_mlds_010__01__01___18",
+            "items/ncl_ch_mlds_010__01__01___19",
+            "items/ncl_ch_mlds_010__01__01___20",
+            "items/ncl_ch_mlds_010__01__01___21",
+            "items/ncl_ch_mlds_010__01__01___22",
+            "items/ncl_ch_mlds_010__01__01___23",
+            "items/ncl_ch_mlds_010__01__01___24",
+            "items/ncl_ch_mlds_010__01__01___25",
+            "items/ncl_ch_mlds_010__01__01___26",
+            "items/ncl_ch_mlds_010__01__01___27",
+            "items/ncl_ch_mlds_010__01__01___28",
+            "items/ncl_ch_mlds_010__01__01___29",
+            "items/ncl_ch_mlds_010__01__01___30",
+            "items/ncl_ch_mlds_010__01__01___31",
+            "items/ncl_ch_mlds_010__01__01___32",
+            "items/ncl_ch_mlds_010__01__01___33",
+            "items/ncl_ch_mlds_010__01__01___34",
+            "items/ncl_ch_mlds_010__01__01___35",
+            "items/ncl_ch_mlds_010__01__01___36",
+            "items/ncl_ch_mlds_010__01__01___37",
+            "items/ncl_ch_mlds_010__01__01___38",
+            "items/ncl_ch_mlds_010__01__01___39",
+            "items/ncl_ch_mlds_010__01__01___40",
+            "items/ncl_ch_mlds_010__01__01___41",
+            "items/ncl_ch_mlds_010__01__01___42",
+            "items/ncl_ch_mlds_010__01__01___43",
+            "items/ncl_ch_mlds_010__01__01___44",
+            "items/ncl_ch_mlds_010__01__01___45",
+            "items/ncl_ch_mlds_010__01__01___46",
+            "items/ncl_ch_mlds_010__01__01___47",
+            "items/ncl_ch_mlds_010__01__01___48",
+            "items/ncl_ch_mlds_010__01__01___49",
+            "items/ncl_ch_mlds_010__01__01___50",
+            "items/ncl_ch_mlds_010__01__01___51",
+            "items/ncl_ch_mlds_010__01__01___52",
+            "items/ncl_ch_mlds_010__01__01___53",
+            "items/ncl_ch_mlds_010__01__01___54",
+            "items/ncl_ch_mlds_010__01__01___55",
+            "items/ncl_ch_mlds_010__01__01___56",
+            "items/ncl_ch_mlds_010__01__02",
+            "items/ncl_ch_mlds_010__02",
+            "items/ncl_ch_mlds_010__02__dk",
+            "items/ncl_ch_mlds_010__03",
+            "items/ncl_ch_mlds_010__03__dk",
+            "items/ncl_ch_mlds_010__04",
+            "items/ncl_ch_mlds_010__04__dk",
+            "items/ncl_ch_mlds_010__05",
+            "items/ncl_ch_mlds_010__07",
+            "items/ncl_ch_mlds_010__08__01",
+            "items/ncl_ch_mlds_010__08__02",
+            "items/ncl_ch_mlds_010__08_dk",
+            "items/ncl_ch_mlds_011__09",
+            "items/ncl_ch_mlds_011__01___1",
+            "items/ncl_ch_mlds_011__01___2",
+            "items/ncl_ch_mlds_011__01___3",
+            "items/ncl_ch_mlds_011__01__01___1",
+            "items/ncl_ch_mlds_011__01__01___2",
+            "items/ncl_ch_mlds_011__01__01___3",
+            "items/ncl_ch_mlds_011__01__01___4",
+            "items/ncl_ch_mlds_011__01__01___5",
+            "items/ncl_ch_mlds_011__01__01___6",
+            "items/ncl_ch_mlds_011__01__01___7",
+            "items/ncl_ch_mlds_011__01__01___8",
+            "items/ncl_ch_mlds_011__01__01___9",
+            "items/ncl_ch_mlds_011__01__01___10",
+            "items/ncl_ch_mlds_011__01__01___11",
+            "items/ncl_ch_mlds_011__01__01___12",
+            "items/ncl_ch_mlds_011__01__01___13",
+            "items/ncl_ch_mlds_011__01__01___14",
+            "items/ncl_ch_mlds_011__01__01___15",
+            "items/ncl_ch_mlds_011__01__01___16",
+            "items/ncl_ch_mlds_011__01__01___17",
+            "items/ncl_ch_mlds_011__01__01___18",
+            "items/ncl_ch_mlds_011__01__01___19",
+            "items/ncl_ch_mlds_011__01__01___20",
+            "items/ncl_ch_mlds_011__01__01___21",
+            "items/ncl_ch_mlds_011__01__01___22",
+            "items/ncl_ch_mlds_011__01__01___23",
+            "items/ncl_ch_mlds_011__01__01___24",
+            "items/ncl_ch_mlds_011__01__01___25",
+            "items/ncl_ch_mlds_011__01__01___26",
+            "items/ncl_ch_mlds_011__01__01___27",
+            "items/ncl_ch_mlds_011__01__01___28",
+            "items/ncl_ch_mlds_011__01__01___29",
+            "items/ncl_ch_mlds_011__01__01___30",
+            "items/ncl_ch_mlds_011__01__01___31",
+            "items/ncl_ch_mlds_011__01__01___32",
+            "items/ncl_ch_mlds_011__01__01___33",
+            "items/ncl_ch_mlds_011__01__01___34",
+            "items/ncl_ch_mlds_011__01__01___35",
+            "items/ncl_ch_mlds_011__01__01___36",
+            "items/ncl_ch_mlds_011__01__01___37",
+            "items/ncl_ch_mlds_011__01__01___38",
+            "items/ncl_ch_mlds_011__01__01___39",
+            "items/ncl_ch_mlds_011__01__01___40",
+            "items/ncl_ch_mlds_011__01__01___41",
+            "items/ncl_ch_mlds_011__01__01___42",
+            "items/ncl_ch_mlds_011__01__01___43",
+            "items/ncl_ch_mlds_011__01__01___44",
+            "items/ncl_ch_mlds_011__01__01___45",
+            "items/ncl_ch_mlds_011__01__01___46",
+            "items/ncl_ch_mlds_011__01__01___47",
+            "items/ncl_ch_mlds_011__01__01___48",
+            "items/ncl_ch_mlds_011__01__01___49",
+            "items/ncl_ch_mlds_011__01__01___50",
+            "items/ncl_ch_mlds_011__01__01___51",
+            "items/ncl_ch_mlds_011__01__01___52",
+            "items/ncl_ch_mlds_011__01__01___53",
+            "items/ncl_ch_mlds_011__01__01___54",
+            "items/ncl_ch_mlds_011__01__01___55",
+            "items/ncl_ch_mlds_011__01__01___56",
+            "items/ncl_ch_mlds_011__01__02",
+            "items/ncl_ch_mlds_011__02",
+            "items/ncl_ch_mlds_011__02__dk",
+            "items/ncl_ch_mlds_011__03",
+            "items/ncl_ch_mlds_011__03__dk",
+            "items/ncl_ch_mlds_011__04",
+            "items/ncl_ch_mlds_011__04__dk",
+            "items/ncl_ch_mlds_011__05",
+            "items/ncl_ch_mlds_011__07",
+            "items/ncl_ch_mlds_011__08__01",
+            "items/ncl_ch_mlds_011__08__02",
+            "items/ncl_ch_mlds_011__08_dk",
+            "items/ncl_ch_mlds_012__09",
+            "items/ncl_ch_mlds_012__01___1",
+            "items/ncl_ch_mlds_012__01___2",
+            "items/ncl_ch_mlds_012__01___3",
+            "items/ncl_ch_mlds_012__01__01___1",
+            "items/ncl_ch_mlds_012__01__01___2",
+            "items/ncl_ch_mlds_012__01__01___3",
+            "items/ncl_ch_mlds_012__01__01___4",
+            "items/ncl_ch_mlds_012__01__01___5",
+            "items/ncl_ch_mlds_012__01__01___6",
+            "items/ncl_ch_mlds_012__01__01___7",
+            "items/ncl_ch_mlds_012__01__01___8",
+            "items/ncl_ch_mlds_012__01__01___9",
+            "items/ncl_ch_mlds_012__01__01___10",
+            "items/ncl_ch_mlds_012__01__01___11",
+            "items/ncl_ch_mlds_012__01__01___12",
+            "items/ncl_ch_mlds_012__01__01___13",
+            "items/ncl_ch_mlds_012__01__01___14",
+            "items/ncl_ch_mlds_012__01__01___15",
+            "items/ncl_ch_mlds_012__01__01___16",
+            "items/ncl_ch_mlds_012__01__01___17",
+            "items/ncl_ch_mlds_012__01__01___18",
+            "items/ncl_ch_mlds_012__01__01___19",
+            "items/ncl_ch_mlds_012__01__01___20",
+            "items/ncl_ch_mlds_012__01__01___21",
+            "items/ncl_ch_mlds_012__01__01___22",
+            "items/ncl_ch_mlds_012__01__01___23",
+            "items/ncl_ch_mlds_012__01__01___24",
+            "items/ncl_ch_mlds_012__01__01___25",
+            "items/ncl_ch_mlds_012__01__01___26",
+            "items/ncl_ch_mlds_012__01__01___27",
+            "items/ncl_ch_mlds_012__01__01___28",
+            "items/ncl_ch_mlds_012__01__01___29",
+            "items/ncl_ch_mlds_012__01__01___30",
+            "items/ncl_ch_mlds_012__01__01___31",
+            "items/ncl_ch_mlds_012__01__01___32",
+            "items/ncl_ch_mlds_012__01__01___33",
+            "items/ncl_ch_mlds_012__01__01___34",
+            "items/ncl_ch_mlds_012__01__01___35",
+            "items/ncl_ch_mlds_012__01__01___36",
+            "items/ncl_ch_mlds_012__01__01___37",
+            "items/ncl_ch_mlds_012__01__01___38",
+            "items/ncl_ch_mlds_012__01__01___39",
+            "items/ncl_ch_mlds_012__01__01___40",
+            "items/ncl_ch_mlds_012__01__01___41",
+            "items/ncl_ch_mlds_012__01__01___42",
+            "items/ncl_ch_mlds_012__01__01___43",
+            "items/ncl_ch_mlds_012__01__01___44",
+            "items/ncl_ch_mlds_012__01__01___45",
+            "items/ncl_ch_mlds_012__01__01___46",
+            "items/ncl_ch_mlds_012__01__01___47",
+            "items/ncl_ch_mlds_012__01__01___48",
+            "items/ncl_ch_mlds_012__01__01___49",
+            "items/ncl_ch_mlds_012__01__01___50",
+            "items/ncl_ch_mlds_012__01__01___51",
+            "items/ncl_ch_mlds_012__01__01___52",
+            "items/ncl_ch_mlds_012__01__01___53",
+            "items/ncl_ch_mlds_012__01__01___54",
+            "items/ncl_ch_mlds_012__01__01___55",
+            "items/ncl_ch_mlds_012__01__01___56",
+            "items/ncl_ch_mlds_012__01__02",
+            "items/ncl_ch_mlds_012__02",
+            "items/ncl_ch_mlds_012__02__dk",
+            "items/ncl_ch_mlds_012__03",
+            "items/ncl_ch_mlds_012__03__dk",
+            "items/ncl_ch_mlds_012__04",
+            "items/ncl_ch_mlds_012__04__dk",
+            "items/ncl_ch_mlds_012__05",
+            "items/ncl_ch_mlds_012__07",
+            "items/ncl_ch_mlds_012__08__01",
+            "items/ncl_ch_mlds_012__08__02",
+            "items/ncl_ch_mlds_012__08_dk",
+            "items/ncl_ch_mlds_019",
+            "items/ncl_ch_mlds_arr01_en",
+            "items/ncl_ch_mlds_arr01_es",
+            "items/ncl_ch_mlds_arr02_en",
+            "items/ncl_ch_mlds_arr02_es",
+            "items/ncl_ch_mlds_arr03_en",
+            "items/ncl_ch_mlds_arr03_es",
+            "items/ncl_ch_mlds_arr04_en",
+            "items/ncl_ch_mlds_arr04_es",
+            "items/ncl_ch_mlds_arr05_en",
+            "items/ncl_ch_mlds_arr05_es",
+            "items/ncl_ch_mlds_arr06_en",
+            "items/ncl_ch_mlds_arr06_es",
+            "items/ncl_ch_mlds_arr07_en",
+            "items/ncl_ch_mlds_arr07_es",
+            "items/ncl_ch_mlds_arr08_en",
+            "items/ncl_ch_mlds_arr08_es",
+            "items/ncl_ch_mlds_arr09_en",
+            "items/ncl_ch_mlds_arr09_es",
+            "items/ncl_ch_mlds_arr10_en",
+            "items/ncl_ch_mlds_arr10_es",
+            "items/ncl_ch_mlds_arr_hr_wk",
+            "items/ncl_ch_mlds_home_hr_wk",
+            "items/ncl_ch_mlds_home_en",
+            "items/ncl_ch_mlds_home_es",
+            "items/ncl_ch_mlds_en",
+            "items/ncl_ch_mlds_es",
+            "items/ncl_ch_mlds_administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ncl_ch_mlds_date_taken",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_date_taken"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_candidate_age",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_candidate_age"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_gestational_age",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_gestational_age"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_adjusted_age",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_adjusted_age"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_lang",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_lang"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_location",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_location"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___4",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___4"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___5",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___5"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___6",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___6"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___7",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___7"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___8",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___8"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___9",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___9"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___10",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___10"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___11",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___11"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___12",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___12"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___13",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___13"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___14",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___14"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___15",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___15"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___16",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___16"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___17",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___17"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___18",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___18"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___19",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___19"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___20",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___20"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___21",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___21"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___22",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___22"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___23",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___23"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___24",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___24"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___25",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___25"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___26",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___26"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___27",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___27"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___28",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___28"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___29",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___29"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___30",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___30"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___31",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___31"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___32",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___32"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___33",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___33"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___34",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___34"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___35",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___35"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___36",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___36"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___37",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___37"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___38",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___38"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___39",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___39"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___40",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___40"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___41",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___41"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___42",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___42"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___43",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___43"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___44",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___44"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___45",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___45"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___46",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___46"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___47",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___47"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___48",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___48"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___49",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___49"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___50",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___50"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___51",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___51"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___52",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___52"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___53",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___53"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___54",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___54"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___55",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___55"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__01___56",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__01___56"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__01__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__01__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_000",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_000"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_000__01",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_000__01"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__02__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__02__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__03",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__03"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__03__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__03__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__04",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__04"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__04__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__04__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_001__05",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_001__05"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_002",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_002__01",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_002__01"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__09",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__09"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___4",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___4"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___5",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___5"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___6",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___6"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___7",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___7"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___8",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___8"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___9",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___9"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___10",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___10"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___11",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___11"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___12",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___12"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___13",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___13"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___14",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___14"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___15",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___15"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___16",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___16"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___17",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___17"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___18",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___18"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___19",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___19"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___20",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___20"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___21",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___21"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___22",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___22"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___23",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___23"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___24",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___24"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___25",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___25"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___26",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___26"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___27",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___27"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___28",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___28"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___29",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___29"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___30",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___30"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___31",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___31"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___32",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___32"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___33",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___33"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___34",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___34"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___35",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___35"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___36",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___36"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___37",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___37"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___38",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___38"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___39",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___39"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___40",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___40"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___41",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___41"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___42",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___42"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___43",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___43"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___44",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___44"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___45",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___45"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___46",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___46"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___47",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___47"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___48",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___48"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___49",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___49"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___50",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___50"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___51",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___51"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___52",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___52"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___53",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___53"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___54",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___54"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___55",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___55"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__01___56",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__01___56"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__01__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__01__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__02__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__02__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__03",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__03"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__03__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__03__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__04",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__04"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__04__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__04__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__05",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__05"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__07",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__07"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__08__01",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__08__01"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__08__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__08__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_003__08_dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_003__08_dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__09",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__09"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___4",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___4"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___5",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___5"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___6",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___6"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___7",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___7"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___8",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___8"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___9",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___9"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___10",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___10"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___11",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___11"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___12",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___12"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___13",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___13"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___14",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___14"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___15",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___15"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___16",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___16"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___17",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___17"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___18",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___18"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___19",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___19"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___20",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___20"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___21",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___21"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___22",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___22"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___23",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___23"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___24",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___24"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___25",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___25"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___26",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___26"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___27",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___27"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___28",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___28"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___29",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___29"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___30",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___30"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___31",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___31"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___32",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___32"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___33",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___33"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___34",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___34"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___35",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___35"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___36",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___36"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___37",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___37"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___38",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___38"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___39",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___39"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___40",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___40"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___41",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___41"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___42",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___42"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___43",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___43"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___44",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___44"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___45",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___45"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___46",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___46"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___47",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___47"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___48",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___48"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___49",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___49"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___50",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___50"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___51",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___51"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___52",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___52"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___53",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___53"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___54",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___54"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___55",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___55"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__01___56",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__01___56"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__01__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__01__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__02__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__02__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__03",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__03"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__03__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__03__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__04",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__04"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__04__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__04__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__05",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__05"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__07",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__07"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__08__01",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__08__01"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__08__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__08__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004__08_dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_004__08_dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__09",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__09"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___4",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___4"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___5",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___5"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___6",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___6"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___7",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___7"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___8",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___8"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___9",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___9"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___10",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___10"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___11",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___11"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___12",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___12"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___13",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___13"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___14",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___14"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___15",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___15"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___16",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___16"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___17",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___17"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___18",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___18"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___19",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___19"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___20",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___20"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___21",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___21"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___22",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___22"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___23",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___23"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___24",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___24"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___25",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___25"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___26",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___26"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___27",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___27"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___28",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___28"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___29",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___29"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___30",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___30"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___31",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___31"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___32",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___32"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___33",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___33"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___34",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___34"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___35",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___35"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___36",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___36"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___37",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___37"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___38",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___38"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___39",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___39"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___40",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___40"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___41",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___41"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___42",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___42"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___43",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___43"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___44",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___44"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___45",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___45"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___46",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___46"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___47",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___47"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___48",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___48"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___49",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___49"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___50",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___50"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___51",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___51"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___52",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___52"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___53",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___53"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___54",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___54"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___55",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___55"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__01___56",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__01___56"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__01__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__01__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__02__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__02__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__03",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__03"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__03__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__03__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__04",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__04"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__04__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__04__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__05",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__05"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__07",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__07"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__08__01",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__08__01"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__08__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__08__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_005__08_dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_005__08_dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__09",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__09"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___4",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___4"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___5",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___5"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___6",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___6"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___7",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___7"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___8",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___8"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___9",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___9"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___10",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___10"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___11",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___11"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___12",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___12"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___13",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___13"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___14",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___14"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___15",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___15"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___16",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___16"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___17",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___17"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___18",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___18"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___19",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___19"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___20",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___20"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___21",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___21"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___22",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___22"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___23",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___23"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___24",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___24"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___25",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___25"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___26",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___26"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___27",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___27"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___28",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___28"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___29",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___29"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___30",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___30"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___31",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___31"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___32",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___32"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___33",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___33"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___34",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___34"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___35",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___35"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___36",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___36"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___37",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___37"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___38",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___38"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___39",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___39"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___40",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___40"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___41",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___41"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___42",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___42"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___43",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___43"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___44",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___44"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___45",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___45"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___46",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___46"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___47",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___47"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___48",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___48"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___49",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___49"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___50",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___50"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___51",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___51"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___52",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___52"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___53",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___53"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___54",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___54"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___55",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___55"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__01___56",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__01___56"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__01__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__01__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__02__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__02__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__03",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__03"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__03__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__03__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__04",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__04"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__04__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__04__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__05",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__05"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__07",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__07"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__08__01",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__08__01"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__08__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__08__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006__08_dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_006__08_dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__09",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__09"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___4",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___4"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___5",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___5"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___6",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___6"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___7",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___7"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___8",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___8"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___9",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___9"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___10",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___10"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___11",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___11"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___12",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___12"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___13",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___13"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___14",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___14"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___15",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___15"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___16",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___16"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___17",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___17"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___18",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___18"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___19",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___19"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___20",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___20"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___21",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___21"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___22",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___22"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___23",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___23"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___24",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___24"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___25",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___25"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___26",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___26"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___27",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___27"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___28",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___28"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___29",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___29"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___30",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___30"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___31",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___31"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___32",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___32"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___33",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___33"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___34",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___34"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___35",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___35"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___36",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___36"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___37",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___37"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___38",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___38"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___39",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___39"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___40",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___40"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___41",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___41"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___42",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___42"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___43",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___43"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___44",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___44"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___45",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___45"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___46",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___46"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___47",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___47"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___48",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___48"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___49",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___49"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___50",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___50"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___51",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___51"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___52",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___52"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___53",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___53"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___54",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___54"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___55",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___55"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__01___56",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__01___56"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__01__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__01__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__02__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__02__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__03",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__03"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__03__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__03__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__04",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__04"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__04__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__04__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__05",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__05"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__07",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__07"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__08__01",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__08__01"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__08__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__08__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_007__08_dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_007__08_dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__09",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__09"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___4",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___4"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___5",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___5"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___6",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___6"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___7",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___7"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___8",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___8"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___9",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___9"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___10",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___10"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___11",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___11"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___12",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___12"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___13",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___13"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___14",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___14"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___15",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___15"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___16",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___16"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___17",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___17"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___18",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___18"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___19",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___19"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___20",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___20"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___21",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___21"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___22",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___22"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___23",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___23"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___24",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___24"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___25",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___25"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___26",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___26"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___27",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___27"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___28",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___28"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___29",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___29"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___30",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___30"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___31",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___31"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___32",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___32"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___33",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___33"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___34",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___34"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___35",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___35"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___36",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___36"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___37",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___37"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___38",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___38"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___39",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___39"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___40",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___40"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___41",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___41"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___42",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___42"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___43",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___43"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___44",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___44"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___45",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___45"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___46",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___46"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___47",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___47"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___48",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___48"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___49",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___49"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___50",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___50"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___51",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___51"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___52",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___52"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___53",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___53"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___54",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___54"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___55",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___55"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__01___56",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__01___56"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__01__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__01__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__02__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__02__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__03",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__03"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__03__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__03__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__04",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__04"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__04__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__04__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__05",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__05"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__07",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__07"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__08__01",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__08__01"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__08__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__08__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008__08_dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_008__08_dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__09",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__09"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___4",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___4"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___5",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___5"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___6",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___6"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___7",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___7"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___8",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___8"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___9",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___9"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___10",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___10"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___11",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___11"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___12",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___12"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___13",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___13"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___14",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___14"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___15",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___15"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___16",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___16"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___17",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___17"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___18",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___18"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___19",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___19"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___20",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___20"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___21",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___21"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___22",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___22"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___23",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___23"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___24",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___24"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___25",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___25"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___26",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___26"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___27",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___27"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___28",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___28"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___29",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___29"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___30",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___30"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___31",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___31"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___32",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___32"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___33",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___33"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___34",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___34"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___35",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___35"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___36",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___36"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___37",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___37"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___38",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___38"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___39",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___39"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___40",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___40"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___41",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___41"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___42",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___42"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___43",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___43"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___44",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___44"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___45",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___45"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___46",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___46"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___47",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___47"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___48",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___48"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___49",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___49"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___50",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___50"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___51",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___51"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___52",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___52"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___53",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___53"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___54",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___54"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___55",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___55"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__01___56",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__01___56"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__01__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__01__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__02__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__02__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__03",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__03"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__03__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__03__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__04",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__04"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__04__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__04__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__05",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__05"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__07",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__07"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__08__01",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__08__01"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__08__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__08__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_009__08_dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_009__08_dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__09",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__09"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___4",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___4"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___5",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___5"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___6",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___6"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___7",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___7"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___8",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___8"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___9",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___9"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___10",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___10"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___11",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___11"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___12",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___12"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___13",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___13"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___14",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___14"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___15",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___15"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___16",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___16"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___17",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___17"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___18",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___18"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___19",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___19"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___20",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___20"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___21",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___21"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___22",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___22"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___23",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___23"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___24",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___24"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___25",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___25"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___26",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___26"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___27",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___27"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___28",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___28"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___29",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___29"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___30",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___30"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___31",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___31"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___32",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___32"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___33",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___33"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___34",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___34"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___35",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___35"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___36",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___36"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___37",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___37"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___38",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___38"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___39",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___39"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___40",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___40"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___41",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___41"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___42",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___42"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___43",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___43"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___44",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___44"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___45",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___45"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___46",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___46"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___47",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___47"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___48",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___48"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___49",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___49"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___50",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___50"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___51",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___51"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___52",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___52"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___53",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___53"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___54",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___54"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___55",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___55"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__01___56",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__01___56"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__01__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__01__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__02__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__02__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__03",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__03"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__03__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__03__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__04",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__04"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__04__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__04__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__05",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__05"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__07",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__07"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__08__01",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__08__01"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__08__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__08__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010__08_dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_010__08_dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__09",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__09"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___4",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___4"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___5",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___5"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___6",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___6"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___7",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___7"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___8",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___8"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___9",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___9"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___10",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___10"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___11",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___11"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___12",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___12"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___13",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___13"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___14",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___14"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___15",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___15"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___16",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___16"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___17",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___17"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___18",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___18"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___19",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___19"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___20",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___20"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___21",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___21"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___22",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___22"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___23",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___23"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___24",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___24"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___25",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___25"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___26",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___26"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___27",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___27"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___28",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___28"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___29",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___29"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___30",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___30"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___31",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___31"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___32",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___32"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___33",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___33"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___34",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___34"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___35",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___35"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___36",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___36"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___37",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___37"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___38",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___38"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___39",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___39"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___40",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___40"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___41",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___41"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___42",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___42"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___43",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___43"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___44",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___44"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___45",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___45"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___46",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___46"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___47",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___47"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___48",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___48"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___49",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___49"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___50",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___50"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___51",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___51"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___52",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___52"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___53",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___53"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___54",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___54"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___55",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___55"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__01___56",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__01___56"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__01__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__01__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__02__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__02__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__03",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__03"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__03__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__03__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__04",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__04"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__04__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__04__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__05",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__05"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__07",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__07"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__08__01",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__08__01"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__08__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__08__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_011__08_dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_011__08_dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__09",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__09"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___1",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___1"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___2",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___2"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___3",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___3"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___4",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___4"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___5",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___5"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___6",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___6"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___7",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___7"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___8",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___8"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___9",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___9"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___10",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___10"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___11",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___11"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___12",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___12"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___13",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___13"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___14",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___14"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___15",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___15"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___16",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___16"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___17",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___17"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___18",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___18"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___19",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___19"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___20",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___20"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___21",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___21"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___22",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___22"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___23",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___23"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___24",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___24"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___25",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___25"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___26",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___26"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___27",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___27"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___28",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___28"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___29",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___29"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___30",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___30"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___31",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___31"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___32",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___32"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___33",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___33"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___34",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___34"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___35",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___35"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___36",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___36"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___37",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___37"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___38",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___38"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___39",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___39"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___40",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___40"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___41",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___41"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___42",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___42"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___43",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___43"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___44",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___44"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___45",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___45"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___46",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___46"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___47",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___47"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___48",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___48"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___49",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___49"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___50",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___50"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___51",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___51"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___52",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___52"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___53",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___53"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___54",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___54"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___55",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___55"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__01___56",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__01___56"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__01__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__01__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__02__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__02__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__03",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__03"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__03__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__03__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__04",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__04"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__04__dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__04__dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__05",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__05"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__07",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__07"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__08__01",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__08__01"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__08__02",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__08__02"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012__08_dk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_012__08_dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_019",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_019"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr01_en",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr01_en"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr01_es",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr01_es"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr02_en",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr02_en"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr02_es",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr02_es"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr03_en",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr03_en"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr03_es",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr03_es"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr04_en",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr04_en"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr04_es",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr04_es"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr05_en",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr05_en"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr05_es",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr05_es"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr06_en",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr06_en"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr06_es",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr06_es"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr07_en",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr07_en"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr07_es",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr07_es"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr08_en",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr08_en"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr08_es",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr08_es"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr09_en",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr09_en"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr09_es",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr09_es"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr10_en",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr10_en"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr10_es",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr10_es"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_arr_hr_wk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_arr_hr_wk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_home_hr_wk",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_home_hr_wk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_home_en",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_home_en"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_home_es",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_home_es"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_en",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_en"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_es",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_es"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_administration",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
