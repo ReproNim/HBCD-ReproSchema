@@ -4560,6 +4560,6 @@
         ],
         "shuffle": false
     },
-    "version": "1.0",
+    "version": "1.1",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

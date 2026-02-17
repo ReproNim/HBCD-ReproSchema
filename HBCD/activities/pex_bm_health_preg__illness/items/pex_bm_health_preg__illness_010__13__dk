@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/preghealth/illness"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/pex/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_hlth_preg_illness_0178"
+            "value": "pex_bm_hlth_preg_illness_0170"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_hlth_preg_illness_0178"
+            "value": "pex_bm_hlth_preg_illness_0170"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_health_preg__illness_010__13__dk"
     },
     "question": {
-        "en": "dk/decline duration fever  8"
+        "en": "dk/decline duration fever 8"
     },
     "responseOptions": {
         "valueType": [

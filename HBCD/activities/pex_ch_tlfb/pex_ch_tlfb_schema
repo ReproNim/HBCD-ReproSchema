@@ -8,9 +8,6 @@
     "ui": {
         "order": [
             "items/pex_ch_tlfb_date_taken",
-            "items/pex_ch_tlfb_candidate_age",
-            "items/pex_ch_tlfb_gestational_age",
-            "items/pex_ch_tlfb_adjusted_age",
             "items/pex_ch_tlfb_tlfb_total_nb_sessions",
             "items/pex_ch_tlfb_alc_wk_01",
             "items/pex_ch_tlfb_alc_wk_02",
@@ -141,21 +138,6 @@
                 "isAbout": "items/pex_ch_tlfb_date_taken",
                 "isVis": true,
                 "variableName": "pex_ch_tlfb_date_taken"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_candidate_age",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_candidate_age"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_gestational_age",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_gestational_age"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_adjusted_age",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_adjusted_age"
             },
             {
                 "isAbout": "items/pex_ch_tlfb_tlfb_total_nb_sessions",
@@ -780,6 +762,6 @@
         ],
         "shuffle": false
     },
-    "version": "1.0",
+    "version": "1.1",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

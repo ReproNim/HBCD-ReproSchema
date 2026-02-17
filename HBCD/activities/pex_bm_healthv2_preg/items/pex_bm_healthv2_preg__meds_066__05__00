@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/preghealth/end-preg"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/pex/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0444"
+            "value": "pex_bm_healthv2_preg_0450"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0444"
+            "value": "pex_bm_healthv2_preg_0450"
         },
         {
             "column": "activity",

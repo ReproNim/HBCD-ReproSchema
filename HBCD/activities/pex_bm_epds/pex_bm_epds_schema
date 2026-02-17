@@ -23,16 +23,6 @@
             "items/pex_bm_epds_008",
             "items/pex_bm_epds_009",
             "items/pex_bm_epds_010",
-            "items/pex_bm_epds_001__01",
-            "items/pex_bm_epds_002__01",
-            "items/pex_bm_epds_003__01",
-            "items/pex_bm_epds_004__01",
-            "items/pex_bm_epds_005__01",
-            "items/pex_bm_epds_006__01",
-            "items/pex_bm_epds_007__01",
-            "items/pex_bm_epds_008__01",
-            "items/pex_bm_epds_009__01",
-            "items/pex_bm_epds_010__01",
             "items/pex_bm_epds_score",
             "items/pex_bm_epds_flag01",
             "items/pex_bm_epds_flag02",
@@ -121,56 +111,6 @@
                 "variableName": "pex_bm_epds_010"
             },
             {
-                "isAbout": "items/pex_bm_epds_001__01",
-                "isVis": true,
-                "variableName": "pex_bm_epds_001__01"
-            },
-            {
-                "isAbout": "items/pex_bm_epds_002__01",
-                "isVis": true,
-                "variableName": "pex_bm_epds_002__01"
-            },
-            {
-                "isAbout": "items/pex_bm_epds_003__01",
-                "isVis": true,
-                "variableName": "pex_bm_epds_003__01"
-            },
-            {
-                "isAbout": "items/pex_bm_epds_004__01",
-                "isVis": true,
-                "variableName": "pex_bm_epds_004__01"
-            },
-            {
-                "isAbout": "items/pex_bm_epds_005__01",
-                "isVis": true,
-                "variableName": "pex_bm_epds_005__01"
-            },
-            {
-                "isAbout": "items/pex_bm_epds_006__01",
-                "isVis": true,
-                "variableName": "pex_bm_epds_006__01"
-            },
-            {
-                "isAbout": "items/pex_bm_epds_007__01",
-                "isVis": true,
-                "variableName": "pex_bm_epds_007__01"
-            },
-            {
-                "isAbout": "items/pex_bm_epds_008__01",
-                "isVis": true,
-                "variableName": "pex_bm_epds_008__01"
-            },
-            {
-                "isAbout": "items/pex_bm_epds_009__01",
-                "isVis": true,
-                "variableName": "pex_bm_epds_009__01"
-            },
-            {
-                "isAbout": "items/pex_bm_epds_010__01",
-                "isVis": true,
-                "variableName": "pex_bm_epds_010__01"
-            },
-            {
                 "isAbout": "items/pex_bm_epds_score",
                 "isVis": true,
                 "variableName": "pex_bm_epds_score"
@@ -198,6 +138,6 @@
         ],
         "shuffle": false
     },
-    "version": "1.0",
+    "version": "1.1",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

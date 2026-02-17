@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/preghealth/end-preg"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/pex/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0293"
+            "value": "pex_bm_healthv2_preg_0300"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0293"
+            "value": "pex_bm_healthv2_preg_0300"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_healthv2_preg__meds_054__03__01"
     },
     "question": {
-        "en": "Unit of frequency  prescription 8"
+        "en": "Unit of frequency prescription 8"
     },
     "responseOptions": {
         "valueType": [

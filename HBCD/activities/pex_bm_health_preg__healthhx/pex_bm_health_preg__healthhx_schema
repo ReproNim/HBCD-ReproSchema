@@ -14,6 +14,7 @@
             "items/pex_bm_health_preg__healthhx_lang",
             "items/pex_bm_health_preg__healthhx_location",
             "items/pex_bm_health_preg__healthhx_002",
+            "items/pex_bm_health_preg__healthhx_002__01",
             "items/pex_bm_health_preg__healthhx_003",
             "items/pex_bm_health_preg__healthhx_004",
             "items/pex_bm_health_preg__healthhx_005",
@@ -153,6 +154,11 @@
                 "isAbout": "items/pex_bm_health_preg__healthhx_002",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__healthhx_002"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_002__01",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_002__01"
             },
             {
                 "isAbout": "items/pex_bm_health_preg__healthhx_003",
@@ -672,6 +678,6 @@
         ],
         "shuffle": false
     },
-    "version": "1.0",
+    "version": "1.1",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

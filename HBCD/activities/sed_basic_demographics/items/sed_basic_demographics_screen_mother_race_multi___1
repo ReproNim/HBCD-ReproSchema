@@ -42,7 +42,7 @@
         "en": "sed_basic_demographics_screen_mother_race_multi___1"
     },
     "question": {
-        "en": "Defined by LORIS 'adm_bm_screen' instrument, field '001b'.  Race - Multi options: [Multi-select]: Black_or African American"
+        "en": "Defined by LORIS 'adm_bm_screen' instrument, field '001b'.  Race - Multi options: [Multi-select]: Black or African American"
     },
     "responseOptions": {
         "valueType": [

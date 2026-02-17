@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "sed_bm_demo_0086"
+            "value": "sed_bm_demo_0087"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "sed_bm_demo_0086"
+            "value": "sed_bm_demo_0087"
         },
         {
             "column": "activity",

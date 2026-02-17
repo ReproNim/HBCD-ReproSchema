@@ -20,7 +20,7 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/preghealth/medications"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/pex/"
         },
         {
             "column": "name_short",
@@ -42,7 +42,7 @@
         "en": "pex_bm_health_preg__meds_005__03__01"
     },
     "question": {
-        "en": "Unit of frequency  prescription 3"
+        "en": "Unit of frequency prescription 3"
     },
     "responseOptions": {
         "valueType": [

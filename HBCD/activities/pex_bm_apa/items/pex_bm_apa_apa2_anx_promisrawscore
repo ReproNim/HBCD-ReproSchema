@@ -1,0 +1,51 @@
+{
+    "id": "pex_bm_apa_apa2_anx_promisrawscore",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "pex_bm_apa_0118"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "pex_bm_apa_0118"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "pex_bm_apa"
+        }
+    ],
+    "prefLabel": {
+        "en": "pex_bm_apa_apa2_anx_promisrawscore"
+    },
+    "question": {
+        "en": "PROMIS Emotional Distress - Anxiety score (raw score)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

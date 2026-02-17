@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "bio_bm_urine_0130"
+            "value": "bio_bm_urine_0129"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "bio_bm_urine_0130"
+            "value": "bio_bm_urine_0129"
         },
         {
             "column": "activity",

@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/preghealth/illness"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/pex/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_hlth_preg_illness_0141"
+            "value": "pex_bm_hlth_preg_illness_0133"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_hlth_preg_illness_0141"
+            "value": "pex_bm_hlth_preg_illness_0133"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_health_preg__illness_008__13__02"
     },
     "question": {
-        "en": "Unit of duration fever  6"
+        "en": "Unit of duration fever 6"
     },
     "responseOptions": {
         "valueType": [

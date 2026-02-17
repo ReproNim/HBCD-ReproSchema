@@ -20,7 +20,7 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/su/assistv3"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/su/assist/"
         },
         {
             "column": "name_short",

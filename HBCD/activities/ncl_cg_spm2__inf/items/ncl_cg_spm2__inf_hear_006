@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "ncl_cg_spm2_inf_0032"
+            "value": "ncl_cg_spm2_inf_0029"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "ncl_cg_spm2_inf_0032"
+            "value": "ncl_cg_spm2_inf_0029"
         },
         {
             "column": "activity",
