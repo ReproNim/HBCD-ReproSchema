@@ -78,7 +78,11 @@ def main():
     repo_root = SCRIPT_DIR.parent
     csv_path = repo_root / f"hbcd_{args.release}.csv"
     yaml_path = repo_root / "hbcd_nbdc2rs.yaml"
-    output_dir = repo_root / "HBCD2reproschema"
+    # reproschema-py creates a subfolder named after protocol_name (HBCD)
+    # So we output to repo_root, then rename HBCD -> HBCD2reproschema
+    temp_output_dir = repo_root
+    final_output_dir = repo_root / "HBCD2reproschema"
+    protocol_name = "HBCD"  # Must match protocol_name in hbcd_nbdc2rs.yaml
 
     # Ensure data directory exists
     DATA_DIR.mkdir(exist_ok=True)
@@ -113,18 +117,33 @@ def main():
 
         # Step 2: Convert to ReproSchema using reproschema-py
         print(f"Converting to ReproSchema format...")
+
+        # Remove existing output directories to avoid conflicts
+        if final_output_dir.exists():
+            shutil.rmtree(final_output_dir)
+        if (temp_output_dir / protocol_name).exists():
+            shutil.rmtree(temp_output_dir / protocol_name)
+
         try:
             subprocess.run(
                 [
                     "reproschema",
                     "nbdc2reproschema",
-                    "--output-path", str(output_dir),
+                    "--output-path", str(temp_output_dir),
                     str(csv_path),
                     str(yaml_path),
                 ],
                 check=True,
             )
-            print(f"Conversion complete. Output in {output_dir}/")
+
+            # Rename HBCD -> HBCD2reproschema to avoid redundant nesting
+            generated_dir = temp_output_dir / protocol_name
+            if generated_dir.exists():
+                shutil.move(str(generated_dir), str(final_output_dir))
+                print(f"Conversion complete. Output in {final_output_dir}/")
+            else:
+                print(f"Error: Expected output directory {generated_dir} not found")
+                sys.exit(1)
         except subprocess.CalledProcessError as e:
             print(f"Error during conversion: {e}")
             sys.exit(1)
@@ -136,7 +155,7 @@ def main():
         print("Validating ReproSchema output...")
         try:
             result = subprocess.run(
-                ["reproschema", "validate", str(output_dir)],
+                ["reproschema", "validate", str(final_output_dir)],
                 capture_output=True,
                 text=True,
             )
