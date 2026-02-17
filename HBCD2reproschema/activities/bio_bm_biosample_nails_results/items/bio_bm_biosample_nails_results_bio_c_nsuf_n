@@ -30,12 +30,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "bio_bm_nails_results_0100"
+            "value": "bio_bm_nails_results_0099"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "bio_bm_nails_results_0100"
+            "value": "bio_bm_nails_results_0099"
         },
         {
             "column": "activity",

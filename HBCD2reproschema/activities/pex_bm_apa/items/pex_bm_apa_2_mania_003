@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_apa_0058"
+            "value": "pex_bm_apa_0057"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_apa_0058"
+            "value": "pex_bm_apa_0057"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_apa_2_mania_003"
     },
     "question": {
-        "en": "Question 3"
+        "en": "Read each group of statements carefully. Choose the one statement in each group that best describes the way you have been feeling for the past week."
     },
     "responseOptions": {
         "valueType": [

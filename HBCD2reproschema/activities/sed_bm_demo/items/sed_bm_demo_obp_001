@@ -30,12 +30,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "sed_bm_demo_0395"
+            "value": "sed_bm_demo_0396"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "sed_bm_demo_0395"
+            "value": "sed_bm_demo_0396"
         },
         {
             "column": "activity",
@@ -47,7 +47,7 @@
         "en": "sed_bm_demo_obp_001"
     },
     "question": {
-        "en": "Are you able to answer questions about the other biological parent?"
+        "en": "Are you able to answer questions about the other biological parent? If you have any questions about completing this section please talk with a team member. If you are unsure of any answers, you will have the option to check that you don't know."
     },
     "responseOptions": {
         "valueType": [

@@ -7,7 +7,6 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/bio_bm_biosample_urine_specimen_id",
             "items/bio_bm_biosample_urine_bio_c_any_specimen_u",
             "items/bio_bm_biosample_urine_bio_c_any_stim_u",
             "items/bio_bm_biosample_urine_bio_s_amp_u",
@@ -148,15 +147,13 @@
             "items/bio_bm_biosample_urine_bio_c_cot_u",
             "items/bio_bm_biosample_urine_bio_creat_u",
             "items/bio_bm_biosample_urine_bio_spg_u",
+            "items/bio_bm_biosample_urine_bio_collect_date",
+            "items/bio_bm_biosample_urine_bio_receive_date",
+            "items/bio_bm_biosample_urine_bio_report_date",
             "items/bio_bm_biosample_urine_candidate_age",
             "items/bio_bm_biosample_urine_gestational_age"
         ],
         "addProperties": [
-            {
-                "isAbout": "items/bio_bm_biosample_urine_specimen_id",
-                "isVis": true,
-                "variableName": "bio_bm_biosample_urine_specimen_id"
-            },
             {
                 "isAbout": "items/bio_bm_biosample_urine_bio_c_any_specimen_u",
                 "isVis": true,
@@ -856,6 +853,21 @@
                 "isAbout": "items/bio_bm_biosample_urine_bio_spg_u",
                 "isVis": true,
                 "variableName": "bio_bm_biosample_urine_bio_spg_u"
+            },
+            {
+                "isAbout": "items/bio_bm_biosample_urine_bio_collect_date",
+                "isVis": true,
+                "variableName": "bio_bm_biosample_urine_bio_collect_date"
+            },
+            {
+                "isAbout": "items/bio_bm_biosample_urine_bio_receive_date",
+                "isVis": true,
+                "variableName": "bio_bm_biosample_urine_bio_receive_date"
+            },
+            {
+                "isAbout": "items/bio_bm_biosample_urine_bio_report_date",
+                "isVis": true,
+                "variableName": "bio_bm_biosample_urine_bio_report_date"
             },
             {
                 "isAbout": "items/bio_bm_biosample_urine_candidate_age",

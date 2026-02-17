@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/preghealth/medications"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/pex/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_health_preg_meds_0065"
+            "value": "pex_bm_health_preg_meds_0064"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_health_preg_meds_0065"
+            "value": "pex_bm_health_preg_meds_0064"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_health_preg__meds_006__03_dk"
     },
     "question": {
-        "en": "frequency dk/decline  prescription 4"
+        "en": "frequency dk/decline prescription 4"
     },
     "responseOptions": {
         "valueType": [

@@ -40,7 +40,6 @@
             "items/pex_bm_apa_2_depr_006",
             "items/pex_bm_apa_2_depr_007",
             "items/pex_bm_apa_2_depr_008",
-            "items/pex_bm_apa_2_depr_score",
             "items/pex_bm_apa_2_depr_flag01",
             "items/pex_bm_apa_2_anx_001",
             "items/pex_bm_apa_2_anx_002",
@@ -122,7 +121,29 @@
             "items/pex_bm_apa_apa1_memo",
             "items/pex_bm_apa_apa1_repet",
             "items/pex_bm_apa_apa1_disso",
-            "items/pex_bm_apa_administration"
+            "items/pex_bm_apa_apa2_pers_note",
+            "items/pex_bm_apa_apa2_depr_promistscore",
+            "items/pex_bm_apa_apa2_anger_tscorenote",
+            "items/pex_bm_apa_apa2_anx_promisrawscore",
+            "items/pex_bm_apa_apa2_anx_promistscore",
+            "items/pex_bm_apa_apa2_anx_tscorenote",
+            "items/pex_bm_apa_apa2_anx_promistscoreinterpretation",
+            "items/pex_bm_apa_apa2_somat_note",
+            "items/pex_bm_apa_apa2_somat_interpretationscore",
+            "items/pex_bm_apa_apa2_sleep_promistscore",
+            "items/pex_bm_apa_apa2_repet_focinote",
+            "items/pex_bm_apa_administration",
+            "items/pex_bm_apa_apa2_pers_rawscore",
+            "items/pex_bm_apa_apa2_pers_averagescore",
+            "items/pex_bm_apa_apa2_pers_interpretationscore",
+            "items/pex_bm_apa_apa2_depr_promisrawscore",
+            "items/pex_bm_apa_apa2_mania_asrmscore",
+            "items/pex_bm_apa_apa2_mania_interpretationscore",
+            "items/pex_bm_apa_apa2_mania_note",
+            "items/pex_bm_apa_apa2_somat_rawscore",
+            "items/pex_bm_apa_apa2_sleep_promisrawscore",
+            "items/pex_bm_apa_apa2_sleep_tscorenote",
+            "items/pex_bm_apa_apa2_repet_fociaveragescore"
         ],
         "addProperties": [
             {
@@ -289,11 +310,6 @@
                 "isAbout": "items/pex_bm_apa_2_depr_008",
                 "isVis": true,
                 "variableName": "pex_bm_apa_2_depr_008"
-            },
-            {
-                "isAbout": "items/pex_bm_apa_2_depr_score",
-                "isVis": true,
-                "variableName": "pex_bm_apa_2_depr_score"
             },
             {
                 "isAbout": "items/pex_bm_apa_2_depr_flag01",
@@ -701,9 +717,119 @@
                 "variableName": "pex_bm_apa_apa1_disso"
             },
             {
+                "isAbout": "items/pex_bm_apa_apa2_pers_note",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_pers_note"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_depr_promistscore",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_depr_promistscore"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_anger_tscorenote",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_anger_tscorenote"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_anx_promisrawscore",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_anx_promisrawscore"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_anx_promistscore",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_anx_promistscore"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_anx_tscorenote",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_anx_tscorenote"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_anx_promistscoreinterpretation",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_anx_promistscoreinterpretation"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_somat_note",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_somat_note"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_somat_interpretationscore",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_somat_interpretationscore"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_sleep_promistscore",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_sleep_promistscore"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_repet_focinote",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_repet_focinote"
+            },
+            {
                 "isAbout": "items/pex_bm_apa_administration",
                 "isVis": true,
                 "variableName": "pex_bm_apa_administration"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_pers_rawscore",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_pers_rawscore"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_pers_averagescore",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_pers_averagescore"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_pers_interpretationscore",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_pers_interpretationscore"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_depr_promisrawscore",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_depr_promisrawscore"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_mania_asrmscore",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_mania_asrmscore"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_mania_interpretationscore",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_mania_interpretationscore"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_mania_note",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_mania_note"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_somat_rawscore",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_somat_rawscore"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_sleep_promisrawscore",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_sleep_promisrawscore"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_sleep_tscorenote",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_sleep_tscorenote"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_repet_fociaveragescore",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_repet_fociaveragescore"
             }
         ],
         "shuffle": false

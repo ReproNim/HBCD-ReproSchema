@@ -14,6 +14,7 @@
             "items/sed_bm_demo_lang",
             "items/sed_bm_demo_location",
             "items/sed_bm_demo_relationship_001",
+            "items/sed_bm_demo_sexorient_001",
             "items/sed_bm_demo_residence_001",
             "items/sed_bm_demo_residence_002",
             "items/sed_bm_demo_herit_001",
@@ -459,6 +460,11 @@
                 "isAbout": "items/sed_bm_demo_relationship_001",
                 "isVis": true,
                 "variableName": "sed_bm_demo_relationship_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_sexorient_001",
+                "isVis": true,
+                "variableName": "sed_bm_demo_sexorient_001"
             },
             {
                 "isAbout": "items/sed_bm_demo_residence_001",

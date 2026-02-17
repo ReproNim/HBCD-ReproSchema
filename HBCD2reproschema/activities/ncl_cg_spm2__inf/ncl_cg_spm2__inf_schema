@@ -8,9 +8,6 @@
     "ui": {
         "order": [
             "items/ncl_cg_spm2__inf_date_taken",
-            "items/ncl_cg_spm2__inf_candidate_age",
-            "items/ncl_cg_spm2__inf_gestational_age",
-            "items/ncl_cg_spm2__inf_adjusted_age",
             "items/ncl_cg_spm2__inf_lang",
             "items/ncl_cg_spm2__inf_location",
             "items/ncl_cg_spm2__inf_soc_001",
@@ -93,28 +90,40 @@
             "items/ncl_cg_spm2__inf_plan_008",
             "items/ncl_cg_spm2__inf_plan_009",
             "items/ncl_cg_spm2__inf_plan_010",
-            "items/ncl_cg_spm2__inf_administration"
+            "items/ncl_cg_spm2__inf_soc_raw_score",
+            "items/ncl_cg_spm2__inf_vis_raw_score",
+            "items/ncl_cg_spm2__inf_hea_raw_score",
+            "items/ncl_cg_spm2__inf_tou_raw_score",
+            "items/ncl_cg_spm2__inf_bod_raw_score",
+            "items/ncl_cg_spm2__inf_bal_raw_score",
+            "items/ncl_cg_spm2__inf_pla_raw_score",
+            "items/ncl_cg_spm2__inf_tss_raw_score",
+            "items/ncl_cg_spm2__inf_tss_t_score",
+            "items/ncl_cg_spm2__inf_soc_t_score",
+            "items/ncl_cg_spm2__inf_vis_t_score",
+            "items/ncl_cg_spm2__inf_hea_t_score",
+            "items/ncl_cg_spm2__inf_tou_t_score",
+            "items/ncl_cg_spm2__inf_bod_t_score",
+            "items/ncl_cg_spm2__inf_bal_t_score",
+            "items/ncl_cg_spm2__inf_pla_t_score",
+            "items/ncl_cg_spm2__inf_status_tss",
+            "items/ncl_cg_spm2__inf_status_soc",
+            "items/ncl_cg_spm2__inf_status_vis",
+            "items/ncl_cg_spm2__inf_status_hea",
+            "items/ncl_cg_spm2__inf_status_tou",
+            "items/ncl_cg_spm2__inf_status_bod",
+            "items/ncl_cg_spm2__inf_status_bal",
+            "items/ncl_cg_spm2__inf_status_pla",
+            "items/ncl_cg_spm2__inf_administration",
+            "items/ncl_cg_spm2__inf_tstsml_raw_score",
+            "items/ncl_cg_spm2__inf_tstsml_t_score",
+            "items/ncl_cg_spm2__inf_status_tstsml"
         ],
         "addProperties": [
             {
                 "isAbout": "items/ncl_cg_spm2__inf_date_taken",
                 "isVis": true,
                 "variableName": "ncl_cg_spm2__inf_date_taken"
-            },
-            {
-                "isAbout": "items/ncl_cg_spm2__inf_candidate_age",
-                "isVis": true,
-                "variableName": "ncl_cg_spm2__inf_candidate_age"
-            },
-            {
-                "isAbout": "items/ncl_cg_spm2__inf_gestational_age",
-                "isVis": true,
-                "variableName": "ncl_cg_spm2__inf_gestational_age"
-            },
-            {
-                "isAbout": "items/ncl_cg_spm2__inf_adjusted_age",
-                "isVis": true,
-                "variableName": "ncl_cg_spm2__inf_adjusted_age"
             },
             {
                 "isAbout": "items/ncl_cg_spm2__inf_lang",
@@ -527,9 +536,144 @@
                 "variableName": "ncl_cg_spm2__inf_plan_010"
             },
             {
+                "isAbout": "items/ncl_cg_spm2__inf_soc_raw_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_soc_raw_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_vis_raw_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_vis_raw_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_hea_raw_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_hea_raw_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_tou_raw_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_tou_raw_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_bod_raw_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_bod_raw_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_bal_raw_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_bal_raw_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_pla_raw_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_pla_raw_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_tss_raw_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_tss_raw_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_tss_t_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_tss_t_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_soc_t_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_soc_t_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_vis_t_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_vis_t_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_hea_t_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_hea_t_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_tou_t_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_tou_t_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_bod_t_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_bod_t_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_bal_t_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_bal_t_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_pla_t_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_pla_t_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_status_tss",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_status_tss"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_status_soc",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_status_soc"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_status_vis",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_status_vis"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_status_hea",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_status_hea"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_status_tou",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_status_tou"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_status_bod",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_status_bod"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_status_bal",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_status_bal"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_status_pla",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_status_pla"
+            },
+            {
                 "isAbout": "items/ncl_cg_spm2__inf_administration",
                 "isVis": true,
                 "variableName": "ncl_cg_spm2__inf_administration"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_tstsml_raw_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_tstsml_raw_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_tstsml_t_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_tstsml_t_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_status_tstsml",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_status_tstsml"
             }
         ],
         "shuffle": false

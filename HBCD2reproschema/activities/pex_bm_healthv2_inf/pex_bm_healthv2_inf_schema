@@ -12,16 +12,13 @@
             "items/pex_bm_healthv2_inf_gestational_age",
             "items/pex_bm_healthv2_inf_adjusted_age",
             "items/pex_bm_healthv2_inf_lang",
-            "items/pex_bm_healthv2_inf_001__00",
             "items/pex_bm_healthv2_inf_001__01",
             "items/pex_bm_healthv2_inf_001__02",
             "items/pex_bm_healthv2_inf_001__dk",
-            "items/pex_bm_healthv2_inf_002__00",
             "items/pex_bm_healthv2_inf_002",
             "items/pex_bm_healthv2_inf_002__dk",
             "items/pex_bm_healthv2_inf_002__01",
             "items/pex_bm_healthv2_inf_004__01",
-            "items/pex_bm_healthv2_inf_004__00",
             "items/pex_bm_healthv2_inf_004",
             "items/pex_bm_healthv2_inf_004__dk",
             "items/pex_bm_healthv2_inf_007___1",
@@ -40,7 +37,6 @@
             "items/pex_bm_healthv2_inf_008__01___7",
             "items/pex_bm_healthv2_inf_009",
             "items/pex_bm_healthv2_inf_005",
-            "items/pex_bm_healthv2_inf_005__00",
             "items/pex_bm_healthv2_inf_005__01",
             "items/pex_bm_healthv2_inf_005__dk",
             "items/pex_bm_healthv2_inf_010",
@@ -159,11 +155,6 @@
                 "variableName": "pex_bm_healthv2_inf_lang"
             },
             {
-                "isAbout": "items/pex_bm_healthv2_inf_001__00",
-                "isVis": true,
-                "variableName": "pex_bm_healthv2_inf_001__00"
-            },
-            {
                 "isAbout": "items/pex_bm_healthv2_inf_001__01",
                 "isVis": true,
                 "variableName": "pex_bm_healthv2_inf_001__01"
@@ -177,11 +168,6 @@
                 "isAbout": "items/pex_bm_healthv2_inf_001__dk",
                 "isVis": true,
                 "variableName": "pex_bm_healthv2_inf_001__dk"
-            },
-            {
-                "isAbout": "items/pex_bm_healthv2_inf_002__00",
-                "isVis": true,
-                "variableName": "pex_bm_healthv2_inf_002__00"
             },
             {
                 "isAbout": "items/pex_bm_healthv2_inf_002",
@@ -202,11 +188,6 @@
                 "isAbout": "items/pex_bm_healthv2_inf_004__01",
                 "isVis": true,
                 "variableName": "pex_bm_healthv2_inf_004__01"
-            },
-            {
-                "isAbout": "items/pex_bm_healthv2_inf_004__00",
-                "isVis": true,
-                "variableName": "pex_bm_healthv2_inf_004__00"
             },
             {
                 "isAbout": "items/pex_bm_healthv2_inf_004",
@@ -297,11 +278,6 @@
                 "isAbout": "items/pex_bm_healthv2_inf_005",
                 "isVis": true,
                 "variableName": "pex_bm_healthv2_inf_005"
-            },
-            {
-                "isAbout": "items/pex_bm_healthv2_inf_005__00",
-                "isVis": true,
-                "variableName": "pex_bm_healthv2_inf_005__00"
             },
             {
                 "isAbout": "items/pex_bm_healthv2_inf_005__01",

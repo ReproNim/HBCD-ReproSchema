@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/preghealth/medications"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/pex/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_health_preg_meds_0150"
+            "value": "pex_bm_health_preg_meds_0144"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_health_preg_meds_0150"
+            "value": "pex_bm_health_preg_meds_0144"
         },
         {
             "column": "activity",

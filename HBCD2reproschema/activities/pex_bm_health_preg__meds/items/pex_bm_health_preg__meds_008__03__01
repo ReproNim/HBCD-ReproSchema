@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/preghealth/medications"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/pex/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_health_preg_meds_0096"
+            "value": "pex_bm_health_preg_meds_0093"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_health_preg_meds_0096"
+            "value": "pex_bm_health_preg_meds_0093"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_health_preg__meds_008__03__01"
     },
     "question": {
-        "en": "Unit of frequency  prescription 6"
+        "en": "Unit of frequency prescription 6"
     },
     "responseOptions": {
         "valueType": [
