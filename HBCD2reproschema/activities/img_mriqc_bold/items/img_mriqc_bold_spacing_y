@@ -1,0 +1,56 @@
+{
+    "id": "img_mriqc_bold_spacing_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular Imaging"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/fmri"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "img_mriqc_bold_0028"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "img_mriqc_bold_0028"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "img_mriqc_bold"
+        }
+    ],
+    "prefLabel": {
+        "en": "img_mriqc_bold_spacing_y"
+    },
+    "question": {
+        "en": "Voxel size Y (in mm)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

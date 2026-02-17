@@ -1,0 +1,56 @@
+{
+    "id": "ph_ch_anthro_months_length_age_girls_score",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Physical Health"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/physhealth/growth"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "ph_ch_anthro_0006"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "ph_ch_anthro_0006"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "ph_ch_anthro"
+        }
+    ],
+    "prefLabel": {
+        "en": "ph_ch_anthro_months_length_age_girls_score"
+    },
+    "question": {
+        "en": "Age (Months):"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

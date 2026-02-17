@@ -1,0 +1,203 @@
+{
+    "id": "pex_bm_epds_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "pex_bm_epds"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pex_bm_epds_date_taken",
+            "items/pex_bm_epds_candidate_age",
+            "items/pex_bm_epds_gestational_age",
+            "items/pex_bm_epds_adjusted_age",
+            "items/pex_bm_epds_lang",
+            "items/pex_bm_epds_location",
+            "items/pex_bm_epds_001",
+            "items/pex_bm_epds_002",
+            "items/pex_bm_epds_003",
+            "items/pex_bm_epds_004",
+            "items/pex_bm_epds_005",
+            "items/pex_bm_epds_006",
+            "items/pex_bm_epds_007",
+            "items/pex_bm_epds_008",
+            "items/pex_bm_epds_009",
+            "items/pex_bm_epds_010",
+            "items/pex_bm_epds_001__01",
+            "items/pex_bm_epds_002__01",
+            "items/pex_bm_epds_003__01",
+            "items/pex_bm_epds_004__01",
+            "items/pex_bm_epds_005__01",
+            "items/pex_bm_epds_006__01",
+            "items/pex_bm_epds_007__01",
+            "items/pex_bm_epds_008__01",
+            "items/pex_bm_epds_009__01",
+            "items/pex_bm_epds_010__01",
+            "items/pex_bm_epds_score",
+            "items/pex_bm_epds_flag01",
+            "items/pex_bm_epds_flag02",
+            "items/pex_bm_epds_total_score",
+            "items/pex_bm_epds_administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pex_bm_epds_date_taken",
+                "isVis": true,
+                "variableName": "pex_bm_epds_date_taken"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_candidate_age",
+                "isVis": true,
+                "variableName": "pex_bm_epds_candidate_age"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_gestational_age",
+                "isVis": true,
+                "variableName": "pex_bm_epds_gestational_age"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_adjusted_age",
+                "isVis": true,
+                "variableName": "pex_bm_epds_adjusted_age"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_lang",
+                "isVis": true,
+                "variableName": "pex_bm_epds_lang"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_location",
+                "isVis": true,
+                "variableName": "pex_bm_epds_location"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_001",
+                "isVis": true,
+                "variableName": "pex_bm_epds_001"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_002",
+                "isVis": true,
+                "variableName": "pex_bm_epds_002"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_003",
+                "isVis": true,
+                "variableName": "pex_bm_epds_003"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_004",
+                "isVis": true,
+                "variableName": "pex_bm_epds_004"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_005",
+                "isVis": true,
+                "variableName": "pex_bm_epds_005"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_006",
+                "isVis": true,
+                "variableName": "pex_bm_epds_006"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_007",
+                "isVis": true,
+                "variableName": "pex_bm_epds_007"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_008",
+                "isVis": true,
+                "variableName": "pex_bm_epds_008"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_009",
+                "isVis": true,
+                "variableName": "pex_bm_epds_009"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_010",
+                "isVis": true,
+                "variableName": "pex_bm_epds_010"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_001__01",
+                "isVis": true,
+                "variableName": "pex_bm_epds_001__01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_002__01",
+                "isVis": true,
+                "variableName": "pex_bm_epds_002__01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_003__01",
+                "isVis": true,
+                "variableName": "pex_bm_epds_003__01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_004__01",
+                "isVis": true,
+                "variableName": "pex_bm_epds_004__01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_005__01",
+                "isVis": true,
+                "variableName": "pex_bm_epds_005__01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_006__01",
+                "isVis": true,
+                "variableName": "pex_bm_epds_006__01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_007__01",
+                "isVis": true,
+                "variableName": "pex_bm_epds_007__01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_008__01",
+                "isVis": true,
+                "variableName": "pex_bm_epds_008__01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_009__01",
+                "isVis": true,
+                "variableName": "pex_bm_epds_009__01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_010__01",
+                "isVis": true,
+                "variableName": "pex_bm_epds_010__01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_score",
+                "isVis": true,
+                "variableName": "pex_bm_epds_score"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_flag01",
+                "isVis": true,
+                "variableName": "pex_bm_epds_flag01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_flag02",
+                "isVis": true,
+                "variableName": "pex_bm_epds_flag02"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_total_score",
+                "isVis": true,
+                "variableName": "pex_bm_epds_total_score"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_administration",
+                "isVis": true,
+                "variableName": "pex_bm_epds_administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

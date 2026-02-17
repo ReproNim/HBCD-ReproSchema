@@ -1,0 +1,143 @@
+{
+    "id": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_candidate_age",
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_adjusted_age",
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_CEREBELLUM_LEFT",
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_THALAMUS_LEFT",
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_CAUDATE_LEFT",
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_PUTAMEN_LEFT",
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_PALLIDUM_LEFT",
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_BRAIN_STEM",
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_HIPPOCAMPUS_LEFT",
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_AMYGDALA_LEFT",
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_ACCUMBENS_LEFT",
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_DIENCEPHALON_VENTRAL_LEFT",
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_CEREBELLUM_RIGHT",
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_THALAMUS_RIGHT",
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_CAUDATE_RIGHT",
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_PUTAMEN_RIGHT",
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_PALLIDUM_RIGHT",
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_HIPPOCAMPUS_RIGHT",
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_AMYGDALA_RIGHT",
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_ACCUMBENS_RIGHT",
+            "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_DIENCEPHALON_VENTRAL_RIGHT"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_candidate_age",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_candidate_age"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_adjusted_age",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_adjusted_age"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_CEREBELLUM_LEFT",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_CEREBELLUM_LEFT"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_THALAMUS_LEFT",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_THALAMUS_LEFT"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_CAUDATE_LEFT",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_CAUDATE_LEFT"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_PUTAMEN_LEFT",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_PUTAMEN_LEFT"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_PALLIDUM_LEFT",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_PALLIDUM_LEFT"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_BRAIN_STEM",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_BRAIN_STEM"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_HIPPOCAMPUS_LEFT",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_HIPPOCAMPUS_LEFT"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_AMYGDALA_LEFT",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_AMYGDALA_LEFT"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_ACCUMBENS_LEFT",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_ACCUMBENS_LEFT"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_DIENCEPHALON_VENTRAL_LEFT",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_DIENCEPHALON_VENTRAL_LEFT"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_CEREBELLUM_RIGHT",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_CEREBELLUM_RIGHT"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_THALAMUS_RIGHT",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_THALAMUS_RIGHT"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_CAUDATE_RIGHT",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_CAUDATE_RIGHT"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_PUTAMEN_RIGHT",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_PUTAMEN_RIGHT"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_PALLIDUM_RIGHT",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_PALLIDUM_RIGHT"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_HIPPOCAMPUS_RIGHT",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_HIPPOCAMPUS_RIGHT"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_AMYGDALA_RIGHT",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_AMYGDALA_RIGHT"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_ACCUMBENS_RIGHT",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_ACCUMBENS_RIGHT"
+            },
+            {
+                "isAbout": "items/img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_DIENCEPHALON_VENTRAL_RIGHT",
+                "isVis": true,
+                "variableName": "img_xcpd_space-fsLR_seg-HCP_stat-coverage_bold_DIENCEPHALON_VENTRAL_RIGHT"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,61 @@
+{
+    "id": "sed_bm_demo_work_013__03",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "instruction",
+            "source": "nbdc",
+            "value": "[Instruction may be partial or correspond to a previous section in the form. See wiki for more information.] Please complete a row in the table below for each person who spends at least two nights a week living with you. Please start with the youngest person and continue to list from youngest to oldest for up to 16 people."
+        },
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Social and Environmental Determinants"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/v01-demo"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "sed_bm_demo_0138"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "sed_bm_demo_0138"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "sed_bm_demo"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_bm_demo_work_013__03"
+    },
+    "question": {
+        "en": "Dry cleaning chemicals"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

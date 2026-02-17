@@ -1,0 +1,677 @@
+{
+    "id": "pex_bm_health_preg__healthhx_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "pex_bm_health_preg__healthhx"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pex_bm_health_preg__healthhx_date_taken",
+            "items/pex_bm_health_preg__healthhx_candidate_age",
+            "items/pex_bm_health_preg__healthhx_gestational_age",
+            "items/pex_bm_health_preg__healthhx_adjusted_age",
+            "items/pex_bm_health_preg__healthhx_lang",
+            "items/pex_bm_health_preg__healthhx_location",
+            "items/pex_bm_health_preg__healthhx_002",
+            "items/pex_bm_health_preg__healthhx_003",
+            "items/pex_bm_health_preg__healthhx_004",
+            "items/pex_bm_health_preg__healthhx_005",
+            "items/pex_bm_health_preg__healthhx_006__pre___1",
+            "items/pex_bm_health_preg__healthhx_006__pre___2",
+            "items/pex_bm_health_preg__healthhx_006__pre___3",
+            "items/pex_bm_health_preg__healthhx_006__pre___4",
+            "items/pex_bm_health_preg__healthhx_006__pre___5",
+            "items/pex_bm_health_preg__healthhx_006__pre___6",
+            "items/pex_bm_health_preg__healthhx_006__pre___7",
+            "items/pex_bm_health_preg__healthhx_006__post___1",
+            "items/pex_bm_health_preg__healthhx_006__post___2",
+            "items/pex_bm_health_preg__healthhx_006__post___3",
+            "items/pex_bm_health_preg__healthhx_006__post___4",
+            "items/pex_bm_health_preg__healthhx_006__post___5",
+            "items/pex_bm_health_preg__healthhx_006__post___6",
+            "items/pex_bm_health_preg__healthhx_006__post___7",
+            "items/pex_bm_health_preg__healthhx_007__01",
+            "items/pex_bm_health_preg__healthhx_007__02",
+            "items/pex_bm_health_preg__healthhx_007__dk",
+            "items/pex_bm_health_preg__healthhx_008",
+            "items/pex_bm_health_preg__healthhx_009",
+            "items/pex_bm_health_preg__healthhx_009__dk",
+            "items/pex_bm_health_preg__healthhx_010",
+            "items/pex_bm_health_preg__healthhx_011",
+            "items/pex_bm_health_preg__healthhx__preghx_001",
+            "items/pex_bm_health_preg__healthhx__preghx_001__dk",
+            "items/pex_bm_health_preg__healthhx__preghx_001_post",
+            "items/pex_bm_health_preg__healthhx__preghx_001__dk_post",
+            "items/pex_bm_health_preg__healthhx__preghx_002",
+            "items/pex_bm_health_preg__healthhx__preghx_002__dk",
+            "items/pex_bm_health_preg__healthhx__preghx_003__pre",
+            "items/pex_bm_health_preg__healthhx__preghx_003__post",
+            "items/pex_bm_health_preg__healthhx__preghx_004__pre",
+            "items/pex_bm_health_preg__healthhx__preghx_004__post",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_001",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_002___1",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_002___2",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_002___3",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_002___4",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_002___5",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_002___6",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_003___1",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_003___2",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_003___3",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_003___4",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_003___5",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_003___6",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_003___7",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_003___8",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_004",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_004_dk",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_005___0",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_005___1",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_005___2",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_005___3",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_005___4",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_005___5",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_005___6",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_005___7",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_006",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_006_dk",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_007___0",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_007___1",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_007___2",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_007___3",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_007___4",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_007___5",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_007___6",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_007___7",
+            "items/pex_bm_health_preg__healthhx__pregcurr__art_008",
+            "items/pex_bm_health_preg__healthhx__pregcurr_001",
+            "items/pex_bm_health_preg__healthhx__pregcurr_002",
+            "items/pex_bm_health_preg__healthhx__pregcurr_003__03",
+            "items/pex_bm_health_preg__healthhx__pregcurr_003__01",
+            "items/pex_bm_health_preg__healthhx__pregcurr_003__02",
+            "items/pex_bm_health_preg__healthhx__pregcurr_003__dk",
+            "items/pex_bm_health_preg__healthhx__pregcurr_004",
+            "items/pex_bm_health_preg__healthhx__pregcurr_005",
+            "items/pex_bm_health_preg__healthhx__pregcurr_005__dk",
+            "items/pex_bm_health_preg__healthhx__pregcurr_006",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_001",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_002",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_003",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_004",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_005",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_006",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_006__01",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_006__02",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_006__03",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_012",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_012__00",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_012__01",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_012__01_dk",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_012__02",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_012__02__00",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_012__02__01",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_012__02__01_dk",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_011___1",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_011___2",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_011___3",
+            "items/pex_bm_health_preg__healthhx__exp__pnv_011___4",
+            "items/pex_bm_health_preg__healthhx_administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_date_taken",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_date_taken"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_candidate_age",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_candidate_age"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_gestational_age",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_gestational_age"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_adjusted_age",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_adjusted_age"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_lang",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_lang"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_location",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_location"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_002",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_002"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_003",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_003"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_004",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_004"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_005",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_005"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_006__pre___1",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_006__pre___1"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_006__pre___2",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_006__pre___2"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_006__pre___3",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_006__pre___3"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_006__pre___4",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_006__pre___4"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_006__pre___5",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_006__pre___5"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_006__pre___6",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_006__pre___6"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_006__pre___7",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_006__pre___7"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_006__post___1",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_006__post___1"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_006__post___2",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_006__post___2"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_006__post___3",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_006__post___3"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_006__post___4",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_006__post___4"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_006__post___5",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_006__post___5"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_006__post___6",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_006__post___6"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_006__post___7",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_006__post___7"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_007__01",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_007__01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_007__02",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_007__02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_007__dk",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_007__dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_008",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_008"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_009",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_009"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_009__dk",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_009__dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_010",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_010"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_011",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_011"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__preghx_001",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__preghx_001"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__preghx_001__dk",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__preghx_001__dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__preghx_001_post",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__preghx_001_post"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__preghx_001__dk_post",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__preghx_001__dk_post"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__preghx_002",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__preghx_002"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__preghx_002__dk",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__preghx_002__dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__preghx_003__pre",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__preghx_003__pre"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__preghx_003__post",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__preghx_003__post"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__preghx_004__pre",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__preghx_004__pre"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__preghx_004__post",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__preghx_004__post"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_001",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_001"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_002___1",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_002___1"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_002___2",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_002___2"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_002___3",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_002___3"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_002___4",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_002___4"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_002___5",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_002___5"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_002___6",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_002___6"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_003___1",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_003___1"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_003___2",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_003___2"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_003___3",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_003___3"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_003___4",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_003___4"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_003___5",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_003___5"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_003___6",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_003___6"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_003___7",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_003___7"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_003___8",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_003___8"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_004",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_004"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_004_dk",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_004_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_005___0",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_005___0"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_005___1",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_005___1"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_005___2",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_005___2"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_005___3",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_005___3"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_005___4",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_005___4"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_005___5",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_005___5"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_005___6",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_005___6"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_005___7",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_005___7"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_006",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_006"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_006_dk",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_006_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_007___0",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_007___0"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_007___1",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_007___1"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_007___2",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_007___2"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_007___3",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_007___3"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_007___4",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_007___4"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_007___5",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_007___5"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_007___6",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_007___6"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_007___7",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_007___7"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr__art_008",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr__art_008"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr_001",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr_001"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr_002",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr_002"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr_003__03",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr_003__03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr_003__01",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr_003__01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr_003__02",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr_003__02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr_003__dk",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr_003__dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr_004",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr_004"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr_005",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr_005"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr_005__dk",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr_005__dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__pregcurr_006",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__pregcurr_006"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_001",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_001"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_002",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_002"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_003",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_003"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_004",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_004"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_005",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_005"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_006",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_006"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_006__01",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_006__01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_006__02",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_006__02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_006__03",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_006__03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_012",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_012"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_012__00",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_012__00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_012__01",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_012__01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_012__01_dk",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_012__01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_012__02",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_012__02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_012__02__00",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_012__02__00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_012__02__01",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_012__02__01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_012__02__01_dk",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_012__02__01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_011___1",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_011___1"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_011___2",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_011___2"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_011___3",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_011___3"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__exp__pnv_011___4",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__exp__pnv_011___4"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_administration",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

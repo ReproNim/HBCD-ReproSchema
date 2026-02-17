@@ -1,0 +1,57 @@
+{
+    "id": "eeg_made_task-FACE_acq-eeg_preprocessingReport_FACE_UpInv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular EEG"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/faces"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "eeg_made_face_eeg_ppr_0011"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "eeg_made_face_eeg_ppr_0011"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "eeg_made_task-FACE_acq-eeg_preprocessingReport"
+        }
+    ],
+    "prefLabel": {
+        "en": "eeg_made_task-FACE_acq-eeg_preprocessingReport_FACE_UpInv"
+    },
+    "question": {
+        "en": "face stimuli in block 1 (upright faces vs inverted faces)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,66 @@
+{
+    "id": "img_osprey_HERCULES_diff2_TissCorrWaterScaled_Voxel_1_Basis_1_Glu",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "note",
+            "source": "nbdc",
+            "value": "Glu scaled to tissue corrected water according to Gasparovic et al, Magn Reson Med 55:1219-26 (2006). Alpha (cWM/cGM) correction applied according to: ConcIU/(fGM + alpha*fWM), with group normalization: (meanfGM + alpha * meanfWM) / ((fGM + alpha * fWM) * (meanfGM + meanfWM))"
+        },
+        {
+            "column": "unit",
+            "source": "nbdc",
+            "value": "mol/Kg"
+        },
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular Imaging"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/mrs"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "img_osp_hrc_d2_tcws_vb1_0004"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "img_osp_hrc_d2_tcws_vb1_0004"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "img_osprey_HERCULES_diff2_TissCorrWaterScaled_Voxel_1_Basis_1"
+        }
+    ],
+    "prefLabel": {
+        "en": "img_osprey_HERCULES_diff2_TissCorrWaterScaled_Voxel_1_Basis_1_Glu"
+    },
+    "question": {
+        "en": "Glu alpha-corrected molal concentration, using tissue corrected water"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

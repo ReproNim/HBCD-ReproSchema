@@ -1,0 +1,56 @@
+{
+    "id": "mh_cg_pms__cc__inf_date_taken",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Behavior/Child-Caregiver Interaction"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/measures/behCGinteraction/#ecpromis-child-caregiver-interaction"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "mh_cg_pms_cc_inf_0001"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "mh_cg_pms_cc_inf_0001"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "mh_cg_pms__cc__inf"
+        }
+    ],
+    "prefLabel": {
+        "en": "mh_cg_pms__cc__inf_date_taken"
+    },
+    "question": {
+        "en": "Date of Administration"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

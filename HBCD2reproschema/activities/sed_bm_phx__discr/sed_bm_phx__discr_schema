@@ -1,0 +1,215 @@
+{
+    "id": "sed_bm_phx__discr_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_bm_phx__discr"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_bm_phx__discr_date_taken",
+            "items/sed_bm_phx__discr_candidate_age",
+            "items/sed_bm_phx__discr_gestational_age",
+            "items/sed_bm_phx__discr_adjusted_age",
+            "items/sed_bm_phx__discr_lang",
+            "items/sed_bm_phx__discr_location",
+            "items/sed_bm_phx__discr_001",
+            "items/sed_bm_phx__discr_002",
+            "items/sed_bm_phx__discr_003",
+            "items/sed_bm_phx__discr_004",
+            "items/sed_bm_phx__discr_005",
+            "items/sed_bm_phx__discr_007",
+            "items/sed_bm_phx__discr_008",
+            "items/sed_bm_phx__discr_009",
+            "items/sed_bm_phx__discr_010",
+            "items/sed_bm_phx__discr_011",
+            "items/sed_bm_phx__discr_012",
+            "items/sed_bm_phx__discr_006___1",
+            "items/sed_bm_phx__discr_006___2",
+            "items/sed_bm_phx__discr_006___3",
+            "items/sed_bm_phx__discr_006___4",
+            "items/sed_bm_phx__discr_006___5",
+            "items/sed_bm_phx__discr_006___6",
+            "items/sed_bm_phx__discr_006___7",
+            "items/sed_bm_phx__discr_006___8",
+            "items/sed_bm_phx__discr_006___9",
+            "items/sed_bm_phx__discr_006___10",
+            "items/sed_bm_phx__discr_006___11",
+            "items/sed_bm_phx__discr_006___12",
+            "items/sed_bm_phx__discr_006___13",
+            "items/sed_bm_phx__discr_006___14",
+            "items/sed_bm_phx__discr_006___15",
+            "items/sed_bm_phx__discr_administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_bm_phx__discr_date_taken",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_date_taken"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_candidate_age",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_candidate_age"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_gestational_age",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_gestational_age"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_adjusted_age",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_adjusted_age"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_lang",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_lang"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_location",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_location"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_001",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_001"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_002",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_002"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_003",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_003"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_004",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_004"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_005",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_005"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_007",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_007"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_008",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_008"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_009",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_009"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_010",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_010"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_011",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_011"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_012",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_012"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_006___1",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_006___1"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_006___2",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_006___2"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_006___3",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_006___3"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_006___4",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_006___4"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_006___5",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_006___5"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_006___6",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_006___6"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_006___7",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_006___7"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_006___8",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_006___8"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_006___9",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_006___9"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_006___10",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_006___10"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_006___11",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_006___11"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_006___12",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_006___12"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_006___13",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_006___13"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_006___14",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_006___14"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_006___15",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_006___15"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_administration",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

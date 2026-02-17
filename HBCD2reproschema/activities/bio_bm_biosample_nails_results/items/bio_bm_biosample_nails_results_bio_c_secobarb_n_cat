@@ -1,0 +1,56 @@
+{
+    "id": "bio_bm_biosample_nails_results_bio_c_secobarb_n_cat",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "BioSpecimens"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/biospec/nails"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "bio_bm_nails_results_0037"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "bio_bm_nails_results_0037"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "bio_bm_biosample_nails_results"
+        }
+    ],
+    "prefLabel": {
+        "en": "bio_bm_biosample_nails_results_bio_c_secobarb_n_cat"
+    },
+    "question": {
+        "en": "Confirmatory test in nails: secobarbital (categorical) (bar)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

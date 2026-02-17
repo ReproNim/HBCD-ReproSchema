@@ -1,0 +1,67 @@
+{
+    "id": "img_osprey_HERCULES_qm_processed_spectra_Cr_SNR",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "note",
+            "source": "nbdc",
+            "value": "The maximum amplitude of the creatine peak divided by twice the standard deviation of the noise calculated from subspectrum sum"
+        },
+        {
+            "column": "unit",
+            "source": "nbdc",
+            "value": "arbitrary"
+        },
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular Imaging"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/mrs"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "img_osp_hrc_qm_proc_spct_0003"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "img_osp_hrc_qm_proc_spct_0003"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "img_osprey_HERCULES_qm_processed_spectra"
+        }
+    ],
+    "prefLabel": {
+        "en": "img_osprey_HERCULES_qm_processed_spectra_Cr_SNR"
+    },
+    "question": {
+        "en": "Signal to noise ratio of creatine"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

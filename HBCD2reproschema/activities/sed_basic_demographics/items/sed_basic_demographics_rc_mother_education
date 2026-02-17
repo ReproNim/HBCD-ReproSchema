@@ -1,0 +1,61 @@
+{
+    "id": "sed_basic_demographics_rc_mother_education",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "instruction",
+            "source": "nbdc",
+            "value": "[Instruction may be partial or correspond to a previous section in the form. See wiki for more information.] Please complete a row in the table below for each person who spends at least two nights a week living with you. Please start with the youngest person and continue to list from youngest to oldest for up to 16 people."
+        },
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Demographics"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "General"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/demo/basicdemo"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "sed_basic_demographics_0012"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "sed_basic_demographics_0012"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "sed_basic_demographics"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_basic_demographics_rc_mother_education"
+    },
+    "question": {
+        "en": "What is the highest grade or level of school you have completed or the highest degree you have received? Defined by LORIS 'sed_bm_demo' instrument, field 'edu_001'"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

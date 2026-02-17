@@ -1,0 +1,56 @@
+{
+    "id": "nt_ch_sens__qtn_2_beh_005",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Novel Tech"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/sensors/questionnaire"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "nt_ch_sens_qtn_2_0021"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "nt_ch_sens_qtn_2_0021"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "nt_ch_sens__qtn_2"
+        }
+    ],
+    "prefLabel": {
+        "en": "nt_ch_sens__qtn_2_beh_005"
+    },
+    "question": {
+        "en": "How much time (in total) do you estimate your infant slept last night?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

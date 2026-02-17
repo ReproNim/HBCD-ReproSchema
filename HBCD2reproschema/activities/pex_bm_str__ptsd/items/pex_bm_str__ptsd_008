@@ -1,0 +1,56 @@
+{
+    "id": "pex_bm_str__ptsd_008",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/mh/ptsd"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "pex_bm_str_ptsd_0014"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "pex_bm_str_ptsd_0014"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "pex_bm_str__ptsd"
+        }
+    ],
+    "prefLabel": {
+        "en": "pex_bm_str__ptsd_008"
+    },
+    "question": {
+        "en": "Feeling jumpy or easily startled when you hear an unexpected noise?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

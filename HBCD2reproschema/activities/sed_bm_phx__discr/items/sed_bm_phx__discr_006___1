@@ -1,0 +1,56 @@
+{
+    "id": "sed_bm_phx__discr_006___1",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Social and Environmental Determinants"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/discr"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "sed_bm_phx_discr_0018"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "sed_bm_phx_discr_0018"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "sed_bm_phx__discr"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_bm_phx__discr_006___1"
+    },
+    "question": {
+        "en": "What do you think is the main reason for these experiences? If more than one main reason, check all that apply. [Multi-select]: Your Ancestry or National Origins"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,67 @@
+{
+    "id": "img_osprey_HERCULES_qm_processed_spectra_relRessum",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "note",
+            "source": "nbdc",
+            "value": "Fit quality number for sum spectrum relative amplitude of the residual compared to the standard deveiation of the noise"
+        },
+        {
+            "column": "unit",
+            "source": "nbdc",
+            "value": "arbitrary"
+        },
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular Imaging"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/mrs"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "img_osp_hrc_qm_proc_spct_0008"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "img_osp_hrc_qm_proc_spct_0008"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "img_osprey_HERCULES_qm_processed_spectra"
+        }
+    ],
+    "prefLabel": {
+        "en": "img_osprey_HERCULES_qm_processed_spectra_relRessum"
+    },
+    "question": {
+        "en": "relRessum"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

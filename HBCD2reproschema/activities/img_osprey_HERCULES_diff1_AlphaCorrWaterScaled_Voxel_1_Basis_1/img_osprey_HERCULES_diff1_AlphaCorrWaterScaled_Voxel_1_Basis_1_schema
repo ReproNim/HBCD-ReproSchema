@@ -1,0 +1,59 @@
+{
+    "id": "img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_candidate_age",
+            "items/img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_adjusted_age",
+            "items/img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_GABA",
+            "items/img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_Glu",
+            "items/img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_Gln",
+            "items/img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_Glx",
+            "items/img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_GABAplus"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_candidate_age",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_candidate_age"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_adjusted_age",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_adjusted_age"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_GABA",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_GABA"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_Glu",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_Glu"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_Gln",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_Gln"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_Glx",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_Glx"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_GABAplus",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_AlphaCorrWaterScaled_Voxel_1_Basis_1_GABAplus"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "img_brainswipes_xcpd-bold_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "img_brainswipes_xcpd-bold"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/img_brainswipes_xcpd-bold_summary_QC",
+            "items/img_brainswipes_xcpd-bold_summary_nrev",
+            "items/img_brainswipes_xcpd-bold_T2wOnTaskBrainSwipes_mean",
+            "items/img_brainswipes_xcpd-bold_T2wOnTaskBrainSwipes_nrev",
+            "items/img_brainswipes_xcpd-bold_TaskOnT2wBrainSwipes_mean",
+            "items/img_brainswipes_xcpd-bold_TaskOnT2wBrainSwipes_nrev"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/img_brainswipes_xcpd-bold_summary_QC",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd-bold_summary_QC"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd-bold_summary_nrev",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd-bold_summary_nrev"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd-bold_T2wOnTaskBrainSwipes_mean",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd-bold_T2wOnTaskBrainSwipes_mean"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd-bold_T2wOnTaskBrainSwipes_nrev",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd-bold_T2wOnTaskBrainSwipes_nrev"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd-bold_TaskOnT2wBrainSwipes_mean",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd-bold_TaskOnT2wBrainSwipes_mean"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd-bold_TaskOnT2wBrainSwipes_nrev",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd-bold_TaskOnT2wBrainSwipes_nrev"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,61 @@
+{
+    "id": "img_xcpd_space-fsLR_seg-4S656Parcels_stat-alff_bold_LH_Cont_PFCl_3",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "unit",
+            "source": "nbdc",
+            "value": "Amplitude of Low Frequency Fluctuations (arbitrary units)"
+        },
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular Imaging"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/fmri"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "img_xcp_lr_6p_alff_bold_0208"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "img_xcp_lr_6p_alff_bold_0208"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "img_xcpd_space-fsLR_seg-4S656Parcels_stat-alff_bold"
+        }
+    ],
+    "prefLabel": {
+        "en": "img_xcpd_space-fsLR_seg-4S656Parcels_stat-alff_bold_LH_Cont_PFCl_3"
+    },
+    "question": {
+        "en": "XCP-D 4S-656-Region Parc. Amplitude of Low Frequency Fluctuations (ALFF) Values for region LH_Cont_PFCl_3"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

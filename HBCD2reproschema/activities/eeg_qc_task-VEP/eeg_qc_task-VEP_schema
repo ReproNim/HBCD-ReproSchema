@@ -1,0 +1,35 @@
+{
+    "id": "eeg_qc_task-VEP_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "eeg_qc_task-VEP"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/eeg_qc_task-VEP_qc_pass_fail",
+            "items/eeg_qc_task-VEP_capping_quality",
+            "items/eeg_qc_task-VEP_total_epochs_post_artifact_rej"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/eeg_qc_task-VEP_qc_pass_fail",
+                "isVis": true,
+                "variableName": "eeg_qc_task-VEP_qc_pass_fail"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-VEP_capping_quality",
+                "isVis": true,
+                "variableName": "eeg_qc_task-VEP_capping_quality"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-VEP_total_epochs_post_artifact_rej",
+                "isVis": true,
+                "variableName": "eeg_qc_task-VEP_total_epochs_post_artifact_rej"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

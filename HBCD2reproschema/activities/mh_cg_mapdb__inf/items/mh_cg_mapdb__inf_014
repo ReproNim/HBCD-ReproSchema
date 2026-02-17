@@ -1,0 +1,56 @@
+{
+    "id": "mh_cg_mapdb__inf_014",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Behavior/Child-Caregiver Interaction"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/bcgi/maps-tl"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "mh_cg_mapdb_inf_0020"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "mh_cg_mapdb_inf_0020"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "mh_cg_mapdb__inf"
+        }
+    ],
+    "prefLabel": {
+        "en": "mh_cg_mapdb__inf_014"
+    },
+    "question": {
+        "en": "Fuss when you were playing with your baby?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

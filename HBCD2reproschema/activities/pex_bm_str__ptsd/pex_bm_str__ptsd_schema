@@ -1,0 +1,131 @@
+{
+    "id": "pex_bm_str__ptsd_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "pex_bm_str__ptsd"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pex_bm_str__ptsd_date_taken",
+            "items/pex_bm_str__ptsd_candidate_age",
+            "items/pex_bm_str__ptsd_gestational_age",
+            "items/pex_bm_str__ptsd_adjusted_age",
+            "items/pex_bm_str__ptsd_lang",
+            "items/pex_bm_str__ptsd_location",
+            "items/pex_bm_str__ptsd_001",
+            "items/pex_bm_str__ptsd_002",
+            "items/pex_bm_str__ptsd_003",
+            "items/pex_bm_str__ptsd_004",
+            "items/pex_bm_str__ptsd_005",
+            "items/pex_bm_str__ptsd_006",
+            "items/pex_bm_str__ptsd_007",
+            "items/pex_bm_str__ptsd_008",
+            "items/pex_bm_str__ptsd_009",
+            "items/pex_bm_str__ptsd_010",
+            "items/pex_bm_str__ptsd_total_raw_score_acute_stress",
+            "items/pex_bm_str__ptsd_total_raw_score_ptsd",
+            "items/pex_bm_str__ptsd_administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pex_bm_str__ptsd_date_taken",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_date_taken"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_candidate_age",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_candidate_age"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_gestational_age",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_gestational_age"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_adjusted_age",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_adjusted_age"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_lang",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_lang"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_location",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_location"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_001",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_001"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_002",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_002"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_003",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_003"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_004",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_004"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_005",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_005"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_006",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_006"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_007",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_007"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_008",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_008"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_009",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_009"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_010",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_010"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_total_raw_score_acute_stress",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_total_raw_score_acute_stress"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_total_raw_score_ptsd",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_total_raw_score_ptsd"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_administration",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

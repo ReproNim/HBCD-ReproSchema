@@ -1,0 +1,215 @@
+{
+    "id": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_candidate_age",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_adjusted_age",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_GABA",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Glu",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Gln",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Glx",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_GABAplus",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Asc",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Asp",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Cr",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_GPC",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_GSH",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_mI",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Lac",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_NAA",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_NAAG",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_PCh",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_PCr",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_PE",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_sI",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Tau",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_MM09",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_MM12",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_MM14",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_MM17",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_MM20",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Lip09",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Lip13",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Lip20",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_MM3co",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_tNAA",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_tCho",
+            "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_tCr"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_candidate_age",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_candidate_age"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_adjusted_age",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_adjusted_age"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_GABA",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_GABA"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Glu",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Glu"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Gln",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Gln"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Glx",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Glx"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_GABAplus",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_GABAplus"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Asc",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Asc"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Asp",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Asp"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Cr",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Cr"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_GPC",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_GPC"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_GSH",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_GSH"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_mI",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_mI"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Lac",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Lac"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_NAA",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_NAA"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_NAAG",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_NAAG"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_PCh",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_PCh"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_PCr",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_PCr"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_PE",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_PE"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_sI",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_sI"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Tau",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Tau"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_MM09",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_MM09"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_MM12",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_MM12"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_MM14",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_MM14"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_MM17",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_MM17"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_MM20",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_MM20"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Lip09",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Lip09"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Lip13",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Lip13"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Lip20",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_Lip20"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_MM3co",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_MM3co"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_tNAA",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_tNAA"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_tCho",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_tCho"
+            },
+            {
+                "isAbout": "items/img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_tCr",
+                "isVis": true,
+                "variableName": "img_osprey_HERCULES_diff1_CSFWaterScaled_Voxel_1_Basis_1_tCr"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

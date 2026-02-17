@@ -1,0 +1,83 @@
+{
+    "id": "img_osprey_unedited_qm_processed_spectra_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "img_osprey_unedited_qm_processed_spectra"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/img_osprey_unedited_qm_processed_spectra_candidate_age",
+            "items/img_osprey_unedited_qm_processed_spectra_adjusted_age",
+            "items/img_osprey_unedited_qm_processed_spectra_Cr_SNR",
+            "items/img_osprey_unedited_qm_processed_spectra_Cr_FWHM",
+            "items/img_osprey_unedited_qm_processed_spectra_water_FWHM",
+            "items/img_osprey_unedited_qm_processed_spectra_residual_water_ampl",
+            "items/img_osprey_unedited_qm_processed_spectra_freqShift",
+            "items/img_osprey_unedited_qm_processed_spectra_relRessum",
+            "items/img_osprey_unedited_qm_processed_spectra_relResdiff1",
+            "items/img_osprey_unedited_qm_processed_spectra_relResdiff2",
+            "items/img_osprey_unedited_qm_processed_spectra_relResA"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/img_osprey_unedited_qm_processed_spectra_candidate_age",
+                "isVis": true,
+                "variableName": "img_osprey_unedited_qm_processed_spectra_candidate_age"
+            },
+            {
+                "isAbout": "items/img_osprey_unedited_qm_processed_spectra_adjusted_age",
+                "isVis": true,
+                "variableName": "img_osprey_unedited_qm_processed_spectra_adjusted_age"
+            },
+            {
+                "isAbout": "items/img_osprey_unedited_qm_processed_spectra_Cr_SNR",
+                "isVis": true,
+                "variableName": "img_osprey_unedited_qm_processed_spectra_Cr_SNR"
+            },
+            {
+                "isAbout": "items/img_osprey_unedited_qm_processed_spectra_Cr_FWHM",
+                "isVis": true,
+                "variableName": "img_osprey_unedited_qm_processed_spectra_Cr_FWHM"
+            },
+            {
+                "isAbout": "items/img_osprey_unedited_qm_processed_spectra_water_FWHM",
+                "isVis": true,
+                "variableName": "img_osprey_unedited_qm_processed_spectra_water_FWHM"
+            },
+            {
+                "isAbout": "items/img_osprey_unedited_qm_processed_spectra_residual_water_ampl",
+                "isVis": true,
+                "variableName": "img_osprey_unedited_qm_processed_spectra_residual_water_ampl"
+            },
+            {
+                "isAbout": "items/img_osprey_unedited_qm_processed_spectra_freqShift",
+                "isVis": true,
+                "variableName": "img_osprey_unedited_qm_processed_spectra_freqShift"
+            },
+            {
+                "isAbout": "items/img_osprey_unedited_qm_processed_spectra_relRessum",
+                "isVis": true,
+                "variableName": "img_osprey_unedited_qm_processed_spectra_relRessum"
+            },
+            {
+                "isAbout": "items/img_osprey_unedited_qm_processed_spectra_relResdiff1",
+                "isVis": true,
+                "variableName": "img_osprey_unedited_qm_processed_spectra_relResdiff1"
+            },
+            {
+                "isAbout": "items/img_osprey_unedited_qm_processed_spectra_relResdiff2",
+                "isVis": true,
+                "variableName": "img_osprey_unedited_qm_processed_spectra_relResdiff2"
+            },
+            {
+                "isAbout": "items/img_osprey_unedited_qm_processed_spectra_relResA",
+                "isVis": true,
+                "variableName": "img_osprey_unedited_qm_processed_spectra_relResA"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

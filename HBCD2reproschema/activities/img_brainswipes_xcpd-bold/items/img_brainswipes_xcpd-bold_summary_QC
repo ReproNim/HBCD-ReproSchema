@@ -1,0 +1,61 @@
+{
+    "id": "img_brainswipes_xcpd-bold_summary_QC",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "unit",
+            "source": "nbdc",
+            "value": "percentage"
+        },
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular Imaging"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/fmri"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "img_brainswipes_xcpd_bold_0000"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "img_brainswipes_xcpd_bold_0000"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "img_brainswipes_xcpd-bold"
+        }
+    ],
+    "prefLabel": {
+        "en": "img_brainswipes_xcpd-bold_summary_QC"
+    },
+    "question": {
+        "en": "Summary QC score for functional registration: average of scores across all visual reports (columns ending with *_mean) where a score of 0=Fail and 1=Pass"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

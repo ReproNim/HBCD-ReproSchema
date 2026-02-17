@@ -1,0 +1,56 @@
+{
+    "id": "pex_bm_health_preg__illness_009__09__00",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/preghealth/illness"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "pex_bm_hlth_preg_illness_0148"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "pex_bm_hlth_preg_illness_0148"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "pex_bm_health_preg__illness"
+        }
+    ],
+    "prefLabel": {
+        "en": "pex_bm_health_preg__illness_009__09__00"
+    },
+    "question": {
+        "en": "Start date of [pex_bm_health_preg_i_illness_009_i_07] {pex_bm_health_preg_i_illness_009_i_09} {pex_bm_health_preg_i_illness_009_i_09_i_dk} Stop date of [pex_bm_health_preg_i_illness_009_i_07] {pex_bm_health_preg_i_illness_009_i_10} {pex_bm_health_preg_i_illness_009_i_10_i_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

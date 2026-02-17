@@ -1,0 +1,56 @@
+{
+    "id": "pex_bm_health_preg__meds_014_00",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/preghealth/medications"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "pex_bm_health_preg_meds_0170"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "pex_bm_health_preg_meds_0170"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "pex_bm_health_preg__meds"
+        }
+    ],
+    "prefLabel": {
+        "en": "pex_bm_health_preg__meds_014_00"
+    },
+    "question": {
+        "en": "How many over-the-counter medications have you taken since your last menstrual period ([screening_arm_1][setup_lmp])? {pex_bm_health_preg_i_meds_014} {pex_bm_health_preg_i_meds_014_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

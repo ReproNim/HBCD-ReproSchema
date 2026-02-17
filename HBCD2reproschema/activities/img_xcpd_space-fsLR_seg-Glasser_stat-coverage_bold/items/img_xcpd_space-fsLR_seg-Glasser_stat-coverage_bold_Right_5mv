@@ -1,0 +1,62 @@
+{
+    "id": "img_xcpd_space-fsLR_seg-Glasser_stat-coverage_bold_Right_5mv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "unit",
+            "source": "nbdc",
+            "value": "Coverage (proportion)"
+        },
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular Imaging"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/fmri"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "img_xcp_lr_gls_cvrg_bold_0039"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "img_xcp_lr_gls_cvrg_bold_0039"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "img_xcpd_space-fsLR_seg-Glasser_stat-coverage_bold"
+        }
+    ],
+    "prefLabel": {
+        "en": "img_xcpd_space-fsLR_seg-Glasser_stat-coverage_bold_Right_5mv"
+    },
+    "question": {
+        "en": "XCP-D Glasser Parc. Coverage Values for region Right_5mv"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

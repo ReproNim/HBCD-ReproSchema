@@ -1,0 +1,131 @@
+{
+    "id": "sed_bm_strsup_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_bm_strsup"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_bm_strsup_date_taken",
+            "items/sed_bm_strsup_candidate_age",
+            "items/sed_bm_strsup_gestational_age",
+            "items/sed_bm_strsup_adjusted_age",
+            "items/sed_bm_strsup_lang",
+            "items/sed_bm_strsup_location",
+            "items/sed_bm_strsup_socspprt_001",
+            "items/sed_bm_strsup_socspprt_002",
+            "items/sed_bm_strsup_socspprt_003",
+            "items/sed_bm_strsup_socspprt_004",
+            "items/sed_bm_strsup_coping_001",
+            "items/sed_bm_strsup_coping_002",
+            "items/sed_bm_strsup_coping_003",
+            "items/sed_bm_strsup_coping_004",
+            "items/sed_bm_strsup_total_score",
+            "items/sed_bm_strsup_total_raw_score",
+            "items/sed_bm_strsup_scale_score",
+            "items/sed_bm_strsup_standard_error",
+            "items/sed_bm_strsup_administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_bm_strsup_date_taken",
+                "isVis": true,
+                "variableName": "sed_bm_strsup_date_taken"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_candidate_age",
+                "isVis": true,
+                "variableName": "sed_bm_strsup_candidate_age"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_gestational_age",
+                "isVis": true,
+                "variableName": "sed_bm_strsup_gestational_age"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_adjusted_age",
+                "isVis": true,
+                "variableName": "sed_bm_strsup_adjusted_age"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_lang",
+                "isVis": true,
+                "variableName": "sed_bm_strsup_lang"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_location",
+                "isVis": true,
+                "variableName": "sed_bm_strsup_location"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_socspprt_001",
+                "isVis": true,
+                "variableName": "sed_bm_strsup_socspprt_001"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_socspprt_002",
+                "isVis": true,
+                "variableName": "sed_bm_strsup_socspprt_002"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_socspprt_003",
+                "isVis": true,
+                "variableName": "sed_bm_strsup_socspprt_003"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_socspprt_004",
+                "isVis": true,
+                "variableName": "sed_bm_strsup_socspprt_004"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_coping_001",
+                "isVis": true,
+                "variableName": "sed_bm_strsup_coping_001"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_coping_002",
+                "isVis": true,
+                "variableName": "sed_bm_strsup_coping_002"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_coping_003",
+                "isVis": true,
+                "variableName": "sed_bm_strsup_coping_003"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_coping_004",
+                "isVis": true,
+                "variableName": "sed_bm_strsup_coping_004"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_total_score",
+                "isVis": true,
+                "variableName": "sed_bm_strsup_total_score"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_total_raw_score",
+                "isVis": true,
+                "variableName": "sed_bm_strsup_total_raw_score"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_scale_score",
+                "isVis": true,
+                "variableName": "sed_bm_strsup_scale_score"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_standard_error",
+                "isVis": true,
+                "variableName": "sed_bm_strsup_standard_error"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_administration",
+                "isVis": true,
+                "variableName": "sed_bm_strsup_administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

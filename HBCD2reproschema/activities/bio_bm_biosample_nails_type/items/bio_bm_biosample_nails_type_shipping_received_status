@@ -1,0 +1,56 @@
+{
+    "id": "bio_bm_biosample_nails_type_shipping_received_status",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "BioSpecimens"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/biospec/nails"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "bio_bm_nails_type_0007"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "bio_bm_nails_type_0007"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "bio_bm_biosample_nails_type"
+        }
+    ],
+    "prefLabel": {
+        "en": "bio_bm_biosample_nails_type_shipping_received_status"
+    },
+    "question": {
+        "en": "Shipping status (whether received or not)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

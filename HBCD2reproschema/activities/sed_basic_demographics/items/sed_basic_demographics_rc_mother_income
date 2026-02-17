@@ -1,0 +1,61 @@
+{
+    "id": "sed_basic_demographics_rc_mother_income",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "instruction",
+            "source": "nbdc",
+            "value": "[Instruction may be partial or correspond to a previous section in the form. See wiki for more information.] Please complete a row in the table below for each person who spends at least two nights a week living with you. Please start with the youngest person and continue to list from youngest to oldest for up to 16 people."
+        },
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Demographics"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "General"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/demo/basicdemo"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "sed_basic_demographics_0013"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "sed_basic_demographics_0013"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "sed_basic_demographics"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_basic_demographics_rc_mother_income"
+    },
+    "question": {
+        "en": "Which of these categories best describes your TOTAL COMBINED HOUSEHOLD INCOME for the past 12 months? This should include income (before taxes and deductions) from all sources, wages, rent from properties, social security, disability and/or veteran's benefits, unemployment benefits, workman's compensation, help from relative (include child payments and alimony), and so on. Defined by LORIS 'sed_bm_demo' instrument, field 'income_002'"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

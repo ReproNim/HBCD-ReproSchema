@@ -1,0 +1,155 @@
+{
+    "id": "par_visit_data_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "par_visit_data"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/par_visit_data_project",
+            "items/par_visit_data_cohort",
+            "items/par_visit_data_site",
+            "items/par_visit_data_visit_missed",
+            "items/par_visit_data_reason_visit_missed",
+            "items/par_visit_data_participant_withdrawal",
+            "items/par_visit_data_participant_withdrawal_reason",
+            "items/par_visit_data_participant_withdrawal_date",
+            "items/par_visit_data_protocol_exception",
+            "items/par_visit_data_protocol_exception_date",
+            "items/par_visit_data_su_flag_healthv2_nows",
+            "items/par_visit_data_su_flag_healthv2_fas",
+            "items/par_visit_data_su_flag_tlfb_opioid",
+            "items/par_visit_data_su_flag_tlfb_nicotine",
+            "items/par_visit_data_su_flag_tlfb_cannabis",
+            "items/par_visit_data_su_flag_tlfb_stimulant",
+            "items/par_visit_data_su_flag_tlfb_alcohol",
+            "items/par_visit_data_su_flag_bio_stim",
+            "items/par_visit_data_su_flag_bio_cannabinoid",
+            "items/par_visit_data_su_flag_bio_barb",
+            "items/par_visit_data_su_flag_bio_benzo",
+            "items/par_visit_data_su_flag_bio_opioid",
+            "items/par_visit_data_su_flag_bio_mscrlx"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/par_visit_data_project",
+                "isVis": true,
+                "variableName": "par_visit_data_project"
+            },
+            {
+                "isAbout": "items/par_visit_data_cohort",
+                "isVis": true,
+                "variableName": "par_visit_data_cohort"
+            },
+            {
+                "isAbout": "items/par_visit_data_site",
+                "isVis": true,
+                "variableName": "par_visit_data_site"
+            },
+            {
+                "isAbout": "items/par_visit_data_visit_missed",
+                "isVis": true,
+                "variableName": "par_visit_data_visit_missed"
+            },
+            {
+                "isAbout": "items/par_visit_data_reason_visit_missed",
+                "isVis": true,
+                "variableName": "par_visit_data_reason_visit_missed"
+            },
+            {
+                "isAbout": "items/par_visit_data_participant_withdrawal",
+                "isVis": true,
+                "variableName": "par_visit_data_participant_withdrawal"
+            },
+            {
+                "isAbout": "items/par_visit_data_participant_withdrawal_reason",
+                "isVis": true,
+                "variableName": "par_visit_data_participant_withdrawal_reason"
+            },
+            {
+                "isAbout": "items/par_visit_data_participant_withdrawal_date",
+                "isVis": true,
+                "variableName": "par_visit_data_participant_withdrawal_date"
+            },
+            {
+                "isAbout": "items/par_visit_data_protocol_exception",
+                "isVis": true,
+                "variableName": "par_visit_data_protocol_exception"
+            },
+            {
+                "isAbout": "items/par_visit_data_protocol_exception_date",
+                "isVis": true,
+                "variableName": "par_visit_data_protocol_exception_date"
+            },
+            {
+                "isAbout": "items/par_visit_data_su_flag_healthv2_nows",
+                "isVis": true,
+                "variableName": "par_visit_data_su_flag_healthv2_nows"
+            },
+            {
+                "isAbout": "items/par_visit_data_su_flag_healthv2_fas",
+                "isVis": true,
+                "variableName": "par_visit_data_su_flag_healthv2_fas"
+            },
+            {
+                "isAbout": "items/par_visit_data_su_flag_tlfb_opioid",
+                "isVis": true,
+                "variableName": "par_visit_data_su_flag_tlfb_opioid"
+            },
+            {
+                "isAbout": "items/par_visit_data_su_flag_tlfb_nicotine",
+                "isVis": true,
+                "variableName": "par_visit_data_su_flag_tlfb_nicotine"
+            },
+            {
+                "isAbout": "items/par_visit_data_su_flag_tlfb_cannabis",
+                "isVis": true,
+                "variableName": "par_visit_data_su_flag_tlfb_cannabis"
+            },
+            {
+                "isAbout": "items/par_visit_data_su_flag_tlfb_stimulant",
+                "isVis": true,
+                "variableName": "par_visit_data_su_flag_tlfb_stimulant"
+            },
+            {
+                "isAbout": "items/par_visit_data_su_flag_tlfb_alcohol",
+                "isVis": true,
+                "variableName": "par_visit_data_su_flag_tlfb_alcohol"
+            },
+            {
+                "isAbout": "items/par_visit_data_su_flag_bio_stim",
+                "isVis": true,
+                "variableName": "par_visit_data_su_flag_bio_stim"
+            },
+            {
+                "isAbout": "items/par_visit_data_su_flag_bio_cannabinoid",
+                "isVis": true,
+                "variableName": "par_visit_data_su_flag_bio_cannabinoid"
+            },
+            {
+                "isAbout": "items/par_visit_data_su_flag_bio_barb",
+                "isVis": true,
+                "variableName": "par_visit_data_su_flag_bio_barb"
+            },
+            {
+                "isAbout": "items/par_visit_data_su_flag_bio_benzo",
+                "isVis": true,
+                "variableName": "par_visit_data_su_flag_bio_benzo"
+            },
+            {
+                "isAbout": "items/par_visit_data_su_flag_bio_opioid",
+                "isVis": true,
+                "variableName": "par_visit_data_su_flag_bio_opioid"
+            },
+            {
+                "isAbout": "items/par_visit_data_su_flag_bio_mscrlx",
+                "isVis": true,
+                "variableName": "par_visit_data_su_flag_bio_mscrlx"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

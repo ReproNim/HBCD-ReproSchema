@@ -1,0 +1,65 @@
+{
+    "id": "ph_cg_phx__bfh_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ph_cg_phx__bfh"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ph_cg_phx__bfh_date_taken",
+            "items/ph_cg_phx__bfh_candidate_age",
+            "items/ph_cg_phx__bfh_gestational_age",
+            "items/ph_cg_phx__bfh_adjusted_age",
+            "items/ph_cg_phx__bfh_lang",
+            "items/ph_cg_phx__bfh_location",
+            "items/ph_cg_phx__bfh_001",
+            "items/ph_cg_phx__bfh_administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ph_cg_phx__bfh_date_taken",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_date_taken"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_candidate_age",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_candidate_age"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_gestational_age",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_gestational_age"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_adjusted_age",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_adjusted_age"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_lang",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_lang"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_location",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_location"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_001",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_001"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_administration",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
