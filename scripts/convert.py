@@ -12,6 +12,8 @@ import subprocess
 import sys
 from pathlib import Path
 
+import yaml
+
 NBDC_REPO_URL = "https://github.com/nbdc-datahub/NBDCtoolsData.git"
 NBDC_DATA_DIR = "NBDCtoolsData"
 SCRIPT_DIR = Path(__file__).parent
@@ -79,10 +81,8 @@ def main():
     csv_path = repo_root / f"hbcd_{args.release}.csv"
     yaml_path = repo_root / "hbcd_nbdc2rs.yaml"
     # reproschema-py creates a subfolder named after protocol_name (HBCD)
-    # So we output to repo_root, then rename HBCD -> HBCD2reproschema
-    temp_output_dir = repo_root
-    final_output_dir = repo_root / "HBCD2reproschema"
-    protocol_name = "HBCD"  # Must match protocol_name in hbcd_nbdc2rs.yaml
+    output_dir = repo_root / "HBCD"  # Must match protocol_name in hbcd_nbdc2rs.yaml
+    old_output_dir = repo_root / "HBCD2reproschema"  # Legacy folder name to clean up
 
     # Ensure data directory exists
     DATA_DIR.mkdir(exist_ok=True)
@@ -118,31 +118,36 @@ def main():
         # Step 2: Convert to ReproSchema using reproschema-py
         print(f"Converting to ReproSchema format...")
 
+        # Update yaml config with source_version from release argument
+        with open(yaml_path, 'r') as f:
+            config = yaml.safe_load(f)
+        config['source_version'] = args.release
+        with open(yaml_path, 'w') as f:
+            yaml.dump(config, f)
+        print(f"Set source_version to {args.release}")
+
         # Remove existing output directories to avoid conflicts
-        if final_output_dir.exists():
-            shutil.rmtree(final_output_dir)
-        if (temp_output_dir / protocol_name).exists():
-            shutil.rmtree(temp_output_dir / protocol_name)
+        if output_dir.exists():
+            shutil.rmtree(output_dir)
+        if old_output_dir.exists():
+            shutil.rmtree(old_output_dir)
 
         try:
             subprocess.run(
                 [
                     "reproschema",
                     "nbdc2reproschema",
-                    "--output-path", str(temp_output_dir),
+                    "--output-path", str(repo_root),
                     str(csv_path),
                     str(yaml_path),
                 ],
                 check=True,
             )
 
-            # Rename HBCD -> HBCD2reproschema to avoid redundant nesting
-            generated_dir = temp_output_dir / protocol_name
-            if generated_dir.exists():
-                shutil.move(str(generated_dir), str(final_output_dir))
-                print(f"Conversion complete. Output in {final_output_dir}/")
+            if output_dir.exists():
+                print(f"Conversion complete. Output in {output_dir}/")
             else:
-                print(f"Error: Expected output directory {generated_dir} not found")
+                print(f"Error: Expected output directory {output_dir} not found")
                 sys.exit(1)
         except subprocess.CalledProcessError as e:
             print(f"Error during conversion: {e}")
@@ -155,7 +160,7 @@ def main():
         print("Validating ReproSchema output...")
         try:
             result = subprocess.run(
-                ["reproschema", "validate", str(final_output_dir)],
+                ["reproschema", "validate", str(output_dir)],
                 capture_output=True,
                 text=True,
             )
