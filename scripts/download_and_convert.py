@@ -93,7 +93,7 @@ def main():
 
         # Set GitHub outputs
         github_output = Path(System.getenv("GITHUB_OUTPUT", "/tmp/outputs"))
-        with open(github_output, 'a') as f:
+        with open(github_output, 'a') as file:
             f.write(f"version={version or ''}\n")
             f.write(f"status={status}\n")
 
