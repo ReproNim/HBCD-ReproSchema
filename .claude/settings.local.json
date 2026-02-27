@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Rscript:*)",
+      "Bash(micromamba run:*)",
+      "Bash(zsh -c 'eval \"\"$\\(micromamba shell hook --shell zsh\\)\"\" && micromamba run -n nbdc-reproschema python scripts/convert.py --release 1.1 --rda-path ../NBDCtoolsData/data/lst_dds.rda')",
+      "Bash(zsh -c 'eval \"\"$\\(micromamba shell hook --shell zsh\\)\"\" && micromamba run -n nbdc-reproschema reproschema convert --help')",
+      "Bash(zsh -c 'eval \"\"$\\(micromamba shell hook --shell zsh\\)\"\" && micromamba run -n nbdc-reproschema reproschema --help')",
+      "Bash(zsh -c 'eval \"\"$\\(micromamba shell hook --shell zsh\\)\"\" && micromamba run -n nbdc-reproschema reproschema nbdc2reproschema --help')",
+      "Bash(zsh -c 'eval \"\"$\\(micromamba shell hook --shell zsh\\)\"\" && micromamba run -n nbdc-reproschema python scripts/convert.py --release 1.1 --rda-path ../NBDCtoolsData/data/lst_dds.rda --skip-extract')",
+      "Bash(zsh -c 'eval \"\"$\\(micromamba shell hook --shell zsh\\)\"\" && micromamba run -n nbdc-reproschema reproschema validate HBCD/')",
+      "Bash(git commit:*)",
+      "Bash(git tag:*)",
+      "Bash(gh run view:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(git add:*)",
+      "Bash(ls:*)"
+    ]
+  }
+}

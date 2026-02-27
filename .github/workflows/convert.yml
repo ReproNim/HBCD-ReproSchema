@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
     inputs:
       release:
-        description: 'HBCD Release Version (leave empty to auto-detect new versions)'
-        required: false
+        description: 'HBCD Release Version (leave empty to auto-detect from RDA)'
+        required: true
         type: string
       create_tag:
         description: 'Create git tag for this release'
@@ -25,85 +25,8 @@ permissions:
   contents: write
 
 jobs:
-  detect-versions:
-    runs-on: ubuntu-latest
-    outputs:
-      versions: ${{ steps.detect.outputs.versions }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # Need full history for tags
-
-      - name: Checkout NBDCtoolsData
-        uses: actions/checkout@v4
-        with:
-          repository: nbdc-datahub/NBDCtoolsData
-          path: NBDCtoolsData
-
-      - name: Set up R
-        uses: r-lib/actions/setup-r@v2
-        with:
-          r-version: '4.3'
-
-      - name: Detect new versions
-        id: detect
-        env:
-          MANUAL_RELEASE: ${{ inputs.release }}
-        run: |
-          # If manual release specified, use that
-          if [ -n "$MANUAL_RELEASE" ]; then
-            echo "Manual release requested: $MANUAL_RELEASE"
-            echo "versions=[\"$MANUAL_RELEASE\"]" >> $GITHUB_OUTPUT
-            exit 0
-          fi
-
-          # Get available versions from NBDCtoolsData
-          # Note: names(lst_dds$hbcd) returns a matrix, so we need to flatten it
-          echo "Fetching available versions from NBDCtoolsData..."
-          NBDC_VERSIONS=$(Rscript -e '
-            load("NBDCtoolsData/data/lst_dds.rda")
-            # Handle matrix structure - convert to vector and output each name
-            versions <- as.vector(names(lst_dds$hbcd))
-            cat(versions, sep="\n")
-          ' | sort -V)
-
-          echo "NBDC versions available:"
-          echo "$NBDC_VERSIONS"
-
-          # Get existing tags in this repo
-          EXISTING_TAGS=$(git tag -l | sort -V)
-          echo "Existing tags:"
-          echo "$EXISTING_TAGS"
-
-          # Find new versions (in NBDC but not in tags)
-          NEW_VERSIONS=$(comm -23 <(echo "$NBDC_VERSIONS") <(echo "$EXISTING_TAGS"))
-
-          if [ -z "$NEW_VERSIONS" ]; then
-            echo "No new versions to convert"
-            echo "versions=[]" >> $GITHUB_OUTPUT
-          else
-            echo "New versions to convert:"
-            echo "$NEW_VERSIONS"
-            # Convert to JSON array for GitHub Actions
-            VERSIONS_JSON=$(echo "$NEW_VERSIONS" | jq -R -s -c 'split("\n") | map(select(length > 0))')
-            echo "versions=$VERSIONS_JSON" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Summary
-        run: |
-          echo "### Version Detection Results" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "Versions to convert: ${{ steps.detect.outputs.versions }}" >> $GITHUB_STEP_SUMMARY
-
   convert:
-    needs: detect-versions
-    if: needs.detect-versions.outputs.versions != '[]'
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        version: ${{ fromJson(needs.detect-versions.outputs.versions) }}
-      fail-fast: false
-      max-parallel: 1  # Run sequentially to avoid git push conflicts
     steps:
       - uses: actions/checkout@v4
         with:
@@ -112,43 +35,23 @@ jobs:
       - name: Pull latest changes
         run: git pull origin main
 
-      - name: Checkout NBDCtoolsData
-        uses: actions/checkout@v4
-        with:
-          repository: nbdc-datahub/NBDCtoolsData
-          path: NBDCtoolsData
-
-      - name: Install system dependencies
-        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends cmake
-
-      - name: Set up R
-        uses: r-lib/actions/setup-r@v2
-        with:
-          # Pin to R 4.3.x for compatibility with RDA serialization format
-          # The RDA file was serialized with an older R version
-          r-version: '4.3'
-
-      - name: Install R packages
-        run: |
-          # Install arrow first (requires cmake, takes ~5 min to compile)
-          Rscript -e 'install.packages("arrow", repos="https://cloud.r-project.org")'
-          Rscript -e 'install.packages(c("tibble", "vctrs", "dplyr"), repos="https://cloud.r-project.org")'
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
+      - name: Install Python dependencies
+        run: pip install requests pyyaml
+
       - name: Install reproschema-py
         run: |
-          pip install pyreadr
           pip install git+https://github.com/ReproNim/reproschema-py.git@1.1.0
 
-      - name: Convert and validate HBCD release ${{ matrix.version }}
+      - name: Convert HBCD release ${{ inputs.release }}
         run: |
-          python scripts/convert.py --release ${{ matrix.version }}
+          python scripts/convert.py --release ${{ inputs.release }}
 
-      - name: Commit and tag ${{ matrix.version }}
+      - name: Commit and tag ${{ inputs.release }}
         run: |
           git config user.name 'github-actions'
           git config user.email 'actions@github.com'
@@ -160,8 +63,8 @@ jobs:
           fi
 
           git add -A
-          git commit -m "Convert HBCD release ${{ matrix.version }}"
-          git tag -a ${{ matrix.version }} -m "HBCD Release ${{ matrix.version }}"
+          git commit -m "Convert HBCD release ${{ inputs.release }}"
+          git tag -a ${{ inputs.release }} -m "HBCD Release ${{ inputs.release }}"
           git push origin main --follow-tags
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
