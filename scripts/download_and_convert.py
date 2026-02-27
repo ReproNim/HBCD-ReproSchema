@@ -13,7 +13,6 @@ import requests
 
 NBDC_REPO = "nbdc-datahub/NBDCtoolsData"
 RDA_FILENAME = "lst_dds.rda"
-RAW_URL_TEMPLATE = "https://raw.githubusercontent.com/{NBDC_REPO}/main/data/{RDA_FILENAME}"
 SCRIPT_DIR = Path(__file__).parent
 DATA_DIR = SCRIPT_DIR / "data"
 
@@ -23,7 +22,8 @@ def download_rda_file():
 
     Uses GitHub raw content URL.
     """
-    raw_url = RAW_URL_TEMPLATE
+    # Build URL directly - no f-string formatting
+    raw_url = f"https://raw.githubusercontent.com/{NBDC_REPO}/main/data/{RDA_FILENAME}"
 
     print(f"Downloading {RDA_FILENAME} from {NBDC_REPO}...")
     try:
