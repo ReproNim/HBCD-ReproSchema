@@ -120,8 +120,8 @@ def main():
     )
     parser.add_argument(
         "--release",
-        required=True,
-        help="HBCD release version (e.g., 1.0)",
+        required=False,  # Auto-detect from RDA if not specified
+        help="HBCD release version (e.g., 1.0). If empty, auto-detects from RDA file.",
     )
     parser.add_argument(
         "--skip-extract",

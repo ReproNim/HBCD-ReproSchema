@@ -1,20 +1,20 @@
 name: Convert HBCD Releases
 
 on:
+  # Trigger from NBDC toolsData release event
+  repository_dispatch:
+    types: [nbdc-release]
   # Manual trigger
   workflow_dispatch:
     inputs:
       release:
         description: 'HBCD Release Version (leave empty to auto-detect from RDA)'
-        required: true
+        required: false
         type: string
       create_tag:
         description: 'Create git tag for this release'
         type: boolean
         default: true
-  # Automated trigger from GitHub App when NBDC releases new data
-  repository_dispatch:
-    types: [nbdc-release]
 
 # Prevent concurrent runs
 concurrency:
@@ -32,39 +32,26 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Pull latest changes
-        run: git pull origin main
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install Python dependencies
-        run: pip install requests pyyaml
-
-      - name: Install reproschema-py
         run: |
-          pip install git+https://github.com/ReproNim/reproschema-py.git@1.1.0
+          pip install requests pyyaml
 
-      - name: Convert HBCD release ${{ inputs.release }}
+      - name: Download RDA file
+        id: download
         run: |
-          python scripts/convert.py --release ${{ inputs.release }}
+          python scripts/download_and_convert.py \
+            --release "${{ inputs.release || '' }}" \
+            --create-tag ${{ inputs.create_tag }}
 
-      - name: Commit and tag ${{ inputs.release }}
+      - name: Summary
+        if: steps.download.outputs.version != ''
         run: |
-          git config user.name 'github-actions'
-          git config user.email 'actions@github.com'
-
-          # Check if there are changes to commit (including untracked files)
-          if [ -z "$(git status --porcelain)" ]; then
-            echo "No changes to commit"
-            exit 0
-          fi
-
-          git add -A
-          git commit -m "Convert HBCD release ${{ inputs.release }}"
-          git tag -a ${{ inputs.release }} -m "HBCD Release ${{ inputs.release }}"
-          git push origin main --follow-tags
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          echo "### Conversion Complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Version: ${{ steps.download.outputs.version }}" >> $GITHUB_STEP_SUMMARY
+          echo "Status: ${{ steps.download.outputs.status }}" >> $GITHUB_STEP_SUMMARY
