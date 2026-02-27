@@ -92,7 +92,8 @@ def main():
                 status = "complete"
 
         # Set GitHub outputs
-        with open(Path(System.getenv("GITHUB_OUTPUT", "/tmp/outputs")), 'a') as f:
+        github_output = Path(System.getenv("GITHUB_OUTPUT", "/tmp/outputs"))
+        with open(github_output, 'a') as f:
             f.write(f"version={version or ''}\n")
             f.write(f"status={status}\n")
 
