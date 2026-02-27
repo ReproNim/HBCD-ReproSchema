@@ -3,7 +3,7 @@
 Simple HBCD Conversion Script
 
 Downloads RDA file from NBDCtoolsData and calls convert.py.
-Replaces the complex convert.yml workflow with a single simple script.
+Replaces: complex convert.yml workflow with a single simple script.
 """
 import argparse
 import subprocess
@@ -22,7 +22,7 @@ def download_rda_file():
 
     Uses GitHub raw content URL.
     """
-    # Build URL directly - no f-string formatting
+    # Build URL directly
     raw_url = f"https://raw.githubusercontent.com/{NBDC_REPO}/main/data/{RDA_FILENAME}"
 
     print(f"Downloading {RDA_FILENAME} from {NBDC_REPO}...")
