@@ -6,6 +6,7 @@ Downloads RDA file from NBDCtoolsData and calls convert.py.
 Replaces: complex convert.yml workflow with a single simple script.
 """
 import argparse
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -66,7 +67,9 @@ def main():
 
     # Build convert.py command
     # If release specified, use that. If empty, convert.py will auto-detect from RDA.
-    convert_args = ["python", "scripts/convert.py", "--release", args.release]
+    convert_args = ["python", "scripts/convert.py"]
+    if args.release:
+        convert_args.extend(["--release", args.release])
 
     print(f"\n=== Running conversion ===")
     print(f"Command: {' '.join(convert_args)}")
@@ -91,11 +94,11 @@ def main():
             elif "Conversion complete" in line:
                 status = "complete"
 
-        # Set GitHub outputs
-        github_output = Path(System.getenv("GITHUB_OUTPUT", "/tmp/outputs"))
-        with open(github_output, 'a') as file:
-            f.write(f"version={version or ''}\n")
-            f.write(f"status={status}\n")
+        # Set GitHub outputs (overwrite mode, not append!)
+        github_output = Path(os.getenv("GITHUB_OUTPUT", "/tmp/outputs"))
+        with open(github_output, 'w') as file:
+            f.write(f"version={version or ''}\\n")
+            f.write(f"status={status}\\n")
 
         print(f"\n=== Conversion {status} ===")
         if version:
