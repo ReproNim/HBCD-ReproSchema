@@ -35,10 +35,18 @@ jobs:
         with:
           r-version: '4.3'
 
+      - name: Cache R packages
+        uses: actions/cache@v4
+        with:
+          path: ~/R/library
+          key: r-${{ runner.os }}-4.3-${{ hashFiles('.github/workflows/convert.yml') }}
+          restore-keys: r-${{ runner.os }}-4.3-
+
       - name: Install R packages
         run: |
-          Rscript -e 'install.packages("arrow", repos="https://cloud.r-project.org")'
-          Rscript -e 'install.packages(c("tibble", "vctrs", "dplyr"), repos="https://cloud.r-project.org")'
+          mkdir -p ~/R/library
+          Rscript -e '.libPaths("~/R/library"); install.packages("arrow", repos="https://cloud.r-project.org")'
+          Rscript -e '.libPaths("~/R/library"); install.packages(c("tibble", "vctrs", "dplyr"), repos="https://cloud.r-project.org")'
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -55,6 +63,7 @@ jobs:
           python scripts/convert.py --release "${{ inputs.release }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          R_LIBS_USER: ~/R/library
 
       - name: Summary
         run: |
