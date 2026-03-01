@@ -1,0 +1,66 @@
+{
+    "id": "eeg_made_task-MMN_ERPSummaryStats_SME_MMR2_t7t8_standard",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular EEG"
+        },
+        {
+            "column": "sub_domain",
+            "source": "nbdc",
+            "value": "Event-Related Potential"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "metric",
+            "source": "nbdc",
+            "value": "Auditory Mismatch Negativity"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/tasks/#auditory-mismatch-negativity-task"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "eeg_made_task_mmn_ss_0032"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "eeg_made_task_mmn_ss_0032"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "eeg_made_task-MMN_ERPSummaryStats"
+        }
+    ],
+    "prefLabel": {
+        "en": "eeg_made_task-MMN_ERPSummaryStats_SME_MMR2_t7t8_standard"
+    },
+    "question": {
+        "en": "Standard measurement error within the MMR2 time window at the T7/T8 electrode cluster for standard trials."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

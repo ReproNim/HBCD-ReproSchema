@@ -1,0 +1,353 @@
+{
+    "id": "mri_ra_prep_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mri_ra_prep"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mri_ra_prep_date_taken",
+            "items/mri_ra_prep_candidate_age",
+            "items/mri_ra_prep_s1_bsi_002___bottle_feeding",
+            "items/mri_ra_prep_s1_bsi_002___breast_feeding",
+            "items/mri_ra_prep_s1_bsi_002___bath",
+            "items/mri_ra_prep_s1_bsi_002___reading",
+            "items/mri_ra_prep_s1_bsi_002___other",
+            "items/mri_ra_prep_s1_bsi_003",
+            "items/mri_ra_prep_s1_bsi_003_status",
+            "items/mri_ra_prep_s1_bsi_004",
+            "items/mri_ra_prep_s1_bsi_004_status",
+            "items/mri_ra_prep_s1_slp_001",
+            "items/mri_ra_prep_s1_slp_002",
+            "items/mri_ra_prep_s1_slp_003",
+            "items/mri_ra_prep_s1_slp_004",
+            "items/mri_ra_prep_s1_slp_005",
+            "items/mri_ra_prep_s1_slp_006",
+            "items/mri_ra_prep_s1_slp_007___playtime",
+            "items/mri_ra_prep_s1_slp_007___breast_feeding",
+            "items/mri_ra_prep_s1_slp_007___bottle_feeding",
+            "items/mri_ra_prep_s1_slp_007___eating_drinking_something_else_session1",
+            "items/mri_ra_prep_s1_sls_001___alone",
+            "items/mri_ra_prep_s1_sls_001___with_mother",
+            "items/mri_ra_prep_s1_sls_001___with_sibling",
+            "items/mri_ra_prep_s1_sls_001___other",
+            "items/mri_ra_prep_s1_sls_002___crib",
+            "items/mri_ra_prep_s1_sls_002___bassinet",
+            "items/mri_ra_prep_s1_sls_002___dock-a-tot",
+            "items/mri_ra_prep_s1_sls_002___in_bed",
+            "items/mri_ra_prep_s1_sls_002___other",
+            "items/mri_ra_prep_s1_sls_003___dimmed_lights",
+            "items/mri_ra_prep_s1_sls_003___night_light",
+            "items/mri_ra_prep_s1_sls_003___dark",
+            "items/mri_ra_prep_s1_sls_004___noisy",
+            "items/mri_ra_prep_s1_sls_004___moderate",
+            "items/mri_ra_prep_s1_sls_004___quiet",
+            "items/mri_ra_prep_s1_sls_005___white_noise",
+            "items/mri_ra_prep_s1_sls_005___sing_lullabies",
+            "items/mri_ra_prep_s1_sls_005___listen_to_music",
+            "items/mri_ra_prep_s1_sls_006___stuffed_toy",
+            "items/mri_ra_prep_s1_sls_006___pacifier",
+            "items/mri_ra_prep_s1_sls_006___weighted_blanket",
+            "items/mri_ra_prep_s1_sls_006___other",
+            "items/mri_ra_prep_s1_sls_007",
+            "items/mri_ra_prep_s1_sls_008___supine",
+            "items/mri_ra_prep_s1_sls_008___prone",
+            "items/mri_ra_prep_s1_sls_008___side",
+            "items/mri_ra_prep_s1_soa_001",
+            "items/mri_ra_prep_s1_soa_002",
+            "items/mri_ra_prep_s1_soa_003",
+            "items/mri_ra_prep_s1_soa_004",
+            "items/mri_ra_prep_s1_soa_005",
+            "items/mri_ra_prep_s1_soa_006",
+            "items/mri_ra_prep_administration",
+            "items/mri_ra_prep_gestational_age",
+            "items/mri_ra_prep_adjusted_age"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mri_ra_prep_date_taken",
+                "isVis": true,
+                "variableName": "mri_ra_prep_date_taken"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_candidate_age",
+                "isVis": true,
+                "variableName": "mri_ra_prep_candidate_age"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_bsi_002___bottle_feeding",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_bsi_002___bottle_feeding"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_bsi_002___breast_feeding",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_bsi_002___breast_feeding"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_bsi_002___bath",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_bsi_002___bath"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_bsi_002___reading",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_bsi_002___reading"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_bsi_002___other",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_bsi_002___other"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_bsi_003",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_bsi_003"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_bsi_003_status",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_bsi_003_status"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_bsi_004",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_bsi_004"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_bsi_004_status",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_bsi_004_status"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_slp_001",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_slp_001"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_slp_002",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_slp_002"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_slp_003",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_slp_003"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_slp_004",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_slp_004"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_slp_005",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_slp_005"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_slp_006",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_slp_006"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_slp_007___playtime",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_slp_007___playtime"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_slp_007___breast_feeding",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_slp_007___breast_feeding"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_slp_007___bottle_feeding",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_slp_007___bottle_feeding"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_slp_007___eating_drinking_something_else_session1",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_slp_007___eating_drinking_something_else_session1"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_001___alone",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_001___alone"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_001___with_mother",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_001___with_mother"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_001___with_sibling",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_001___with_sibling"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_001___other",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_001___other"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_002___crib",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_002___crib"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_002___bassinet",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_002___bassinet"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_002___dock-a-tot",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_002___dock-a-tot"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_002___in_bed",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_002___in_bed"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_002___other",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_002___other"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_003___dimmed_lights",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_003___dimmed_lights"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_003___night_light",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_003___night_light"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_003___dark",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_003___dark"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_004___noisy",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_004___noisy"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_004___moderate",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_004___moderate"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_004___quiet",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_004___quiet"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_005___white_noise",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_005___white_noise"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_005___sing_lullabies",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_005___sing_lullabies"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_005___listen_to_music",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_005___listen_to_music"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_006___stuffed_toy",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_006___stuffed_toy"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_006___pacifier",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_006___pacifier"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_006___weighted_blanket",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_006___weighted_blanket"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_006___other",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_006___other"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_007",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_007"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_008___supine",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_008___supine"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_008___prone",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_008___prone"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_sls_008___side",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_sls_008___side"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_soa_001",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_soa_001"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_soa_002",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_soa_002"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_soa_003",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_soa_003"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_soa_004",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_soa_004"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_soa_005",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_soa_005"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_s1_soa_006",
+                "isVis": true,
+                "variableName": "mri_ra_prep_s1_soa_006"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_administration",
+                "isVis": true,
+                "variableName": "mri_ra_prep_administration"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_gestational_age",
+                "isVis": true,
+                "variableName": "mri_ra_prep_gestational_age"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_adjusted_age",
+                "isVis": true,
+                "variableName": "mri_ra_prep_adjusted_age"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -9,8 +9,6 @@
         "order": [
             "items/pex_bm_apa_date_taken",
             "items/pex_bm_apa_candidate_age",
-            "items/pex_bm_apa_gestational_age",
-            "items/pex_bm_apa_adjusted_age",
             "items/pex_bm_apa_lang",
             "items/pex_bm_apa_location",
             "items/pex_bm_apa_1_depr_001",
@@ -121,6 +119,12 @@
             "items/pex_bm_apa_apa1_memo",
             "items/pex_bm_apa_apa1_repet",
             "items/pex_bm_apa_apa1_disso",
+            "items/pex_bm_apa_apa2_anger_promisrawscore",
+            "items/pex_bm_apa_apa2_anger_promistscore",
+            "items/pex_bm_apa_apa2_anger_promistscoreinterpretation",
+            "items/pex_bm_apa_apa2_repet_focirawscore",
+            "items/pex_bm_apa_apa2_repet_fociinterpretationscore",
+            "items/pex_bm_apa_administration",
             "items/pex_bm_apa_apa2_pers_note",
             "items/pex_bm_apa_apa2_depr_promistscore",
             "items/pex_bm_apa_apa2_anger_tscorenote",
@@ -132,7 +136,8 @@
             "items/pex_bm_apa_apa2_somat_interpretationscore",
             "items/pex_bm_apa_apa2_sleep_promistscore",
             "items/pex_bm_apa_apa2_repet_focinote",
-            "items/pex_bm_apa_administration",
+            "items/pex_bm_apa_gestational_age",
+            "items/pex_bm_apa_adjusted_age",
             "items/pex_bm_apa_apa2_pers_rawscore",
             "items/pex_bm_apa_apa2_pers_averagescore",
             "items/pex_bm_apa_apa2_pers_interpretationscore",
@@ -155,16 +160,6 @@
                 "isAbout": "items/pex_bm_apa_candidate_age",
                 "isVis": true,
                 "variableName": "pex_bm_apa_candidate_age"
-            },
-            {
-                "isAbout": "items/pex_bm_apa_gestational_age",
-                "isVis": true,
-                "variableName": "pex_bm_apa_gestational_age"
-            },
-            {
-                "isAbout": "items/pex_bm_apa_adjusted_age",
-                "isVis": true,
-                "variableName": "pex_bm_apa_adjusted_age"
             },
             {
                 "isAbout": "items/pex_bm_apa_lang",
@@ -717,6 +712,36 @@
                 "variableName": "pex_bm_apa_apa1_disso"
             },
             {
+                "isAbout": "items/pex_bm_apa_apa2_anger_promisrawscore",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_anger_promisrawscore"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_anger_promistscore",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_anger_promistscore"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_anger_promistscoreinterpretation",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_anger_promistscoreinterpretation"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_repet_focirawscore",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_repet_focirawscore"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_apa2_repet_fociinterpretationscore",
+                "isVis": true,
+                "variableName": "pex_bm_apa_apa2_repet_fociinterpretationscore"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_administration",
+                "isVis": true,
+                "variableName": "pex_bm_apa_administration"
+            },
+            {
                 "isAbout": "items/pex_bm_apa_apa2_pers_note",
                 "isVis": true,
                 "variableName": "pex_bm_apa_apa2_pers_note"
@@ -772,9 +797,14 @@
                 "variableName": "pex_bm_apa_apa2_repet_focinote"
             },
             {
-                "isAbout": "items/pex_bm_apa_administration",
+                "isAbout": "items/pex_bm_apa_gestational_age",
                 "isVis": true,
-                "variableName": "pex_bm_apa_administration"
+                "variableName": "pex_bm_apa_gestational_age"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_adjusted_age",
+                "isVis": true,
+                "variableName": "pex_bm_apa_adjusted_age"
             },
             {
                 "isAbout": "items/pex_bm_apa_apa2_pers_rawscore",

@@ -1,0 +1,56 @@
+{
+    "id": "pex_bm_subst_cannabis_003",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/su/su-patterns/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "pex_bm_subst_0070"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "pex_bm_subst_0070"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "pex_bm_subst"
+        }
+    ],
+    "prefLabel": {
+        "en": "pex_bm_subst_cannabis_003"
+    },
+    "question": {
+        "en": "In the second trimester (14-27 gestational weeks) [pex_bm_subst_2tri_start] - [pex_bm_subst_2tri_end] of your pregnancy, did you use cannabis for any reason?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

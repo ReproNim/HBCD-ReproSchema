@@ -1,0 +1,209 @@
+{
+    "id": "ph_cg_screenq_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ph_cg_screenq"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ph_cg_screenq_date_taken",
+            "items/ph_cg_screenq_candidate_age",
+            "items/ph_cg_screenq_location",
+            "items/ph_cg_screenq_001___1",
+            "items/ph_cg_screenq_001___2",
+            "items/ph_cg_screenq_001___3",
+            "items/ph_cg_screenq_001___4",
+            "items/ph_cg_screenq_001___0",
+            "items/ph_cg_screenq_002",
+            "items/ph_cg_screenq_003",
+            "items/ph_cg_screenq_004",
+            "items/ph_cg_screenq_005",
+            "items/ph_cg_screenq_006",
+            "items/ph_cg_screenq_007",
+            "items/ph_cg_screenq_008",
+            "items/ph_cg_screenq_009",
+            "items/ph_cg_screenq_010",
+            "items/ph_cg_screenq_011",
+            "items/ph_cg_screenq_012",
+            "items/ph_cg_screenq_013",
+            "items/ph_cg_screenq_014",
+            "items/ph_cg_screenq_015",
+            "items/ph_cg_screenq_016",
+            "items/ph_cg_screenq_017",
+            "items/ph_cg_screenq_access_score",
+            "items/ph_cg_screenq_frequency_score",
+            "items/ph_cg_screenq_content_score",
+            "items/ph_cg_screenq_co_viewing_score",
+            "items/ph_cg_screenq_total_score",
+            "items/ph_cg_screenq_administration",
+            "items/ph_cg_screenq_gestational_age",
+            "items/ph_cg_screenq_adjusted_age"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ph_cg_screenq_date_taken",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_date_taken"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_candidate_age",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_candidate_age"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_location",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_location"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_001___1",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_001___1"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_001___2",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_001___2"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_001___3",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_001___3"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_001___4",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_001___4"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_001___0",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_001___0"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_002",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_002"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_003",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_003"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_004",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_004"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_005",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_005"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_006",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_006"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_007",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_007"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_008",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_008"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_009",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_009"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_010",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_010"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_011",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_011"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_012",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_012"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_013",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_013"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_014",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_014"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_015",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_015"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_016",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_016"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_017",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_017"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_access_score",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_access_score"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_frequency_score",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_frequency_score"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_content_score",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_content_score"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_co_viewing_score",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_co_viewing_score"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_total_score",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_total_score"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_administration",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_administration"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_gestational_age",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_gestational_age"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_adjusted_age",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_adjusted_age"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

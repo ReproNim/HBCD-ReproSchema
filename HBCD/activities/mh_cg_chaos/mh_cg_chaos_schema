@@ -1,0 +1,149 @@
+{
+    "id": "mh_cg_chaos_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mh_cg_chaos"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mh_cg_chaos_date_taken",
+            "items/mh_cg_chaos_candidate_age",
+            "items/mh_cg_chaos_lang",
+            "items/mh_cg_chaos_001",
+            "items/mh_cg_chaos_002",
+            "items/mh_cg_chaos_003",
+            "items/mh_cg_chaos_004",
+            "items/mh_cg_chaos_005",
+            "items/mh_cg_chaos_006",
+            "items/mh_cg_chaos_007",
+            "items/mh_cg_chaos_008",
+            "items/mh_cg_chaos_009",
+            "items/mh_cg_chaos_010",
+            "items/mh_cg_chaos_011",
+            "items/mh_cg_chaos_012",
+            "items/mh_cg_chaos_013",
+            "items/mh_cg_chaos_014",
+            "items/mh_cg_chaos_015",
+            "items/mh_cg_chaos_total_score",
+            "items/mh_cg_chaos_administration",
+            "items/mh_cg_chaos_gestational_age",
+            "items/mh_cg_chaos_adjusted_age"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mh_cg_chaos_date_taken",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_date_taken"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_candidate_age",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_candidate_age"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_lang",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_lang"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_001",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_001"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_002",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_002"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_003",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_003"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_004",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_004"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_005",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_005"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_006",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_006"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_007",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_007"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_008",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_008"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_009",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_009"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_010",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_010"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_011",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_011"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_012",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_012"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_013",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_013"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_014",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_014"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_015",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_015"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_total_score",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_total_score"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_administration",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_administration"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_gestational_age",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_gestational_age"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_adjusted_age",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_adjusted_age"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

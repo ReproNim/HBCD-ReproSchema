@@ -1,0 +1,56 @@
+{
+    "id": "ph_cg_bisq_is_001",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Physical Health"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/physhealth/bisq-sf/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "ph_cg_bisq_0012"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "ph_cg_bisq_0012"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "ph_cg_bisq"
+        }
+    ],
+    "prefLabel": {
+        "en": "ph_cg_bisq_is_001"
+    },
+    "question": {
+        "en": "How long does it usually take your child to fall asleep? (Example: If you put your child to bed at 6:30 pm and your child falls asleep at 8:00 pm, it takes 1 hour and 30 mins for your child to fall asleep)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/su/tlfb"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/su/tlfb/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_ch_tlfb_0018"
+            "value": "pex_ch_tlfb_0174"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_ch_tlfb_0018"
+            "value": "pex_ch_tlfb_0174"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_ch_tlfb_nic_wk_07"
     },
     "question": {
-        "en": "Nicotine"
+        "en": "Self-reported frequency use for Nicotine for week 7"
     },
     "responseOptions": {
         "valueType": [

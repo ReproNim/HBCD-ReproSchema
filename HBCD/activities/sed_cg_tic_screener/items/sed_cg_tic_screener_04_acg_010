@@ -1,0 +1,56 @@
+{
+    "id": "sed_cg_tic_screener_04_acg_010",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Social and Environmental Determinants"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/transitions-in-care/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "sed_cg_tic_screener_0274"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "sed_cg_tic_screener_0274"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "sed_cg_tic_screener"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_cg_tic_screener_04_acg_010"
+    },
+    "question": {
+        "en": "Aside from yourself, is there another adult in the household who is responsible for {firstName}'s health, education and well-being?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

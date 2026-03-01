@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/sensors/questionnaire"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/sensors/questionnaire/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "nt_ch_sens_qtn_2_0016"
+            "value": "nt_ch_sens_qtn_2_0014"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "nt_ch_sens_qtn_2_0016"
+            "value": "nt_ch_sens_qtn_2_0014"
         },
         {
             "column": "activity",

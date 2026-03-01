@@ -13,24 +13,34 @@
             "value": "Tabular EEG"
         },
         {
+            "column": "sub_domain",
+            "source": "nbdc",
+            "value": "Preprocessing Report"
+        },
+        {
             "column": "source",
             "source": "nbdc",
             "value": "Child"
         },
         {
+            "column": "metric",
+            "source": "nbdc",
+            "value": "Auditory Mismatch Negativity"
+        },
+        {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/mmn"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/tasks/#auditory-mismatch-negativity-task"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "eeg_made_mmn_eeg_ppr_0010"
+            "value": "eeg_made_mmn_eeg_ppr_0012"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "eeg_made_mmn_eeg_ppr_0010"
+            "value": "eeg_made_mmn_eeg_ppr_0012"
         },
         {
             "column": "activity",

@@ -34,7 +34,6 @@
             "items/sed_basic_demographics_screen_mother_ethnoracial_acs_by_multi_race",
             "items/sed_basic_demographics_screen_mother_ethnoracial_acs_by_multi_ethnicity",
             "items/sed_basic_demographics_rc_mother_ethnoracial_aou_race_ethnicity",
-            "items/sed_basic_demographics_child_ethnoracial_acs_by_multi_race",
             "items/sed_basic_demographics_child_ethnoracial_acs_by_multi_ethnicity",
             "items/sed_basic_demographics_recruitment_site"
         ],
@@ -173,11 +172,6 @@
                 "isAbout": "items/sed_basic_demographics_rc_mother_ethnoracial_aou_race_ethnicity",
                 "isVis": true,
                 "variableName": "sed_basic_demographics_rc_mother_ethnoracial_aou_race_ethnicity"
-            },
-            {
-                "isAbout": "items/sed_basic_demographics_child_ethnoracial_acs_by_multi_race",
-                "isVis": true,
-                "variableName": "sed_basic_demographics_child_ethnoracial_acs_by_multi_race"
             },
             {
                 "isAbout": "items/sed_basic_demographics_child_ethnoracial_acs_by_multi_ethnicity",

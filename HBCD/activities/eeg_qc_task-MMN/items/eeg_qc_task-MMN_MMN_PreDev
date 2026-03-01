@@ -13,24 +13,34 @@
             "value": "Tabular EEG"
         },
         {
+            "column": "sub_domain",
+            "source": "nbdc",
+            "value": "Quality Control"
+        },
+        {
             "column": "source",
             "source": "nbdc",
             "value": "Child"
         },
         {
+            "column": "metric",
+            "source": "nbdc",
+            "value": "Auditory Mismatch Negativity"
+        },
+        {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/mmn"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/tasks/#auditory-mismatch-negativity-task"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "eeg_qc_task_mmn_0004"
+            "value": "eeg_qc_task_mmn_0006"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "eeg_qc_task_mmn_0004"
+            "value": "eeg_qc_task_mmn_0006"
         },
         {
             "column": "activity",
@@ -42,7 +52,7 @@
         "en": "eeg_qc_task-MMN_MMN_PreDev"
     },
     "question": {
-        "en": "The number of MMN_PreDev epochs surviving QC."
+        "en": "The number of MMN_PreDev epochs retained after epoch-level artifact rejection."
     },
     "responseOptions": {
         "valueType": [

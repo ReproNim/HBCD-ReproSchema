@@ -18,14 +18,19 @@
             "value": "Biological Mother"
         },
         {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/demo-cg/"
+        },
+        {
             "column": "name_short",
             "source": "nbdc",
-            "value": "sed_bm_demo_0008"
+            "value": "sed_bm_demo_0006"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "sed_bm_demo_0008"
+            "value": "sed_bm_demo_0006"
         },
         {
             "column": "activity",

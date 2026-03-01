@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/promis"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/promis/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "sed_bm_strsup_0016"
+            "value": "sed_bm_strsup_0014"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "sed_bm_strsup_0016"
+            "value": "sed_bm_strsup_0014"
         },
         {
             "column": "activity",

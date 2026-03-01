@@ -9,12 +9,24 @@
         "order": [
             "items/ph_cg_phx__bfh_date_taken",
             "items/ph_cg_phx__bfh_candidate_age",
-            "items/ph_cg_phx__bfh_gestational_age",
-            "items/ph_cg_phx__bfh_adjusted_age",
             "items/ph_cg_phx__bfh_lang",
             "items/ph_cg_phx__bfh_location",
             "items/ph_cg_phx__bfh_001",
-            "items/ph_cg_phx__bfh_administration"
+            "items/ph_cg_phx__bfh_002",
+            "items/ph_cg_phx__bfh_002__01",
+            "items/ph_cg_phx__bfh_002__01__01",
+            "items/ph_cg_phx__bfh_002__02",
+            "items/ph_cg_phx__bfh_002__dk",
+            "items/ph_cg_phx__bfh_002__01_dk",
+            "items/ph_cg_phx__bfh_003",
+            "items/ph_cg_phx__bfh_003__01",
+            "items/ph_cg_phx__bfh_003__01__01",
+            "items/ph_cg_phx__bfh_003__02",
+            "items/ph_cg_phx__bfh_003__dk",
+            "items/ph_cg_phx__bfh_003__01_dk",
+            "items/ph_cg_phx__bfh_administration",
+            "items/ph_cg_phx__bfh_gestational_age",
+            "items/ph_cg_phx__bfh_adjusted_age"
         ],
         "addProperties": [
             {
@@ -26,16 +38,6 @@
                 "isAbout": "items/ph_cg_phx__bfh_candidate_age",
                 "isVis": true,
                 "variableName": "ph_cg_phx__bfh_candidate_age"
-            },
-            {
-                "isAbout": "items/ph_cg_phx__bfh_gestational_age",
-                "isVis": true,
-                "variableName": "ph_cg_phx__bfh_gestational_age"
-            },
-            {
-                "isAbout": "items/ph_cg_phx__bfh_adjusted_age",
-                "isVis": true,
-                "variableName": "ph_cg_phx__bfh_adjusted_age"
             },
             {
                 "isAbout": "items/ph_cg_phx__bfh_lang",
@@ -53,9 +55,79 @@
                 "variableName": "ph_cg_phx__bfh_001"
             },
             {
+                "isAbout": "items/ph_cg_phx__bfh_002",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_002"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_002__01",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_002__01"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_002__01__01",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_002__01__01"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_002__02",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_002__02"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_002__dk",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_002__dk"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_002__01_dk",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_002__01_dk"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_003",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_003"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_003__01",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_003__01"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_003__01__01",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_003__01__01"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_003__02",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_003__02"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_003__dk",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_003__dk"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_003__01_dk",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_003__01_dk"
+            },
+            {
                 "isAbout": "items/ph_cg_phx__bfh_administration",
                 "isVis": true,
                 "variableName": "ph_cg_phx__bfh_administration"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_gestational_age",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_gestational_age"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_adjusted_age",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_adjusted_age"
             }
         ],
         "shuffle": false

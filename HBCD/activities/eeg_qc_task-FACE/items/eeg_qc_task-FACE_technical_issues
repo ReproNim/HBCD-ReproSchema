@@ -1,0 +1,67 @@
+{
+    "id": "eeg_qc_task-FACE_technical_issues",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular EEG"
+        },
+        {
+            "column": "sub_domain",
+            "source": "nbdc",
+            "value": "Quality Control"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "metric",
+            "source": "nbdc",
+            "value": "Faces"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/tasks/#faces-task"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "eeg_qc_task_face_0010"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "eeg_qc_task_face_0010"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "eeg_qc_task-FACE"
+        }
+    ],
+    "prefLabel": {
+        "en": "eeg_qc_task-FACE_technical_issues"
+    },
+    "question": {
+        "en": "Has any technical issue been identified?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

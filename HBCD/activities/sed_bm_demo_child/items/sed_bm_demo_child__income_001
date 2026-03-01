@@ -1,0 +1,56 @@
+{
+    "id": "sed_bm_demo_child__income_001",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Social and Environmental Determinants"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/demo-ch/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "sed_bm_demo_child_0275"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "sed_bm_demo_child_0275"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "sed_bm_demo_child"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_bm_demo_child__income_001"
+    },
+    "question": {
+        "en": "Which of these categories best describes the TOTAL COMBINED INCOME of the CHILD'S HOUSEHOLD(S) for the past 12 months? This should include income (before taxes and deductions) from all sources, wages, rent from properties, social security, disability and/or veteran's benefits, unemployment benefits, workman's compensation, help from relatives (include child payments and alimony), and so on. If the child lives in more than one household, please average the household incomes."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

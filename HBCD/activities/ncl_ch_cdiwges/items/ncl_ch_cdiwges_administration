@@ -1,0 +1,57 @@
+{
+    "id": "ncl_ch_cdiwges_administration",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Neurocognition and Language"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/neurocog/macarthur-bates/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "ncl_ch_cdiwges_0443"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "ncl_ch_cdiwges_0443"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "ncl_ch_cdiwges"
+        }
+    ],
+    "prefLabel": {
+        "en": "ncl_ch_cdiwges_administration"
+    },
+    "question": {
+        "en": "Administration for ncl_ch_cdiwges"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

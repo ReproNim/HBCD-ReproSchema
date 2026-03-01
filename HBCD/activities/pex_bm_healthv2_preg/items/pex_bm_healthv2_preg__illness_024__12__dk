@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0650"
+            "value": "pex_bm_healthv2_preg_0637"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0650"
+            "value": "pex_bm_healthv2_preg_0637"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_healthv2_preg__illness_024__12__dk"
     },
     "question": {
-        "en": "dk/decline temp fever 10"
+        "en": "dk/decline temp 10"
     },
     "responseOptions": {
         "valueType": [

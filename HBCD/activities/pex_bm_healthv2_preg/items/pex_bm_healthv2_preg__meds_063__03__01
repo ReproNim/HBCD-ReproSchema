@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0402"
+            "value": "pex_bm_healthv2_preg_0398"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0402"
+            "value": "pex_bm_healthv2_preg_0398"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_healthv2_preg__meds_063__03__01"
     },
     "question": {
-        "en": "Unit of frequency otc 5"
+        "en": "Fifth otc per hour"
     },
     "responseOptions": {
         "valueType": [

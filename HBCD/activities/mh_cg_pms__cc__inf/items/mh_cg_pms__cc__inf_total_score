@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/measures/behCGinteraction/#ecpromis-child-caregiver-interaction"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/bcgi/ecpromis/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "mh_cg_pms_cc_inf_0012"
+            "value": "mh_cg_pms_cc_inf_0009"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "mh_cg_pms_cc_inf_0012"
+            "value": "mh_cg_pms_cc_inf_0009"
         },
         {
             "column": "activity",
@@ -46,7 +46,7 @@
     },
     "responseOptions": {
         "valueType": [
-            "xsd:decimal"
+            "xsd:string"
         ]
     },
     "ui": {

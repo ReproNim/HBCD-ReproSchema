@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/su/tlfb"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/su/tlfb/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_ch_tlfb_0050"
+            "value": "pex_ch_tlfb_0041"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_ch_tlfb_0050"
+            "value": "pex_ch_tlfb_0041"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_ch_tlfb_anx_wk_03"
     },
     "question": {
-        "en": "Anxyolitic"
+        "en": "Self-reported frequency use for Anxyolitic for week 3"
     },
     "responseOptions": {
         "valueType": [

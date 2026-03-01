@@ -1,0 +1,76 @@
+{
+    "id": "img_xcpd_hash-2afa9081+0ef9c88a_space-fsLR_seg-4S656Parcels_stat-mean_desc-sulc_morph_RH_Vis_28_hash-2afa9081+0ef9c88a",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "unit",
+            "source": "nbdc",
+            "value": "Distance (millimeters)"
+        },
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular Imaging"
+        },
+        {
+            "column": "sub_domain",
+            "source": "nbdc",
+            "value": "Structural MRI"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "metric",
+            "source": "nbdc",
+            "value": "Sulcal Depth"
+        },
+        {
+            "column": "atlas",
+            "source": "nbdc",
+            "value": "4S-656-Region"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/smri/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "x_2afa_s656_msulc_m_0329"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "x_2afa_s656_msulc_m_0329"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "img_xcpd_hash-2afa9081+0ef9c88a_space-fsLR_seg-4S656Parcels_stat-mean_desc-sulc_morph"
+        }
+    ],
+    "prefLabel": {
+        "en": "img_xcpd_hash-2afa9081+0ef9c88a_space-fsLR_seg-4S656Parcels_stat-mean_desc-sulc_morph_RH_Vis_28_hash-2afa9081+0ef9c88a"
+    },
+    "question": {
+        "en": "XCP-D 4S-656-Region Parc. Sulc Values for region RH_Vis_28"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

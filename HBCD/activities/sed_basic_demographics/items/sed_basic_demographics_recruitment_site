@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/demo/basicdemo"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/demo/basicdemo/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "sed_basic_demographics_0030"
+            "value": "sed_basic_demographics_0029"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "sed_basic_demographics_0030"
+            "value": "sed_basic_demographics_0029"
         },
         {
             "column": "activity",

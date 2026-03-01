@@ -20,7 +20,7 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/measures/behCGinteraction/#ecpromis-child-caregiver-interaction"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/bcgi/ecpromis/"
         },
         {
             "column": "name_short",

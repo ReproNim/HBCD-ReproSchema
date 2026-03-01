@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/bfy"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/bfy/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "sed_bm_bfy_0003"
+            "value": "sed_bm_bfy_0028"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "sed_bm_bfy_0003"
+            "value": "sed_bm_bfy_0028"
         },
         {
             "column": "activity",

@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0301"
+            "value": "pex_bm_healthv2_preg_0298"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0301"
+            "value": "pex_bm_healthv2_preg_0298"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_healthv2_preg__meds_054__03_dk"
     },
     "question": {
-        "en": "frequency dk/decline prescription 8"
+        "en": "frequency dk/decline rx 8"
     },
     "responseOptions": {
         "valueType": [

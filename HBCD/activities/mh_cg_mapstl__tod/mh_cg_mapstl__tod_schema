@@ -1,0 +1,299 @@
+{
+    "id": "mh_cg_mapstl__tod_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mh_cg_mapstl__tod"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mh_cg_mapstl__tod_date_taken",
+            "items/mh_cg_mapstl__tod_candidate_age",
+            "items/mh_cg_mapstl__tod_lang",
+            "items/mh_cg_mapstl__tod_001",
+            "items/mh_cg_mapstl__tod_002",
+            "items/mh_cg_mapstl__tod_003",
+            "items/mh_cg_mapstl__tod_004",
+            "items/mh_cg_mapstl__tod_005",
+            "items/mh_cg_mapstl__tod_006",
+            "items/mh_cg_mapstl__tod_007",
+            "items/mh_cg_mapstl__tod_008",
+            "items/mh_cg_mapstl__tod_009",
+            "items/mh_cg_mapstl__tod_010",
+            "items/mh_cg_mapstl__tod_011",
+            "items/mh_cg_mapstl__tod_012",
+            "items/mh_cg_mapstl__tod_013",
+            "items/mh_cg_mapstl__tod_014",
+            "items/mh_cg_mapstl__tod_015",
+            "items/mh_cg_mapstl__tod_016",
+            "items/mh_cg_mapstl__tod_017",
+            "items/mh_cg_mapstl__tod_018",
+            "items/mh_cg_mapstl__tod_019",
+            "items/mh_cg_mapstl__tod_020",
+            "items/mh_cg_mapstl__tod_021",
+            "items/mh_cg_mapstl__tod_022",
+            "items/mh_cg_mapstl__tod_023",
+            "items/mh_cg_mapstl__tod_024",
+            "items/mh_cg_mapstl__tod_025",
+            "items/mh_cg_mapstl__tod_026",
+            "items/mh_cg_mapstl__tod_027",
+            "items/mh_cg_mapstl__tod_028",
+            "items/mh_cg_mapstl__tod_029",
+            "items/mh_cg_mapstl__tod_030",
+            "items/mh_cg_mapstl__tod_031",
+            "items/mh_cg_mapstl__tod_032",
+            "items/mh_cg_mapstl__tod_033",
+            "items/mh_cg_mapstl__tod_034",
+            "items/mh_cg_mapstl__tod_035",
+            "items/mh_cg_mapstl__tod_036",
+            "items/mh_cg_mapstl__tod_037",
+            "items/mh_cg_mapstl__tod_038",
+            "items/mh_cg_mapstl__tod_039",
+            "items/mh_cg_mapstl__tod_040",
+            "items/mh_cg_mapstl__tod_total_score",
+            "items/mh_cg_mapstl__tod_administration",
+            "items/mh_cg_mapstl__tod_gestational_age",
+            "items/mh_cg_mapstl__tod_adjusted_age"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_date_taken",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_date_taken"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_candidate_age",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_candidate_age"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_lang",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_lang"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_001",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_001"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_002",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_002"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_003",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_003"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_004",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_004"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_005",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_005"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_006",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_006"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_007",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_007"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_008",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_008"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_009",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_009"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_010",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_010"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_011",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_011"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_012",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_012"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_013",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_013"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_014",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_014"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_015",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_015"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_016",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_016"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_017",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_017"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_018",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_018"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_019",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_019"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_020",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_020"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_021",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_021"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_022",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_022"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_023",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_023"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_024",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_024"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_025",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_025"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_026",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_026"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_027",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_027"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_028",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_028"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_029",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_029"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_030",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_030"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_031",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_031"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_032",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_032"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_033",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_033"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_034",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_034"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_035",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_035"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_036",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_036"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_037",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_037"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_038",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_038"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_039",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_039"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_040",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_040"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_total_score",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_total_score"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_administration",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_administration"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_gestational_age",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_gestational_age"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_adjusted_age",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_adjusted_age"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

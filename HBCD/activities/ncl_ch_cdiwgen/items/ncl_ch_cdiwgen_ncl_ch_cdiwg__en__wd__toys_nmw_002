@@ -1,0 +1,56 @@
+{
+    "id": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_nmw_002",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Neurocognition and Language"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/neurocog/macarthur-bates/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "ncl_ch_cdiwgen_0453"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "ncl_ch_cdiwgen_0453"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "ncl_ch_cdiwgen"
+        }
+    ],
+    "prefLabel": {
+        "en": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_nmw_002"
+    },
+    "question": {
+        "en": "bubbles"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

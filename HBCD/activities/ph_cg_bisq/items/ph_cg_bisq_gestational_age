@@ -1,0 +1,57 @@
+{
+    "id": "ph_cg_bisq_gestational_age",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Physical Health"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/physhealth/bisq-sf/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "ph_cg_bisq_0037"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "ph_cg_bisq_0037"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "ph_cg_bisq"
+        }
+    ],
+    "prefLabel": {
+        "en": "ph_cg_bisq_gestational_age"
+    },
+    "question": {
+        "en": "Gestational Age (Weeks)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

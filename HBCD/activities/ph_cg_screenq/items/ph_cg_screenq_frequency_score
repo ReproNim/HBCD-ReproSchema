@@ -1,0 +1,56 @@
+{
+    "id": "ph_cg_screenq_frequency_score",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Physical Health"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/physhealth/screenq/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "ph_cg_screenq_0026"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "ph_cg_screenq_0026"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "ph_cg_screenq"
+        }
+    ],
+    "prefLabel": {
+        "en": "ph_cg_screenq_frequency_score"
+    },
+    "question": {
+        "en": "Frequency Score:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

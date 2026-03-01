@@ -1,0 +1,2027 @@
+{
+    "id": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_candidate_age",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_adjusted_age",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_1_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_1_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMmouth_1_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_2_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_1_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_3_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_1_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_2_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_2_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_1_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_1_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_MedialParietal_1_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_ParietoOccip_1_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_ParietoOccip_2_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_3_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_4_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_5_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_2_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_3_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_6_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_1_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_2_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_1_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_3_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_4_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_5_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_3_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_4_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Salience_1_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_2_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_3_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_4_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_5_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_5_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_6_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_7_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_8_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_9_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMmouth_2_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_6_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_1_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_2_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_3_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_6_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_10_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_11_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_12_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_13_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_4_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_14_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_5_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_6_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMmouth_3_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_15_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_7_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_16_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_17_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_18_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMmouth_4_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_2_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_3_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_4_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_7_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_2_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_3_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_4_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_5_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_6_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_7_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_8_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_8_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_9_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_4_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_8_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_5_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_10_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_9_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_4_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_6_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_7_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_11_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_12_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Salience_2_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_13_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_8_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_9_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_9_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_10_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_MedialParietal_2_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_7_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_11_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_12_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_MedialParietal_3_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_7_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_13_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_5_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_8_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_9_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_10_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_14_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_14_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_10_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_15_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_11_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_16_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_15_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_16_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_6_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_7_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_17_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_17_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_18_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_18_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_8_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_5_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_9_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_10_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_6_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_7_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_8_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_9_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_10_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_11_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_12_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_13_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_11_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_12_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_14_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_15_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_ParietoOccip_3_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_11_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_12_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_16_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_17_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_18_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_13_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_14_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_15_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_16_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_17_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_18_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_19_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_ParietoOccip_4_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_20_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_13_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_14_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_19_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_8_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_9_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_15_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_16_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_17_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_20_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_18_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_19_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_19_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_20_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_10_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_21_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_12_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_11_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_21_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_19_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMmouth_5_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_22_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_19_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_10_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_11_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_20_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_12_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_13_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_22_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_MedialParietal_4_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_ParietoOccip_5_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_21_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_22_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_23_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_23_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_24_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_21_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_22_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_13_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Salience_3_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_23_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_23_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_24_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_24_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_25_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_20_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_20_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_21_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_26_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_22_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_23_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_24_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_27_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMmouth_6_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_28_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_21_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_25_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_25_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_26_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_22_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_27_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_28_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_29_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_30_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_23_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_31_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_32_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_24_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMmouth_7_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_33_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_34_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_35_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_36_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_37_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMmouth_8_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_29_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_26_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_12_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_13_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_30_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_14_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_27_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_14_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_15_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_15_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_16_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_16_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_17_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_17_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_18_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_31_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_32_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_25_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_18_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_33_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_19_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_14_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_19_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_20_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_21_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_20_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_34_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_35_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Salience_4_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_36_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_37_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_26_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_24_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_27_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_28_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_MedialParietal_5_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_25_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_26_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_28_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_27_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_29_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_15_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_16_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_29_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_28_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_29_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_30_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_30_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_31_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_21_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_22_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_38_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_31_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_17_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_18_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_38_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_32_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_19_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_20_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_30_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_31_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_25_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_26_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_27_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_28_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_29_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_30_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_31_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_32_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_33_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_34_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_32_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_35_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_36_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_32_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_ParietoOccip_6_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_ParietoOccip_7_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_37_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_38_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_33_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_34_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_39_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_40_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_41_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_42_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_43_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_44_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_45_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_35_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_36_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_37_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_38_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_39_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_46_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_ParietoOccip_8_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_47_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_33_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_34_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_39_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_40_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_21_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_22_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_35_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_36_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_37_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_38_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_39_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_40_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_23_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_24_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_23_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_24_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_41_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_22_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_23_hash-0f306a2f+0ef9c88a"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_candidate_age",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_candidate_age"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_adjusted_age",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_adjusted_age"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_1_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_1_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_1_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_1_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMmouth_1_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMmouth_1_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_2_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_2_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_1_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_1_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_3_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_3_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_1_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_1_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_2_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_2_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_2_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_2_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_1_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_1_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_1_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_1_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_MedialParietal_1_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_MedialParietal_1_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_ParietoOccip_1_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_ParietoOccip_1_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_ParietoOccip_2_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_ParietoOccip_2_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_3_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_3_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_4_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_4_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_5_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_5_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_2_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_2_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_3_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_3_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_6_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_6_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_1_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_1_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_2_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_2_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_1_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_1_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_3_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_3_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_4_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_4_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_5_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_5_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_3_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_3_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_4_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_4_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Salience_1_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Salience_1_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_2_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_2_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_3_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_3_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_4_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_4_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_5_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_5_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_5_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_5_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_6_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_6_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_7_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_7_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_8_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_8_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_9_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_9_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMmouth_2_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMmouth_2_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_6_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_6_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_1_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_1_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_2_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_2_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_3_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_3_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_6_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_6_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_10_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_10_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_11_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_11_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_12_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_12_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_13_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_13_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_4_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_4_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_14_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_14_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_5_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_5_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_6_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_6_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMmouth_3_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMmouth_3_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_15_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_15_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_7_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_7_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_16_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_16_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_17_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_17_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_18_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMhand_18_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMmouth_4_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_SMmouth_4_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_2_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_2_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_3_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_3_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_4_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_4_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_7_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_7_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_2_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_2_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_3_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_3_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_4_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_4_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_5_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_5_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_6_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_6_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_7_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_7_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_8_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_8_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_8_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_8_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_9_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_9_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_4_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_4_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_8_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_8_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_5_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_5_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_10_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_10_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_9_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_9_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_4_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_4_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_6_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_6_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_7_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_7_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_11_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_11_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_12_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_12_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Salience_2_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Salience_2_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_13_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_13_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_8_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_8_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_9_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_9_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_9_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_9_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_10_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_10_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_MedialParietal_2_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_MedialParietal_2_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_7_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_7_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_11_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_11_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_12_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_12_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_MedialParietal_3_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_MedialParietal_3_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_7_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_7_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_13_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_13_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_5_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_5_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_8_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_8_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_9_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_9_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_10_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_10_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_14_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_14_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_14_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_14_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_10_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_10_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_15_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_15_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_11_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_11_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_16_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_16_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_15_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_15_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_16_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_16_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_6_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_6_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_7_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_7_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_17_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_17_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_17_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_17_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_18_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_18_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_18_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_18_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_8_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_8_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_5_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_5_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_9_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_9_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_10_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_10_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_6_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_6_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_7_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_7_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_8_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_8_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_9_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_9_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_10_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_10_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_11_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_11_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_12_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_12_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_13_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_13_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_11_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_11_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_12_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_12_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_14_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_14_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_15_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_15_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_ParietoOccip_3_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_ParietoOccip_3_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_11_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_11_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_12_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_12_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_16_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_16_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_17_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_17_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_18_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_18_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_13_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_13_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_14_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_14_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_15_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_15_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_16_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_16_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_17_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_17_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_18_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Visual_18_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_19_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_19_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_ParietoOccip_4_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_ParietoOccip_4_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_20_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_20_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_13_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_13_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_14_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_14_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_19_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_19_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_8_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_8_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_9_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_FrontoParietal_9_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_15_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_15_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_16_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_16_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_17_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_17_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_20_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_CinguloOperc_20_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_18_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_18_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_19_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_DorsalAttn_19_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_19_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_19_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_20_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Default_20_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_10_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_10_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_21_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_None_21_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_12_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_Auditory_12_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_11_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_L_VentralAttn_11_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_21_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_21_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_19_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_19_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMmouth_5_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMmouth_5_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_22_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_22_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_19_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_19_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_10_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_10_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_11_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_11_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_20_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_20_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_12_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_12_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_13_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_13_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_22_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_22_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_MedialParietal_4_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_MedialParietal_4_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_ParietoOccip_5_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_ParietoOccip_5_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_21_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_21_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_22_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_22_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_23_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_23_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_23_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_23_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_24_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_24_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_21_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_21_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_22_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_22_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_13_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_13_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Salience_3_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Salience_3_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_23_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_23_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_23_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_23_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_24_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_24_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_24_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_24_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_25_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_25_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_20_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_20_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_20_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_20_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_21_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_21_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_26_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_26_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_22_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_22_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_23_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_23_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_24_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_24_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_27_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_27_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMmouth_6_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMmouth_6_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_28_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_28_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_21_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_21_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_25_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_25_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_25_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_25_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_26_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_26_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_22_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_22_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_27_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_27_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_28_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_28_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_29_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_29_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_30_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_30_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_23_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_23_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_31_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_31_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_32_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_32_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_24_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_24_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMmouth_7_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMmouth_7_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_33_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_33_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_34_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_34_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_35_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_35_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_36_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_36_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_37_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_37_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMmouth_8_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMmouth_8_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_29_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_29_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_26_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_26_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_12_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_12_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_13_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_13_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_30_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_30_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_14_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_14_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_27_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_27_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_14_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_14_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_15_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_15_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_15_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_15_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_16_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_16_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_16_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_16_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_17_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_17_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_17_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_17_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_18_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_18_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_31_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_31_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_32_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_32_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_25_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_25_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_18_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_18_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_33_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_33_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_19_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_19_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_14_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_14_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_19_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_19_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_20_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_20_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_21_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_21_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_20_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_20_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_34_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_34_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_35_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_35_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Salience_4_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Salience_4_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_36_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_36_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_37_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_37_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_26_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_26_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_24_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_24_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_27_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_27_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_28_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_28_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_MedialParietal_5_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_MedialParietal_5_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_25_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_25_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_26_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_26_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_28_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_28_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_27_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_27_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_29_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_29_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_15_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_15_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_16_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_16_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_29_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_29_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_28_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_28_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_29_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_29_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_30_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_30_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_30_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_30_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_31_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_31_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_21_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_21_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_22_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_22_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_38_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_SMhand_38_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_31_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_31_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_17_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_17_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_18_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_18_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_38_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_38_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_32_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_DorsalAttn_32_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_19_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_19_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_20_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_20_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_30_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_30_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_31_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_31_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_25_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_25_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_26_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_26_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_27_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_27_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_28_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_28_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_29_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_29_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_30_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_30_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_31_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_31_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_32_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_32_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_33_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_33_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_34_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_34_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_32_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_32_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_35_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_35_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_36_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_36_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_32_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_32_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_ParietoOccip_6_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_ParietoOccip_6_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_ParietoOccip_7_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_ParietoOccip_7_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_37_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_37_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_38_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_38_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_33_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_33_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_34_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_34_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_39_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_39_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_40_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_40_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_41_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_41_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_42_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_42_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_43_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_43_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_44_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_44_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_45_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_45_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_35_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_35_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_36_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_36_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_37_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_37_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_38_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_38_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_39_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Visual_39_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_46_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_46_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_ParietoOccip_8_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_ParietoOccip_8_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_47_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_None_47_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_33_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_33_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_34_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_34_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_39_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_39_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_40_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_CinguloOperc_40_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_21_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_21_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_22_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_22_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_35_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_35_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_36_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_36_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_37_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_37_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_38_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_38_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_39_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_39_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_40_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_40_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_23_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_23_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_24_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_FrontoParietal_24_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_23_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_23_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_24_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Auditory_24_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_41_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_Default_41_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_22_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_22_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_23_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Gordon_stat-coverage_bold_R_VentralAttn_23_hash-0f306a2f+0ef9c88a"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

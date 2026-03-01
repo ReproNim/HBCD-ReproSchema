@@ -1,0 +1,56 @@
+{
+    "id": "ph_ch_vs_eye_002__01___blocked_tear_duct",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Physical Health"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/physhealth/vision/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "ph_ch_vs_0010"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "ph_ch_vs_0010"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "ph_ch_vs"
+        }
+    ],
+    "prefLabel": {
+        "en": "ph_ch_vs_eye_002__01___blocked_tear_duct"
+    },
+    "question": {
+        "en": "a. If yes, diagnosis: (check all that apply) [Multi-select]: Blocked Tear Duct (Nasolacrimal duct obstruction)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

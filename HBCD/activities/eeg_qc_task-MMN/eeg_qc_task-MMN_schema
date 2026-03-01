@@ -7,13 +7,28 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/eeg_qc_task-MMN_candidate_age",
+            "items/eeg_qc_task-MMN_adjusted_age",
             "items/eeg_qc_task-MMN_qc_pass_fail",
             "items/eeg_qc_task-MMN_capping_quality",
             "items/eeg_qc_task-MMN_MMN_Standard",
             "items/eeg_qc_task-MMN_MMN_PreDev",
-            "items/eeg_qc_task-MMN_MMN_Dev"
+            "items/eeg_qc_task-MMN_MMN_Dev",
+            "items/eeg_qc_task-MMN_stimtracker_artifact",
+            "items/eeg_qc_task-MMN_technical_issues",
+            "items/eeg_qc_task-MMN_technical_issues_notes"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/eeg_qc_task-MMN_candidate_age",
+                "isVis": true,
+                "variableName": "eeg_qc_task-MMN_candidate_age"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-MMN_adjusted_age",
+                "isVis": true,
+                "variableName": "eeg_qc_task-MMN_adjusted_age"
+            },
             {
                 "isAbout": "items/eeg_qc_task-MMN_qc_pass_fail",
                 "isVis": true,
@@ -38,6 +53,21 @@
                 "isAbout": "items/eeg_qc_task-MMN_MMN_Dev",
                 "isVis": true,
                 "variableName": "eeg_qc_task-MMN_MMN_Dev"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-MMN_stimtracker_artifact",
+                "isVis": true,
+                "variableName": "eeg_qc_task-MMN_stimtracker_artifact"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-MMN_technical_issues",
+                "isVis": true,
+                "variableName": "eeg_qc_task-MMN_technical_issues"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-MMN_technical_issues_notes",
+                "isVis": true,
+                "variableName": "eeg_qc_task-MMN_technical_issues_notes"
             }
         ],
         "shuffle": false

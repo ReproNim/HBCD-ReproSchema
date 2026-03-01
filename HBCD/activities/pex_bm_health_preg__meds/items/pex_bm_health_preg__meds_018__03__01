@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_health_preg_meds_0213"
+            "value": "pex_bm_health_preg_meds_0208"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_health_preg_meds_0213"
+            "value": "pex_bm_health_preg_meds_0208"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_health_preg__meds_018__03__01"
     },
     "question": {
-        "en": "Unit of frequency otc 4"
+        "en": "Fourth otc per hour"
     },
     "responseOptions": {
         "valueType": [

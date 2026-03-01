@@ -1,0 +1,67 @@
+{
+    "id": "eeg_qc_task-MMN_technical_issues_notes",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular EEG"
+        },
+        {
+            "column": "sub_domain",
+            "source": "nbdc",
+            "value": "Quality Control"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "metric",
+            "source": "nbdc",
+            "value": "Auditory Mismatch Negativity"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/tasks/#auditory-mismatch-negativity-task"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "eeg_qc_task_mmn_0010"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "eeg_qc_task_mmn_0010"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "eeg_qc_task-MMN"
+        }
+    ],
+    "prefLabel": {
+        "en": "eeg_qc_task-MMN_technical_issues_notes"
+    },
+    "question": {
+        "en": "Details about identified technical issues, if any."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

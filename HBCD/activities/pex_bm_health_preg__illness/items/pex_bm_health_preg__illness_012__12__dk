@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_hlth_preg_illness_0202"
+            "value": "pex_bm_hlth_preg_illness_0201"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_hlth_preg_illness_0202"
+            "value": "pex_bm_hlth_preg_illness_0201"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_health_preg__illness_012__12__dk"
     },
     "question": {
-        "en": "dk/decline temp 10"
+        "en": "dk/decline temp 9"
     },
     "responseOptions": {
         "valueType": [

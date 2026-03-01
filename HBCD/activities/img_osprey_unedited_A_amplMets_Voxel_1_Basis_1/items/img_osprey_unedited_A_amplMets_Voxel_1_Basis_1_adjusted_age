@@ -18,14 +18,24 @@
             "value": "Tabular Imaging"
         },
         {
+            "column": "sub_domain",
+            "source": "nbdc",
+            "value": "MR Spectroscopy"
+        },
+        {
             "column": "source",
             "source": "nbdc",
             "value": "Child"
         },
         {
+            "column": "metric",
+            "source": "nbdc",
+            "value": "Neurometabolites"
+        },
+        {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/mrs"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/mrs/"
         },
         {
             "column": "name_short",

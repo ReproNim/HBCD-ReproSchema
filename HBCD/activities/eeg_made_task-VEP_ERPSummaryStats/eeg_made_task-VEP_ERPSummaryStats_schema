@@ -1,0 +1,107 @@
+{
+    "id": "eeg_made_task-VEP_ERPSummaryStats_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "eeg_made_task-VEP_ERPSummaryStats"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/eeg_made_task-VEP_ERPSummaryStats_candidate_age",
+            "items/eeg_made_task-VEP_ERPSummaryStats_adjusted_age",
+            "items/eeg_made_task-VEP_ERPSummaryStats_NTrials_vep",
+            "items/eeg_made_task-VEP_ERPSummaryStats_SME_N1_oz_vep",
+            "items/eeg_made_task-VEP_ERPSummaryStats_AdaptiveMean_N1_oz_vep",
+            "items/eeg_made_task-VEP_ERPSummaryStats_Latency_N1_oz_vep",
+            "items/eeg_made_task-VEP_ERPSummaryStats_MeanAmp_N1_oz_vep",
+            "items/eeg_made_task-VEP_ERPSummaryStats_SME_P1_oz_vep",
+            "items/eeg_made_task-VEP_ERPSummaryStats_AdaptiveMean_P1_oz_vep",
+            "items/eeg_made_task-VEP_ERPSummaryStats_Latency_P1_oz_vep",
+            "items/eeg_made_task-VEP_ERPSummaryStats_MeanAmp_P1_oz_vep",
+            "items/eeg_made_task-VEP_ERPSummaryStats_SME_N2_oz_vep",
+            "items/eeg_made_task-VEP_ERPSummaryStats_AdaptiveMean_N2_oz_vep",
+            "items/eeg_made_task-VEP_ERPSummaryStats_Latency_N2_oz_vep",
+            "items/eeg_made_task-VEP_ERPSummaryStats_MeanAmp_N2_oz_vep"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/eeg_made_task-VEP_ERPSummaryStats_candidate_age",
+                "isVis": true,
+                "variableName": "eeg_made_task-VEP_ERPSummaryStats_candidate_age"
+            },
+            {
+                "isAbout": "items/eeg_made_task-VEP_ERPSummaryStats_adjusted_age",
+                "isVis": true,
+                "variableName": "eeg_made_task-VEP_ERPSummaryStats_adjusted_age"
+            },
+            {
+                "isAbout": "items/eeg_made_task-VEP_ERPSummaryStats_NTrials_vep",
+                "isVis": true,
+                "variableName": "eeg_made_task-VEP_ERPSummaryStats_NTrials_vep"
+            },
+            {
+                "isAbout": "items/eeg_made_task-VEP_ERPSummaryStats_SME_N1_oz_vep",
+                "isVis": true,
+                "variableName": "eeg_made_task-VEP_ERPSummaryStats_SME_N1_oz_vep"
+            },
+            {
+                "isAbout": "items/eeg_made_task-VEP_ERPSummaryStats_AdaptiveMean_N1_oz_vep",
+                "isVis": true,
+                "variableName": "eeg_made_task-VEP_ERPSummaryStats_AdaptiveMean_N1_oz_vep"
+            },
+            {
+                "isAbout": "items/eeg_made_task-VEP_ERPSummaryStats_Latency_N1_oz_vep",
+                "isVis": true,
+                "variableName": "eeg_made_task-VEP_ERPSummaryStats_Latency_N1_oz_vep"
+            },
+            {
+                "isAbout": "items/eeg_made_task-VEP_ERPSummaryStats_MeanAmp_N1_oz_vep",
+                "isVis": true,
+                "variableName": "eeg_made_task-VEP_ERPSummaryStats_MeanAmp_N1_oz_vep"
+            },
+            {
+                "isAbout": "items/eeg_made_task-VEP_ERPSummaryStats_SME_P1_oz_vep",
+                "isVis": true,
+                "variableName": "eeg_made_task-VEP_ERPSummaryStats_SME_P1_oz_vep"
+            },
+            {
+                "isAbout": "items/eeg_made_task-VEP_ERPSummaryStats_AdaptiveMean_P1_oz_vep",
+                "isVis": true,
+                "variableName": "eeg_made_task-VEP_ERPSummaryStats_AdaptiveMean_P1_oz_vep"
+            },
+            {
+                "isAbout": "items/eeg_made_task-VEP_ERPSummaryStats_Latency_P1_oz_vep",
+                "isVis": true,
+                "variableName": "eeg_made_task-VEP_ERPSummaryStats_Latency_P1_oz_vep"
+            },
+            {
+                "isAbout": "items/eeg_made_task-VEP_ERPSummaryStats_MeanAmp_P1_oz_vep",
+                "isVis": true,
+                "variableName": "eeg_made_task-VEP_ERPSummaryStats_MeanAmp_P1_oz_vep"
+            },
+            {
+                "isAbout": "items/eeg_made_task-VEP_ERPSummaryStats_SME_N2_oz_vep",
+                "isVis": true,
+                "variableName": "eeg_made_task-VEP_ERPSummaryStats_SME_N2_oz_vep"
+            },
+            {
+                "isAbout": "items/eeg_made_task-VEP_ERPSummaryStats_AdaptiveMean_N2_oz_vep",
+                "isVis": true,
+                "variableName": "eeg_made_task-VEP_ERPSummaryStats_AdaptiveMean_N2_oz_vep"
+            },
+            {
+                "isAbout": "items/eeg_made_task-VEP_ERPSummaryStats_Latency_N2_oz_vep",
+                "isVis": true,
+                "variableName": "eeg_made_task-VEP_ERPSummaryStats_Latency_N2_oz_vep"
+            },
+            {
+                "isAbout": "items/eeg_made_task-VEP_ERPSummaryStats_MeanAmp_N2_oz_vep",
+                "isVis": true,
+                "variableName": "eeg_made_task-VEP_ERPSummaryStats_MeanAmp_N2_oz_vep"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

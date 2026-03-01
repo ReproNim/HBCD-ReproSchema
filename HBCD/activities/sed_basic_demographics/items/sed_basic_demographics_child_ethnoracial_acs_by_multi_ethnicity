@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/demo/basicdemo"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/demo/basicdemo/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "sed_basic_demographics_0029"
+            "value": "sed_basic_demographics_0028"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "sed_basic_demographics_0029"
+            "value": "sed_basic_demographics_0028"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "sed_basic_demographics_child_ethnoracial_acs_by_multi_ethnicity"
     },
     "question": {
-        "en": "Child's race and ethnicity aggregated using the ACS scheme (from the American Community Survey [ACS] measure). Multiracial aggregation by Hispanic and Non-Hispanic distinction"
+        "en": "Child's race and ethnicity (ACS items, multiracial aggregation by Hispanic and non-Hispanic distinction)"
     },
     "responseOptions": {
         "valueType": [

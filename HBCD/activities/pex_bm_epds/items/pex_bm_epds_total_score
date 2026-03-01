@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/mh/epds"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/mh/epds/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_epds_0020"
+            "value": "pex_bm_epds_0015"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_epds_0020"
+            "value": "pex_bm_epds_0015"
         },
         {
             "column": "activity",

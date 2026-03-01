@@ -1,0 +1,191 @@
+{
+    "id": "ph_ch_vs_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ph_ch_vs"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ph_ch_vs_date_taken",
+            "items/ph_ch_vs_candidate_age",
+            "items/ph_ch_vs_gestational_age",
+            "items/ph_ch_vs_adjusted_age",
+            "items/ph_ch_vs_eye_001",
+            "items/ph_ch_vs_eye_002",
+            "items/ph_ch_vs_eye_002__01___strabismus",
+            "items/ph_ch_vs_eye_002__01___retinopathy_of_prematurity",
+            "items/ph_ch_vs_eye_002__01___chalazion",
+            "items/ph_ch_vs_eye_002__01___blocked_tear_duct",
+            "items/ph_ch_vs_eye_002__01___farsightedness",
+            "items/ph_ch_vs_eye_002__01___astigmatism",
+            "items/ph_ch_vs_eye_002__01___nearsightedness",
+            "items/ph_ch_vs_eye_002__01___nystagmus",
+            "items/ph_ch_vs_eye_002__01___other",
+            "items/ph_ch_vs_eye_002__02",
+            "items/ph_ch_vs_eye_003",
+            "items/ph_ch_vs_eye_004",
+            "items/ph_ch_vs_eye_005",
+            "items/ph_ch_vs_eye_006",
+            "items/ph_ch_vs_eye_006__01",
+            "items/ph_ch_vs_001",
+            "items/ph_ch_vs_001__01",
+            "items/ph_ch_vs_001__02",
+            "items/ph_ch_vs_001__03",
+            "items/ph_ch_vs_002",
+            "items/ph_ch_vs_002__01",
+            "items/ph_ch_vs_002__02",
+            "items/ph_ch_vs_administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ph_ch_vs_date_taken",
+                "isVis": true,
+                "variableName": "ph_ch_vs_date_taken"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_candidate_age",
+                "isVis": true,
+                "variableName": "ph_ch_vs_candidate_age"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_gestational_age",
+                "isVis": true,
+                "variableName": "ph_ch_vs_gestational_age"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_adjusted_age",
+                "isVis": true,
+                "variableName": "ph_ch_vs_adjusted_age"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_001",
+                "isVis": true,
+                "variableName": "ph_ch_vs_eye_001"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_002",
+                "isVis": true,
+                "variableName": "ph_ch_vs_eye_002"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_002__01___strabismus",
+                "isVis": true,
+                "variableName": "ph_ch_vs_eye_002__01___strabismus"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_002__01___retinopathy_of_prematurity",
+                "isVis": true,
+                "variableName": "ph_ch_vs_eye_002__01___retinopathy_of_prematurity"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_002__01___chalazion",
+                "isVis": true,
+                "variableName": "ph_ch_vs_eye_002__01___chalazion"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_002__01___blocked_tear_duct",
+                "isVis": true,
+                "variableName": "ph_ch_vs_eye_002__01___blocked_tear_duct"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_002__01___farsightedness",
+                "isVis": true,
+                "variableName": "ph_ch_vs_eye_002__01___farsightedness"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_002__01___astigmatism",
+                "isVis": true,
+                "variableName": "ph_ch_vs_eye_002__01___astigmatism"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_002__01___nearsightedness",
+                "isVis": true,
+                "variableName": "ph_ch_vs_eye_002__01___nearsightedness"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_002__01___nystagmus",
+                "isVis": true,
+                "variableName": "ph_ch_vs_eye_002__01___nystagmus"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_002__01___other",
+                "isVis": true,
+                "variableName": "ph_ch_vs_eye_002__01___other"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_002__02",
+                "isVis": true,
+                "variableName": "ph_ch_vs_eye_002__02"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_003",
+                "isVis": true,
+                "variableName": "ph_ch_vs_eye_003"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_004",
+                "isVis": true,
+                "variableName": "ph_ch_vs_eye_004"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_005",
+                "isVis": true,
+                "variableName": "ph_ch_vs_eye_005"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_006",
+                "isVis": true,
+                "variableName": "ph_ch_vs_eye_006"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_006__01",
+                "isVis": true,
+                "variableName": "ph_ch_vs_eye_006__01"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_001",
+                "isVis": true,
+                "variableName": "ph_ch_vs_001"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_001__01",
+                "isVis": true,
+                "variableName": "ph_ch_vs_001__01"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_001__02",
+                "isVis": true,
+                "variableName": "ph_ch_vs_001__02"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_001__03",
+                "isVis": true,
+                "variableName": "ph_ch_vs_001__03"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_002",
+                "isVis": true,
+                "variableName": "ph_ch_vs_002"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_002__01",
+                "isVis": true,
+                "variableName": "ph_ch_vs_002__01"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_002__02",
+                "isVis": true,
+                "variableName": "ph_ch_vs_002__02"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_administration",
+                "isVis": true,
+                "variableName": "ph_ch_vs_administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

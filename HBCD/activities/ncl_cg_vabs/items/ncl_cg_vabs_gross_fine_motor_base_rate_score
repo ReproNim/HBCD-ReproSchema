@@ -1,0 +1,56 @@
+{
+    "id": "ncl_cg_vabs_gross_fine_motor_base_rate_score",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Neurocognition and Language"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/neurocog/vineland/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "ncl_cg_vabs_0200"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "ncl_cg_vabs_0200"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "ncl_cg_vabs"
+        }
+    ],
+    "prefLabel": {
+        "en": "ncl_cg_vabs_gross_fine_motor_base_rate_score"
+    },
+    "question": {
+        "en": "Gross Motor < Fine Motor"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

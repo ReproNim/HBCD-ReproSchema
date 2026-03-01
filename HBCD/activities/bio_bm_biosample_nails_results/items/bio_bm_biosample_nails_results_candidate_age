@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/biospec/nails"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/biospec/nails/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "bio_bm_nails_results_0125"
+            "value": "bio_bm_nails_results_0171"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "bio_bm_nails_results_0125"
+            "value": "bio_bm_nails_results_0171"
         },
         {
             "column": "activity",
@@ -50,7 +50,8 @@
         ]
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "static",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

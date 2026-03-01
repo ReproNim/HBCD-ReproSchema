@@ -1,0 +1,61 @@
+{
+    "id": "eeg_ch_chkl_001_v08",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular EEG"
+        },
+        {
+            "column": "sub_domain",
+            "source": "nbdc",
+            "value": "Administrative"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "eeg_ch_chkl_0057"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "eeg_ch_chkl_0057"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "eeg_ch_chkl"
+        }
+    ],
+    "prefLabel": {
+        "en": "eeg_ch_chkl_001_v08"
+    },
+    "question": {
+        "en": "General session notes (e.g. any details important for data preprocessing, i.e. what was the technical error, did you have to restart NetStation/E-Prime, issue with net, issue with E-Prime flags)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/physhealth/bf"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/physhealth/bf/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "ph_cg_phx_bfh_0006"
+            "value": "ph_cg_phx_bfh_0004"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "ph_cg_phx_bfh_0006"
+            "value": "ph_cg_phx_bfh_0004"
         },
         {
             "column": "activity",

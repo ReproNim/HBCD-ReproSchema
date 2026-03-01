@@ -1,0 +1,56 @@
+{
+    "id": "sed_cg_home_it_total_cognitive_stimulation",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Social and Environmental Determinants"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/home21/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "sed_cg_home_it_0016"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "sed_cg_home_it_0016"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "sed_cg_home_it"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_cg_home_it_total_cognitive_stimulation"
+    },
+    "question": {
+        "en": "Cognitive Stimulation (C):"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

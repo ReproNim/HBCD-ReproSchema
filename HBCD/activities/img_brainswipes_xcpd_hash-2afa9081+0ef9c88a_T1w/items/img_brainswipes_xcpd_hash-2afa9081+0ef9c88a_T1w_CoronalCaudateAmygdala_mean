@@ -1,0 +1,66 @@
+{
+    "id": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_CoronalCaudateAmygdala_mean",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "unit",
+            "source": "nbdc",
+            "value": "percentage"
+        },
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular Imaging"
+        },
+        {
+            "column": "sub_domain",
+            "source": "nbdc",
+            "value": "Quality Control"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/brainswipes"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "bs_xcpd_2afa_t1w_0013"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "bs_xcpd_2afa_t1w_0013"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w"
+        }
+    ],
+    "prefLabel": {
+        "en": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_CoronalCaudateAmygdala_mean"
+    },
+    "question": {
+        "en": "Mean QC score for T1w surfaces in coronal plane (Caudate/Amygdala area). Derived from average scores of 0 (Fail) and 1 (Pass) (or NA if QC was not performed)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

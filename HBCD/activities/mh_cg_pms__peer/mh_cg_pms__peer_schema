@@ -1,0 +1,101 @@
+{
+    "id": "mh_cg_pms__peer_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mh_cg_pms__peer"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mh_cg_pms__peer_date_taken",
+            "items/mh_cg_pms__peer_candidate_age",
+            "items/mh_cg_pms__peer_lang",
+            "items/mh_cg_pms__peer_001",
+            "items/mh_cg_pms__peer_002__01",
+            "items/mh_cg_pms__peer_002__02",
+            "items/mh_cg_pms__peer_002__03",
+            "items/mh_cg_pms__peer_002__04",
+            "items/mh_cg_pms__peer_total_score",
+            "items/mh_cg_pms__peer_administration",
+            "items/mh_cg_pms__peer_answered_count",
+            "items/mh_cg_pms__peer_note",
+            "items/mh_cg_pms__peer_gestational_age",
+            "items/mh_cg_pms__peer_adjusted_age"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mh_cg_pms__peer_date_taken",
+                "isVis": true,
+                "variableName": "mh_cg_pms__peer_date_taken"
+            },
+            {
+                "isAbout": "items/mh_cg_pms__peer_candidate_age",
+                "isVis": true,
+                "variableName": "mh_cg_pms__peer_candidate_age"
+            },
+            {
+                "isAbout": "items/mh_cg_pms__peer_lang",
+                "isVis": true,
+                "variableName": "mh_cg_pms__peer_lang"
+            },
+            {
+                "isAbout": "items/mh_cg_pms__peer_001",
+                "isVis": true,
+                "variableName": "mh_cg_pms__peer_001"
+            },
+            {
+                "isAbout": "items/mh_cg_pms__peer_002__01",
+                "isVis": true,
+                "variableName": "mh_cg_pms__peer_002__01"
+            },
+            {
+                "isAbout": "items/mh_cg_pms__peer_002__02",
+                "isVis": true,
+                "variableName": "mh_cg_pms__peer_002__02"
+            },
+            {
+                "isAbout": "items/mh_cg_pms__peer_002__03",
+                "isVis": true,
+                "variableName": "mh_cg_pms__peer_002__03"
+            },
+            {
+                "isAbout": "items/mh_cg_pms__peer_002__04",
+                "isVis": true,
+                "variableName": "mh_cg_pms__peer_002__04"
+            },
+            {
+                "isAbout": "items/mh_cg_pms__peer_total_score",
+                "isVis": true,
+                "variableName": "mh_cg_pms__peer_total_score"
+            },
+            {
+                "isAbout": "items/mh_cg_pms__peer_administration",
+                "isVis": true,
+                "variableName": "mh_cg_pms__peer_administration"
+            },
+            {
+                "isAbout": "items/mh_cg_pms__peer_answered_count",
+                "isVis": true,
+                "variableName": "mh_cg_pms__peer_answered_count"
+            },
+            {
+                "isAbout": "items/mh_cg_pms__peer_note",
+                "isVis": true,
+                "variableName": "mh_cg_pms__peer_note"
+            },
+            {
+                "isAbout": "items/mh_cg_pms__peer_gestational_age",
+                "isVis": true,
+                "variableName": "mh_cg_pms__peer_gestational_age"
+            },
+            {
+                "isAbout": "items/mh_cg_pms__peer_adjusted_age",
+                "isVis": true,
+                "variableName": "mh_cg_pms__peer_adjusted_age"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0346"
+            "value": "pex_bm_healthv2_preg_0342"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0346"
+            "value": "pex_bm_healthv2_preg_0342"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_healthv2_preg__meds_059__03__01"
     },
     "question": {
-        "en": "Unit of frequency otc 1"
+        "en": "First otc per hour"
     },
     "responseOptions": {
         "valueType": [

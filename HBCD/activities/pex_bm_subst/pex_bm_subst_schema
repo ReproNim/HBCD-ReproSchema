@@ -1,0 +1,1523 @@
+{
+    "id": "pex_bm_subst_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "pex_bm_subst"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pex_bm_subst_date_taken",
+            "items/pex_bm_subst_candidate_age",
+            "items/pex_bm_subst_location",
+            "items/pex_bm_subst_1tri_start",
+            "items/pex_bm_subst_1tri_end",
+            "items/pex_bm_subst_2tri_start",
+            "items/pex_bm_subst_2tri_end",
+            "items/pex_bm_subst_3tri_start",
+            "items/pex_bm_subst_opioid_001",
+            "items/pex_bm_subst_opioid_002___1",
+            "items/pex_bm_subst_opioid_002___2",
+            "items/pex_bm_subst_opioid_002___3",
+            "items/pex_bm_subst_opioid_002___4",
+            "items/pex_bm_subst_opioid_002__01",
+            "items/pex_bm_subst_opioid_002__01__01",
+            "items/pex_bm_subst_opioid_002__02",
+            "items/pex_bm_subst_opioid_002__02__01",
+            "items/pex_bm_subst_opioid_002__03",
+            "items/pex_bm_subst_opioid_002__03__01",
+            "items/pex_bm_subst_opioid_002__04",
+            "items/pex_bm_subst_opioid_002__04__01",
+            "items/pex_bm_subst_opioid_003",
+            "items/pex_bm_subst_opioid_004___1",
+            "items/pex_bm_subst_opioid_004___2",
+            "items/pex_bm_subst_opioid_004___3",
+            "items/pex_bm_subst_opioid_004___4",
+            "items/pex_bm_subst_opioid_004__01",
+            "items/pex_bm_subst_opioid_004__01__01",
+            "items/pex_bm_subst_opioid_004__02",
+            "items/pex_bm_subst_opioid_004__02__01",
+            "items/pex_bm_subst_opioid_004__03",
+            "items/pex_bm_subst_opioid_004__03__01",
+            "items/pex_bm_subst_opioid_004__04",
+            "items/pex_bm_subst_opioid_004__04__01",
+            "items/pex_bm_subst_opioid_005",
+            "items/pex_bm_subst_opioid_006___1",
+            "items/pex_bm_subst_opioid_006___2",
+            "items/pex_bm_subst_opioid_006___3",
+            "items/pex_bm_subst_opioid_006___4",
+            "items/pex_bm_subst_opioid_006__01",
+            "items/pex_bm_subst_opioid_006__01__01",
+            "items/pex_bm_subst_opioid_006__02",
+            "items/pex_bm_subst_opioid_006__02__01",
+            "items/pex_bm_subst_opioid_006__03",
+            "items/pex_bm_subst_opioid_006__03__01",
+            "items/pex_bm_subst_opioid_006__04",
+            "items/pex_bm_subst_opioid_006__04__01",
+            "items/pex_bm_subst_cannabis_001",
+            "items/pex_bm_subst_cannabis_002___1",
+            "items/pex_bm_subst_cannabis_002___2",
+            "items/pex_bm_subst_cannabis_002___3",
+            "items/pex_bm_subst_cannabis_002___4",
+            "items/pex_bm_subst_cannabis_002___5",
+            "items/pex_bm_subst_cannabis_002___6",
+            "items/pex_bm_subst_cannabis_002___7",
+            "items/pex_bm_subst_cannabis_002__01",
+            "items/pex_bm_subst_cannabis_002__01__01",
+            "items/pex_bm_subst_cannabis_002__02",
+            "items/pex_bm_subst_cannabis_002__02__01",
+            "items/pex_bm_subst_cannabis_002__03",
+            "items/pex_bm_subst_cannabis_002__03__01",
+            "items/pex_bm_subst_cannabis_002__04",
+            "items/pex_bm_subst_cannabis_002__04__01",
+            "items/pex_bm_subst_cannabis_002__05",
+            "items/pex_bm_subst_cannabis_002__05__01",
+            "items/pex_bm_subst_cannabis_002__06",
+            "items/pex_bm_subst_cannabis_002__06__01",
+            "items/pex_bm_subst_cannabis_002__07",
+            "items/pex_bm_subst_cannabis_002__07__01",
+            "items/pex_bm_subst_cannabis_003",
+            "items/pex_bm_subst_cannabis_004___1",
+            "items/pex_bm_subst_cannabis_004___2",
+            "items/pex_bm_subst_cannabis_004___3",
+            "items/pex_bm_subst_cannabis_004___4",
+            "items/pex_bm_subst_cannabis_004___5",
+            "items/pex_bm_subst_cannabis_004___6",
+            "items/pex_bm_subst_cannabis_004___7",
+            "items/pex_bm_subst_cannabis_004__01",
+            "items/pex_bm_subst_cannabis_004__01__01",
+            "items/pex_bm_subst_cannabis_004__02",
+            "items/pex_bm_subst_cannabis_004__02__01",
+            "items/pex_bm_subst_cannabis_004__03",
+            "items/pex_bm_subst_cannabis_004__03__01",
+            "items/pex_bm_subst_cannabis_004__04",
+            "items/pex_bm_subst_cannabis_004__04__01",
+            "items/pex_bm_subst_cannabis_004__05",
+            "items/pex_bm_subst_cannabis_004__05__01",
+            "items/pex_bm_subst_cannabis_004__06",
+            "items/pex_bm_subst_cannabis_004__06__01",
+            "items/pex_bm_subst_cannabis_004__07",
+            "items/pex_bm_subst_cannabis_004__07__01",
+            "items/pex_bm_subst_cannabis_005",
+            "items/pex_bm_subst_cannabis_006___1",
+            "items/pex_bm_subst_cannabis_006___2",
+            "items/pex_bm_subst_cannabis_006___3",
+            "items/pex_bm_subst_cannabis_006___4",
+            "items/pex_bm_subst_cannabis_006___5",
+            "items/pex_bm_subst_cannabis_006___6",
+            "items/pex_bm_subst_cannabis_006___7",
+            "items/pex_bm_subst_cannabis_006__01",
+            "items/pex_bm_subst_cannabis_006__01__01",
+            "items/pex_bm_subst_cannabis_006__02",
+            "items/pex_bm_subst_cannabis_006__02__01",
+            "items/pex_bm_subst_cannabis_006__03",
+            "items/pex_bm_subst_cannabis_006__03__01",
+            "items/pex_bm_subst_cannabis_006__04",
+            "items/pex_bm_subst_cannabis_006__04__01",
+            "items/pex_bm_subst_cannabis_006__05",
+            "items/pex_bm_subst_cannabis_006__05__01",
+            "items/pex_bm_subst_cannabis_006__06",
+            "items/pex_bm_subst_cannabis_006__06__01",
+            "items/pex_bm_subst_cannabis_006__07",
+            "items/pex_bm_subst_cannabis_006__07__01",
+            "items/pex_bm_subst_tobacco_001",
+            "items/pex_bm_subst_tobacco_002___1",
+            "items/pex_bm_subst_tobacco_002___2",
+            "items/pex_bm_subst_tobacco_002___3",
+            "items/pex_bm_subst_tobacco_002___4",
+            "items/pex_bm_subst_tobacco_002___5",
+            "items/pex_bm_subst_tobacco_002___6",
+            "items/pex_bm_subst_tobacco_002___7",
+            "items/pex_bm_subst_tobacco_002__01",
+            "items/pex_bm_subst_tobacco_002__01__01",
+            "items/pex_bm_subst_tobacco_002__02",
+            "items/pex_bm_subst_tobacco_002__02__01",
+            "items/pex_bm_subst_tobacco_002__03",
+            "items/pex_bm_subst_tobacco_002__03__01",
+            "items/pex_bm_subst_tobacco_002__04",
+            "items/pex_bm_subst_tobacco_002__04__01",
+            "items/pex_bm_subst_tobacco_002__05",
+            "items/pex_bm_subst_tobacco_002__05__01",
+            "items/pex_bm_subst_tobacco_002__06",
+            "items/pex_bm_subst_tobacco_002__06__01",
+            "items/pex_bm_subst_tobacco_002__07",
+            "items/pex_bm_subst_tobacco_002__07__01",
+            "items/pex_bm_subst_tobacco_003",
+            "items/pex_bm_subst_tobacco_004___1",
+            "items/pex_bm_subst_tobacco_004___2",
+            "items/pex_bm_subst_tobacco_004___3",
+            "items/pex_bm_subst_tobacco_004___4",
+            "items/pex_bm_subst_tobacco_004___5",
+            "items/pex_bm_subst_tobacco_004___6",
+            "items/pex_bm_subst_tobacco_004___7",
+            "items/pex_bm_subst_tobacco_004__01",
+            "items/pex_bm_subst_tobacco_004__01__01",
+            "items/pex_bm_subst_tobacco_004__02",
+            "items/pex_bm_subst_tobacco_004__02__01",
+            "items/pex_bm_subst_tobacco_004__03",
+            "items/pex_bm_subst_tobacco_004__03__01",
+            "items/pex_bm_subst_tobacco_004__04",
+            "items/pex_bm_subst_tobacco_004__04__01",
+            "items/pex_bm_subst_tobacco_004__05",
+            "items/pex_bm_subst_tobacco_004__05__01",
+            "items/pex_bm_subst_tobacco_004__06",
+            "items/pex_bm_subst_tobacco_004__06__01",
+            "items/pex_bm_subst_tobacco_004__07",
+            "items/pex_bm_subst_tobacco_004__07__01",
+            "items/pex_bm_subst_tobacco_005",
+            "items/pex_bm_subst_tobacco_006___1",
+            "items/pex_bm_subst_tobacco_006___2",
+            "items/pex_bm_subst_tobacco_006___3",
+            "items/pex_bm_subst_tobacco_006___4",
+            "items/pex_bm_subst_tobacco_006___5",
+            "items/pex_bm_subst_tobacco_006___6",
+            "items/pex_bm_subst_tobacco_006___7",
+            "items/pex_bm_subst_tobacco_006__01",
+            "items/pex_bm_subst_tobacco_006__01__01",
+            "items/pex_bm_subst_tobacco_006__02",
+            "items/pex_bm_subst_tobacco_006__02__01",
+            "items/pex_bm_subst_tobacco_006__03",
+            "items/pex_bm_subst_tobacco_006__03__01",
+            "items/pex_bm_subst_tobacco_006__04",
+            "items/pex_bm_subst_tobacco_006__04__01",
+            "items/pex_bm_subst_tobacco_006__05",
+            "items/pex_bm_subst_tobacco_006__05__01",
+            "items/pex_bm_subst_tobacco_006__06",
+            "items/pex_bm_subst_tobacco_006__06__01",
+            "items/pex_bm_subst_tobacco_006__07",
+            "items/pex_bm_subst_tobacco_006__07__01",
+            "items/pex_bm_subst_alcohol_001",
+            "items/pex_bm_subst_alcohol_002___1",
+            "items/pex_bm_subst_alcohol_002___2",
+            "items/pex_bm_subst_alcohol_002___3",
+            "items/pex_bm_subst_alcohol_002__01",
+            "items/pex_bm_subst_alcohol_002__01__01",
+            "items/pex_bm_subst_alcohol_002__02",
+            "items/pex_bm_subst_alcohol_002__02__01",
+            "items/pex_bm_subst_alcohol_002__03",
+            "items/pex_bm_subst_alcohol_002__03__01",
+            "items/pex_bm_subst_alcohol_003",
+            "items/pex_bm_subst_alcohol_004___1",
+            "items/pex_bm_subst_alcohol_004___2",
+            "items/pex_bm_subst_alcohol_004___3",
+            "items/pex_bm_subst_alcohol_004__01",
+            "items/pex_bm_subst_alcohol_004__01__01",
+            "items/pex_bm_subst_alcohol_004__02",
+            "items/pex_bm_subst_alcohol_004__02__01",
+            "items/pex_bm_subst_alcohol_004__03",
+            "items/pex_bm_subst_alcohol_004__03__01",
+            "items/pex_bm_subst_alcohol_005",
+            "items/pex_bm_subst_alcohol_006___1",
+            "items/pex_bm_subst_alcohol_006___2",
+            "items/pex_bm_subst_alcohol_006___3",
+            "items/pex_bm_subst_alcohol_006__01",
+            "items/pex_bm_subst_alcohol_006__01__01",
+            "items/pex_bm_subst_alcohol_006__02",
+            "items/pex_bm_subst_alcohol_006__02__01",
+            "items/pex_bm_subst_alcohol_006__03",
+            "items/pex_bm_subst_alcohol_006__03__01",
+            "items/pex_bm_subst_stimulants_001",
+            "items/pex_bm_subst_stimulants_002___1",
+            "items/pex_bm_subst_stimulants_002___2",
+            "items/pex_bm_subst_stimulants_002___3",
+            "items/pex_bm_subst_stimulants_002___4",
+            "items/pex_bm_subst_stimulants_002__01",
+            "items/pex_bm_subst_stimulants_002__01__01",
+            "items/pex_bm_subst_stimulants_002__02",
+            "items/pex_bm_subst_stimulants_002__02__01",
+            "items/pex_bm_subst_stimulants_002__03",
+            "items/pex_bm_subst_stimulants_002__03__01",
+            "items/pex_bm_subst_stimulants_002__04",
+            "items/pex_bm_subst_stimulants_002__04__01",
+            "items/pex_bm_subst_stimulants_003",
+            "items/pex_bm_subst_stimulants_004___1",
+            "items/pex_bm_subst_stimulants_004___2",
+            "items/pex_bm_subst_stimulants_004___3",
+            "items/pex_bm_subst_stimulants_004___4",
+            "items/pex_bm_subst_stimulants_004__01",
+            "items/pex_bm_subst_stimulants_004__01__01",
+            "items/pex_bm_subst_stimulants_004__02",
+            "items/pex_bm_subst_stimulants_004__02__01",
+            "items/pex_bm_subst_stimulants_004__03",
+            "items/pex_bm_subst_stimulants_004__03__01",
+            "items/pex_bm_subst_stimulants_004__04",
+            "items/pex_bm_subst_stimulants_004__04__01",
+            "items/pex_bm_subst_stimulants_005",
+            "items/pex_bm_subst_stimulants_006___1",
+            "items/pex_bm_subst_stimulants_006___2",
+            "items/pex_bm_subst_stimulants_006___3",
+            "items/pex_bm_subst_stimulants_006___4",
+            "items/pex_bm_subst_stimulants_006__01",
+            "items/pex_bm_subst_stimulants_006__01__01",
+            "items/pex_bm_subst_stimulants_006__02",
+            "items/pex_bm_subst_stimulants_006__02__01",
+            "items/pex_bm_subst_stimulants_006__03",
+            "items/pex_bm_subst_stimulants_006__03__01",
+            "items/pex_bm_subst_stimulants_006__04",
+            "items/pex_bm_subst_stimulants_006__04__01",
+            "items/pex_bm_subst_administration",
+            "items/pex_bm_subst_gestational_age",
+            "items/pex_bm_subst_adjusted_age"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pex_bm_subst_date_taken",
+                "isVis": true,
+                "variableName": "pex_bm_subst_date_taken"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_candidate_age",
+                "isVis": true,
+                "variableName": "pex_bm_subst_candidate_age"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_location",
+                "isVis": true,
+                "variableName": "pex_bm_subst_location"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_1tri_start",
+                "isVis": true,
+                "variableName": "pex_bm_subst_1tri_start"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_1tri_end",
+                "isVis": true,
+                "variableName": "pex_bm_subst_1tri_end"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_2tri_start",
+                "isVis": true,
+                "variableName": "pex_bm_subst_2tri_start"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_2tri_end",
+                "isVis": true,
+                "variableName": "pex_bm_subst_2tri_end"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_3tri_start",
+                "isVis": true,
+                "variableName": "pex_bm_subst_3tri_start"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_001",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_001"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002___1",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_002___1"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002___2",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_002___2"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002___3",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_002___3"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002___4",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_002___4"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_002__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002__01__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_002__01__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002__02",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_002__02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002__02__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_002__02__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002__03",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_002__03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002__03__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_002__03__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002__04",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_002__04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_002__04__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_002__04__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_003",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_003"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004___1",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_004___1"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004___2",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_004___2"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004___3",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_004___3"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004___4",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_004___4"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_004__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004__01__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_004__01__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004__02",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_004__02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004__02__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_004__02__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004__03",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_004__03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004__03__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_004__03__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004__04",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_004__04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_004__04__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_004__04__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_005",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_005"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006___1",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_006___1"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006___2",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_006___2"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006___3",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_006___3"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006___4",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_006___4"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_006__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006__01__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_006__01__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006__02",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_006__02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006__02__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_006__02__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006__03",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_006__03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006__03__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_006__03__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006__04",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_006__04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_opioid_006__04__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_opioid_006__04__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_001",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_001"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002___1",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002___1"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002___2",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002___2"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002___3",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002___3"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002___4",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002___4"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002___5",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002___5"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002___6",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002___6"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002___7",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002___7"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002__01__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002__01__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002__02",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002__02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002__02__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002__02__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002__03",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002__03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002__03__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002__03__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002__04",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002__04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002__04__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002__04__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002__05",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002__05"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002__05__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002__05__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002__06",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002__06"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002__06__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002__06__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002__07",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002__07"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_002__07__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_002__07__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_003",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_003"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004___1",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004___1"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004___2",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004___2"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004___3",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004___3"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004___4",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004___4"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004___5",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004___5"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004___6",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004___6"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004___7",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004___7"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004__01__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004__01__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004__02",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004__02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004__02__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004__02__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004__03",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004__03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004__03__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004__03__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004__04",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004__04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004__04__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004__04__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004__05",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004__05"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004__05__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004__05__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004__06",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004__06"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004__06__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004__06__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004__07",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004__07"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_004__07__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_004__07__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_005",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_005"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006___1",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006___1"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006___2",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006___2"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006___3",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006___3"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006___4",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006___4"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006___5",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006___5"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006___6",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006___6"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006___7",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006___7"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006__01__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006__01__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006__02",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006__02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006__02__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006__02__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006__03",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006__03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006__03__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006__03__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006__04",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006__04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006__04__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006__04__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006__05",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006__05"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006__05__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006__05__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006__06",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006__06"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006__06__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006__06__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006__07",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006__07"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_cannabis_006__07__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_cannabis_006__07__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_001",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_001"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002___1",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002___1"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002___2",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002___2"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002___3",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002___3"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002___4",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002___4"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002___5",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002___5"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002___6",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002___6"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002___7",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002___7"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002__01__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002__01__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002__02",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002__02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002__02__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002__02__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002__03",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002__03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002__03__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002__03__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002__04",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002__04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002__04__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002__04__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002__05",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002__05"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002__05__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002__05__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002__06",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002__06"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002__06__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002__06__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002__07",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002__07"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_002__07__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_002__07__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_003",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_003"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004___1",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004___1"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004___2",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004___2"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004___3",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004___3"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004___4",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004___4"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004___5",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004___5"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004___6",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004___6"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004___7",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004___7"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004__01__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004__01__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004__02",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004__02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004__02__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004__02__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004__03",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004__03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004__03__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004__03__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004__04",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004__04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004__04__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004__04__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004__05",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004__05"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004__05__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004__05__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004__06",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004__06"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004__06__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004__06__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004__07",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004__07"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_004__07__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_004__07__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_005",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_005"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006___1",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006___1"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006___2",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006___2"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006___3",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006___3"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006___4",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006___4"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006___5",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006___5"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006___6",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006___6"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006___7",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006___7"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006__01__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006__01__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006__02",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006__02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006__02__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006__02__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006__03",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006__03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006__03__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006__03__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006__04",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006__04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006__04__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006__04__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006__05",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006__05"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006__05__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006__05__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006__06",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006__06"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006__06__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006__06__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006__07",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006__07"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_tobacco_006__07__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_tobacco_006__07__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_001",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_001"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_002___1",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_002___1"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_002___2",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_002___2"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_002___3",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_002___3"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_002__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_002__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_002__01__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_002__01__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_002__02",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_002__02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_002__02__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_002__02__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_002__03",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_002__03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_002__03__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_002__03__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_003",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_003"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_004___1",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_004___1"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_004___2",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_004___2"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_004___3",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_004___3"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_004__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_004__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_004__01__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_004__01__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_004__02",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_004__02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_004__02__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_004__02__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_004__03",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_004__03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_004__03__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_004__03__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_005",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_005"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_006___1",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_006___1"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_006___2",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_006___2"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_006___3",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_006___3"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_006__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_006__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_006__01__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_006__01__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_006__02",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_006__02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_006__02__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_006__02__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_006__03",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_006__03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_alcohol_006__03__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_alcohol_006__03__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_001",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_001"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002___1",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_002___1"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002___2",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_002___2"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002___3",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_002___3"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002___4",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_002___4"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_002__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002__01__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_002__01__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002__02",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_002__02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002__02__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_002__02__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002__03",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_002__03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002__03__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_002__03__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002__04",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_002__04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_002__04__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_002__04__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_003",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_003"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004___1",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_004___1"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004___2",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_004___2"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004___3",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_004___3"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004___4",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_004___4"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_004__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004__01__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_004__01__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004__02",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_004__02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004__02__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_004__02__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004__03",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_004__03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004__03__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_004__03__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004__04",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_004__04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_004__04__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_004__04__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_005",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_005"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006___1",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_006___1"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006___2",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_006___2"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006___3",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_006___3"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006___4",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_006___4"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_006__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006__01__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_006__01__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006__02",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_006__02"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006__02__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_006__02__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006__03",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_006__03"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006__03__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_006__03__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006__04",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_006__04"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_stimulants_006__04__01",
+                "isVis": true,
+                "variableName": "pex_bm_subst_stimulants_006__04__01"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_administration",
+                "isVis": true,
+                "variableName": "pex_bm_subst_administration"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_gestational_age",
+                "isVis": true,
+                "variableName": "pex_bm_subst_gestational_age"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_adjusted_age",
+                "isVis": true,
+                "variableName": "pex_bm_subst_adjusted_age"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

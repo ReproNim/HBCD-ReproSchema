@@ -13,7 +13,6 @@
             "items/img_bibsnet_space-T1w_desc-aseg_volumes_Left-Cerebral-Cortex",
             "items/img_bibsnet_space-T1w_desc-aseg_volumes_Left-Lateral-Ventricle",
             "items/img_bibsnet_space-T1w_desc-aseg_volumes_Left-Cerebellum-Cortex",
-            "items/img_bibsnet_space-T1w_desc-aseg_volumes_Left-Thalamus-Proper",
             "items/img_bibsnet_space-T1w_desc-aseg_volumes_Left-Caudate",
             "items/img_bibsnet_space-T1w_desc-aseg_volumes_Left-Putamen",
             "items/img_bibsnet_space-T1w_desc-aseg_volumes_Left-Pallidum",
@@ -28,7 +27,6 @@
             "items/img_bibsnet_space-T1w_desc-aseg_volumes_Right-Cerebral-Cortex",
             "items/img_bibsnet_space-T1w_desc-aseg_volumes_Right-Lateral-Ventricle",
             "items/img_bibsnet_space-T1w_desc-aseg_volumes_Right-Cerebellum-Cortex",
-            "items/img_bibsnet_space-T1w_desc-aseg_volumes_Right-Thalamus-Proper",
             "items/img_bibsnet_space-T1w_desc-aseg_volumes_Right-Caudate",
             "items/img_bibsnet_space-T1w_desc-aseg_volumes_Right-Putamen",
             "items/img_bibsnet_space-T1w_desc-aseg_volumes_Right-Pallidum",
@@ -37,7 +35,16 @@
             "items/img_bibsnet_space-T1w_desc-aseg_volumes_Right-Accumbens-area",
             "items/img_bibsnet_space-T1w_desc-aseg_volumes_Right-VentralDC",
             "items/img_bibsnet_space-T1w_desc-aseg_volumes_Vermis",
-            "items/img_bibsnet_space-T1w_desc-aseg_volumes_CSF"
+            "items/img_bibsnet_space-T1w_desc-aseg_volumes_CSF",
+            "items/img_bibsnet_space-T1w_desc-aseg_volumes_Left-Cerebellum-White-Matter",
+            "items/img_bibsnet_space-T1w_desc-aseg_volumes_Left-choroid-plexus",
+            "items/img_bibsnet_space-T1w_desc-aseg_volumes_Left-Inf-Lat-Vent",
+            "items/img_bibsnet_space-T1w_desc-aseg_volumes_Left-Thalamus-Proper*",
+            "items/img_bibsnet_space-T1w_desc-aseg_volumes_Right-Cerebellum-White-Matter",
+            "items/img_bibsnet_space-T1w_desc-aseg_volumes_Right-choroid-plexus",
+            "items/img_bibsnet_space-T1w_desc-aseg_volumes_Right-Inf-Lat-Vent",
+            "items/img_bibsnet_space-T1w_desc-aseg_volumes_Right-Thalamus-Proper*",
+            "items/img_bibsnet_space-T1w_desc-aseg_volumes_Unknown"
         ],
         "addProperties": [
             {
@@ -69,11 +76,6 @@
                 "isAbout": "items/img_bibsnet_space-T1w_desc-aseg_volumes_Left-Cerebellum-Cortex",
                 "isVis": true,
                 "variableName": "img_bibsnet_space-T1w_desc-aseg_volumes_Left-Cerebellum-Cortex"
-            },
-            {
-                "isAbout": "items/img_bibsnet_space-T1w_desc-aseg_volumes_Left-Thalamus-Proper",
-                "isVis": true,
-                "variableName": "img_bibsnet_space-T1w_desc-aseg_volumes_Left-Thalamus-Proper"
             },
             {
                 "isAbout": "items/img_bibsnet_space-T1w_desc-aseg_volumes_Left-Caudate",
@@ -146,11 +148,6 @@
                 "variableName": "img_bibsnet_space-T1w_desc-aseg_volumes_Right-Cerebellum-Cortex"
             },
             {
-                "isAbout": "items/img_bibsnet_space-T1w_desc-aseg_volumes_Right-Thalamus-Proper",
-                "isVis": true,
-                "variableName": "img_bibsnet_space-T1w_desc-aseg_volumes_Right-Thalamus-Proper"
-            },
-            {
                 "isAbout": "items/img_bibsnet_space-T1w_desc-aseg_volumes_Right-Caudate",
                 "isVis": true,
                 "variableName": "img_bibsnet_space-T1w_desc-aseg_volumes_Right-Caudate"
@@ -194,6 +191,51 @@
                 "isAbout": "items/img_bibsnet_space-T1w_desc-aseg_volumes_CSF",
                 "isVis": true,
                 "variableName": "img_bibsnet_space-T1w_desc-aseg_volumes_CSF"
+            },
+            {
+                "isAbout": "items/img_bibsnet_space-T1w_desc-aseg_volumes_Left-Cerebellum-White-Matter",
+                "isVis": true,
+                "variableName": "img_bibsnet_space-T1w_desc-aseg_volumes_Left-Cerebellum-White-Matter"
+            },
+            {
+                "isAbout": "items/img_bibsnet_space-T1w_desc-aseg_volumes_Left-choroid-plexus",
+                "isVis": true,
+                "variableName": "img_bibsnet_space-T1w_desc-aseg_volumes_Left-choroid-plexus"
+            },
+            {
+                "isAbout": "items/img_bibsnet_space-T1w_desc-aseg_volumes_Left-Inf-Lat-Vent",
+                "isVis": true,
+                "variableName": "img_bibsnet_space-T1w_desc-aseg_volumes_Left-Inf-Lat-Vent"
+            },
+            {
+                "isAbout": "items/img_bibsnet_space-T1w_desc-aseg_volumes_Left-Thalamus-Proper*",
+                "isVis": true,
+                "variableName": "img_bibsnet_space-T1w_desc-aseg_volumes_Left-Thalamus-Proper*"
+            },
+            {
+                "isAbout": "items/img_bibsnet_space-T1w_desc-aseg_volumes_Right-Cerebellum-White-Matter",
+                "isVis": true,
+                "variableName": "img_bibsnet_space-T1w_desc-aseg_volumes_Right-Cerebellum-White-Matter"
+            },
+            {
+                "isAbout": "items/img_bibsnet_space-T1w_desc-aseg_volumes_Right-choroid-plexus",
+                "isVis": true,
+                "variableName": "img_bibsnet_space-T1w_desc-aseg_volumes_Right-choroid-plexus"
+            },
+            {
+                "isAbout": "items/img_bibsnet_space-T1w_desc-aseg_volumes_Right-Inf-Lat-Vent",
+                "isVis": true,
+                "variableName": "img_bibsnet_space-T1w_desc-aseg_volumes_Right-Inf-Lat-Vent"
+            },
+            {
+                "isAbout": "items/img_bibsnet_space-T1w_desc-aseg_volumes_Right-Thalamus-Proper*",
+                "isVis": true,
+                "variableName": "img_bibsnet_space-T1w_desc-aseg_volumes_Right-Thalamus-Proper*"
+            },
+            {
+                "isAbout": "items/img_bibsnet_space-T1w_desc-aseg_volumes_Unknown",
+                "isVis": true,
+                "variableName": "img_bibsnet_space-T1w_desc-aseg_volumes_Unknown"
             }
         ],
         "shuffle": false

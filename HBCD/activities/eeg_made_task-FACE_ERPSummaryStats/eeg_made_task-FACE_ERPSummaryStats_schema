@@ -1,0 +1,389 @@
+{
+    "id": "eeg_made_task-FACE_ERPSummaryStats_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "eeg_made_task-FACE_ERPSummaryStats"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/eeg_made_task-FACE_ERPSummaryStats_candidate_age",
+            "items/eeg_made_task-FACE_ERPSummaryStats_adjusted_age",
+            "items/eeg_made_task-FACE_ERPSummaryStats_NTrials_inverted",
+            "items/eeg_made_task-FACE_ERPSummaryStats_NTrials_object",
+            "items/eeg_made_task-FACE_ERPSummaryStats_NTrials_uprightInv",
+            "items/eeg_made_task-FACE_ERPSummaryStats_NTrials_uprightObj",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_p8_inverted",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_p8_object",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_p8_uprightInv",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_p8_uprightObj",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p8_inverted",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p8_object",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p8_uprightInv",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p8_uprightObj",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_p7_inverted",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_p7_object",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_p7_uprightInv",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_p7_uprightObj",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p7_inverted",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p7_object",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p7_uprightInv",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p7_uprightObj",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_oz_inverted",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_oz_object",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_oz_uprightInv",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_oz_uprightObj",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_oz_inverted",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_oz_object",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_oz_uprightInv",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_oz_uprightObj",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_p8_inverted",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_p8_object",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_p8_uprightInv",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_p8_uprightObj",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p8_inverted",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p8_object",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p8_uprightInv",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p8_uprightObj",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_p7_inverted",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_p7_object",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_p7_uprightInv",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_p7_uprightObj",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p7_inverted",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p7_object",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p7_uprightInv",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p7_uprightObj",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_oz_inverted",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_oz_object",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_oz_uprightInv",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_oz_uprightObj",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_oz_inverted",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_oz_object",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_oz_uprightInv",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_oz_uprightObj",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_NC_fcz_inverted",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_NC_fcz_object",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_NC_fcz_uprightInv",
+            "items/eeg_made_task-FACE_ERPSummaryStats_SME_NC_fcz_uprightObj",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_NC_fcz_inverted",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_NC_fcz_object",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_NC_fcz_uprightInv",
+            "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_NC_fcz_uprightObj"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_candidate_age",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_candidate_age"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_adjusted_age",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_adjusted_age"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_NTrials_inverted",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_NTrials_inverted"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_NTrials_object",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_NTrials_object"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_NTrials_uprightInv",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_NTrials_uprightInv"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_NTrials_uprightObj",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_NTrials_uprightObj"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_p8_inverted",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_N290_p8_inverted"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_p8_object",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_N290_p8_object"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_p8_uprightInv",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_N290_p8_uprightInv"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_p8_uprightObj",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_N290_p8_uprightObj"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p8_inverted",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p8_inverted"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p8_object",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p8_object"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p8_uprightInv",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p8_uprightInv"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p8_uprightObj",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p8_uprightObj"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_p7_inverted",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_N290_p7_inverted"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_p7_object",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_N290_p7_object"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_p7_uprightInv",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_N290_p7_uprightInv"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_p7_uprightObj",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_N290_p7_uprightObj"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p7_inverted",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p7_inverted"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p7_object",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p7_object"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p7_uprightInv",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p7_uprightInv"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p7_uprightObj",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_p7_uprightObj"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_oz_inverted",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_N290_oz_inverted"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_oz_object",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_N290_oz_object"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_oz_uprightInv",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_N290_oz_uprightInv"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_N290_oz_uprightObj",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_N290_oz_uprightObj"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_oz_inverted",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_oz_inverted"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_oz_object",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_oz_object"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_oz_uprightInv",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_oz_uprightInv"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_oz_uprightObj",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_oz_uprightObj"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_p8_inverted",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_P400_p8_inverted"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_p8_object",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_P400_p8_object"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_p8_uprightInv",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_P400_p8_uprightInv"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_p8_uprightObj",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_P400_p8_uprightObj"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p8_inverted",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p8_inverted"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p8_object",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p8_object"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p8_uprightInv",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p8_uprightInv"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p8_uprightObj",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p8_uprightObj"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_p7_inverted",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_P400_p7_inverted"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_p7_object",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_P400_p7_object"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_p7_uprightInv",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_P400_p7_uprightInv"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_p7_uprightObj",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_P400_p7_uprightObj"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p7_inverted",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p7_inverted"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p7_object",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p7_object"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p7_uprightInv",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p7_uprightInv"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p7_uprightObj",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_p7_uprightObj"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_oz_inverted",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_P400_oz_inverted"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_oz_object",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_P400_oz_object"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_oz_uprightInv",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_P400_oz_uprightInv"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_P400_oz_uprightObj",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_P400_oz_uprightObj"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_oz_inverted",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_oz_inverted"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_oz_object",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_oz_object"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_oz_uprightInv",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_oz_uprightInv"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_oz_uprightObj",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_P400_oz_uprightObj"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_NC_fcz_inverted",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_NC_fcz_inverted"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_NC_fcz_object",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_NC_fcz_object"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_NC_fcz_uprightInv",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_NC_fcz_uprightInv"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_SME_NC_fcz_uprightObj",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_SME_NC_fcz_uprightObj"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_NC_fcz_inverted",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_NC_fcz_inverted"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_NC_fcz_object",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_NC_fcz_object"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_NC_fcz_uprightInv",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_NC_fcz_uprightInv"
+            },
+            {
+                "isAbout": "items/eeg_made_task-FACE_ERPSummaryStats_MeanAmp_NC_fcz_uprightObj",
+                "isVis": true,
+                "variableName": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_NC_fcz_uprightObj"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

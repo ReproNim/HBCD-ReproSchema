@@ -1,0 +1,107 @@
+{
+    "id": "sed_cg_shs_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_cg_shs"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_cg_shs_date_taken",
+            "items/sed_cg_shs_candidate_age",
+            "items/sed_cg_shs_lang",
+            "items/sed_cg_shs_location",
+            "items/sed_cg_shs_001",
+            "items/sed_cg_shs_001__01",
+            "items/sed_cg_shs_002",
+            "items/sed_cg_shs_002__01___1",
+            "items/sed_cg_shs_002__01___2",
+            "items/sed_cg_shs_002__01___3",
+            "items/sed_cg_shs_002__01___4",
+            "items/sed_cg_shs_002__01___5",
+            "items/sed_cg_shs_administration",
+            "items/sed_cg_shs_gestational_age",
+            "items/sed_cg_shs_adjusted_age"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_cg_shs_date_taken",
+                "isVis": true,
+                "variableName": "sed_cg_shs_date_taken"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_candidate_age",
+                "isVis": true,
+                "variableName": "sed_cg_shs_candidate_age"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_lang",
+                "isVis": true,
+                "variableName": "sed_cg_shs_lang"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_location",
+                "isVis": true,
+                "variableName": "sed_cg_shs_location"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_001",
+                "isVis": true,
+                "variableName": "sed_cg_shs_001"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_001__01",
+                "isVis": true,
+                "variableName": "sed_cg_shs_001__01"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_002",
+                "isVis": true,
+                "variableName": "sed_cg_shs_002"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_002__01___1",
+                "isVis": true,
+                "variableName": "sed_cg_shs_002__01___1"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_002__01___2",
+                "isVis": true,
+                "variableName": "sed_cg_shs_002__01___2"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_002__01___3",
+                "isVis": true,
+                "variableName": "sed_cg_shs_002__01___3"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_002__01___4",
+                "isVis": true,
+                "variableName": "sed_cg_shs_002__01___4"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_002__01___5",
+                "isVis": true,
+                "variableName": "sed_cg_shs_002__01___5"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_administration",
+                "isVis": true,
+                "variableName": "sed_cg_shs_administration"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_gestational_age",
+                "isVis": true,
+                "variableName": "sed_cg_shs_gestational_age"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_adjusted_age",
+                "isVis": true,
+                "variableName": "sed_cg_shs_adjusted_age"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

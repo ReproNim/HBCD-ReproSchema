@@ -9,14 +9,76 @@
         "order": [
             "items/sed_bm_demo_date_taken",
             "items/sed_bm_demo_candidate_age",
-            "items/sed_bm_demo_gestational_age",
-            "items/sed_bm_demo_adjusted_age",
             "items/sed_bm_demo_lang",
             "items/sed_bm_demo_location",
             "items/sed_bm_demo_relationship_001",
             "items/sed_bm_demo_sexorient_001",
-            "items/sed_bm_demo_residence_001",
-            "items/sed_bm_demo_residence_002",
+            "items/sed_bm_demo_roster_001__00",
+            "items/sed_bm_demo_roster_001",
+            "items/sed_bm_demo_roster_001__dk",
+            "items/sed_bm_demo_roster_002",
+            "items/sed_bm_demo_roster_002__dk",
+            "items/sed_bm_demo_roster_003",
+            "items/sed_bm_demo_roster_004__01",
+            "items/sed_bm_demo_roster_004__02",
+            "items/sed_bm_demo_roster_004__04",
+            "items/sed_bm_demo_roster_005__01",
+            "items/sed_bm_demo_roster_005__02",
+            "items/sed_bm_demo_roster_005__04",
+            "items/sed_bm_demo_roster_006__01",
+            "items/sed_bm_demo_roster_006__02",
+            "items/sed_bm_demo_roster_006__04",
+            "items/sed_bm_demo_roster_007__01",
+            "items/sed_bm_demo_roster_007__02",
+            "items/sed_bm_demo_roster_007__04",
+            "items/sed_bm_demo_roster_008__01",
+            "items/sed_bm_demo_roster_008__02",
+            "items/sed_bm_demo_roster_008__04",
+            "items/sed_bm_demo_roster_009__01",
+            "items/sed_bm_demo_roster_009__02",
+            "items/sed_bm_demo_roster_009__04",
+            "items/sed_bm_demo_roster_010__01",
+            "items/sed_bm_demo_roster_010__02",
+            "items/sed_bm_demo_roster_010__04",
+            "items/sed_bm_demo_roster_011__01",
+            "items/sed_bm_demo_roster_011__02",
+            "items/sed_bm_demo_roster_011__04",
+            "items/sed_bm_demo_roster_012__01",
+            "items/sed_bm_demo_roster_012__02",
+            "items/sed_bm_demo_roster_012__04",
+            "items/sed_bm_demo_roster_013__01",
+            "items/sed_bm_demo_roster_013__02",
+            "items/sed_bm_demo_roster_013__04",
+            "items/sed_bm_demo_roster_014__01",
+            "items/sed_bm_demo_roster_014__02",
+            "items/sed_bm_demo_roster_014__04",
+            "items/sed_bm_demo_roster_015__01",
+            "items/sed_bm_demo_roster_015__02",
+            "items/sed_bm_demo_roster_015__04",
+            "items/sed_bm_demo_roster_016__01",
+            "items/sed_bm_demo_roster_016__02",
+            "items/sed_bm_demo_roster_016__04",
+            "items/sed_bm_demo_roster_017__01",
+            "items/sed_bm_demo_roster_017__02",
+            "items/sed_bm_demo_roster_017__04",
+            "items/sed_bm_demo_roster_018__01",
+            "items/sed_bm_demo_roster_018__02",
+            "items/sed_bm_demo_roster_018__04",
+            "items/sed_bm_demo_roster_019__01",
+            "items/sed_bm_demo_roster_019__02",
+            "items/sed_bm_demo_roster_019__04",
+            "items/sed_bm_demo_roster_020__01",
+            "items/sed_bm_demo_roster_020__02",
+            "items/sed_bm_demo_roster_020__04",
+            "items/sed_bm_demo_roster_021__01",
+            "items/sed_bm_demo_roster_021__02",
+            "items/sed_bm_demo_roster_021__04",
+            "items/sed_bm_demo_roster_022__01",
+            "items/sed_bm_demo_roster_022__02",
+            "items/sed_bm_demo_roster_022__04",
+            "items/sed_bm_demo_roster_023__01",
+            "items/sed_bm_demo_roster_023__02",
+            "items/sed_bm_demo_roster_023__04",
             "items/sed_bm_demo_herit_001",
             "items/sed_bm_demo_herit_005",
             "items/sed_bm_demo_herit_002___0",
@@ -27,75 +89,6 @@
             "items/sed_bm_demo_herit_002___5",
             "items/sed_bm_demo_herit_002___6",
             "items/sed_bm_demo_herit_002___7",
-            "items/sed_bm_demo_herit_002__01___0",
-            "items/sed_bm_demo_herit_002__01___1",
-            "items/sed_bm_demo_herit_002__01___2",
-            "items/sed_bm_demo_herit_002__01___3",
-            "items/sed_bm_demo_herit_002__02___0",
-            "items/sed_bm_demo_herit_002__02___1",
-            "items/sed_bm_demo_herit_002__02___2",
-            "items/sed_bm_demo_herit_002__02___3",
-            "items/sed_bm_demo_herit_002__02___4",
-            "items/sed_bm_demo_herit_002__02___5",
-            "items/sed_bm_demo_herit_002__02___6",
-            "items/sed_bm_demo_herit_002__02___7",
-            "items/sed_bm_demo_herit_002__02___8",
-            "items/sed_bm_demo_herit_002__02___9",
-            "items/sed_bm_demo_herit_002__03___0",
-            "items/sed_bm_demo_herit_002__03___1",
-            "items/sed_bm_demo_herit_002__03___2",
-            "items/sed_bm_demo_herit_002__03___3",
-            "items/sed_bm_demo_herit_002__03___4",
-            "items/sed_bm_demo_herit_002__03___5",
-            "items/sed_bm_demo_herit_002__03___6",
-            "items/sed_bm_demo_herit_002__03___7",
-            "items/sed_bm_demo_herit_002__03___8",
-            "items/sed_bm_demo_herit_002__03___9",
-            "items/sed_bm_demo_herit_002__03___10",
-            "items/sed_bm_demo_herit_002__03___11",
-            "items/sed_bm_demo_herit_002__04___0",
-            "items/sed_bm_demo_herit_002__04___1",
-            "items/sed_bm_demo_herit_002__04___2",
-            "items/sed_bm_demo_herit_002__04___3",
-            "items/sed_bm_demo_herit_002__04___4",
-            "items/sed_bm_demo_herit_002__04___5",
-            "items/sed_bm_demo_herit_002__04___6",
-            "items/sed_bm_demo_herit_002__04___7",
-            "items/sed_bm_demo_herit_002__04___8",
-            "items/sed_bm_demo_herit_002__04___9",
-            "items/sed_bm_demo_herit_002__05___0",
-            "items/sed_bm_demo_herit_002__05___1",
-            "items/sed_bm_demo_herit_002__05___2",
-            "items/sed_bm_demo_herit_002__05___3",
-            "items/sed_bm_demo_herit_002__05___4",
-            "items/sed_bm_demo_herit_002__05___5",
-            "items/sed_bm_demo_herit_002__05___6",
-            "items/sed_bm_demo_herit_002__05___7",
-            "items/sed_bm_demo_herit_002__05___8",
-            "items/sed_bm_demo_herit_002__05___9",
-            "items/sed_bm_demo_herit_002__05___10",
-            "items/sed_bm_demo_herit_002__06___0",
-            "items/sed_bm_demo_herit_002__06___1",
-            "items/sed_bm_demo_herit_002__06___2",
-            "items/sed_bm_demo_herit_002__06___3",
-            "items/sed_bm_demo_herit_002__06___4",
-            "items/sed_bm_demo_herit_002__06___5",
-            "items/sed_bm_demo_herit_002__06___6",
-            "items/sed_bm_demo_herit_002__06___7",
-            "items/sed_bm_demo_herit_002__06___8",
-            "items/sed_bm_demo_herit_002__06___9",
-            "items/sed_bm_demo_herit_002__07___0",
-            "items/sed_bm_demo_herit_002__07___1",
-            "items/sed_bm_demo_herit_002__07___2",
-            "items/sed_bm_demo_herit_002__07___3",
-            "items/sed_bm_demo_herit_002__07___4",
-            "items/sed_bm_demo_herit_002__07___5",
-            "items/sed_bm_demo_herit_002__07___6",
-            "items/sed_bm_demo_herit_002__07___7",
-            "items/sed_bm_demo_herit_002__07___8",
-            "items/sed_bm_demo_herit_002__07___9",
-            "items/sed_bm_demo_herit_002__07___10",
-            "items/sed_bm_demo_herit_002__07___11",
             "items/sed_bm_demo_herit_003___1",
             "items/sed_bm_demo_herit_003___2",
             "items/sed_bm_demo_herit_003___3",
@@ -104,9 +97,12 @@
             "items/sed_bm_demo_herit_003___6",
             "items/sed_bm_demo_herit_003___7",
             "items/sed_bm_demo_herit_003___8",
-            "items/sed_bm_demo_herit_006",
-            "items/sed_bm_demo_herit_007",
-            "items/sed_bm_demo_income_002",
+            "items/sed_bm_demo_disab_001",
+            "items/sed_bm_demo_disab_002",
+            "items/sed_bm_demo_disab_003",
+            "items/sed_bm_demo_disab_004",
+            "items/sed_bm_demo_disab_005",
+            "items/sed_bm_demo_disab_006",
             "items/sed_bm_demo_edu_001",
             "items/sed_bm_demo_mil_001",
             "items/sed_bm_demo_work_002_pre",
@@ -402,28 +398,79 @@
             "items/sed_bm_demo_work_054__17",
             "items/sed_bm_demo_work_054__18",
             "items/sed_bm_demo_work__env_007",
-            "items/sed_bm_demo_obp_001",
-            "items/sed_bm_demo_age__oth_001",
-            "items/sed_bm_demo_herit__oth_002___0",
-            "items/sed_bm_demo_herit__oth_002___1",
-            "items/sed_bm_demo_herit__oth_002___2",
-            "items/sed_bm_demo_herit__oth_002___3",
-            "items/sed_bm_demo_herit__oth_002___4",
-            "items/sed_bm_demo_herit__oth_002___5",
-            "items/sed_bm_demo_herit__oth_002___6",
-            "items/sed_bm_demo_herit__oth_002___7",
-            "items/sed_bm_demo_herit__oth_001",
-            "items/sed_bm_demo_herit__oth_001__04",
-            "items/sed_bm_demo_herit__oth_003__01",
-            "items/sed_bm_demo_herit__oth_003__02",
-            "items/sed_bm_demo_edu__oth_001",
-            "items/sed_bm_demo_work__oth_001",
-            "items/sed_bm_demo_work__oth_001__03",
-            "items/sed_bm_demo_work__oth_001__02",
-            "items/sed_bm_demo_mil_002",
-            "items/sed_bm_demo_mil_002__01",
-            "items/sed_bm_demo_ses__oth_001",
-            "items/sed_bm_demo_administration"
+            "items/sed_bm_demo_herit__oth_002__01___0",
+            "items/sed_bm_demo_herit__oth_002__01___1",
+            "items/sed_bm_demo_herit__oth_002__01___2",
+            "items/sed_bm_demo_herit__oth_002__01___3",
+            "items/sed_bm_demo_herit__oth_002__02___0",
+            "items/sed_bm_demo_herit__oth_002__02___1",
+            "items/sed_bm_demo_herit__oth_002__02___2",
+            "items/sed_bm_demo_herit__oth_002__02___3",
+            "items/sed_bm_demo_herit__oth_002__02___4",
+            "items/sed_bm_demo_herit__oth_002__02___5",
+            "items/sed_bm_demo_herit__oth_002__02___6",
+            "items/sed_bm_demo_herit__oth_002__02___7",
+            "items/sed_bm_demo_herit__oth_002__02___8",
+            "items/sed_bm_demo_herit__oth_002__02___9",
+            "items/sed_bm_demo_herit__oth_002__03___0",
+            "items/sed_bm_demo_herit__oth_002__03___1",
+            "items/sed_bm_demo_herit__oth_002__03___2",
+            "items/sed_bm_demo_herit__oth_002__03___3",
+            "items/sed_bm_demo_herit__oth_002__03___4",
+            "items/sed_bm_demo_herit__oth_002__03___5",
+            "items/sed_bm_demo_herit__oth_002__03___6",
+            "items/sed_bm_demo_herit__oth_002__03___7",
+            "items/sed_bm_demo_herit__oth_002__03___8",
+            "items/sed_bm_demo_herit__oth_002__03___9",
+            "items/sed_bm_demo_herit__oth_002__03___10",
+            "items/sed_bm_demo_herit__oth_002__03___11",
+            "items/sed_bm_demo_herit__oth_002__04___0",
+            "items/sed_bm_demo_herit__oth_002__04___1",
+            "items/sed_bm_demo_herit__oth_002__04___2",
+            "items/sed_bm_demo_herit__oth_002__04___3",
+            "items/sed_bm_demo_herit__oth_002__04___4",
+            "items/sed_bm_demo_herit__oth_002__04___5",
+            "items/sed_bm_demo_herit__oth_002__04___6",
+            "items/sed_bm_demo_herit__oth_002__04___7",
+            "items/sed_bm_demo_herit__oth_002__04___8",
+            "items/sed_bm_demo_herit__oth_002__04___10",
+            "items/sed_bm_demo_herit__oth_002__05___0",
+            "items/sed_bm_demo_herit__oth_002__05___1",
+            "items/sed_bm_demo_herit__oth_002__05___2",
+            "items/sed_bm_demo_herit__oth_002__05___3",
+            "items/sed_bm_demo_herit__oth_002__05___4",
+            "items/sed_bm_demo_herit__oth_002__05___5",
+            "items/sed_bm_demo_herit__oth_002__05___6",
+            "items/sed_bm_demo_herit__oth_002__05___7",
+            "items/sed_bm_demo_herit__oth_002__05___8",
+            "items/sed_bm_demo_herit__oth_002__05___9",
+            "items/sed_bm_demo_herit__oth_002__05___10",
+            "items/sed_bm_demo_herit__oth_002__06___0",
+            "items/sed_bm_demo_herit__oth_002__06___1",
+            "items/sed_bm_demo_herit__oth_002__06___2",
+            "items/sed_bm_demo_herit__oth_002__06___3",
+            "items/sed_bm_demo_herit__oth_002__06___4",
+            "items/sed_bm_demo_herit__oth_002__06___5",
+            "items/sed_bm_demo_herit__oth_002__06___6",
+            "items/sed_bm_demo_herit__oth_002__06___7",
+            "items/sed_bm_demo_herit__oth_002__06___8",
+            "items/sed_bm_demo_herit__oth_002__06___9",
+            "items/sed_bm_demo_herit__oth_002__07___0",
+            "items/sed_bm_demo_herit__oth_002__07___1",
+            "items/sed_bm_demo_herit__oth_002__07___2",
+            "items/sed_bm_demo_herit__oth_002__07___3",
+            "items/sed_bm_demo_herit__oth_002__07___4",
+            "items/sed_bm_demo_herit__oth_002__07___5",
+            "items/sed_bm_demo_herit__oth_002__07___6",
+            "items/sed_bm_demo_herit__oth_002__07___7",
+            "items/sed_bm_demo_herit__oth_002__07___8",
+            "items/sed_bm_demo_herit__oth_002__07___9",
+            "items/sed_bm_demo_herit__oth_002__07___10",
+            "items/sed_bm_demo_herit__oth_002__07___11",
+            "items/sed_bm_demo_transp_001",
+            "items/sed_bm_demo_administration",
+            "items/sed_bm_demo_gestational_age",
+            "items/sed_bm_demo_adjusted_age"
         ],
         "addProperties": [
             {
@@ -435,16 +482,6 @@
                 "isAbout": "items/sed_bm_demo_candidate_age",
                 "isVis": true,
                 "variableName": "sed_bm_demo_candidate_age"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_gestational_age",
-                "isVis": true,
-                "variableName": "sed_bm_demo_gestational_age"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_adjusted_age",
-                "isVis": true,
-                "variableName": "sed_bm_demo_adjusted_age"
             },
             {
                 "isAbout": "items/sed_bm_demo_lang",
@@ -467,14 +504,334 @@
                 "variableName": "sed_bm_demo_sexorient_001"
             },
             {
-                "isAbout": "items/sed_bm_demo_residence_001",
+                "isAbout": "items/sed_bm_demo_roster_001__00",
                 "isVis": true,
-                "variableName": "sed_bm_demo_residence_001"
+                "variableName": "sed_bm_demo_roster_001__00"
             },
             {
-                "isAbout": "items/sed_bm_demo_residence_002",
+                "isAbout": "items/sed_bm_demo_roster_001",
                 "isVis": true,
-                "variableName": "sed_bm_demo_residence_002"
+                "variableName": "sed_bm_demo_roster_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_001__dk",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_001__dk"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_002",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_002"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_002__dk",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_002__dk"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_003",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_003"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_004__01",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_004__01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_004__02",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_004__02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_004__04",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_004__04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_005__01",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_005__01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_005__02",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_005__02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_005__04",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_005__04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_006__01",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_006__01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_006__02",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_006__02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_006__04",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_006__04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_007__01",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_007__01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_007__02",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_007__02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_007__04",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_007__04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_008__01",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_008__01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_008__02",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_008__02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_008__04",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_008__04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_009__01",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_009__01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_009__02",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_009__02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_009__04",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_009__04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_010__01",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_010__01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_010__02",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_010__02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_010__04",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_010__04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_011__01",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_011__01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_011__02",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_011__02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_011__04",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_011__04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_012__01",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_012__01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_012__02",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_012__02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_012__04",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_012__04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_013__01",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_013__01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_013__02",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_013__02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_013__04",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_013__04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_014__01",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_014__01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_014__02",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_014__02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_014__04",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_014__04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_015__01",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_015__01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_015__02",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_015__02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_015__04",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_015__04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_016__01",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_016__01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_016__02",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_016__02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_016__04",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_016__04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_017__01",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_017__01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_017__02",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_017__02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_017__04",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_017__04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_018__01",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_018__01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_018__02",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_018__02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_018__04",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_018__04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_019__01",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_019__01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_019__02",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_019__02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_019__04",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_019__04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_020__01",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_020__01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_020__02",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_020__02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_020__04",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_020__04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_021__01",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_021__01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_021__02",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_021__02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_021__04",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_021__04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_022__01",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_022__01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_022__02",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_022__02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_022__04",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_022__04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_023__01",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_023__01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_023__02",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_023__02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_023__04",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_023__04"
             },
             {
                 "isAbout": "items/sed_bm_demo_herit_001",
@@ -527,351 +884,6 @@
                 "variableName": "sed_bm_demo_herit_002___7"
             },
             {
-                "isAbout": "items/sed_bm_demo_herit_002__01___0",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__01___0"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__01___1",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__01___1"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__01___2",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__01___2"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__01___3",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__01___3"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__02___0",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__02___0"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__02___1",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__02___1"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__02___2",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__02___2"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__02___3",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__02___3"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__02___4",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__02___4"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__02___5",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__02___5"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__02___6",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__02___6"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__02___7",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__02___7"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__02___8",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__02___8"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__02___9",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__02___9"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__03___0",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__03___0"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__03___1",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__03___1"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__03___2",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__03___2"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__03___3",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__03___3"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__03___4",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__03___4"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__03___5",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__03___5"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__03___6",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__03___6"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__03___7",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__03___7"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__03___8",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__03___8"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__03___9",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__03___9"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__03___10",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__03___10"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__03___11",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__03___11"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__04___0",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__04___0"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__04___1",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__04___1"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__04___2",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__04___2"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__04___3",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__04___3"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__04___4",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__04___4"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__04___5",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__04___5"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__04___6",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__04___6"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__04___7",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__04___7"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__04___8",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__04___8"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__04___9",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__04___9"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__05___0",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__05___0"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__05___1",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__05___1"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__05___2",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__05___2"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__05___3",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__05___3"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__05___4",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__05___4"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__05___5",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__05___5"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__05___6",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__05___6"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__05___7",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__05___7"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__05___8",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__05___8"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__05___9",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__05___9"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__05___10",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__05___10"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__06___0",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__06___0"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__06___1",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__06___1"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__06___2",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__06___2"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__06___3",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__06___3"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__06___4",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__06___4"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__06___5",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__06___5"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__06___6",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__06___6"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__06___7",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__06___7"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__06___8",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__06___8"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__06___9",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__06___9"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__07___0",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__07___0"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__07___1",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__07___1"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__07___2",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__07___2"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__07___3",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__07___3"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__07___4",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__07___4"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__07___5",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__07___5"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__07___6",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__07___6"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__07___7",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__07___7"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__07___8",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__07___8"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__07___9",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__07___9"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__07___10",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__07___10"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_herit_002__07___11",
-                "isVis": true,
-                "variableName": "sed_bm_demo_herit_002__07___11"
-            },
-            {
                 "isAbout": "items/sed_bm_demo_herit_003___1",
                 "isVis": true,
                 "variableName": "sed_bm_demo_herit_003___1"
@@ -912,19 +924,34 @@
                 "variableName": "sed_bm_demo_herit_003___8"
             },
             {
-                "isAbout": "items/sed_bm_demo_herit_006",
+                "isAbout": "items/sed_bm_demo_disab_001",
                 "isVis": true,
-                "variableName": "sed_bm_demo_herit_006"
+                "variableName": "sed_bm_demo_disab_001"
             },
             {
-                "isAbout": "items/sed_bm_demo_herit_007",
+                "isAbout": "items/sed_bm_demo_disab_002",
                 "isVis": true,
-                "variableName": "sed_bm_demo_herit_007"
+                "variableName": "sed_bm_demo_disab_002"
             },
             {
-                "isAbout": "items/sed_bm_demo_income_002",
+                "isAbout": "items/sed_bm_demo_disab_003",
                 "isVis": true,
-                "variableName": "sed_bm_demo_income_002"
+                "variableName": "sed_bm_demo_disab_003"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_disab_004",
+                "isVis": true,
+                "variableName": "sed_bm_demo_disab_004"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_disab_005",
+                "isVis": true,
+                "variableName": "sed_bm_demo_disab_005"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_disab_006",
+                "isVis": true,
+                "variableName": "sed_bm_demo_disab_006"
             },
             {
                 "isAbout": "items/sed_bm_demo_edu_001",
@@ -2402,114 +2429,369 @@
                 "variableName": "sed_bm_demo_work__env_007"
             },
             {
-                "isAbout": "items/sed_bm_demo_obp_001",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__01___0",
                 "isVis": true,
-                "variableName": "sed_bm_demo_obp_001"
+                "variableName": "sed_bm_demo_herit__oth_002__01___0"
             },
             {
-                "isAbout": "items/sed_bm_demo_age__oth_001",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__01___1",
                 "isVis": true,
-                "variableName": "sed_bm_demo_age__oth_001"
+                "variableName": "sed_bm_demo_herit__oth_002__01___1"
             },
             {
-                "isAbout": "items/sed_bm_demo_herit__oth_002___0",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__01___2",
                 "isVis": true,
-                "variableName": "sed_bm_demo_herit__oth_002___0"
+                "variableName": "sed_bm_demo_herit__oth_002__01___2"
             },
             {
-                "isAbout": "items/sed_bm_demo_herit__oth_002___1",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__01___3",
                 "isVis": true,
-                "variableName": "sed_bm_demo_herit__oth_002___1"
+                "variableName": "sed_bm_demo_herit__oth_002__01___3"
             },
             {
-                "isAbout": "items/sed_bm_demo_herit__oth_002___2",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__02___0",
                 "isVis": true,
-                "variableName": "sed_bm_demo_herit__oth_002___2"
+                "variableName": "sed_bm_demo_herit__oth_002__02___0"
             },
             {
-                "isAbout": "items/sed_bm_demo_herit__oth_002___3",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__02___1",
                 "isVis": true,
-                "variableName": "sed_bm_demo_herit__oth_002___3"
+                "variableName": "sed_bm_demo_herit__oth_002__02___1"
             },
             {
-                "isAbout": "items/sed_bm_demo_herit__oth_002___4",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__02___2",
                 "isVis": true,
-                "variableName": "sed_bm_demo_herit__oth_002___4"
+                "variableName": "sed_bm_demo_herit__oth_002__02___2"
             },
             {
-                "isAbout": "items/sed_bm_demo_herit__oth_002___5",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__02___3",
                 "isVis": true,
-                "variableName": "sed_bm_demo_herit__oth_002___5"
+                "variableName": "sed_bm_demo_herit__oth_002__02___3"
             },
             {
-                "isAbout": "items/sed_bm_demo_herit__oth_002___6",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__02___4",
                 "isVis": true,
-                "variableName": "sed_bm_demo_herit__oth_002___6"
+                "variableName": "sed_bm_demo_herit__oth_002__02___4"
             },
             {
-                "isAbout": "items/sed_bm_demo_herit__oth_002___7",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__02___5",
                 "isVis": true,
-                "variableName": "sed_bm_demo_herit__oth_002___7"
+                "variableName": "sed_bm_demo_herit__oth_002__02___5"
             },
             {
-                "isAbout": "items/sed_bm_demo_herit__oth_001",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__02___6",
                 "isVis": true,
-                "variableName": "sed_bm_demo_herit__oth_001"
+                "variableName": "sed_bm_demo_herit__oth_002__02___6"
             },
             {
-                "isAbout": "items/sed_bm_demo_herit__oth_001__04",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__02___7",
                 "isVis": true,
-                "variableName": "sed_bm_demo_herit__oth_001__04"
+                "variableName": "sed_bm_demo_herit__oth_002__02___7"
             },
             {
-                "isAbout": "items/sed_bm_demo_herit__oth_003__01",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__02___8",
                 "isVis": true,
-                "variableName": "sed_bm_demo_herit__oth_003__01"
+                "variableName": "sed_bm_demo_herit__oth_002__02___8"
             },
             {
-                "isAbout": "items/sed_bm_demo_herit__oth_003__02",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__02___9",
                 "isVis": true,
-                "variableName": "sed_bm_demo_herit__oth_003__02"
+                "variableName": "sed_bm_demo_herit__oth_002__02___9"
             },
             {
-                "isAbout": "items/sed_bm_demo_edu__oth_001",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__03___0",
                 "isVis": true,
-                "variableName": "sed_bm_demo_edu__oth_001"
+                "variableName": "sed_bm_demo_herit__oth_002__03___0"
             },
             {
-                "isAbout": "items/sed_bm_demo_work__oth_001",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__03___1",
                 "isVis": true,
-                "variableName": "sed_bm_demo_work__oth_001"
+                "variableName": "sed_bm_demo_herit__oth_002__03___1"
             },
             {
-                "isAbout": "items/sed_bm_demo_work__oth_001__03",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__03___2",
                 "isVis": true,
-                "variableName": "sed_bm_demo_work__oth_001__03"
+                "variableName": "sed_bm_demo_herit__oth_002__03___2"
             },
             {
-                "isAbout": "items/sed_bm_demo_work__oth_001__02",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__03___3",
                 "isVis": true,
-                "variableName": "sed_bm_demo_work__oth_001__02"
+                "variableName": "sed_bm_demo_herit__oth_002__03___3"
             },
             {
-                "isAbout": "items/sed_bm_demo_mil_002",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__03___4",
                 "isVis": true,
-                "variableName": "sed_bm_demo_mil_002"
+                "variableName": "sed_bm_demo_herit__oth_002__03___4"
             },
             {
-                "isAbout": "items/sed_bm_demo_mil_002__01",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__03___5",
                 "isVis": true,
-                "variableName": "sed_bm_demo_mil_002__01"
+                "variableName": "sed_bm_demo_herit__oth_002__03___5"
             },
             {
-                "isAbout": "items/sed_bm_demo_ses__oth_001",
+                "isAbout": "items/sed_bm_demo_herit__oth_002__03___6",
                 "isVis": true,
-                "variableName": "sed_bm_demo_ses__oth_001"
+                "variableName": "sed_bm_demo_herit__oth_002__03___6"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__03___7",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__03___7"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__03___8",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__03___8"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__03___9",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__03___9"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__03___10",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__03___10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__03___11",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__03___11"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__04___0",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__04___0"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__04___1",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__04___1"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__04___2",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__04___2"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__04___3",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__04___3"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__04___4",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__04___4"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__04___5",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__04___5"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__04___6",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__04___6"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__04___7",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__04___7"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__04___8",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__04___8"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__04___10",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__04___10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__05___0",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__05___0"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__05___1",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__05___1"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__05___2",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__05___2"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__05___3",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__05___3"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__05___4",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__05___4"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__05___5",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__05___5"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__05___6",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__05___6"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__05___7",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__05___7"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__05___8",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__05___8"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__05___9",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__05___9"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__05___10",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__05___10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__06___0",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__06___0"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__06___1",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__06___1"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__06___2",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__06___2"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__06___3",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__06___3"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__06___4",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__06___4"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__06___5",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__06___5"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__06___6",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__06___6"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__06___7",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__06___7"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__06___8",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__06___8"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__06___9",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__06___9"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__07___0",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__07___0"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__07___1",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__07___1"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__07___2",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__07___2"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__07___3",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__07___3"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__07___4",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__07___4"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__07___5",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__07___5"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__07___6",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__07___6"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__07___7",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__07___7"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__07___8",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__07___8"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__07___9",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__07___9"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__07___10",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__07___10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit__oth_002__07___11",
+                "isVis": true,
+                "variableName": "sed_bm_demo_herit__oth_002__07___11"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_transp_001",
+                "isVis": true,
+                "variableName": "sed_bm_demo_transp_001"
             },
             {
                 "isAbout": "items/sed_bm_demo_administration",
                 "isVis": true,
                 "variableName": "sed_bm_demo_administration"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_gestational_age",
+                "isVis": true,
+                "variableName": "sed_bm_demo_gestational_age"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_adjusted_age",
+                "isVis": true,
+                "variableName": "sed_bm_demo_adjusted_age"
             }
         ],
         "shuffle": false

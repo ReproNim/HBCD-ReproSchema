@@ -1,0 +1,113 @@
+{
+    "id": "ph_cg_pms__sleep_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ph_cg_pms__sleep"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ph_cg_pms__sleep_date_taken",
+            "items/ph_cg_pms__sleep_candidate_age",
+            "items/ph_cg_pms__sleep_001",
+            "items/ph_cg_pms__sleep_002",
+            "items/ph_cg_pms__sleep_003",
+            "items/ph_cg_pms__sleep_004",
+            "items/ph_cg_pms__sleep_005",
+            "items/ph_cg_pms__sleep_006",
+            "items/ph_cg_pms__sleep_007",
+            "items/ph_cg_pms__sleep_008",
+            "items/ph_cg_pms__sleep_total_score",
+            "items/ph_cg_pms__sleep_t_score",
+            "items/ph_cg_pms__sleep_se_score",
+            "items/ph_cg_pms__sleep_administration",
+            "items/ph_cg_pms__sleep_gestational_age",
+            "items/ph_cg_pms__sleep_adjusted_age"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ph_cg_pms__sleep_date_taken",
+                "isVis": true,
+                "variableName": "ph_cg_pms__sleep_date_taken"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__sleep_candidate_age",
+                "isVis": true,
+                "variableName": "ph_cg_pms__sleep_candidate_age"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__sleep_001",
+                "isVis": true,
+                "variableName": "ph_cg_pms__sleep_001"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__sleep_002",
+                "isVis": true,
+                "variableName": "ph_cg_pms__sleep_002"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__sleep_003",
+                "isVis": true,
+                "variableName": "ph_cg_pms__sleep_003"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__sleep_004",
+                "isVis": true,
+                "variableName": "ph_cg_pms__sleep_004"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__sleep_005",
+                "isVis": true,
+                "variableName": "ph_cg_pms__sleep_005"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__sleep_006",
+                "isVis": true,
+                "variableName": "ph_cg_pms__sleep_006"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__sleep_007",
+                "isVis": true,
+                "variableName": "ph_cg_pms__sleep_007"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__sleep_008",
+                "isVis": true,
+                "variableName": "ph_cg_pms__sleep_008"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__sleep_total_score",
+                "isVis": true,
+                "variableName": "ph_cg_pms__sleep_total_score"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__sleep_t_score",
+                "isVis": true,
+                "variableName": "ph_cg_pms__sleep_t_score"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__sleep_se_score",
+                "isVis": true,
+                "variableName": "ph_cg_pms__sleep_se_score"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__sleep_administration",
+                "isVis": true,
+                "variableName": "ph_cg_pms__sleep_administration"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__sleep_gestational_age",
+                "isVis": true,
+                "variableName": "ph_cg_pms__sleep_gestational_age"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__sleep_adjusted_age",
+                "isVis": true,
+                "variableName": "ph_cg_pms__sleep_adjusted_age"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

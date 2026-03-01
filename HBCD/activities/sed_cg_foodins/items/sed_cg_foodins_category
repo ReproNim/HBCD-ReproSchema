@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/physhealth/foodinsecurity"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/foodinsecurity/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "sed_cg_foodins_0009"
+            "value": "sed_cg_foodins_0007"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "sed_cg_foodins_0009"
+            "value": "sed_cg_foodins_0007"
         },
         {
             "column": "activity",
@@ -50,7 +50,7 @@
         ]
     },
     "ui": {
-        "inputType": "number"
+        "inputType": "text"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

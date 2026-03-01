@@ -20,7 +20,7 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/demo/basicdemo"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/demo/basicdemo/"
         },
         {
             "column": "name_short",
@@ -42,7 +42,7 @@
         "en": "sed_basic_demographics_child_race"
     },
     "question": {
-        "en": "Child's race defined by Ripple."
+        "en": "Child's race (ACS item)."
     },
     "responseOptions": {
         "valueType": [

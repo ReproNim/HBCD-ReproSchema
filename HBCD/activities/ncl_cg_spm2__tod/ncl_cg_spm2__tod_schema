@@ -1,0 +1,641 @@
+{
+    "id": "ncl_cg_spm2__tod_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ncl_cg_spm2__tod"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ncl_cg_spm2__tod_date_taken",
+            "items/ncl_cg_spm2__tod_candidate_age",
+            "items/ncl_cg_spm2__tod_lang",
+            "items/ncl_cg_spm2__tod_soc_001",
+            "items/ncl_cg_spm2__tod_soc_002",
+            "items/ncl_cg_spm2__tod_soc_003",
+            "items/ncl_cg_spm2__tod_soc_004",
+            "items/ncl_cg_spm2__tod_soc_005",
+            "items/ncl_cg_spm2__tod_soc_006",
+            "items/ncl_cg_spm2__tod_soc_007",
+            "items/ncl_cg_spm2__tod_soc_008",
+            "items/ncl_cg_spm2__tod_soc_009",
+            "items/ncl_cg_spm2__tod_soc_010",
+            "items/ncl_cg_spm2__tod_vsn_001",
+            "items/ncl_cg_spm2__tod_vsn_002",
+            "items/ncl_cg_spm2__tod_vsn_003",
+            "items/ncl_cg_spm2__tod_vsn_004",
+            "items/ncl_cg_spm2__tod_vsn_005",
+            "items/ncl_cg_spm2__tod_vsn_006",
+            "items/ncl_cg_spm2__tod_vsn_007",
+            "items/ncl_cg_spm2__tod_vsn_008",
+            "items/ncl_cg_spm2__tod_vsn_009",
+            "items/ncl_cg_spm2__tod_vsn_010",
+            "items/ncl_cg_spm2__tod_hear_001",
+            "items/ncl_cg_spm2__tod_hear_002",
+            "items/ncl_cg_spm2__tod_hear_003",
+            "items/ncl_cg_spm2__tod_hear_004",
+            "items/ncl_cg_spm2__tod_hear_005",
+            "items/ncl_cg_spm2__tod_hear_006",
+            "items/ncl_cg_spm2__tod_hear_007",
+            "items/ncl_cg_spm2__tod_hear_008",
+            "items/ncl_cg_spm2__tod_hear_009",
+            "items/ncl_cg_spm2__tod_hear_010",
+            "items/ncl_cg_spm2__tod_touch_001",
+            "items/ncl_cg_spm2__tod_touch_002",
+            "items/ncl_cg_spm2__tod_touch_003",
+            "items/ncl_cg_spm2__tod_touch_004",
+            "items/ncl_cg_spm2__tod_touch_005",
+            "items/ncl_cg_spm2__tod_touch_006",
+            "items/ncl_cg_spm2__tod_touch_007",
+            "items/ncl_cg_spm2__tod_touch_008",
+            "items/ncl_cg_spm2__tod_touch_009",
+            "items/ncl_cg_spm2__tod_touch_010",
+            "items/ncl_cg_spm2__tod_tstsml_001",
+            "items/ncl_cg_spm2__tod_tstsml_002",
+            "items/ncl_cg_spm2__tod_tstsml_003",
+            "items/ncl_cg_spm2__tod_tstsml_004",
+            "items/ncl_cg_spm2__tod_tstsml_005",
+            "items/ncl_cg_spm2__tod_tstsml_006",
+            "items/ncl_cg_spm2__tod_tstsml_007",
+            "items/ncl_cg_spm2__tod_tstsml_008",
+            "items/ncl_cg_spm2__tod_tstsml_009",
+            "items/ncl_cg_spm2__tod_tstsml_010",
+            "items/ncl_cg_spm2__tod_bodyaware_001",
+            "items/ncl_cg_spm2__tod_bodyaware_002",
+            "items/ncl_cg_spm2__tod_bodyaware_003",
+            "items/ncl_cg_spm2__tod_bodyaware_004",
+            "items/ncl_cg_spm2__tod_bodyaware_005",
+            "items/ncl_cg_spm2__tod_bodyaware_006",
+            "items/ncl_cg_spm2__tod_bodyaware_007",
+            "items/ncl_cg_spm2__tod_bodyaware_008",
+            "items/ncl_cg_spm2__tod_bodyaware_009",
+            "items/ncl_cg_spm2__tod_bodyaware_010",
+            "items/ncl_cg_spm2__tod_balance_001",
+            "items/ncl_cg_spm2__tod_balance_002",
+            "items/ncl_cg_spm2__tod_balance_003",
+            "items/ncl_cg_spm2__tod_balance_004",
+            "items/ncl_cg_spm2__tod_balance_005",
+            "items/ncl_cg_spm2__tod_balance_006",
+            "items/ncl_cg_spm2__tod_balance_007",
+            "items/ncl_cg_spm2__tod_balance_008",
+            "items/ncl_cg_spm2__tod_balance_009",
+            "items/ncl_cg_spm2__tod_balance_010",
+            "items/ncl_cg_spm2__tod_plan_001",
+            "items/ncl_cg_spm2__tod_plan_002",
+            "items/ncl_cg_spm2__tod_plan_003",
+            "items/ncl_cg_spm2__tod_plan_004",
+            "items/ncl_cg_spm2__tod_plan_005",
+            "items/ncl_cg_spm2__tod_plan_006",
+            "items/ncl_cg_spm2__tod_plan_007",
+            "items/ncl_cg_spm2__tod_plan_008",
+            "items/ncl_cg_spm2__tod_plan_009",
+            "items/ncl_cg_spm2__tod_plan_010",
+            "items/ncl_cg_spm2__tod_soc_raw_score",
+            "items/ncl_cg_spm2__tod_vis_raw_score",
+            "items/ncl_cg_spm2__tod_hea_raw_score",
+            "items/ncl_cg_spm2__tod_tou_raw_score",
+            "items/ncl_cg_spm2__tod_bod_raw_score",
+            "items/ncl_cg_spm2__tod_bal_raw_score",
+            "items/ncl_cg_spm2__tod_pla_raw_score",
+            "items/ncl_cg_spm2__tod_tss_raw_score",
+            "items/ncl_cg_spm2__tod_tss_t_score",
+            "items/ncl_cg_spm2__tod_soc_t_score",
+            "items/ncl_cg_spm2__tod_vis_t_score",
+            "items/ncl_cg_spm2__tod_hea_t_score",
+            "items/ncl_cg_spm2__tod_tou_t_score",
+            "items/ncl_cg_spm2__tod_bod_t_score",
+            "items/ncl_cg_spm2__tod_bal_t_score",
+            "items/ncl_cg_spm2__tod_pla_t_score",
+            "items/ncl_cg_spm2__tod_administration",
+            "items/ncl_cg_spm2__tod_tstsml_raw_score",
+            "items/ncl_cg_spm2__tod_tstsml_t_score",
+            "items/ncl_cg_spm2__tod_gestational_age",
+            "items/ncl_cg_spm2__tod_adjusted_age"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_date_taken",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_date_taken"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_candidate_age",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_candidate_age"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_lang",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_lang"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_soc_001",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_soc_001"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_soc_002",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_soc_002"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_soc_003",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_soc_003"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_soc_004",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_soc_004"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_soc_005",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_soc_005"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_soc_006",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_soc_006"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_soc_007",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_soc_007"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_soc_008",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_soc_008"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_soc_009",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_soc_009"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_soc_010",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_soc_010"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_vsn_001",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_vsn_001"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_vsn_002",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_vsn_002"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_vsn_003",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_vsn_003"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_vsn_004",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_vsn_004"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_vsn_005",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_vsn_005"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_vsn_006",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_vsn_006"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_vsn_007",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_vsn_007"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_vsn_008",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_vsn_008"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_vsn_009",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_vsn_009"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_vsn_010",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_vsn_010"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_hear_001",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_hear_001"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_hear_002",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_hear_002"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_hear_003",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_hear_003"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_hear_004",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_hear_004"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_hear_005",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_hear_005"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_hear_006",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_hear_006"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_hear_007",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_hear_007"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_hear_008",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_hear_008"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_hear_009",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_hear_009"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_hear_010",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_hear_010"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_touch_001",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_touch_001"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_touch_002",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_touch_002"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_touch_003",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_touch_003"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_touch_004",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_touch_004"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_touch_005",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_touch_005"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_touch_006",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_touch_006"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_touch_007",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_touch_007"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_touch_008",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_touch_008"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_touch_009",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_touch_009"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_touch_010",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_touch_010"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_tstsml_001",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_tstsml_001"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_tstsml_002",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_tstsml_002"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_tstsml_003",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_tstsml_003"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_tstsml_004",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_tstsml_004"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_tstsml_005",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_tstsml_005"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_tstsml_006",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_tstsml_006"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_tstsml_007",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_tstsml_007"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_tstsml_008",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_tstsml_008"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_tstsml_009",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_tstsml_009"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_tstsml_010",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_tstsml_010"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_bodyaware_001",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_bodyaware_001"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_bodyaware_002",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_bodyaware_002"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_bodyaware_003",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_bodyaware_003"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_bodyaware_004",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_bodyaware_004"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_bodyaware_005",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_bodyaware_005"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_bodyaware_006",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_bodyaware_006"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_bodyaware_007",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_bodyaware_007"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_bodyaware_008",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_bodyaware_008"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_bodyaware_009",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_bodyaware_009"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_bodyaware_010",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_bodyaware_010"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_balance_001",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_balance_001"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_balance_002",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_balance_002"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_balance_003",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_balance_003"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_balance_004",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_balance_004"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_balance_005",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_balance_005"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_balance_006",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_balance_006"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_balance_007",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_balance_007"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_balance_008",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_balance_008"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_balance_009",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_balance_009"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_balance_010",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_balance_010"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_plan_001",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_plan_001"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_plan_002",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_plan_002"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_plan_003",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_plan_003"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_plan_004",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_plan_004"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_plan_005",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_plan_005"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_plan_006",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_plan_006"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_plan_007",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_plan_007"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_plan_008",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_plan_008"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_plan_009",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_plan_009"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_plan_010",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_plan_010"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_soc_raw_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_soc_raw_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_vis_raw_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_vis_raw_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_hea_raw_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_hea_raw_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_tou_raw_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_tou_raw_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_bod_raw_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_bod_raw_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_bal_raw_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_bal_raw_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_pla_raw_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_pla_raw_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_tss_raw_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_tss_raw_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_tss_t_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_tss_t_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_soc_t_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_soc_t_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_vis_t_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_vis_t_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_hea_t_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_hea_t_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_tou_t_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_tou_t_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_bod_t_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_bod_t_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_bal_t_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_bal_t_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_pla_t_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_pla_t_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_administration",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_administration"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_tstsml_raw_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_tstsml_raw_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_tstsml_t_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_tstsml_t_score"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_gestational_age",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_gestational_age"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_adjusted_age",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_adjusted_age"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

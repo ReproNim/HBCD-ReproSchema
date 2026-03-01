@@ -1,0 +1,56 @@
+{
+    "id": "sed_cg_shs_002__01___5",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Social and Environmental Determinants"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/second-hand-smoke-exposure/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "sed_cg_shs_0012"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "sed_cg_shs_0012"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "sed_cg_shs"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_cg_shs_002__01___5"
+    },
+    "question": {
+        "en": "What products? [Mark all that apply] [Multi-select]: Other"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

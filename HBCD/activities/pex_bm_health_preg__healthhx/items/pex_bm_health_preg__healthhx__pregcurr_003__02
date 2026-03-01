@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_hlth_preg_hlthhx_0084"
+            "value": "pex_bm_hlth_preg_hlthhx_0081"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_hlth_preg_hlthhx_0084"
+            "value": "pex_bm_hlth_preg_hlthhx_0081"
         },
         {
             "column": "activity",

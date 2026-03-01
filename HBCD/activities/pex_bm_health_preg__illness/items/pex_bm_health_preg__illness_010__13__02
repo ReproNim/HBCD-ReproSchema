@@ -42,7 +42,7 @@
         "en": "pex_bm_health_preg__illness_010__13__02"
     },
     "question": {
-        "en": "Unit of duration fever 8"
+        "en": "How many days did the fever last?"
     },
     "responseOptions": {
         "valueType": [

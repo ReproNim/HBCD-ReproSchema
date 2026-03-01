@@ -1,0 +1,647 @@
+{
+    "id": "sed_cg_hce_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_cg_hce"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_cg_hce_date_taken",
+            "items/sed_cg_hce_candidate_age",
+            "items/sed_cg_hce_lang",
+            "items/sed_cg_hce_location",
+            "items/sed_cg_hce_001",
+            "items/sed_cg_hce_002",
+            "items/sed_cg_hce_003",
+            "items/sed_cg_hce_004",
+            "items/sed_cg_hce_005",
+            "items/sed_cg_hce_006",
+            "items/sed_cg_hce_006__01",
+            "items/sed_cg_hce_007",
+            "items/sed_cg_hce_007__01",
+            "items/sed_cg_hce_008",
+            "items/sed_cg_hce_008__01",
+            "items/sed_cg_hce_009",
+            "items/sed_cg_hce_010___1",
+            "items/sed_cg_hce_010___2",
+            "items/sed_cg_hce_010___3",
+            "items/sed_cg_hce_010___4",
+            "items/sed_cg_hce_010___5",
+            "items/sed_cg_hce_010___6",
+            "items/sed_cg_hce_010___7",
+            "items/sed_cg_hce_010___8",
+            "items/sed_cg_hce_011",
+            "items/sed_cg_hce_012",
+            "items/sed_cg_hce_013",
+            "items/sed_cg_hce_014",
+            "items/sed_cg_hce_015",
+            "items/sed_cg_hce_016",
+            "items/sed_cg_hce_017",
+            "items/sed_cg_hce_018",
+            "items/sed_cg_hce_018__01___1",
+            "items/sed_cg_hce_018__01___2",
+            "items/sed_cg_hce_018__01___3",
+            "items/sed_cg_hce_018__01___4",
+            "items/sed_cg_hce_018__01___5",
+            "items/sed_cg_hce_018__01___6",
+            "items/sed_cg_hce_018__01___7",
+            "items/sed_cg_hce_018__01___8",
+            "items/sed_cg_hce_018__02___1",
+            "items/sed_cg_hce_018__02___2",
+            "items/sed_cg_hce_018__02___3",
+            "items/sed_cg_hce_018__02___4",
+            "items/sed_cg_hce_018__02___5",
+            "items/sed_cg_hce_018__02___6",
+            "items/sed_cg_hce_018__02___7",
+            "items/sed_cg_hce_018__02___8",
+            "items/sed_cg_hce_018__02___9",
+            "items/sed_cg_hce_018__02___10",
+            "items/sed_cg_hce_018__02___11",
+            "items/sed_cg_hce_019___1",
+            "items/sed_cg_hce_019___2",
+            "items/sed_cg_hce_019___3",
+            "items/sed_cg_hce_019___0",
+            "items/sed_cg_hce_020",
+            "items/sed_cg_hce_020__01",
+            "items/sed_cg_hce_021",
+            "items/sed_cg_hce_021__01",
+            "items/sed_cg_hce_022",
+            "items/sed_cg_hce_022__01",
+            "items/sed_cg_hce_023___1",
+            "items/sed_cg_hce_023___2",
+            "items/sed_cg_hce_023___3",
+            "items/sed_cg_hce_023___4",
+            "items/sed_cg_hce_023___5",
+            "items/sed_cg_hce_023___6",
+            "items/sed_cg_hce_023___7",
+            "items/sed_cg_hce_023___8",
+            "items/sed_cg_hce_023___9",
+            "items/sed_cg_hce_023___10",
+            "items/sed_cg_hce_023___11",
+            "items/sed_cg_hce_023___12",
+            "items/sed_cg_hce_024",
+            "items/sed_cg_hce_024__01",
+            "items/sed_cg_hce_025",
+            "items/sed_cg_hce_025__01",
+            "items/sed_cg_hce_026",
+            "items/sed_cg_hce_026__01",
+            "items/sed_cg_hce_027___1",
+            "items/sed_cg_hce_027___2",
+            "items/sed_cg_hce_027___3",
+            "items/sed_cg_hce_027___4",
+            "items/sed_cg_hce_027___5",
+            "items/sed_cg_hce_027___6",
+            "items/sed_cg_hce_027___7",
+            "items/sed_cg_hce_027___8",
+            "items/sed_cg_hce_027___9",
+            "items/sed_cg_hce_027___10",
+            "items/sed_cg_hce_027___11",
+            "items/sed_cg_hce_027___12",
+            "items/sed_cg_hce_028",
+            "items/sed_cg_hce_028__01",
+            "items/sed_cg_hce_028__02",
+            "items/sed_cg_hce_028__03___1",
+            "items/sed_cg_hce_028__03___2",
+            "items/sed_cg_hce_028__03___3",
+            "items/sed_cg_hce_028__03___4",
+            "items/sed_cg_hce_028__03___5",
+            "items/sed_cg_hce_029",
+            "items/sed_cg_hce_030",
+            "items/sed_cg_hce_030__01",
+            "items/sed_cg_hce_administration",
+            "items/sed_cg_hce_gestational_age",
+            "items/sed_cg_hce_adjusted_age"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_cg_hce_date_taken",
+                "isVis": true,
+                "variableName": "sed_cg_hce_date_taken"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_candidate_age",
+                "isVis": true,
+                "variableName": "sed_cg_hce_candidate_age"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_lang",
+                "isVis": true,
+                "variableName": "sed_cg_hce_lang"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_location",
+                "isVis": true,
+                "variableName": "sed_cg_hce_location"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_001",
+                "isVis": true,
+                "variableName": "sed_cg_hce_001"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_002",
+                "isVis": true,
+                "variableName": "sed_cg_hce_002"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_003",
+                "isVis": true,
+                "variableName": "sed_cg_hce_003"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_004",
+                "isVis": true,
+                "variableName": "sed_cg_hce_004"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_005",
+                "isVis": true,
+                "variableName": "sed_cg_hce_005"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_006",
+                "isVis": true,
+                "variableName": "sed_cg_hce_006"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_006__01",
+                "isVis": true,
+                "variableName": "sed_cg_hce_006__01"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_007",
+                "isVis": true,
+                "variableName": "sed_cg_hce_007"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_007__01",
+                "isVis": true,
+                "variableName": "sed_cg_hce_007__01"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_008",
+                "isVis": true,
+                "variableName": "sed_cg_hce_008"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_008__01",
+                "isVis": true,
+                "variableName": "sed_cg_hce_008__01"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_009",
+                "isVis": true,
+                "variableName": "sed_cg_hce_009"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_010___1",
+                "isVis": true,
+                "variableName": "sed_cg_hce_010___1"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_010___2",
+                "isVis": true,
+                "variableName": "sed_cg_hce_010___2"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_010___3",
+                "isVis": true,
+                "variableName": "sed_cg_hce_010___3"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_010___4",
+                "isVis": true,
+                "variableName": "sed_cg_hce_010___4"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_010___5",
+                "isVis": true,
+                "variableName": "sed_cg_hce_010___5"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_010___6",
+                "isVis": true,
+                "variableName": "sed_cg_hce_010___6"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_010___7",
+                "isVis": true,
+                "variableName": "sed_cg_hce_010___7"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_010___8",
+                "isVis": true,
+                "variableName": "sed_cg_hce_010___8"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_011",
+                "isVis": true,
+                "variableName": "sed_cg_hce_011"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_012",
+                "isVis": true,
+                "variableName": "sed_cg_hce_012"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_013",
+                "isVis": true,
+                "variableName": "sed_cg_hce_013"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_014",
+                "isVis": true,
+                "variableName": "sed_cg_hce_014"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_015",
+                "isVis": true,
+                "variableName": "sed_cg_hce_015"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_016",
+                "isVis": true,
+                "variableName": "sed_cg_hce_016"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_017",
+                "isVis": true,
+                "variableName": "sed_cg_hce_017"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_018",
+                "isVis": true,
+                "variableName": "sed_cg_hce_018"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_018__01___1",
+                "isVis": true,
+                "variableName": "sed_cg_hce_018__01___1"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_018__01___2",
+                "isVis": true,
+                "variableName": "sed_cg_hce_018__01___2"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_018__01___3",
+                "isVis": true,
+                "variableName": "sed_cg_hce_018__01___3"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_018__01___4",
+                "isVis": true,
+                "variableName": "sed_cg_hce_018__01___4"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_018__01___5",
+                "isVis": true,
+                "variableName": "sed_cg_hce_018__01___5"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_018__01___6",
+                "isVis": true,
+                "variableName": "sed_cg_hce_018__01___6"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_018__01___7",
+                "isVis": true,
+                "variableName": "sed_cg_hce_018__01___7"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_018__01___8",
+                "isVis": true,
+                "variableName": "sed_cg_hce_018__01___8"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_018__02___1",
+                "isVis": true,
+                "variableName": "sed_cg_hce_018__02___1"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_018__02___2",
+                "isVis": true,
+                "variableName": "sed_cg_hce_018__02___2"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_018__02___3",
+                "isVis": true,
+                "variableName": "sed_cg_hce_018__02___3"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_018__02___4",
+                "isVis": true,
+                "variableName": "sed_cg_hce_018__02___4"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_018__02___5",
+                "isVis": true,
+                "variableName": "sed_cg_hce_018__02___5"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_018__02___6",
+                "isVis": true,
+                "variableName": "sed_cg_hce_018__02___6"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_018__02___7",
+                "isVis": true,
+                "variableName": "sed_cg_hce_018__02___7"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_018__02___8",
+                "isVis": true,
+                "variableName": "sed_cg_hce_018__02___8"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_018__02___9",
+                "isVis": true,
+                "variableName": "sed_cg_hce_018__02___9"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_018__02___10",
+                "isVis": true,
+                "variableName": "sed_cg_hce_018__02___10"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_018__02___11",
+                "isVis": true,
+                "variableName": "sed_cg_hce_018__02___11"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_019___1",
+                "isVis": true,
+                "variableName": "sed_cg_hce_019___1"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_019___2",
+                "isVis": true,
+                "variableName": "sed_cg_hce_019___2"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_019___3",
+                "isVis": true,
+                "variableName": "sed_cg_hce_019___3"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_019___0",
+                "isVis": true,
+                "variableName": "sed_cg_hce_019___0"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_020",
+                "isVis": true,
+                "variableName": "sed_cg_hce_020"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_020__01",
+                "isVis": true,
+                "variableName": "sed_cg_hce_020__01"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_021",
+                "isVis": true,
+                "variableName": "sed_cg_hce_021"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_021__01",
+                "isVis": true,
+                "variableName": "sed_cg_hce_021__01"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_022",
+                "isVis": true,
+                "variableName": "sed_cg_hce_022"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_022__01",
+                "isVis": true,
+                "variableName": "sed_cg_hce_022__01"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_023___1",
+                "isVis": true,
+                "variableName": "sed_cg_hce_023___1"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_023___2",
+                "isVis": true,
+                "variableName": "sed_cg_hce_023___2"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_023___3",
+                "isVis": true,
+                "variableName": "sed_cg_hce_023___3"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_023___4",
+                "isVis": true,
+                "variableName": "sed_cg_hce_023___4"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_023___5",
+                "isVis": true,
+                "variableName": "sed_cg_hce_023___5"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_023___6",
+                "isVis": true,
+                "variableName": "sed_cg_hce_023___6"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_023___7",
+                "isVis": true,
+                "variableName": "sed_cg_hce_023___7"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_023___8",
+                "isVis": true,
+                "variableName": "sed_cg_hce_023___8"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_023___9",
+                "isVis": true,
+                "variableName": "sed_cg_hce_023___9"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_023___10",
+                "isVis": true,
+                "variableName": "sed_cg_hce_023___10"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_023___11",
+                "isVis": true,
+                "variableName": "sed_cg_hce_023___11"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_023___12",
+                "isVis": true,
+                "variableName": "sed_cg_hce_023___12"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_024",
+                "isVis": true,
+                "variableName": "sed_cg_hce_024"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_024__01",
+                "isVis": true,
+                "variableName": "sed_cg_hce_024__01"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_025",
+                "isVis": true,
+                "variableName": "sed_cg_hce_025"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_025__01",
+                "isVis": true,
+                "variableName": "sed_cg_hce_025__01"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_026",
+                "isVis": true,
+                "variableName": "sed_cg_hce_026"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_026__01",
+                "isVis": true,
+                "variableName": "sed_cg_hce_026__01"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_027___1",
+                "isVis": true,
+                "variableName": "sed_cg_hce_027___1"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_027___2",
+                "isVis": true,
+                "variableName": "sed_cg_hce_027___2"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_027___3",
+                "isVis": true,
+                "variableName": "sed_cg_hce_027___3"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_027___4",
+                "isVis": true,
+                "variableName": "sed_cg_hce_027___4"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_027___5",
+                "isVis": true,
+                "variableName": "sed_cg_hce_027___5"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_027___6",
+                "isVis": true,
+                "variableName": "sed_cg_hce_027___6"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_027___7",
+                "isVis": true,
+                "variableName": "sed_cg_hce_027___7"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_027___8",
+                "isVis": true,
+                "variableName": "sed_cg_hce_027___8"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_027___9",
+                "isVis": true,
+                "variableName": "sed_cg_hce_027___9"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_027___10",
+                "isVis": true,
+                "variableName": "sed_cg_hce_027___10"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_027___11",
+                "isVis": true,
+                "variableName": "sed_cg_hce_027___11"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_027___12",
+                "isVis": true,
+                "variableName": "sed_cg_hce_027___12"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_028",
+                "isVis": true,
+                "variableName": "sed_cg_hce_028"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_028__01",
+                "isVis": true,
+                "variableName": "sed_cg_hce_028__01"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_028__02",
+                "isVis": true,
+                "variableName": "sed_cg_hce_028__02"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_028__03___1",
+                "isVis": true,
+                "variableName": "sed_cg_hce_028__03___1"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_028__03___2",
+                "isVis": true,
+                "variableName": "sed_cg_hce_028__03___2"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_028__03___3",
+                "isVis": true,
+                "variableName": "sed_cg_hce_028__03___3"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_028__03___4",
+                "isVis": true,
+                "variableName": "sed_cg_hce_028__03___4"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_028__03___5",
+                "isVis": true,
+                "variableName": "sed_cg_hce_028__03___5"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_029",
+                "isVis": true,
+                "variableName": "sed_cg_hce_029"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_030",
+                "isVis": true,
+                "variableName": "sed_cg_hce_030"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_030__01",
+                "isVis": true,
+                "variableName": "sed_cg_hce_030__01"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_administration",
+                "isVis": true,
+                "variableName": "sed_cg_hce_administration"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_gestational_age",
+                "isVis": true,
+                "variableName": "sed_cg_hce_gestational_age"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_adjusted_age",
+                "isVis": true,
+                "variableName": "sed_cg_hce_adjusted_age"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

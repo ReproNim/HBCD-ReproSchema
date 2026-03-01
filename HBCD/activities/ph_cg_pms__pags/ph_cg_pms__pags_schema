@@ -1,0 +1,155 @@
+{
+    "id": "ph_cg_pms__pags_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ph_cg_pms__pags"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ph_cg_pms__pags_date_taken",
+            "items/ph_cg_pms__pags_candidate_age",
+            "items/ph_cg_pms__pags_location",
+            "items/ph_cg_pms__pags_001",
+            "items/ph_cg_pms__pags_002",
+            "items/ph_cg_pms__pags_003",
+            "items/ph_cg_pms__pags_004",
+            "items/ph_cg_pms__pags_005",
+            "items/ph_cg_pms__pags_006",
+            "items/ph_cg_pms__pags_007",
+            "items/ph_cg_pms__pags_008",
+            "items/ph_cg_pms__pags_009",
+            "items/ph_cg_pms__pags_010___1",
+            "items/ph_cg_pms__pags_010___2",
+            "items/ph_cg_pms__pags_010___3",
+            "items/ph_cg_pms__pags_010___4",
+            "items/ph_cg_pms__pags_010___5",
+            "items/ph_cg_pms__pags_010___6",
+            "items/ph_cg_pms__pags_010___7",
+            "items/ph_cg_pms__pags_011",
+            "items/ph_cg_pms__pags_administration",
+            "items/ph_cg_pms__pags_gestational_age",
+            "items/ph_cg_pms__pags_adjusted_age"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ph_cg_pms__pags_date_taken",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_date_taken"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_candidate_age",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_candidate_age"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_location",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_location"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_001",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_001"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_002",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_002"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_003",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_003"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_004",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_004"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_005",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_005"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_006",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_006"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_007",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_007"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_008",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_008"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_009",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_009"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_010___1",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_010___1"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_010___2",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_010___2"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_010___3",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_010___3"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_010___4",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_010___4"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_010___5",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_010___5"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_010___6",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_010___6"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_010___7",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_010___7"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_011",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_011"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_administration",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_administration"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_gestational_age",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_gestational_age"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_adjusted_age",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_adjusted_age"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

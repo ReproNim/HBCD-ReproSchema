@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/neurocog/spm2"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/neurocog/spm2/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "ncl_cg_spm2_inf_0040"
+            "value": "ncl_cg_spm2_inf_0041"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "ncl_cg_spm2_inf_0040"
+            "value": "ncl_cg_spm2_inf_0041"
         },
         {
             "column": "activity",

@@ -18,14 +18,19 @@
             "value": "Biological Mother"
         },
         {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/mh/apa12/"
+        },
+        {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_apa_0136"
+            "value": "pex_bm_apa_0141"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_apa_0136"
+            "value": "pex_bm_apa_0141"
         },
         {
             "column": "activity",
@@ -35,6 +40,9 @@
     ],
     "prefLabel": {
         "en": "pex_bm_apa_apa2_sleep_tscorenote"
+    },
+    "question": {
+        "en": "APA 2 PROMIS Sleep - Disturbance t-scoring note for missing or scores not calculated"
     },
     "responseOptions": {
         "valueType": [

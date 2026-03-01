@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0517"
+            "value": "pex_bm_healthv2_preg_0513"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0517"
+            "value": "pex_bm_healthv2_preg_0513"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_healthv2_preg__illness_016__13__02"
     },
     "question": {
-        "en": "Unit of duration fever 2"
+        "en": "How many days did the fever last?"
     },
     "responseOptions": {
         "valueType": [

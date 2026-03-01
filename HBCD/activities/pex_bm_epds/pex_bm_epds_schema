@@ -9,8 +9,6 @@
         "order": [
             "items/pex_bm_epds_date_taken",
             "items/pex_bm_epds_candidate_age",
-            "items/pex_bm_epds_gestational_age",
-            "items/pex_bm_epds_adjusted_age",
             "items/pex_bm_epds_lang",
             "items/pex_bm_epds_location",
             "items/pex_bm_epds_001",
@@ -23,11 +21,10 @@
             "items/pex_bm_epds_008",
             "items/pex_bm_epds_009",
             "items/pex_bm_epds_010",
-            "items/pex_bm_epds_score",
-            "items/pex_bm_epds_flag01",
-            "items/pex_bm_epds_flag02",
             "items/pex_bm_epds_total_score",
-            "items/pex_bm_epds_administration"
+            "items/pex_bm_epds_administration",
+            "items/pex_bm_epds_gestational_age",
+            "items/pex_bm_epds_adjusted_age"
         ],
         "addProperties": [
             {
@@ -39,16 +36,6 @@
                 "isAbout": "items/pex_bm_epds_candidate_age",
                 "isVis": true,
                 "variableName": "pex_bm_epds_candidate_age"
-            },
-            {
-                "isAbout": "items/pex_bm_epds_gestational_age",
-                "isVis": true,
-                "variableName": "pex_bm_epds_gestational_age"
-            },
-            {
-                "isAbout": "items/pex_bm_epds_adjusted_age",
-                "isVis": true,
-                "variableName": "pex_bm_epds_adjusted_age"
             },
             {
                 "isAbout": "items/pex_bm_epds_lang",
@@ -111,21 +98,6 @@
                 "variableName": "pex_bm_epds_010"
             },
             {
-                "isAbout": "items/pex_bm_epds_score",
-                "isVis": true,
-                "variableName": "pex_bm_epds_score"
-            },
-            {
-                "isAbout": "items/pex_bm_epds_flag01",
-                "isVis": true,
-                "variableName": "pex_bm_epds_flag01"
-            },
-            {
-                "isAbout": "items/pex_bm_epds_flag02",
-                "isVis": true,
-                "variableName": "pex_bm_epds_flag02"
-            },
-            {
                 "isAbout": "items/pex_bm_epds_total_score",
                 "isVis": true,
                 "variableName": "pex_bm_epds_total_score"
@@ -134,6 +106,16 @@
                 "isAbout": "items/pex_bm_epds_administration",
                 "isVis": true,
                 "variableName": "pex_bm_epds_administration"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_gestational_age",
+                "isVis": true,
+                "variableName": "pex_bm_epds_gestational_age"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_adjusted_age",
+                "isVis": true,
+                "variableName": "pex_bm_epds_adjusted_age"
             }
         ],
         "shuffle": false

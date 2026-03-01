@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/su/tlfb"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/su/tlfb/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_ch_tlfb_0087"
+            "value": "pex_ch_tlfb_0072"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_ch_tlfb_0087"
+            "value": "pex_ch_tlfb_0072"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_ch_tlfb_inh_wk_04"
     },
     "question": {
-        "en": "Inhalants"
+        "en": "Self-reported frequency use for Inhalants for week 4"
     },
     "responseOptions": {
         "valueType": [

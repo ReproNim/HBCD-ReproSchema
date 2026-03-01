@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/mh/fam-mh"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/mh/fam-mh/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_psych_0039"
+            "value": "pex_bm_psych_0037"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_psych_0039"
+            "value": "pex_bm_psych_0037"
         },
         {
             "column": "activity",

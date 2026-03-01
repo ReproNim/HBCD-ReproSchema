@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0444"
+            "value": "pex_bm_healthv2_preg_0440"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0444"
+            "value": "pex_bm_healthv2_preg_0440"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_healthv2_preg__meds_066__03__01"
     },
     "question": {
-        "en": "Unit of frequency otc 8"
+        "en": "Eighth otc per hour"
     },
     "responseOptions": {
         "valueType": [

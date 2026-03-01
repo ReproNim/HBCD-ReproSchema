@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_inf_0034"
+            "value": "pex_bm_healthv2_inf_0032"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_inf_0034"
+            "value": "pex_bm_healthv2_inf_0032"
         },
         {
             "column": "activity",
@@ -46,7 +46,7 @@
     },
     "responseOptions": {
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

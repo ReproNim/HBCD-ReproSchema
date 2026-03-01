@@ -20,7 +20,7 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/demo/basicdemo"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/demo/basicdemo/"
         },
         {
             "column": "name_short",
@@ -42,7 +42,7 @@
         "en": "sed_basic_demographics_rc_mother_race___2"
     },
     "question": {
-        "en": "Defined by REDCap 'sed_bm_demo' instrument, from fields 'herit_002'.  Which categories describe you? Select all that apply. Note, you may select more than one group. [Multi-select]: Black, African American, or African (For example: African American, Ethiopian, Haitian, Jamaican, Nigerian, Somali, etc.)"
+        "en": "Defined by REDCap 'sed_bm_demo' instrument, from fields 'herit_002'. Which categories describe you? Select all that apply. [Multi-select]: Black, African American, or African"
     },
     "responseOptions": {
         "valueType": [

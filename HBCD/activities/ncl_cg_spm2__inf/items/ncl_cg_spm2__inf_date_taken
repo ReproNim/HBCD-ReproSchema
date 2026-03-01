@@ -20,7 +20,7 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/neurocog/spm2"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/neurocog/spm2/"
         },
         {
             "column": "name_short",

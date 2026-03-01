@@ -1,0 +1,56 @@
+{
+    "id": "sed_cg_employ_010__11___5",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Social and Environmental Determinants"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/current-employment/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "sed_cg_employ_0051"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "sed_cg_employ_0051"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "sed_cg_employ"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_cg_employ_010__11___5"
+    },
+    "question": {
+        "en": "What is the role of your spouse/partner in your job? If your spouse/partner hase more than one job, describe the job at which your spouse/partner worked the most hours in the past week. [Multi-select]: Skilled/unskilled laborer"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

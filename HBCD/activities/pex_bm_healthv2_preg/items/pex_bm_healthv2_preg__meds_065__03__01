@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0430"
+            "value": "pex_bm_healthv2_preg_0426"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0430"
+            "value": "pex_bm_healthv2_preg_0426"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_healthv2_preg__meds_065__03__01"
     },
     "question": {
-        "en": "Unit of frequency otc 7"
+        "en": "Seventh otc per hour"
     },
     "responseOptions": {
         "valueType": [

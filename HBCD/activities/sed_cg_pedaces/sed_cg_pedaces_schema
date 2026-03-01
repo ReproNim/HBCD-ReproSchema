@@ -1,0 +1,71 @@
+{
+    "id": "sed_cg_pedaces_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_cg_pedaces"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_cg_pedaces_date_taken",
+            "items/sed_cg_pedaces_candidate_age",
+            "items/sed_cg_pedaces_lang",
+            "items/sed_cg_pedaces_location",
+            "items/sed_cg_pedaces_011",
+            "items/sed_cg_pedaces_summary_score",
+            "items/sed_cg_pedaces_administration",
+            "items/sed_cg_pedaces_gestational_age",
+            "items/sed_cg_pedaces_adjusted_age"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_cg_pedaces_date_taken",
+                "isVis": true,
+                "variableName": "sed_cg_pedaces_date_taken"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_candidate_age",
+                "isVis": true,
+                "variableName": "sed_cg_pedaces_candidate_age"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_lang",
+                "isVis": true,
+                "variableName": "sed_cg_pedaces_lang"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_location",
+                "isVis": true,
+                "variableName": "sed_cg_pedaces_location"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_011",
+                "isVis": true,
+                "variableName": "sed_cg_pedaces_011"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_summary_score",
+                "isVis": true,
+                "variableName": "sed_cg_pedaces_summary_score"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_administration",
+                "isVis": true,
+                "variableName": "sed_cg_pedaces_administration"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_gestational_age",
+                "isVis": true,
+                "variableName": "sed_cg_pedaces_gestational_age"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_adjusted_age",
+                "isVis": true,
+                "variableName": "sed_cg_pedaces_adjusted_age"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

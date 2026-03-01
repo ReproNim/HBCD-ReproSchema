@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/su/tlfb"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/su/tlfb/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_ch_tlfb_0078"
+            "value": "pex_ch_tlfb_0052"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_ch_tlfb_0078"
+            "value": "pex_ch_tlfb_0052"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_ch_tlfb_cbd_wk_04"
     },
     "question": {
-        "en": "Non-THC Cannabinoids (CBD)"
+        "en": "Self-reported frequency use for Cannabinoids for week 4"
     },
     "responseOptions": {
         "valueType": [

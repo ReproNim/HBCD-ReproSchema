@@ -1,0 +1,56 @@
+{
+    "id": "sed_cg_employ_010__05",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Social and Environmental Determinants"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/current-employment/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "sed_cg_employ_0035"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "sed_cg_employ_0035"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "sed_cg_employ"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_cg_employ_010__05"
+    },
+    "question": {
+        "en": "How many weeks of leave, in total, did your partner take/ has your partner taken so far?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

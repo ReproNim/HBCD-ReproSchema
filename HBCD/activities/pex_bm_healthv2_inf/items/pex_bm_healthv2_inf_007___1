@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_inf_0015"
+            "value": "pex_bm_healthv2_inf_0013"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_inf_0015"
+            "value": "pex_bm_healthv2_inf_0013"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_healthv2_inf_007___1"
     },
     "question": {
-        "en": "Was your baby diagnosed or treated for any of these newborn conditions? Check all that apply [Multi-select]: Neonatal Abstinence Syndrome/Neinatal Opioid Withdrawal Syndrome"
+        "en": "Was your baby diagnosed or treated for any of these newborn conditions? Check all that apply [Multi-select]: Neonatal Abstinence Syndrome/Neonatal Opioid Withdrawal Syndrome"
     },
     "responseOptions": {
         "valueType": [

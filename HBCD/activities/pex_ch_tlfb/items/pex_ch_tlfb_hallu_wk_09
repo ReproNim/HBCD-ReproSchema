@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/su/tlfb"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/su/tlfb/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_ch_tlfb_0065"
+            "value": "pex_ch_tlfb_0068"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_ch_tlfb_0065"
+            "value": "pex_ch_tlfb_0068"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_ch_tlfb_hallu_wk_09"
     },
     "question": {
-        "en": "Hallucinogenic"
+        "en": "Self-reported frequency use for Hallucinogenic for week 9"
     },
     "responseOptions": {
         "valueType": [

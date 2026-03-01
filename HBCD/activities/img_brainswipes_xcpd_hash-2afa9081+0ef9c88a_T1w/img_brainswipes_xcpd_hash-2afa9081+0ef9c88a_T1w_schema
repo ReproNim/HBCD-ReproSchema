@@ -1,0 +1,149 @@
+{
+    "id": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_candidate_age",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_adjusted_age",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_summary_QC",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_summary_nrev",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AnatOnAtlas_mean",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AnatOnAtlas_nrev",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AtlasOnAnat_mean",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AtlasOnAnat_nrev",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AxialBasalGangliaPutamen_mean",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AxialBasalGangliaPutamen_nrev",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AxialSuperiorFrontal_mean",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AxialSuperiorFrontal_nrev",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_CoronalCaudateAmygdala_mean",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_CoronalCaudateAmygdala_nrev",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_CoronalOrbitoFrontal_mean",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_CoronalOrbitoFrontal_nrev",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_CoronalPosteriorParietalLingual_mean",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_CoronalPosteriorParietalLingual_nrev",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_SagittalInsulaFrontoTemporal_mean",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_SagittalInsulaFrontoTemporal_nrev",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_SagittalInsulaTemporalHippocampalSulcus_mean",
+            "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_SagittalInsulaTemporalHippocampalSulcus_nrev"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_candidate_age",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_candidate_age"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_adjusted_age",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_adjusted_age"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_summary_QC",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_summary_QC"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_summary_nrev",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_summary_nrev"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AnatOnAtlas_mean",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AnatOnAtlas_mean"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AnatOnAtlas_nrev",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AnatOnAtlas_nrev"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AtlasOnAnat_mean",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AtlasOnAnat_mean"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AtlasOnAnat_nrev",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AtlasOnAnat_nrev"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AxialBasalGangliaPutamen_mean",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AxialBasalGangliaPutamen_mean"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AxialBasalGangliaPutamen_nrev",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AxialBasalGangliaPutamen_nrev"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AxialSuperiorFrontal_mean",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AxialSuperiorFrontal_mean"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AxialSuperiorFrontal_nrev",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_AxialSuperiorFrontal_nrev"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_CoronalCaudateAmygdala_mean",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_CoronalCaudateAmygdala_mean"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_CoronalCaudateAmygdala_nrev",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_CoronalCaudateAmygdala_nrev"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_CoronalOrbitoFrontal_mean",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_CoronalOrbitoFrontal_mean"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_CoronalOrbitoFrontal_nrev",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_CoronalOrbitoFrontal_nrev"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_CoronalPosteriorParietalLingual_mean",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_CoronalPosteriorParietalLingual_mean"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_CoronalPosteriorParietalLingual_nrev",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_CoronalPosteriorParietalLingual_nrev"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_SagittalInsulaFrontoTemporal_mean",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_SagittalInsulaFrontoTemporal_mean"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_SagittalInsulaFrontoTemporal_nrev",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_SagittalInsulaFrontoTemporal_nrev"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_SagittalInsulaTemporalHippocampalSulcus_mean",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_SagittalInsulaTemporalHippocampalSulcus_mean"
+            },
+            {
+                "isAbout": "items/img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_SagittalInsulaTemporalHippocampalSulcus_nrev",
+                "isVis": true,
+                "variableName": "img_brainswipes_xcpd_hash-2afa9081+0ef9c88a_T1w_SagittalInsulaTemporalHippocampalSulcus_nrev"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

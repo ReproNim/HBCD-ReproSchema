@@ -1,0 +1,95 @@
+{
+    "id": "mh_cg_fad_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mh_cg_fad"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mh_cg_fad_date_taken",
+            "items/mh_cg_fad_candidate_age",
+            "items/mh_cg_fad_lang",
+            "items/mh_cg_fad_001__02",
+            "items/mh_cg_fad_001__04",
+            "items/mh_cg_fad_001__06",
+            "items/mh_cg_fad_001__08",
+            "items/mh_cg_fad_001__10",
+            "items/mh_cg_fad_001__12",
+            "items/mh_cg_fad_total_score",
+            "items/mh_cg_fad_administration",
+            "items/mh_cg_fad_gestational_age",
+            "items/mh_cg_fad_adjusted_age"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mh_cg_fad_date_taken",
+                "isVis": true,
+                "variableName": "mh_cg_fad_date_taken"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_candidate_age",
+                "isVis": true,
+                "variableName": "mh_cg_fad_candidate_age"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_lang",
+                "isVis": true,
+                "variableName": "mh_cg_fad_lang"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_001__02",
+                "isVis": true,
+                "variableName": "mh_cg_fad_001__02"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_001__04",
+                "isVis": true,
+                "variableName": "mh_cg_fad_001__04"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_001__06",
+                "isVis": true,
+                "variableName": "mh_cg_fad_001__06"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_001__08",
+                "isVis": true,
+                "variableName": "mh_cg_fad_001__08"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_001__10",
+                "isVis": true,
+                "variableName": "mh_cg_fad_001__10"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_001__12",
+                "isVis": true,
+                "variableName": "mh_cg_fad_001__12"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_total_score",
+                "isVis": true,
+                "variableName": "mh_cg_fad_total_score"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_administration",
+                "isVis": true,
+                "variableName": "mh_cg_fad_administration"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_gestational_age",
+                "isVis": true,
+                "variableName": "mh_cg_fad_gestational_age"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_adjusted_age",
+                "isVis": true,
+                "variableName": "mh_cg_fad_adjusted_age"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

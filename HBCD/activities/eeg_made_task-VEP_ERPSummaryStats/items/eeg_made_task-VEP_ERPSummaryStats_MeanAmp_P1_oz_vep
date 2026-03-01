@@ -1,0 +1,66 @@
+{
+    "id": "eeg_made_task-VEP_ERPSummaryStats_MeanAmp_P1_oz_vep",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular EEG"
+        },
+        {
+            "column": "sub_domain",
+            "source": "nbdc",
+            "value": "Event-Related Potential"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "metric",
+            "source": "nbdc",
+            "value": "Visual Evoked Potential"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/tasks/#visual-evoked-potential-task"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "eeg_made_task_vep_ss_0011"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "eeg_made_task_vep_ss_0011"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "eeg_made_task-VEP_ERPSummaryStats"
+        }
+    ],
+    "prefLabel": {
+        "en": "eeg_made_task-VEP_ERPSummaryStats_MeanAmp_P1_oz_vep"
+    },
+    "question": {
+        "en": "Mean amplitude of the P1 ERP component at the Oz electrode cluster."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

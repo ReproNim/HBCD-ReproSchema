@@ -1,0 +1,56 @@
+{
+    "id": "ph_cg_ecls__medhist_018__15",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Physical Health"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/physhealth/medical-history/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "ph_cg_ecls__medhist_0054"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "ph_cg_ecls__medhist_0054"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "ph_cg_ecls__medhist"
+        }
+    ],
+    "prefLabel": {
+        "en": "ph_cg_ecls__medhist_018__15"
+    },
+    "question": {
+        "en": "Name of over the counter medication 14"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

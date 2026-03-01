@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/physhealth/growth"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/physhealth/growth/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "ph_ch_anthro_0023"
+            "value": "ph_ch_anthro_0017"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "ph_ch_anthro_0023"
+            "value": "ph_ch_anthro_0017"
         },
         {
             "column": "activity",

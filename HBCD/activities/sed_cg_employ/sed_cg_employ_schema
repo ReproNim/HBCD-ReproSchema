@@ -1,0 +1,437 @@
+{
+    "id": "sed_cg_employ_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_cg_employ"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_cg_employ_date_taken",
+            "items/sed_cg_employ_candidate_age",
+            "items/sed_cg_employ_lang",
+            "items/sed_cg_employ_location",
+            "items/sed_cg_employ_001",
+            "items/sed_cg_employ_001__01",
+            "items/sed_cg_employ_001__02",
+            "items/sed_cg_employ_001__02__01",
+            "items/sed_cg_employ_002",
+            "items/sed_cg_employ_003",
+            "items/sed_cg_employ_004",
+            "items/sed_cg_employ_005",
+            "items/sed_cg_employ_006___1",
+            "items/sed_cg_employ_006___2",
+            "items/sed_cg_employ_006___3",
+            "items/sed_cg_employ_006___4",
+            "items/sed_cg_employ_006___5",
+            "items/sed_cg_employ_006___6",
+            "items/sed_cg_employ_006___7",
+            "items/sed_cg_employ_007___1",
+            "items/sed_cg_employ_007___2",
+            "items/sed_cg_employ_007___3",
+            "items/sed_cg_employ_007___4",
+            "items/sed_cg_employ_007___5",
+            "items/sed_cg_employ_007___6",
+            "items/sed_cg_employ_007___7",
+            "items/sed_cg_employ_008",
+            "items/sed_cg_employ_009",
+            "items/sed_cg_employ_003__01",
+            "items/sed_cg_employ_010",
+            "items/sed_cg_employ_010__01",
+            "items/sed_cg_employ_010__02",
+            "items/sed_cg_employ_010__03",
+            "items/sed_cg_employ_010__04",
+            "items/sed_cg_employ_010__05",
+            "items/sed_cg_employ_010__06",
+            "items/sed_cg_employ_010__07",
+            "items/sed_cg_employ_010__08",
+            "items/sed_cg_employ_010__09",
+            "items/sed_cg_employ_010__10___1",
+            "items/sed_cg_employ_010__10___2",
+            "items/sed_cg_employ_010__10___3",
+            "items/sed_cg_employ_010__10___4",
+            "items/sed_cg_employ_010__10___5",
+            "items/sed_cg_employ_010__10___6",
+            "items/sed_cg_employ_010__10___7",
+            "items/sed_cg_employ_010__11___1",
+            "items/sed_cg_employ_010__11___2",
+            "items/sed_cg_employ_010__11___3",
+            "items/sed_cg_employ_010__11___4",
+            "items/sed_cg_employ_010__11___5",
+            "items/sed_cg_employ_010__11___6",
+            "items/sed_cg_employ_010__11___7",
+            "items/sed_cg_employ_010__12",
+            "items/sed_cg_employ_010__13",
+            "items/sed_cg_employ_010__07__01",
+            "items/sed_cg_employ_011___1",
+            "items/sed_cg_employ_011___2",
+            "items/sed_cg_employ_011___3",
+            "items/sed_cg_employ_011___4",
+            "items/sed_cg_employ_011___5",
+            "items/sed_cg_employ_011___6",
+            "items/sed_cg_employ_011___0",
+            "items/sed_cg_employ_011__01___1",
+            "items/sed_cg_employ_011__01___2",
+            "items/sed_cg_employ_011__01___3",
+            "items/sed_cg_employ_011__02",
+            "items/sed_cg_employ_administration",
+            "items/sed_cg_employ_gestational_age",
+            "items/sed_cg_employ_adjusted_age"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_cg_employ_date_taken",
+                "isVis": true,
+                "variableName": "sed_cg_employ_date_taken"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_candidate_age",
+                "isVis": true,
+                "variableName": "sed_cg_employ_candidate_age"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_lang",
+                "isVis": true,
+                "variableName": "sed_cg_employ_lang"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_location",
+                "isVis": true,
+                "variableName": "sed_cg_employ_location"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_001",
+                "isVis": true,
+                "variableName": "sed_cg_employ_001"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_001__01",
+                "isVis": true,
+                "variableName": "sed_cg_employ_001__01"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_001__02",
+                "isVis": true,
+                "variableName": "sed_cg_employ_001__02"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_001__02__01",
+                "isVis": true,
+                "variableName": "sed_cg_employ_001__02__01"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_002",
+                "isVis": true,
+                "variableName": "sed_cg_employ_002"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_003",
+                "isVis": true,
+                "variableName": "sed_cg_employ_003"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_004",
+                "isVis": true,
+                "variableName": "sed_cg_employ_004"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_005",
+                "isVis": true,
+                "variableName": "sed_cg_employ_005"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_006___1",
+                "isVis": true,
+                "variableName": "sed_cg_employ_006___1"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_006___2",
+                "isVis": true,
+                "variableName": "sed_cg_employ_006___2"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_006___3",
+                "isVis": true,
+                "variableName": "sed_cg_employ_006___3"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_006___4",
+                "isVis": true,
+                "variableName": "sed_cg_employ_006___4"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_006___5",
+                "isVis": true,
+                "variableName": "sed_cg_employ_006___5"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_006___6",
+                "isVis": true,
+                "variableName": "sed_cg_employ_006___6"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_006___7",
+                "isVis": true,
+                "variableName": "sed_cg_employ_006___7"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_007___1",
+                "isVis": true,
+                "variableName": "sed_cg_employ_007___1"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_007___2",
+                "isVis": true,
+                "variableName": "sed_cg_employ_007___2"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_007___3",
+                "isVis": true,
+                "variableName": "sed_cg_employ_007___3"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_007___4",
+                "isVis": true,
+                "variableName": "sed_cg_employ_007___4"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_007___5",
+                "isVis": true,
+                "variableName": "sed_cg_employ_007___5"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_007___6",
+                "isVis": true,
+                "variableName": "sed_cg_employ_007___6"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_007___7",
+                "isVis": true,
+                "variableName": "sed_cg_employ_007___7"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_008",
+                "isVis": true,
+                "variableName": "sed_cg_employ_008"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_009",
+                "isVis": true,
+                "variableName": "sed_cg_employ_009"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_003__01",
+                "isVis": true,
+                "variableName": "sed_cg_employ_003__01"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__01",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__01"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__02",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__02"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__03",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__03"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__04",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__04"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__05",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__05"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__06",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__06"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__07",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__07"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__08",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__08"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__09",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__09"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__10___1",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__10___1"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__10___2",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__10___2"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__10___3",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__10___3"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__10___4",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__10___4"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__10___5",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__10___5"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__10___6",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__10___6"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__10___7",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__10___7"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__11___1",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__11___1"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__11___2",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__11___2"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__11___3",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__11___3"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__11___4",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__11___4"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__11___5",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__11___5"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__11___6",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__11___6"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__11___7",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__11___7"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__12",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__12"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__13",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__13"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010__07__01",
+                "isVis": true,
+                "variableName": "sed_cg_employ_010__07__01"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_011___1",
+                "isVis": true,
+                "variableName": "sed_cg_employ_011___1"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_011___2",
+                "isVis": true,
+                "variableName": "sed_cg_employ_011___2"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_011___3",
+                "isVis": true,
+                "variableName": "sed_cg_employ_011___3"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_011___4",
+                "isVis": true,
+                "variableName": "sed_cg_employ_011___4"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_011___5",
+                "isVis": true,
+                "variableName": "sed_cg_employ_011___5"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_011___6",
+                "isVis": true,
+                "variableName": "sed_cg_employ_011___6"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_011___0",
+                "isVis": true,
+                "variableName": "sed_cg_employ_011___0"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_011__01___1",
+                "isVis": true,
+                "variableName": "sed_cg_employ_011__01___1"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_011__01___2",
+                "isVis": true,
+                "variableName": "sed_cg_employ_011__01___2"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_011__01___3",
+                "isVis": true,
+                "variableName": "sed_cg_employ_011__01___3"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_011__02",
+                "isVis": true,
+                "variableName": "sed_cg_employ_011__02"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_administration",
+                "isVis": true,
+                "variableName": "sed_cg_employ_administration"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_gestational_age",
+                "isVis": true,
+                "variableName": "sed_cg_employ_gestational_age"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_adjusted_age",
+                "isVis": true,
+                "variableName": "sed_cg_employ_adjusted_age"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

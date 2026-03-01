@@ -20,7 +20,7 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/demo/basicdemo"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/demo/basicdemo/"
         },
         {
             "column": "name_short",
@@ -42,7 +42,7 @@
         "en": "sed_basic_demographics_screen_mother_race_multi___4"
     },
     "question": {
-        "en": "Defined by LORIS 'adm_bm_screen' instrument, field '001b'.  Race - Multi options: [Multi-select]: Native Hawaiian or other Pacific Islander"
+        "en": "ACS item at Screening: Race [Multi-select]: Native Hawaiian or other Pacific Islander"
     },
     "responseOptions": {
         "valueType": [

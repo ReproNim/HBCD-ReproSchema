@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_health_preg_meds_0283"
+            "value": "pex_bm_health_preg_meds_0278"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_health_preg_meds_0283"
+            "value": "pex_bm_health_preg_meds_0278"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_health_preg__meds_023__03__01"
     },
     "question": {
-        "en": "Unit of frequency otc 9"
+        "en": "Ninth otc per hour"
     },
     "responseOptions": {
         "valueType": [

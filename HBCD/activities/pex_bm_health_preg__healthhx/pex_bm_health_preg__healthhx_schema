@@ -9,12 +9,9 @@
         "order": [
             "items/pex_bm_health_preg__healthhx_date_taken",
             "items/pex_bm_health_preg__healthhx_candidate_age",
-            "items/pex_bm_health_preg__healthhx_gestational_age",
-            "items/pex_bm_health_preg__healthhx_adjusted_age",
             "items/pex_bm_health_preg__healthhx_lang",
             "items/pex_bm_health_preg__healthhx_location",
             "items/pex_bm_health_preg__healthhx_002",
-            "items/pex_bm_health_preg__healthhx_002__01",
             "items/pex_bm_health_preg__healthhx_003",
             "items/pex_bm_health_preg__healthhx_004",
             "items/pex_bm_health_preg__healthhx_005",
@@ -117,7 +114,11 @@
             "items/pex_bm_health_preg__healthhx__exp__pnv_011___2",
             "items/pex_bm_health_preg__healthhx__exp__pnv_011___3",
             "items/pex_bm_health_preg__healthhx__exp__pnv_011___4",
-            "items/pex_bm_health_preg__healthhx_administration"
+            "items/pex_bm_health_preg__healthhx_administration",
+            "items/pex_bm_health_preg__healthhx__preghx_001_calc",
+            "items/pex_bm_health_preg__healthhx_002__01",
+            "items/pex_bm_health_preg__healthhx_gestational_age",
+            "items/pex_bm_health_preg__healthhx_adjusted_age"
         ],
         "addProperties": [
             {
@@ -129,16 +130,6 @@
                 "isAbout": "items/pex_bm_health_preg__healthhx_candidate_age",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__healthhx_candidate_age"
-            },
-            {
-                "isAbout": "items/pex_bm_health_preg__healthhx_gestational_age",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__healthhx_gestational_age"
-            },
-            {
-                "isAbout": "items/pex_bm_health_preg__healthhx_adjusted_age",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__healthhx_adjusted_age"
             },
             {
                 "isAbout": "items/pex_bm_health_preg__healthhx_lang",
@@ -154,11 +145,6 @@
                 "isAbout": "items/pex_bm_health_preg__healthhx_002",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__healthhx_002"
-            },
-            {
-                "isAbout": "items/pex_bm_health_preg__healthhx_002__01",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__healthhx_002__01"
             },
             {
                 "isAbout": "items/pex_bm_health_preg__healthhx_003",
@@ -674,6 +660,26 @@
                 "isAbout": "items/pex_bm_health_preg__healthhx_administration",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__healthhx_administration"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx__preghx_001_calc",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx__preghx_001_calc"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_002__01",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_002__01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_gestational_age",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_gestational_age"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__healthhx_adjusted_age",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__healthhx_adjusted_age"
             }
         ],
         "shuffle": false

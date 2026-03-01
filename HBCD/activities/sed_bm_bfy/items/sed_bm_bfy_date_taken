@@ -20,7 +20,7 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/bfy"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/bfy/"
         },
         {
             "column": "name_short",

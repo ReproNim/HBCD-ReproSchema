@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_hlth_preg_illness_0206"
+            "value": "pex_bm_hlth_preg_illness_0204"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_hlth_preg_illness_0206"
+            "value": "pex_bm_hlth_preg_illness_0204"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_health_preg__illness_012__13__dk"
     },
     "question": {
-        "en": "dk/decline fever duration 10"
+        "en": "dk/decline duration fever 9"
     },
     "responseOptions": {
         "valueType": [

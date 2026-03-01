@@ -1,0 +1,56 @@
+{
+    "id": "sed_cg_home_it_006",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Social and Environmental Determinants"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/home21/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "sed_cg_home_it_0009"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "sed_cg_home_it_0009"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "sed_cg_home_it"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_cg_home_it_006"
+    },
+    "question": {
+        "en": "How often does your child spend time with you or another adult in your home doing outdoor activities (like going for a walk outside, playing at a park playground)?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

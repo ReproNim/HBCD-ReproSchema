@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/biospec/nails"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/biospec/nails/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "bio_bm_nails_results_0126"
+            "value": "bio_bm_nails_results_0172"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "bio_bm_nails_results_0126"
+            "value": "bio_bm_nails_results_0172"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "bio_bm_biosample_nails_results_gestational_age"
     },
     "question": {
-        "en": "Gestational Age (Days)"
+        "en": "Gestational Age (Weeks)"
     },
     "responseOptions": {
         "valueType": [

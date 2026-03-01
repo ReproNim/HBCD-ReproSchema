@@ -13,24 +13,34 @@
             "value": "Tabular EEG"
         },
         {
+            "column": "sub_domain",
+            "source": "nbdc",
+            "value": "Quality Control"
+        },
+        {
             "column": "source",
             "source": "nbdc",
             "value": "Child"
         },
         {
+            "column": "metric",
+            "source": "nbdc",
+            "value": "Visual Evoked Potential"
+        },
+        {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/vep"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/tasks/#visual-evoked-potential-task"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "eeg_qc_task_vep_0002"
+            "value": "eeg_qc_task_vep_0004"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "eeg_qc_task_vep_0002"
+            "value": "eeg_qc_task_vep_0004"
         },
         {
             "column": "activity",

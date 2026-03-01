@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0229"
+            "value": "pex_bm_healthv2_preg_0227"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0229"
+            "value": "pex_bm_healthv2_preg_0227"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_healthv2_preg__meds_049__03__00"
     },
     "question": {
-        "en": "How often did you take [pex_bm_healthv2_preg_i_meds_049_i_01]? Please specify in number of times per hour, day, month, or year.  \u00a0{pex_bm_healthv2_preg_i_meds_049_i_03} times per {pex_bm_healthv2_preg_i_meds_049_i_03_i_01} {pex_bm_healthv2_preg_i_meds_049_i_03_dk}"
+        "en": "How often did you take [pex_bm_healthv2_preg_i_meds_049_i_01]? Please specify in number of times per hour, day, month, or year. \u00a0        Times per hour:\u00a0 {pex_bm_healthv2_preg_i_meds_049_i_03_i_01}   Times per day:\u00a0 {pex_bm_healthv2_preg_i_meds_049_i_03_i_02}   Times per month:\u00a0 {pex_bm_healthv2_preg_i_meds_049_i_03_i_03}   Times per year:\u00a0 {pex_bm_healthv2_preg_i_meds_049_i_03_i_04}   \u00a0 {pex_bm_healthv2_preg_i_meds_049_i_03_dk}"
     },
     "responseOptions": {
         "valueType": [

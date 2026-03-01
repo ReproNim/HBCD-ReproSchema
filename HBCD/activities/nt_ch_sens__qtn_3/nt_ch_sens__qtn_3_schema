@@ -9,8 +9,6 @@
         "order": [
             "items/nt_ch_sens__qtn_3_date_taken",
             "items/nt_ch_sens__qtn_3_candidate_age",
-            "items/nt_ch_sens__qtn_3_gestational_age",
-            "items/nt_ch_sens__qtn_3_adjusted_age",
             "items/nt_ch_sens__qtn_3_lang",
             "items/nt_ch_sens__qtn_3_mv_002",
             "items/nt_ch_sens__qtn_3_hr_002",
@@ -30,7 +28,9 @@
             "items/nt_ch_sens__qtn_3_beh_005",
             "items/nt_ch_sens__qtn_3_beh_006",
             "items/nt_ch_sens__qtn_3_beh_007",
-            "items/nt_ch_sens__qtn_3_administration"
+            "items/nt_ch_sens__qtn_3_administration",
+            "items/nt_ch_sens__qtn_3_gestational_age",
+            "items/nt_ch_sens__qtn_3_adjusted_age"
         ],
         "addProperties": [
             {
@@ -42,16 +42,6 @@
                 "isAbout": "items/nt_ch_sens__qtn_3_candidate_age",
                 "isVis": true,
                 "variableName": "nt_ch_sens__qtn_3_candidate_age"
-            },
-            {
-                "isAbout": "items/nt_ch_sens__qtn_3_gestational_age",
-                "isVis": true,
-                "variableName": "nt_ch_sens__qtn_3_gestational_age"
-            },
-            {
-                "isAbout": "items/nt_ch_sens__qtn_3_adjusted_age",
-                "isVis": true,
-                "variableName": "nt_ch_sens__qtn_3_adjusted_age"
             },
             {
                 "isAbout": "items/nt_ch_sens__qtn_3_lang",
@@ -152,6 +142,16 @@
                 "isAbout": "items/nt_ch_sens__qtn_3_administration",
                 "isVis": true,
                 "variableName": "nt_ch_sens__qtn_3_administration"
+            },
+            {
+                "isAbout": "items/nt_ch_sens__qtn_3_gestational_age",
+                "isVis": true,
+                "variableName": "nt_ch_sens__qtn_3_gestational_age"
+            },
+            {
+                "isAbout": "items/nt_ch_sens__qtn_3_adjusted_age",
+                "isVis": true,
+                "variableName": "nt_ch_sens__qtn_3_adjusted_age"
             }
         ],
         "shuffle": false

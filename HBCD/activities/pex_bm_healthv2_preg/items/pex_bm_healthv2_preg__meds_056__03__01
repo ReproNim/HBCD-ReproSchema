@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0328"
+            "value": "pex_bm_healthv2_preg_0324"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0328"
+            "value": "pex_bm_healthv2_preg_0324"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_healthv2_preg__meds_056__03__01"
     },
     "question": {
-        "en": "Unit of frequency prescription 10"
+        "en": "Tenth rx per hour"
     },
     "responseOptions": {
         "valueType": [

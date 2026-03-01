@@ -1,0 +1,1691 @@
+{
+    "id": "sed_cg_tic_screener_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_cg_tic_screener"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_cg_tic_screener_date_taken",
+            "items/sed_cg_tic_screener_candidate_age",
+            "items/sed_cg_tic_screener_01_qstn_001",
+            "items/sed_cg_tic_screener_01_qstn_003",
+            "items/sed_cg_tic_screener_01_qstn_004",
+            "items/sed_cg_tic_screener_01_acg_001",
+            "items/sed_cg_tic_screener_01_acg_002",
+            "items/sed_cg_tic_screener_01_acg_003",
+            "items/sed_cg_tic_screener_01_acg_004___parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+            "items/sed_cg_tic_screener_01_acg_004___parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+            "items/sed_cg_tic_screener_01_acg_004___child_protective_services_or_the_court_removed_the_child",
+            "items/sed_cg_tic_screener_01_acg_004___parent_is_about_to_go_to_jail_or_prison",
+            "items/sed_cg_tic_screener_01_acg_004___child_had_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_01_acg_004___parent_is_getting_treatment_for_substance_use_disorder",
+            "items/sed_cg_tic_screener_01_acg_004___child_is_deceased",
+            "items/sed_cg_tic_screener_01_acg_004___parent_experienced_deportation",
+            "items/sed_cg_tic_screener_01_acg_004___parent_had_health_problems_other_than_substance_use_disorder",
+            "items/sed_cg_tic_screener_01_acg_004___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_01_acg_004___child_had_behavior_problems",
+            "items/sed_cg_tic_screener_01_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+            "items/sed_cg_tic_screener_01_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+            "items/sed_cg_tic_screener_01_acg_004___economic_reasons",
+            "items/sed_cg_tic_screener_01_acg_004___spouse/partner_wanted_child_to_move",
+            "items/sed_cg_tic_screener_01_acg_004___dont_know",
+            "items/sed_cg_tic_screener_01_acg_004___prefer_not_to_answer",
+            "items/sed_cg_tic_screener_01_acg_004___other",
+            "items/sed_cg_tic_screener_01_acg_005",
+            "items/sed_cg_tic_screener_01_acg_006",
+            "items/sed_cg_tic_screener_01_acg_007",
+            "items/sed_cg_tic_screener_01_acg_008___consented_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+            "items/sed_cg_tic_screener_01_acg_008___consented_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+            "items/sed_cg_tic_screener_01_acg_008___child_protective_services_or_the_court_removed_the_child",
+            "items/sed_cg_tic_screener_01_acg_008___consented_parent_is_in_jail_or_prison",
+            "items/sed_cg_tic_screener_01_acg_008___child_had_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_01_acg_008___consented_parent_is_getting_treatment_for_substance_use_disorder",
+            "items/sed_cg_tic_screener_01_acg_008___consented_parent_experienced_deportation",
+            "items/sed_cg_tic_screener_01_acg_008___consented_parent_had_health_problems_other_than_substance_use_disorder",
+            "items/sed_cg_tic_screener_01_acg_008___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_01_acg_008___child_had_behavior_problems",
+            "items/sed_cg_tic_screener_01_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+            "items/sed_cg_tic_screener_01_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+            "items/sed_cg_tic_screener_01_acg_008___economic_reasons",
+            "items/sed_cg_tic_screener_01_acg_008___spouse_partner_of_consented_parent_wanted_child_to_move",
+            "items/sed_cg_tic_screener_01_acg_008___consented_parent_is_deceased",
+            "items/sed_cg_tic_screener_01_acg_008___dont_know",
+            "items/sed_cg_tic_screener_01_acg_008___prefer_not_to_answer",
+            "items/sed_cg_tic_screener_01_acg_008___other",
+            "items/sed_cg_tic_screener_01_acg_009___not_applicable_there_has_been_no_other_parent_in_childs_life",
+            "items/sed_cg_tic_screener_01_acg_009___other_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+            "items/sed_cg_tic_screener_01_acg_009___other_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+            "items/sed_cg_tic_screener_01_acg_009___child_protective_services_or_the_court_removed_the_child",
+            "items/sed_cg_tic_screener_01_acg_009___other_parent_is_in_jail_or_prison",
+            "items/sed_cg_tic_screener_01_acg_009___child_had_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_01_acg_009___other_parent_is_getting_treatment_for_substance_use_disorder",
+            "items/sed_cg_tic_screener_01_acg_009___other_parent_experienced_deportation",
+            "items/sed_cg_tic_screener_01_acg_009___other_parent_had_health_problems_other_than_substance_use_disorder",
+            "items/sed_cg_tic_screener_01_acg_009___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_01_acg_009___child_had_behavior_problems",
+            "items/sed_cg_tic_screener_01_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+            "items/sed_cg_tic_screener_01_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+            "items/sed_cg_tic_screener_01_acg_009___economic_reasons",
+            "items/sed_cg_tic_screener_01_acg_009___spouse_partner_of_other_parent_wanted_child_to_move",
+            "items/sed_cg_tic_screener_01_acg_009___other_parent_is_deceased",
+            "items/sed_cg_tic_screener_01_acg_009___dont_know",
+            "items/sed_cg_tic_screener_01_acg_009___prefer_not_to_answer",
+            "items/sed_cg_tic_screener_01_acg_009___other",
+            "items/sed_cg_tic_screener_01_acg_010",
+            "items/sed_cg_tic_screener_01_gdn_001",
+            "items/sed_cg_tic_screener_01_gdn_002",
+            "items/sed_cg_tic_screener_01_gdn_003",
+            "items/sed_cg_tic_screener_01_gdn_004",
+            "items/sed_cg_tic_screener_02_qstn_001",
+            "items/sed_cg_tic_screener_02_qstn_003",
+            "items/sed_cg_tic_screener_02_qstn_004",
+            "items/sed_cg_tic_screener_02_acg_001",
+            "items/sed_cg_tic_screener_02_acg_002",
+            "items/sed_cg_tic_screener_02_acg_003",
+            "items/sed_cg_tic_screener_02_acg_004___parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+            "items/sed_cg_tic_screener_02_acg_004___parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+            "items/sed_cg_tic_screener_02_acg_004___child_protective_services_or_the_court_removed_the_child",
+            "items/sed_cg_tic_screener_02_acg_004___parent_is_about_to_go_to_jail_or_prison",
+            "items/sed_cg_tic_screener_02_acg_004___child_had_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_02_acg_004___parent_is_getting_treatment_for_substance_use_disorder",
+            "items/sed_cg_tic_screener_02_acg_004___child_is_deceased",
+            "items/sed_cg_tic_screener_02_acg_004___parent_experienced_deportation",
+            "items/sed_cg_tic_screener_02_acg_004___parent_had_health_problems_other_than_substance_use_disorder",
+            "items/sed_cg_tic_screener_02_acg_004___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_02_acg_004___child_had_behavior_problems",
+            "items/sed_cg_tic_screener_02_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+            "items/sed_cg_tic_screener_02_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+            "items/sed_cg_tic_screener_02_acg_004___economic_reasons",
+            "items/sed_cg_tic_screener_02_acg_004___spouse/partner_wanted_child_to_move",
+            "items/sed_cg_tic_screener_02_acg_004___dont_know",
+            "items/sed_cg_tic_screener_02_acg_004___prefer_not_to_answer",
+            "items/sed_cg_tic_screener_02_acg_004___other",
+            "items/sed_cg_tic_screener_02_acg_005",
+            "items/sed_cg_tic_screener_02_acg_006",
+            "items/sed_cg_tic_screener_02_acg_007",
+            "items/sed_cg_tic_screener_02_acg_008___consented_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+            "items/sed_cg_tic_screener_02_acg_008___consented_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+            "items/sed_cg_tic_screener_02_acg_008___child_protective_services_or_the_court_removed_the_child",
+            "items/sed_cg_tic_screener_02_acg_008___consented_parent_is_in_jail_or_prison",
+            "items/sed_cg_tic_screener_02_acg_008___child_had_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_02_acg_008___consented_parent_is_getting_treatment_for_substance_use_disorder",
+            "items/sed_cg_tic_screener_02_acg_008___consented_parent_experienced_deportation",
+            "items/sed_cg_tic_screener_02_acg_008___consented_parent_had_health_problems_other_than_substance_use_disorder",
+            "items/sed_cg_tic_screener_02_acg_008___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_02_acg_008___child_had_behavior_problems",
+            "items/sed_cg_tic_screener_02_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+            "items/sed_cg_tic_screener_02_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+            "items/sed_cg_tic_screener_02_acg_008___economic_reasons",
+            "items/sed_cg_tic_screener_02_acg_008___spouse_partner_of_consented_parent_wanted_child_to_move",
+            "items/sed_cg_tic_screener_02_acg_008___consented_parent_is_deceased",
+            "items/sed_cg_tic_screener_02_acg_008___dont_know",
+            "items/sed_cg_tic_screener_02_acg_008___prefer_not_to_answer",
+            "items/sed_cg_tic_screener_02_acg_008___other",
+            "items/sed_cg_tic_screener_02_acg_009___not_applicable_there_has_been_no_other_parent_in_childs_life",
+            "items/sed_cg_tic_screener_02_acg_009___other_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+            "items/sed_cg_tic_screener_02_acg_009___other_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+            "items/sed_cg_tic_screener_02_acg_009___child_protective_services_or_the_court_removed_the_child",
+            "items/sed_cg_tic_screener_02_acg_009___other_parent_is_in_jail_or_prison",
+            "items/sed_cg_tic_screener_02_acg_009___child_had_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_02_acg_009___other_parent_is_getting_treatment_for_substance_use_disorder",
+            "items/sed_cg_tic_screener_02_acg_009___other_parent_experienced_deportation",
+            "items/sed_cg_tic_screener_02_acg_009___other_parent_had_health_problems_other_than_substance_use_disorder",
+            "items/sed_cg_tic_screener_02_acg_009___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_02_acg_009___child_had_behavior_problems",
+            "items/sed_cg_tic_screener_02_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+            "items/sed_cg_tic_screener_02_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+            "items/sed_cg_tic_screener_02_acg_009___economic_reasons",
+            "items/sed_cg_tic_screener_02_acg_009___spouse_partner_of_other_parent_wanted_child_to_move",
+            "items/sed_cg_tic_screener_02_acg_009___other_parent_is_deceased",
+            "items/sed_cg_tic_screener_02_acg_009___dont_know",
+            "items/sed_cg_tic_screener_02_acg_009___prefer_not_to_answer",
+            "items/sed_cg_tic_screener_02_acg_009___other",
+            "items/sed_cg_tic_screener_02_acg_010",
+            "items/sed_cg_tic_screener_02_gdn_001",
+            "items/sed_cg_tic_screener_02_gdn_002",
+            "items/sed_cg_tic_screener_02_gdn_003",
+            "items/sed_cg_tic_screener_02_gdn_004",
+            "items/sed_cg_tic_screener_03_qstn_001",
+            "items/sed_cg_tic_screener_03_qstn_003",
+            "items/sed_cg_tic_screener_03_qstn_004",
+            "items/sed_cg_tic_screener_03_acg_001",
+            "items/sed_cg_tic_screener_03_acg_002",
+            "items/sed_cg_tic_screener_03_acg_003",
+            "items/sed_cg_tic_screener_03_acg_004___parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+            "items/sed_cg_tic_screener_03_acg_004___parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+            "items/sed_cg_tic_screener_03_acg_004___child_protective_services_or_the_court_removed_the_child",
+            "items/sed_cg_tic_screener_03_acg_004___parent_is_about_to_go_to_jail_or_prison",
+            "items/sed_cg_tic_screener_03_acg_004___child_had_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_03_acg_004___parent_is_getting_treatment_for_substance_use_disorder",
+            "items/sed_cg_tic_screener_03_acg_004___child_is_deceased",
+            "items/sed_cg_tic_screener_03_acg_004___parent_experienced_deportation",
+            "items/sed_cg_tic_screener_03_acg_004___parent_had_health_problems_other_than_substance_use_disorder",
+            "items/sed_cg_tic_screener_03_acg_004___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_03_acg_004___child_had_behavior_problems",
+            "items/sed_cg_tic_screener_03_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+            "items/sed_cg_tic_screener_03_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+            "items/sed_cg_tic_screener_03_acg_004___economic_reasons",
+            "items/sed_cg_tic_screener_03_acg_004___spouse/partner_wanted_child_to_move",
+            "items/sed_cg_tic_screener_03_acg_004___dont_know",
+            "items/sed_cg_tic_screener_03_acg_004___prefer_not_to_answer",
+            "items/sed_cg_tic_screener_03_acg_004___other",
+            "items/sed_cg_tic_screener_03_acg_005",
+            "items/sed_cg_tic_screener_03_acg_006",
+            "items/sed_cg_tic_screener_03_acg_007",
+            "items/sed_cg_tic_screener_03_acg_008___consented_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+            "items/sed_cg_tic_screener_03_acg_008___consented_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+            "items/sed_cg_tic_screener_03_acg_008___child_protective_services_or_the_court_removed_the_child",
+            "items/sed_cg_tic_screener_03_acg_008___consented_parent_is_in_jail_or_prison",
+            "items/sed_cg_tic_screener_03_acg_008___child_had_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_03_acg_008___consented_parent_is_getting_treatment_for_substance_use_disorder",
+            "items/sed_cg_tic_screener_03_acg_008___consented_parent_experienced_deportation",
+            "items/sed_cg_tic_screener_03_acg_008___consented_parent_had_health_problems_other_than_substance_use_disorder",
+            "items/sed_cg_tic_screener_03_acg_008___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_03_acg_008___child_had_behavior_problems",
+            "items/sed_cg_tic_screener_03_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+            "items/sed_cg_tic_screener_03_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+            "items/sed_cg_tic_screener_03_acg_008___economic_reasons",
+            "items/sed_cg_tic_screener_03_acg_008___spouse_partner_of_consented_parent_wanted_child_to_move",
+            "items/sed_cg_tic_screener_03_acg_008___consented_parent_is_deceased",
+            "items/sed_cg_tic_screener_03_acg_008___dont_know",
+            "items/sed_cg_tic_screener_03_acg_008___prefer_not_to_answer",
+            "items/sed_cg_tic_screener_03_acg_008___other",
+            "items/sed_cg_tic_screener_03_acg_009___not_applicable_there_has_been_no_other_parent_in_childs_life",
+            "items/sed_cg_tic_screener_03_acg_009___other_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+            "items/sed_cg_tic_screener_03_acg_009___other_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+            "items/sed_cg_tic_screener_03_acg_009___child_protective_services_or_the_court_removed_the_child",
+            "items/sed_cg_tic_screener_03_acg_009___other_parent_is_in_jail_or_prison",
+            "items/sed_cg_tic_screener_03_acg_009___child_had_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_03_acg_009___other_parent_is_getting_treatment_for_substance_use_disorder",
+            "items/sed_cg_tic_screener_03_acg_009___other_parent_experienced_deportation",
+            "items/sed_cg_tic_screener_03_acg_009___other_parent_had_health_problems_other_than_substance_use_disorder",
+            "items/sed_cg_tic_screener_03_acg_009___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_03_acg_009___child_had_behavior_problems",
+            "items/sed_cg_tic_screener_03_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+            "items/sed_cg_tic_screener_03_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+            "items/sed_cg_tic_screener_03_acg_009___economic_reasons",
+            "items/sed_cg_tic_screener_03_acg_009___spouse_partner_of_other_parent_wanted_child_to_move",
+            "items/sed_cg_tic_screener_03_acg_009___other_parent_is_deceased",
+            "items/sed_cg_tic_screener_03_acg_009___dont_know",
+            "items/sed_cg_tic_screener_03_acg_009___prefer_not_to_answer",
+            "items/sed_cg_tic_screener_03_acg_009___other",
+            "items/sed_cg_tic_screener_03_acg_010",
+            "items/sed_cg_tic_screener_03_gdn_001",
+            "items/sed_cg_tic_screener_03_gdn_002",
+            "items/sed_cg_tic_screener_03_gdn_003",
+            "items/sed_cg_tic_screener_03_gdn_004",
+            "items/sed_cg_tic_screener_04_qstn_001",
+            "items/sed_cg_tic_screener_04_qstn_003",
+            "items/sed_cg_tic_screener_04_qstn_004",
+            "items/sed_cg_tic_screener_04_acg_001",
+            "items/sed_cg_tic_screener_04_acg_002",
+            "items/sed_cg_tic_screener_04_acg_003",
+            "items/sed_cg_tic_screener_04_acg_004___parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+            "items/sed_cg_tic_screener_04_acg_004___parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+            "items/sed_cg_tic_screener_04_acg_004___child_protective_services_or_the_court_removed_the_child",
+            "items/sed_cg_tic_screener_04_acg_004___parent_is_about_to_go_to_jail_or_prison",
+            "items/sed_cg_tic_screener_04_acg_004___child_had_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_04_acg_004___parent_is_getting_treatment_for_substance_use_disorder",
+            "items/sed_cg_tic_screener_04_acg_004___child_is_deceased",
+            "items/sed_cg_tic_screener_04_acg_004___parent_experienced_deportation",
+            "items/sed_cg_tic_screener_04_acg_004___parent_had_health_problems_other_than_substance_use_disorder",
+            "items/sed_cg_tic_screener_04_acg_004___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_04_acg_004___child_had_behavior_problems",
+            "items/sed_cg_tic_screener_04_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+            "items/sed_cg_tic_screener_04_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+            "items/sed_cg_tic_screener_04_acg_004___economic_reasons",
+            "items/sed_cg_tic_screener_04_acg_004___spouse/partner_wanted_child_to_move",
+            "items/sed_cg_tic_screener_04_acg_004___dont_know",
+            "items/sed_cg_tic_screener_04_acg_004___prefer_not_to_answer",
+            "items/sed_cg_tic_screener_04_acg_004___other",
+            "items/sed_cg_tic_screener_04_acg_005",
+            "items/sed_cg_tic_screener_04_acg_006",
+            "items/sed_cg_tic_screener_04_acg_007",
+            "items/sed_cg_tic_screener_04_acg_008___consented_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+            "items/sed_cg_tic_screener_04_acg_008___consented_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+            "items/sed_cg_tic_screener_04_acg_008___child_protective_services_or_the_court_removed_the_child",
+            "items/sed_cg_tic_screener_04_acg_008___consented_parent_is_in_jail_or_prison",
+            "items/sed_cg_tic_screener_04_acg_008___child_had_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_04_acg_008___consented_parent_is_getting_treatment_for_substance_use_disorder",
+            "items/sed_cg_tic_screener_04_acg_008___consented_parent_experienced_deportation",
+            "items/sed_cg_tic_screener_04_acg_008___consented_parent_had_health_problems_other_than_substance_use_disorder",
+            "items/sed_cg_tic_screener_04_acg_008___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_04_acg_008___child_had_behavior_problems",
+            "items/sed_cg_tic_screener_04_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+            "items/sed_cg_tic_screener_04_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+            "items/sed_cg_tic_screener_04_acg_008___economic_reasons",
+            "items/sed_cg_tic_screener_04_acg_008___spouse_partner_of_consented_parent_wanted_child_to_move",
+            "items/sed_cg_tic_screener_04_acg_008___consented_parent_is_deceased",
+            "items/sed_cg_tic_screener_04_acg_008___dont_know",
+            "items/sed_cg_tic_screener_04_acg_008___prefer_not_to_answer",
+            "items/sed_cg_tic_screener_04_acg_008___other",
+            "items/sed_cg_tic_screener_04_acg_009___not_applicable_there_has_been_no_other_parent_in_childs_life",
+            "items/sed_cg_tic_screener_04_acg_009___other_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+            "items/sed_cg_tic_screener_04_acg_009___other_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+            "items/sed_cg_tic_screener_04_acg_009___child_protective_services_or_the_court_removed_the_child",
+            "items/sed_cg_tic_screener_04_acg_009___other_parent_is_in_jail_or_prison",
+            "items/sed_cg_tic_screener_04_acg_009___child_had_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_04_acg_009___other_parent_is_getting_treatment_for_substance_use_disorder",
+            "items/sed_cg_tic_screener_04_acg_009___other_parent_experienced_deportation",
+            "items/sed_cg_tic_screener_04_acg_009___other_parent_had_health_problems_other_than_substance_use_disorder",
+            "items/sed_cg_tic_screener_04_acg_009___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+            "items/sed_cg_tic_screener_04_acg_009___child_had_behavior_problems",
+            "items/sed_cg_tic_screener_04_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+            "items/sed_cg_tic_screener_04_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+            "items/sed_cg_tic_screener_04_acg_009___economic_reasons",
+            "items/sed_cg_tic_screener_04_acg_009___spouse_partner_of_other_parent_wanted_child_to_move",
+            "items/sed_cg_tic_screener_04_acg_009___other_parent_is_deceased",
+            "items/sed_cg_tic_screener_04_acg_009___dont_know",
+            "items/sed_cg_tic_screener_04_acg_009___prefer_not_to_answer",
+            "items/sed_cg_tic_screener_04_acg_009___other",
+            "items/sed_cg_tic_screener_04_acg_010",
+            "items/sed_cg_tic_screener_04_gdn_001",
+            "items/sed_cg_tic_screener_04_gdn_002",
+            "items/sed_cg_tic_screener_04_gdn_003",
+            "items/sed_cg_tic_screener_04_gdn_004",
+            "items/sed_cg_tic_screener_administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_cg_tic_screener_date_taken",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_date_taken"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_candidate_age",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_candidate_age"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_qstn_001",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_qstn_001"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_qstn_003",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_qstn_003"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_qstn_004",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_qstn_004"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_001",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_001"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_002",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_002"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_003",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_003"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_004___parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_004___parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_004___parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_004___parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_004___child_protective_services_or_the_court_removed_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_004___child_protective_services_or_the_court_removed_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_004___parent_is_about_to_go_to_jail_or_prison",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_004___parent_is_about_to_go_to_jail_or_prison"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_004___child_had_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_004___child_had_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_004___parent_is_getting_treatment_for_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_004___parent_is_getting_treatment_for_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_004___child_is_deceased",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_004___child_is_deceased"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_004___parent_experienced_deportation",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_004___parent_experienced_deportation"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_004___parent_had_health_problems_other_than_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_004___parent_had_health_problems_other_than_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_004___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_004___child_had_health_problems_other_than_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_004___child_had_behavior_problems",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_004___child_had_behavior_problems"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_the_home"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_004___economic_reasons",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_004___economic_reasons"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_004___spouse/partner_wanted_child_to_move",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_004___spouse/partner_wanted_child_to_move"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_004___dont_know",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_004___dont_know"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_004___prefer_not_to_answer",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_004___prefer_not_to_answer"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_004___other",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_004___other"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_005",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_005"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_006",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_006"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_007",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_007"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_008___consented_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_008___consented_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_008___consented_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_008___consented_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_008___child_protective_services_or_the_court_removed_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_008___child_protective_services_or_the_court_removed_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_008___consented_parent_is_in_jail_or_prison",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_008___consented_parent_is_in_jail_or_prison"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_008___child_had_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_008___child_had_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_008___consented_parent_is_getting_treatment_for_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_008___consented_parent_is_getting_treatment_for_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_008___consented_parent_experienced_deportation",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_008___consented_parent_experienced_deportation"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_008___consented_parent_had_health_problems_other_than_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_008___consented_parent_had_health_problems_other_than_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_008___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_008___child_had_health_problems_other_than_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_008___child_had_behavior_problems",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_008___child_had_behavior_problems"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_the_home"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_008___economic_reasons",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_008___economic_reasons"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_008___spouse_partner_of_consented_parent_wanted_child_to_move",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_008___spouse_partner_of_consented_parent_wanted_child_to_move"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_008___consented_parent_is_deceased",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_008___consented_parent_is_deceased"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_008___dont_know",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_008___dont_know"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_008___prefer_not_to_answer",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_008___prefer_not_to_answer"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_008___other",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_008___other"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_009___not_applicable_there_has_been_no_other_parent_in_childs_life",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_009___not_applicable_there_has_been_no_other_parent_in_childs_life"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_009___other_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_009___other_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_009___other_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_009___other_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_009___child_protective_services_or_the_court_removed_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_009___child_protective_services_or_the_court_removed_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_009___other_parent_is_in_jail_or_prison",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_009___other_parent_is_in_jail_or_prison"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_009___child_had_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_009___child_had_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_009___other_parent_is_getting_treatment_for_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_009___other_parent_is_getting_treatment_for_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_009___other_parent_experienced_deportation",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_009___other_parent_experienced_deportation"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_009___other_parent_had_health_problems_other_than_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_009___other_parent_had_health_problems_other_than_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_009___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_009___child_had_health_problems_other_than_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_009___child_had_behavior_problems",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_009___child_had_behavior_problems"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_the_home"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_009___economic_reasons",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_009___economic_reasons"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_009___spouse_partner_of_other_parent_wanted_child_to_move",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_009___spouse_partner_of_other_parent_wanted_child_to_move"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_009___other_parent_is_deceased",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_009___other_parent_is_deceased"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_009___dont_know",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_009___dont_know"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_009___prefer_not_to_answer",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_009___prefer_not_to_answer"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_009___other",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_009___other"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_acg_010",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_acg_010"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_gdn_001",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_gdn_001"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_gdn_002",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_gdn_002"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_gdn_003",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_gdn_003"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_01_gdn_004",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_01_gdn_004"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_qstn_001",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_qstn_001"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_qstn_003",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_qstn_003"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_qstn_004",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_qstn_004"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_001",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_001"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_002",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_002"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_003",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_003"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_004___parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_004___parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_004___parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_004___parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_004___child_protective_services_or_the_court_removed_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_004___child_protective_services_or_the_court_removed_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_004___parent_is_about_to_go_to_jail_or_prison",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_004___parent_is_about_to_go_to_jail_or_prison"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_004___child_had_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_004___child_had_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_004___parent_is_getting_treatment_for_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_004___parent_is_getting_treatment_for_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_004___child_is_deceased",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_004___child_is_deceased"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_004___parent_experienced_deportation",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_004___parent_experienced_deportation"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_004___parent_had_health_problems_other_than_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_004___parent_had_health_problems_other_than_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_004___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_004___child_had_health_problems_other_than_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_004___child_had_behavior_problems",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_004___child_had_behavior_problems"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_the_home"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_004___economic_reasons",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_004___economic_reasons"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_004___spouse/partner_wanted_child_to_move",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_004___spouse/partner_wanted_child_to_move"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_004___dont_know",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_004___dont_know"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_004___prefer_not_to_answer",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_004___prefer_not_to_answer"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_004___other",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_004___other"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_005",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_005"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_006",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_006"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_007",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_007"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_008___consented_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_008___consented_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_008___consented_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_008___consented_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_008___child_protective_services_or_the_court_removed_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_008___child_protective_services_or_the_court_removed_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_008___consented_parent_is_in_jail_or_prison",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_008___consented_parent_is_in_jail_or_prison"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_008___child_had_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_008___child_had_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_008___consented_parent_is_getting_treatment_for_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_008___consented_parent_is_getting_treatment_for_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_008___consented_parent_experienced_deportation",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_008___consented_parent_experienced_deportation"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_008___consented_parent_had_health_problems_other_than_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_008___consented_parent_had_health_problems_other_than_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_008___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_008___child_had_health_problems_other_than_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_008___child_had_behavior_problems",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_008___child_had_behavior_problems"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_the_home"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_008___economic_reasons",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_008___economic_reasons"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_008___spouse_partner_of_consented_parent_wanted_child_to_move",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_008___spouse_partner_of_consented_parent_wanted_child_to_move"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_008___consented_parent_is_deceased",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_008___consented_parent_is_deceased"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_008___dont_know",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_008___dont_know"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_008___prefer_not_to_answer",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_008___prefer_not_to_answer"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_008___other",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_008___other"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_009___not_applicable_there_has_been_no_other_parent_in_childs_life",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_009___not_applicable_there_has_been_no_other_parent_in_childs_life"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_009___other_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_009___other_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_009___other_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_009___other_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_009___child_protective_services_or_the_court_removed_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_009___child_protective_services_or_the_court_removed_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_009___other_parent_is_in_jail_or_prison",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_009___other_parent_is_in_jail_or_prison"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_009___child_had_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_009___child_had_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_009___other_parent_is_getting_treatment_for_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_009___other_parent_is_getting_treatment_for_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_009___other_parent_experienced_deportation",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_009___other_parent_experienced_deportation"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_009___other_parent_had_health_problems_other_than_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_009___other_parent_had_health_problems_other_than_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_009___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_009___child_had_health_problems_other_than_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_009___child_had_behavior_problems",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_009___child_had_behavior_problems"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_the_home"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_009___economic_reasons",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_009___economic_reasons"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_009___spouse_partner_of_other_parent_wanted_child_to_move",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_009___spouse_partner_of_other_parent_wanted_child_to_move"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_009___other_parent_is_deceased",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_009___other_parent_is_deceased"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_009___dont_know",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_009___dont_know"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_009___prefer_not_to_answer",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_009___prefer_not_to_answer"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_009___other",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_009___other"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_acg_010",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_acg_010"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_gdn_001",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_gdn_001"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_gdn_002",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_gdn_002"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_gdn_003",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_gdn_003"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_02_gdn_004",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_02_gdn_004"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_qstn_001",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_qstn_001"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_qstn_003",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_qstn_003"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_qstn_004",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_qstn_004"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_001",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_001"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_002",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_002"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_003",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_003"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_004___parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_004___parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_004___parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_004___parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_004___child_protective_services_or_the_court_removed_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_004___child_protective_services_or_the_court_removed_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_004___parent_is_about_to_go_to_jail_or_prison",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_004___parent_is_about_to_go_to_jail_or_prison"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_004___child_had_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_004___child_had_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_004___parent_is_getting_treatment_for_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_004___parent_is_getting_treatment_for_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_004___child_is_deceased",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_004___child_is_deceased"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_004___parent_experienced_deportation",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_004___parent_experienced_deportation"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_004___parent_had_health_problems_other_than_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_004___parent_had_health_problems_other_than_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_004___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_004___child_had_health_problems_other_than_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_004___child_had_behavior_problems",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_004___child_had_behavior_problems"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_the_home"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_004___economic_reasons",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_004___economic_reasons"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_004___spouse/partner_wanted_child_to_move",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_004___spouse/partner_wanted_child_to_move"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_004___dont_know",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_004___dont_know"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_004___prefer_not_to_answer",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_004___prefer_not_to_answer"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_004___other",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_004___other"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_005",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_005"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_006",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_006"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_007",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_007"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_008___consented_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_008___consented_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_008___consented_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_008___consented_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_008___child_protective_services_or_the_court_removed_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_008___child_protective_services_or_the_court_removed_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_008___consented_parent_is_in_jail_or_prison",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_008___consented_parent_is_in_jail_or_prison"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_008___child_had_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_008___child_had_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_008___consented_parent_is_getting_treatment_for_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_008___consented_parent_is_getting_treatment_for_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_008___consented_parent_experienced_deportation",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_008___consented_parent_experienced_deportation"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_008___consented_parent_had_health_problems_other_than_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_008___consented_parent_had_health_problems_other_than_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_008___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_008___child_had_health_problems_other_than_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_008___child_had_behavior_problems",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_008___child_had_behavior_problems"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_the_home"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_008___economic_reasons",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_008___economic_reasons"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_008___spouse_partner_of_consented_parent_wanted_child_to_move",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_008___spouse_partner_of_consented_parent_wanted_child_to_move"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_008___consented_parent_is_deceased",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_008___consented_parent_is_deceased"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_008___dont_know",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_008___dont_know"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_008___prefer_not_to_answer",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_008___prefer_not_to_answer"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_008___other",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_008___other"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_009___not_applicable_there_has_been_no_other_parent_in_childs_life",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_009___not_applicable_there_has_been_no_other_parent_in_childs_life"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_009___other_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_009___other_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_009___other_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_009___other_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_009___child_protective_services_or_the_court_removed_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_009___child_protective_services_or_the_court_removed_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_009___other_parent_is_in_jail_or_prison",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_009___other_parent_is_in_jail_or_prison"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_009___child_had_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_009___child_had_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_009___other_parent_is_getting_treatment_for_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_009___other_parent_is_getting_treatment_for_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_009___other_parent_experienced_deportation",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_009___other_parent_experienced_deportation"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_009___other_parent_had_health_problems_other_than_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_009___other_parent_had_health_problems_other_than_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_009___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_009___child_had_health_problems_other_than_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_009___child_had_behavior_problems",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_009___child_had_behavior_problems"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_the_home"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_009___economic_reasons",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_009___economic_reasons"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_009___spouse_partner_of_other_parent_wanted_child_to_move",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_009___spouse_partner_of_other_parent_wanted_child_to_move"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_009___other_parent_is_deceased",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_009___other_parent_is_deceased"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_009___dont_know",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_009___dont_know"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_009___prefer_not_to_answer",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_009___prefer_not_to_answer"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_009___other",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_009___other"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_acg_010",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_acg_010"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_gdn_001",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_gdn_001"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_gdn_002",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_gdn_002"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_gdn_003",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_gdn_003"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_03_gdn_004",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_03_gdn_004"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_qstn_001",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_qstn_001"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_qstn_003",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_qstn_003"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_qstn_004",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_qstn_004"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_001",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_001"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_002",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_002"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_003",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_003"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_004___parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_004___parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_004___parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_004___parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_004___child_protective_services_or_the_court_removed_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_004___child_protective_services_or_the_court_removed_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_004___parent_is_about_to_go_to_jail_or_prison",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_004___parent_is_about_to_go_to_jail_or_prison"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_004___child_had_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_004___child_had_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_004___parent_is_getting_treatment_for_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_004___parent_is_getting_treatment_for_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_004___child_is_deceased",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_004___child_is_deceased"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_004___parent_experienced_deportation",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_004___parent_experienced_deportation"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_004___parent_had_health_problems_other_than_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_004___parent_had_health_problems_other_than_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_004___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_004___child_had_health_problems_other_than_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_004___child_had_behavior_problems",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_004___child_had_behavior_problems"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_the_home"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_004___parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_004___economic_reasons",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_004___economic_reasons"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_004___spouse/partner_wanted_child_to_move",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_004___spouse/partner_wanted_child_to_move"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_004___dont_know",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_004___dont_know"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_004___prefer_not_to_answer",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_004___prefer_not_to_answer"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_004___other",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_004___other"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_005",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_005"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_006",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_006"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_007",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_007"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_008___consented_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_008___consented_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_008___consented_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_008___consented_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_008___child_protective_services_or_the_court_removed_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_008___child_protective_services_or_the_court_removed_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_008___consented_parent_is_in_jail_or_prison",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_008___consented_parent_is_in_jail_or_prison"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_008___child_had_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_008___child_had_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_008___consented_parent_is_getting_treatment_for_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_008___consented_parent_is_getting_treatment_for_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_008___consented_parent_experienced_deportation",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_008___consented_parent_experienced_deportation"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_008___consented_parent_had_health_problems_other_than_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_008___consented_parent_had_health_problems_other_than_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_008___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_008___child_had_health_problems_other_than_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_008___child_had_behavior_problems",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_008___child_had_behavior_problems"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_the_home"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_008___consented_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_008___economic_reasons",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_008___economic_reasons"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_008___spouse_partner_of_consented_parent_wanted_child_to_move",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_008___spouse_partner_of_consented_parent_wanted_child_to_move"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_008___consented_parent_is_deceased",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_008___consented_parent_is_deceased"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_008___dont_know",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_008___dont_know"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_008___prefer_not_to_answer",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_008___prefer_not_to_answer"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_008___other",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_008___other"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_009___not_applicable_there_has_been_no_other_parent_in_childs_life",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_009___not_applicable_there_has_been_no_other_parent_in_childs_life"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_009___other_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_009___other_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_009___other_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_009___other_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_009___child_protective_services_or_the_court_removed_the_child",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_009___child_protective_services_or_the_court_removed_the_child"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_009___other_parent_is_in_jail_or_prison",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_009___other_parent_is_in_jail_or_prison"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_009___child_had_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_009___child_had_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_009___other_parent_is_getting_treatment_for_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_009___other_parent_is_getting_treatment_for_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_009___other_parent_experienced_deportation",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_009___other_parent_experienced_deportation"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_009___other_parent_had_health_problems_other_than_substance_use_disorder",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_009___other_parent_had_health_problems_other_than_substance_use_disorder"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_009___child_had_health_problems_other_than_prenatal_exposure_to_substances",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_009___child_had_health_problems_other_than_prenatal_exposure_to_substances"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_009___child_had_behavior_problems",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_009___child_had_behavior_problems"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_the_home",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_the_home"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_009___other_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_009___economic_reasons",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_009___economic_reasons"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_009___spouse_partner_of_other_parent_wanted_child_to_move",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_009___spouse_partner_of_other_parent_wanted_child_to_move"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_009___other_parent_is_deceased",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_009___other_parent_is_deceased"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_009___dont_know",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_009___dont_know"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_009___prefer_not_to_answer",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_009___prefer_not_to_answer"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_009___other",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_009___other"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_acg_010",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_acg_010"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_gdn_001",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_gdn_001"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_gdn_002",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_gdn_002"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_gdn_003",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_gdn_003"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_04_gdn_004",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_04_gdn_004"
+            },
+            {
+                "isAbout": "items/sed_cg_tic_screener_administration",
+                "isVis": true,
+                "variableName": "sed_cg_tic_screener_administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

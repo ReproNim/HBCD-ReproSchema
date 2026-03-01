@@ -13,24 +13,34 @@
             "value": "Tabular EEG"
         },
         {
+            "column": "sub_domain",
+            "source": "nbdc",
+            "value": "Quality Control"
+        },
+        {
             "column": "source",
             "source": "nbdc",
             "value": "Child"
         },
         {
+            "column": "metric",
+            "source": "nbdc",
+            "value": "Video Resting State"
+        },
+        {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/videors"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/tasks/#video-resting-state-task"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "eeg_qc_task_rs_0001"
+            "value": "eeg_qc_task_rs_0003"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "eeg_qc_task_rs_0001"
+            "value": "eeg_qc_task_rs_0003"
         },
         {
             "column": "activity",

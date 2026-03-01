@@ -9,8 +9,6 @@
         "order": [
             "items/pex_bm_healthv2_inf_date_taken",
             "items/pex_bm_healthv2_inf_candidate_age",
-            "items/pex_bm_healthv2_inf_gestational_age",
-            "items/pex_bm_healthv2_inf_adjusted_age",
             "items/pex_bm_healthv2_inf_lang",
             "items/pex_bm_healthv2_inf_001__01",
             "items/pex_bm_healthv2_inf_001__02",
@@ -126,7 +124,9 @@
             "items/pex_bm_healthv2_inf_016",
             "items/pex_bm_healthv2_inf_016__01",
             "items/pex_bm_healthv2_inf_017",
-            "items/pex_bm_healthv2_inf_administration"
+            "items/pex_bm_healthv2_inf_administration",
+            "items/pex_bm_healthv2_inf_gestational_age",
+            "items/pex_bm_healthv2_inf_adjusted_age"
         ],
         "addProperties": [
             {
@@ -138,16 +138,6 @@
                 "isAbout": "items/pex_bm_healthv2_inf_candidate_age",
                 "isVis": true,
                 "variableName": "pex_bm_healthv2_inf_candidate_age"
-            },
-            {
-                "isAbout": "items/pex_bm_healthv2_inf_gestational_age",
-                "isVis": true,
-                "variableName": "pex_bm_healthv2_inf_gestational_age"
-            },
-            {
-                "isAbout": "items/pex_bm_healthv2_inf_adjusted_age",
-                "isVis": true,
-                "variableName": "pex_bm_healthv2_inf_adjusted_age"
             },
             {
                 "isAbout": "items/pex_bm_healthv2_inf_lang",
@@ -728,6 +718,16 @@
                 "isAbout": "items/pex_bm_healthv2_inf_administration",
                 "isVis": true,
                 "variableName": "pex_bm_healthv2_inf_administration"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_gestational_age",
+                "isVis": true,
+                "variableName": "pex_bm_healthv2_inf_gestational_age"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_adjusted_age",
+                "isVis": true,
+                "variableName": "pex_bm_healthv2_inf_adjusted_age"
             }
         ],
         "shuffle": false

@@ -9,8 +9,6 @@
         "order": [
             "items/pex_bm_str__ptsd_date_taken",
             "items/pex_bm_str__ptsd_candidate_age",
-            "items/pex_bm_str__ptsd_gestational_age",
-            "items/pex_bm_str__ptsd_adjusted_age",
             "items/pex_bm_str__ptsd_lang",
             "items/pex_bm_str__ptsd_location",
             "items/pex_bm_str__ptsd_001",
@@ -25,7 +23,11 @@
             "items/pex_bm_str__ptsd_010",
             "items/pex_bm_str__ptsd_total_raw_score_acute_stress",
             "items/pex_bm_str__ptsd_total_raw_score_ptsd",
-            "items/pex_bm_str__ptsd_administration"
+            "items/pex_bm_str__ptsd_administration",
+            "items/pex_bm_str__ptsd_prorated_score_acute_stress",
+            "items/pex_bm_str__ptsd_prorated_score_ptsd",
+            "items/pex_bm_str__ptsd_gestational_age",
+            "items/pex_bm_str__ptsd_adjusted_age"
         ],
         "addProperties": [
             {
@@ -37,16 +39,6 @@
                 "isAbout": "items/pex_bm_str__ptsd_candidate_age",
                 "isVis": true,
                 "variableName": "pex_bm_str__ptsd_candidate_age"
-            },
-            {
-                "isAbout": "items/pex_bm_str__ptsd_gestational_age",
-                "isVis": true,
-                "variableName": "pex_bm_str__ptsd_gestational_age"
-            },
-            {
-                "isAbout": "items/pex_bm_str__ptsd_adjusted_age",
-                "isVis": true,
-                "variableName": "pex_bm_str__ptsd_adjusted_age"
             },
             {
                 "isAbout": "items/pex_bm_str__ptsd_lang",
@@ -122,6 +114,26 @@
                 "isAbout": "items/pex_bm_str__ptsd_administration",
                 "isVis": true,
                 "variableName": "pex_bm_str__ptsd_administration"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_prorated_score_acute_stress",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_prorated_score_acute_stress"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_prorated_score_ptsd",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_prorated_score_ptsd"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_gestational_age",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_gestational_age"
+            },
+            {
+                "isAbout": "items/pex_bm_str__ptsd_adjusted_age",
+                "isVis": true,
+                "variableName": "pex_bm_str__ptsd_adjusted_age"
             }
         ],
         "shuffle": false

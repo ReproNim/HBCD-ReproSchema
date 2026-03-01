@@ -9,14 +9,14 @@
         "order": [
             "items/sed_bm_nbhsaf_date_taken",
             "items/sed_bm_nbhsaf_candidate_age",
-            "items/sed_bm_nbhsaf_gestational_age",
-            "items/sed_bm_nbhsaf_adjusted_age",
             "items/sed_bm_nbhsaf_lang",
             "items/sed_bm_nbhsaf_location",
             "items/sed_bm_nbhsaf_001",
             "items/sed_bm_nbhsaf_002",
             "items/sed_bm_nbhsaf_003",
-            "items/sed_bm_nbhsaf_administration"
+            "items/sed_bm_nbhsaf_administration",
+            "items/sed_bm_nbhsaf_gestational_age",
+            "items/sed_bm_nbhsaf_adjusted_age"
         ],
         "addProperties": [
             {
@@ -28,16 +28,6 @@
                 "isAbout": "items/sed_bm_nbhsaf_candidate_age",
                 "isVis": true,
                 "variableName": "sed_bm_nbhsaf_candidate_age"
-            },
-            {
-                "isAbout": "items/sed_bm_nbhsaf_gestational_age",
-                "isVis": true,
-                "variableName": "sed_bm_nbhsaf_gestational_age"
-            },
-            {
-                "isAbout": "items/sed_bm_nbhsaf_adjusted_age",
-                "isVis": true,
-                "variableName": "sed_bm_nbhsaf_adjusted_age"
             },
             {
                 "isAbout": "items/sed_bm_nbhsaf_lang",
@@ -68,6 +58,16 @@
                 "isAbout": "items/sed_bm_nbhsaf_administration",
                 "isVis": true,
                 "variableName": "sed_bm_nbhsaf_administration"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_gestational_age",
+                "isVis": true,
+                "variableName": "sed_bm_nbhsaf_gestational_age"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_adjusted_age",
+                "isVis": true,
+                "variableName": "sed_bm_nbhsaf_adjusted_age"
             }
         ],
         "shuffle": false

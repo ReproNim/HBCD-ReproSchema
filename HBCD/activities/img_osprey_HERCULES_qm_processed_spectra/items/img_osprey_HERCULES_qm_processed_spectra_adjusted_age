@@ -18,6 +18,11 @@
             "value": "Tabular Imaging"
         },
         {
+            "column": "sub_domain",
+            "source": "nbdc",
+            "value": "Quality Control"
+        },
+        {
             "column": "source",
             "source": "nbdc",
             "value": "Child"
@@ -25,7 +30,7 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/mrs"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/mrs/"
         },
         {
             "column": "name_short",

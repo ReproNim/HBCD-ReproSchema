@@ -7,8 +7,35 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/pex_ch_tlfb_date_taken",
-            "items/pex_ch_tlfb_tlfb_total_nb_sessions",
+            "items/pex_ch_tlfb_adjusted_age",
+            "items/pex_ch_tlfb_administration",
+            "items/pex_ch_tlfb_alc_beer_wk_01",
+            "items/pex_ch_tlfb_alc_beer_wk_02",
+            "items/pex_ch_tlfb_alc_beer_wk_03",
+            "items/pex_ch_tlfb_alc_beer_wk_04",
+            "items/pex_ch_tlfb_alc_beer_wk_05",
+            "items/pex_ch_tlfb_alc_beer_wk_06",
+            "items/pex_ch_tlfb_alc_beer_wk_07",
+            "items/pex_ch_tlfb_alc_beer_wk_08",
+            "items/pex_ch_tlfb_alc_beer_wk_09",
+            "items/pex_ch_tlfb_alc_spirits_wk_01",
+            "items/pex_ch_tlfb_alc_spirits_wk_02",
+            "items/pex_ch_tlfb_alc_spirits_wk_03",
+            "items/pex_ch_tlfb_alc_spirits_wk_04",
+            "items/pex_ch_tlfb_alc_spirits_wk_05",
+            "items/pex_ch_tlfb_alc_spirits_wk_06",
+            "items/pex_ch_tlfb_alc_spirits_wk_07",
+            "items/pex_ch_tlfb_alc_spirits_wk_08",
+            "items/pex_ch_tlfb_alc_spirits_wk_09",
+            "items/pex_ch_tlfb_alc_wine_wk_01",
+            "items/pex_ch_tlfb_alc_wine_wk_02",
+            "items/pex_ch_tlfb_alc_wine_wk_03",
+            "items/pex_ch_tlfb_alc_wine_wk_04",
+            "items/pex_ch_tlfb_alc_wine_wk_05",
+            "items/pex_ch_tlfb_alc_wine_wk_06",
+            "items/pex_ch_tlfb_alc_wine_wk_07",
+            "items/pex_ch_tlfb_alc_wine_wk_08",
+            "items/pex_ch_tlfb_alc_wine_wk_09",
             "items/pex_ch_tlfb_alc_wk_01",
             "items/pex_ch_tlfb_alc_wk_02",
             "items/pex_ch_tlfb_alc_wk_03",
@@ -18,42 +45,6 @@
             "items/pex_ch_tlfb_alc_wk_07",
             "items/pex_ch_tlfb_alc_wk_08",
             "items/pex_ch_tlfb_alc_wk_09",
-            "items/pex_ch_tlfb_nic_wk_01",
-            "items/pex_ch_tlfb_nic_wk_02",
-            "items/pex_ch_tlfb_nic_wk_03",
-            "items/pex_ch_tlfb_nic_wk_04",
-            "items/pex_ch_tlfb_nic_wk_05",
-            "items/pex_ch_tlfb_nic_wk_06",
-            "items/pex_ch_tlfb_nic_wk_07",
-            "items/pex_ch_tlfb_nic_wk_08",
-            "items/pex_ch_tlfb_nic_wk_09",
-            "items/pex_ch_tlfb_thc_wk_01",
-            "items/pex_ch_tlfb_thc_wk_02",
-            "items/pex_ch_tlfb_thc_wk_03",
-            "items/pex_ch_tlfb_thc_wk_04",
-            "items/pex_ch_tlfb_thc_wk_05",
-            "items/pex_ch_tlfb_thc_wk_06",
-            "items/pex_ch_tlfb_thc_wk_07",
-            "items/pex_ch_tlfb_thc_wk_08",
-            "items/pex_ch_tlfb_thc_wk_09",
-            "items/pex_ch_tlfb_opd_wk_01",
-            "items/pex_ch_tlfb_opd_wk_02",
-            "items/pex_ch_tlfb_opd_wk_03",
-            "items/pex_ch_tlfb_opd_wk_04",
-            "items/pex_ch_tlfb_opd_wk_05",
-            "items/pex_ch_tlfb_opd_wk_06",
-            "items/pex_ch_tlfb_opd_wk_07",
-            "items/pex_ch_tlfb_opd_wk_08",
-            "items/pex_ch_tlfb_opd_wk_09",
-            "items/pex_ch_tlfb_stim_wk_01",
-            "items/pex_ch_tlfb_stim_wk_02",
-            "items/pex_ch_tlfb_stim_wk_03",
-            "items/pex_ch_tlfb_stim_wk_04",
-            "items/pex_ch_tlfb_stim_wk_05",
-            "items/pex_ch_tlfb_stim_wk_06",
-            "items/pex_ch_tlfb_stim_wk_07",
-            "items/pex_ch_tlfb_stim_wk_08",
-            "items/pex_ch_tlfb_stim_wk_09",
             "items/pex_ch_tlfb_anx_wk_01",
             "items/pex_ch_tlfb_anx_wk_02",
             "items/pex_ch_tlfb_anx_wk_03",
@@ -63,24 +54,7 @@
             "items/pex_ch_tlfb_anx_wk_07",
             "items/pex_ch_tlfb_anx_wk_08",
             "items/pex_ch_tlfb_anx_wk_09",
-            "items/pex_ch_tlfb_hallu_wk_01",
-            "items/pex_ch_tlfb_hallu_wk_02",
-            "items/pex_ch_tlfb_hallu_wk_03",
-            "items/pex_ch_tlfb_hallu_wk_04",
-            "items/pex_ch_tlfb_hallu_wk_05",
-            "items/pex_ch_tlfb_hallu_wk_06",
-            "items/pex_ch_tlfb_hallu_wk_07",
-            "items/pex_ch_tlfb_hallu_wk_08",
-            "items/pex_ch_tlfb_hallu_wk_09",
-            "items/pex_ch_tlfb_ster_wk_01",
-            "items/pex_ch_tlfb_ster_wk_02",
-            "items/pex_ch_tlfb_ster_wk_03",
-            "items/pex_ch_tlfb_ster_wk_04",
-            "items/pex_ch_tlfb_ster_wk_05",
-            "items/pex_ch_tlfb_ster_wk_06",
-            "items/pex_ch_tlfb_ster_wk_07",
-            "items/pex_ch_tlfb_ster_wk_08",
-            "items/pex_ch_tlfb_ster_wk_09",
+            "items/pex_ch_tlfb_candidate_age",
             "items/pex_ch_tlfb_cbd_wk_01",
             "items/pex_ch_tlfb_cbd_wk_02",
             "items/pex_ch_tlfb_cbd_wk_03",
@@ -90,6 +64,17 @@
             "items/pex_ch_tlfb_cbd_wk_07",
             "items/pex_ch_tlfb_cbd_wk_08",
             "items/pex_ch_tlfb_cbd_wk_09",
+            "items/pex_ch_tlfb_date_taken",
+            "items/pex_ch_tlfb_gestational_age",
+            "items/pex_ch_tlfb_hallu_wk_01",
+            "items/pex_ch_tlfb_hallu_wk_02",
+            "items/pex_ch_tlfb_hallu_wk_03",
+            "items/pex_ch_tlfb_hallu_wk_04",
+            "items/pex_ch_tlfb_hallu_wk_05",
+            "items/pex_ch_tlfb_hallu_wk_06",
+            "items/pex_ch_tlfb_hallu_wk_07",
+            "items/pex_ch_tlfb_hallu_wk_08",
+            "items/pex_ch_tlfb_hallu_wk_09",
             "items/pex_ch_tlfb_inh_wk_01",
             "items/pex_ch_tlfb_inh_wk_02",
             "items/pex_ch_tlfb_inh_wk_03",
@@ -99,15 +84,6 @@
             "items/pex_ch_tlfb_inh_wk_07",
             "items/pex_ch_tlfb_inh_wk_08",
             "items/pex_ch_tlfb_inh_wk_09",
-            "items/pex_ch_tlfb_mdma_wk_01",
-            "items/pex_ch_tlfb_mdma_wk_02",
-            "items/pex_ch_tlfb_mdma_wk_03",
-            "items/pex_ch_tlfb_mdma_wk_04",
-            "items/pex_ch_tlfb_mdma_wk_05",
-            "items/pex_ch_tlfb_mdma_wk_06",
-            "items/pex_ch_tlfb_mdma_wk_07",
-            "items/pex_ch_tlfb_mdma_wk_08",
-            "items/pex_ch_tlfb_mdma_wk_09",
             "items/pex_ch_tlfb_ket_wk_01",
             "items/pex_ch_tlfb_ket_wk_02",
             "items/pex_ch_tlfb_ket_wk_03",
@@ -126,23 +102,536 @@
             "items/pex_ch_tlfb_krtm_wk_07",
             "items/pex_ch_tlfb_krtm_wk_08",
             "items/pex_ch_tlfb_krtm_wk_09",
+            "items/pex_ch_tlfb_mdma_wk_01",
+            "items/pex_ch_tlfb_mdma_wk_02",
+            "items/pex_ch_tlfb_mdma_wk_03",
+            "items/pex_ch_tlfb_mdma_wk_04",
+            "items/pex_ch_tlfb_mdma_wk_05",
+            "items/pex_ch_tlfb_mdma_wk_06",
+            "items/pex_ch_tlfb_mdma_wk_07",
+            "items/pex_ch_tlfb_mdma_wk_08",
+            "items/pex_ch_tlfb_mdma_wk_09",
+            "items/pex_ch_tlfb_nic_cig_wk_01",
+            "items/pex_ch_tlfb_nic_cig_wk_02",
+            "items/pex_ch_tlfb_nic_cig_wk_03",
+            "items/pex_ch_tlfb_nic_cig_wk_04",
+            "items/pex_ch_tlfb_nic_cig_wk_05",
+            "items/pex_ch_tlfb_nic_cig_wk_06",
+            "items/pex_ch_tlfb_nic_cig_wk_07",
+            "items/pex_ch_tlfb_nic_cig_wk_08",
+            "items/pex_ch_tlfb_nic_cig_wk_09",
+            "items/pex_ch_tlfb_nic_cigr_wk_01",
+            "items/pex_ch_tlfb_nic_cigr_wk_02",
+            "items/pex_ch_tlfb_nic_cigr_wk_03",
+            "items/pex_ch_tlfb_nic_cigr_wk_04",
+            "items/pex_ch_tlfb_nic_cigr_wk_05",
+            "items/pex_ch_tlfb_nic_cigr_wk_06",
+            "items/pex_ch_tlfb_nic_cigr_wk_07",
+            "items/pex_ch_tlfb_nic_cigr_wk_08",
+            "items/pex_ch_tlfb_nic_cigr_wk_09",
+            "items/pex_ch_tlfb_nic_cigrll_wk_01",
+            "items/pex_ch_tlfb_nic_cigrll_wk_02",
+            "items/pex_ch_tlfb_nic_cigrll_wk_03",
+            "items/pex_ch_tlfb_nic_cigrll_wk_04",
+            "items/pex_ch_tlfb_nic_cigrll_wk_05",
+            "items/pex_ch_tlfb_nic_cigrll_wk_06",
+            "items/pex_ch_tlfb_nic_cigrll_wk_07",
+            "items/pex_ch_tlfb_nic_cigrll_wk_08",
+            "items/pex_ch_tlfb_nic_cigrll_wk_09",
+            "items/pex_ch_tlfb_nic_ecig_wk_01",
+            "items/pex_ch_tlfb_nic_ecig_wk_02",
+            "items/pex_ch_tlfb_nic_ecig_wk_03",
+            "items/pex_ch_tlfb_nic_ecig_wk_04",
+            "items/pex_ch_tlfb_nic_ecig_wk_05",
+            "items/pex_ch_tlfb_nic_ecig_wk_06",
+            "items/pex_ch_tlfb_nic_ecig_wk_07",
+            "items/pex_ch_tlfb_nic_ecig_wk_08",
+            "items/pex_ch_tlfb_nic_ecig_wk_09",
+            "items/pex_ch_tlfb_nic_nicrepl_wk_01",
+            "items/pex_ch_tlfb_nic_nicrepl_wk_02",
+            "items/pex_ch_tlfb_nic_nicrepl_wk_03",
+            "items/pex_ch_tlfb_nic_nicrepl_wk_04",
+            "items/pex_ch_tlfb_nic_nicrepl_wk_05",
+            "items/pex_ch_tlfb_nic_nicrepl_wk_06",
+            "items/pex_ch_tlfb_nic_nicrepl_wk_07",
+            "items/pex_ch_tlfb_nic_nicrepl_wk_08",
+            "items/pex_ch_tlfb_nic_nicrepl_wk_09",
+            "items/pex_ch_tlfb_nic_pipe_wk_01",
+            "items/pex_ch_tlfb_nic_pipe_wk_02",
+            "items/pex_ch_tlfb_nic_pipe_wk_03",
+            "items/pex_ch_tlfb_nic_pipe_wk_04",
+            "items/pex_ch_tlfb_nic_pipe_wk_05",
+            "items/pex_ch_tlfb_nic_pipe_wk_06",
+            "items/pex_ch_tlfb_nic_pipe_wk_07",
+            "items/pex_ch_tlfb_nic_pipe_wk_08",
+            "items/pex_ch_tlfb_nic_pipe_wk_09",
+            "items/pex_ch_tlfb_nic_smkltbc_wk_01",
+            "items/pex_ch_tlfb_nic_smkltbc_wk_02",
+            "items/pex_ch_tlfb_nic_smkltbc_wk_03",
+            "items/pex_ch_tlfb_nic_smkltbc_wk_04",
+            "items/pex_ch_tlfb_nic_smkltbc_wk_05",
+            "items/pex_ch_tlfb_nic_smkltbc_wk_06",
+            "items/pex_ch_tlfb_nic_smkltbc_wk_07",
+            "items/pex_ch_tlfb_nic_smkltbc_wk_08",
+            "items/pex_ch_tlfb_nic_smkltbc_wk_09",
+            "items/pex_ch_tlfb_nic_wk_01",
+            "items/pex_ch_tlfb_nic_wk_02",
+            "items/pex_ch_tlfb_nic_wk_03",
+            "items/pex_ch_tlfb_nic_wk_04",
+            "items/pex_ch_tlfb_nic_wk_05",
+            "items/pex_ch_tlfb_nic_wk_06",
+            "items/pex_ch_tlfb_nic_wk_07",
+            "items/pex_ch_tlfb_nic_wk_08",
+            "items/pex_ch_tlfb_nic_wk_09",
+            "items/pex_ch_tlfb_opd_bupn_wk_01",
+            "items/pex_ch_tlfb_opd_bupn_wk_02",
+            "items/pex_ch_tlfb_opd_bupn_wk_03",
+            "items/pex_ch_tlfb_opd_bupn_wk_04",
+            "items/pex_ch_tlfb_opd_bupn_wk_05",
+            "items/pex_ch_tlfb_opd_bupn_wk_06",
+            "items/pex_ch_tlfb_opd_bupn_wk_07",
+            "items/pex_ch_tlfb_opd_bupn_wk_08",
+            "items/pex_ch_tlfb_opd_bupn_wk_09",
+            "items/pex_ch_tlfb_opd_fent_wk_01",
+            "items/pex_ch_tlfb_opd_fent_wk_02",
+            "items/pex_ch_tlfb_opd_fent_wk_03",
+            "items/pex_ch_tlfb_opd_fent_wk_04",
+            "items/pex_ch_tlfb_opd_fent_wk_05",
+            "items/pex_ch_tlfb_opd_fent_wk_06",
+            "items/pex_ch_tlfb_opd_fent_wk_07",
+            "items/pex_ch_tlfb_opd_fent_wk_08",
+            "items/pex_ch_tlfb_opd_fent_wk_09",
+            "items/pex_ch_tlfb_opd_her_wk_01",
+            "items/pex_ch_tlfb_opd_her_wk_02",
+            "items/pex_ch_tlfb_opd_her_wk_03",
+            "items/pex_ch_tlfb_opd_her_wk_04",
+            "items/pex_ch_tlfb_opd_her_wk_05",
+            "items/pex_ch_tlfb_opd_her_wk_06",
+            "items/pex_ch_tlfb_opd_her_wk_07",
+            "items/pex_ch_tlfb_opd_her_wk_08",
+            "items/pex_ch_tlfb_opd_her_wk_09",
+            "items/pex_ch_tlfb_opd_methdn_wk_01",
+            "items/pex_ch_tlfb_opd_methdn_wk_02",
+            "items/pex_ch_tlfb_opd_methdn_wk_03",
+            "items/pex_ch_tlfb_opd_methdn_wk_04",
+            "items/pex_ch_tlfb_opd_methdn_wk_05",
+            "items/pex_ch_tlfb_opd_methdn_wk_06",
+            "items/pex_ch_tlfb_opd_methdn_wk_07",
+            "items/pex_ch_tlfb_opd_methdn_wk_08",
+            "items/pex_ch_tlfb_opd_methdn_wk_09",
+            "items/pex_ch_tlfb_opd_presopd_wk_01",
+            "items/pex_ch_tlfb_opd_presopd_wk_02",
+            "items/pex_ch_tlfb_opd_presopd_wk_03",
+            "items/pex_ch_tlfb_opd_presopd_wk_04",
+            "items/pex_ch_tlfb_opd_presopd_wk_05",
+            "items/pex_ch_tlfb_opd_presopd_wk_06",
+            "items/pex_ch_tlfb_opd_presopd_wk_07",
+            "items/pex_ch_tlfb_opd_presopd_wk_08",
+            "items/pex_ch_tlfb_opd_presopd_wk_09",
+            "items/pex_ch_tlfb_opd_wk_01",
+            "items/pex_ch_tlfb_opd_wk_02",
+            "items/pex_ch_tlfb_opd_wk_03",
+            "items/pex_ch_tlfb_opd_wk_04",
+            "items/pex_ch_tlfb_opd_wk_05",
+            "items/pex_ch_tlfb_opd_wk_06",
+            "items/pex_ch_tlfb_opd_wk_07",
+            "items/pex_ch_tlfb_opd_wk_08",
+            "items/pex_ch_tlfb_opd_wk_09",
+            "items/pex_ch_tlfb_oth_andrster_wk_01",
+            "items/pex_ch_tlfb_oth_andrster_wk_02",
+            "items/pex_ch_tlfb_oth_andrster_wk_03",
+            "items/pex_ch_tlfb_oth_andrster_wk_04",
+            "items/pex_ch_tlfb_oth_andrster_wk_05",
+            "items/pex_ch_tlfb_oth_andrster_wk_06",
+            "items/pex_ch_tlfb_oth_andrster_wk_07",
+            "items/pex_ch_tlfb_oth_andrster_wk_08",
+            "items/pex_ch_tlfb_oth_andrster_wk_09",
+            "items/pex_ch_tlfb_oth_bzo_wk_01",
+            "items/pex_ch_tlfb_oth_bzo_wk_02",
+            "items/pex_ch_tlfb_oth_bzo_wk_03",
+            "items/pex_ch_tlfb_oth_bzo_wk_04",
+            "items/pex_ch_tlfb_oth_bzo_wk_05",
+            "items/pex_ch_tlfb_oth_bzo_wk_06",
+            "items/pex_ch_tlfb_oth_bzo_wk_07",
+            "items/pex_ch_tlfb_oth_bzo_wk_08",
+            "items/pex_ch_tlfb_oth_bzo_wk_09",
+            "items/pex_ch_tlfb_oth_cbd_wk_01",
+            "items/pex_ch_tlfb_oth_cbd_wk_02",
+            "items/pex_ch_tlfb_oth_cbd_wk_03",
+            "items/pex_ch_tlfb_oth_cbd_wk_04",
+            "items/pex_ch_tlfb_oth_cbd_wk_05",
+            "items/pex_ch_tlfb_oth_cbd_wk_06",
+            "items/pex_ch_tlfb_oth_cbd_wk_07",
+            "items/pex_ch_tlfb_oth_cbd_wk_08",
+            "items/pex_ch_tlfb_oth_cbd_wk_09",
+            "items/pex_ch_tlfb_oth_ghb_wk_01",
+            "items/pex_ch_tlfb_oth_ghb_wk_02",
+            "items/pex_ch_tlfb_oth_ghb_wk_03",
+            "items/pex_ch_tlfb_oth_ghb_wk_04",
+            "items/pex_ch_tlfb_oth_ghb_wk_05",
+            "items/pex_ch_tlfb_oth_ghb_wk_06",
+            "items/pex_ch_tlfb_oth_ghb_wk_07",
+            "items/pex_ch_tlfb_oth_ghb_wk_08",
+            "items/pex_ch_tlfb_oth_ghb_wk_09",
+            "items/pex_ch_tlfb_oth_inh_wk_01",
+            "items/pex_ch_tlfb_oth_inh_wk_02",
+            "items/pex_ch_tlfb_oth_inh_wk_03",
+            "items/pex_ch_tlfb_oth_inh_wk_04",
+            "items/pex_ch_tlfb_oth_inh_wk_05",
+            "items/pex_ch_tlfb_oth_inh_wk_06",
+            "items/pex_ch_tlfb_oth_inh_wk_07",
+            "items/pex_ch_tlfb_oth_inh_wk_08",
+            "items/pex_ch_tlfb_oth_inh_wk_09",
+            "items/pex_ch_tlfb_oth_ket_wk_01",
+            "items/pex_ch_tlfb_oth_ket_wk_02",
+            "items/pex_ch_tlfb_oth_ket_wk_03",
+            "items/pex_ch_tlfb_oth_ket_wk_04",
+            "items/pex_ch_tlfb_oth_ket_wk_05",
+            "items/pex_ch_tlfb_oth_ket_wk_06",
+            "items/pex_ch_tlfb_oth_ket_wk_07",
+            "items/pex_ch_tlfb_oth_ket_wk_08",
+            "items/pex_ch_tlfb_oth_ket_wk_09",
+            "items/pex_ch_tlfb_oth_krtm_wk_01",
+            "items/pex_ch_tlfb_oth_krtm_wk_02",
+            "items/pex_ch_tlfb_oth_krtm_wk_03",
+            "items/pex_ch_tlfb_oth_krtm_wk_04",
+            "items/pex_ch_tlfb_oth_krtm_wk_05",
+            "items/pex_ch_tlfb_oth_krtm_wk_06",
+            "items/pex_ch_tlfb_oth_krtm_wk_07",
+            "items/pex_ch_tlfb_oth_krtm_wk_08",
+            "items/pex_ch_tlfb_oth_krtm_wk_09",
+            "items/pex_ch_tlfb_oth_lsdoth_wk_01",
+            "items/pex_ch_tlfb_oth_lsdoth_wk_02",
+            "items/pex_ch_tlfb_oth_lsdoth_wk_03",
+            "items/pex_ch_tlfb_oth_lsdoth_wk_04",
+            "items/pex_ch_tlfb_oth_lsdoth_wk_05",
+            "items/pex_ch_tlfb_oth_lsdoth_wk_06",
+            "items/pex_ch_tlfb_oth_lsdoth_wk_07",
+            "items/pex_ch_tlfb_oth_lsdoth_wk_08",
+            "items/pex_ch_tlfb_oth_lsdoth_wk_09",
+            "items/pex_ch_tlfb_oth_mdma_wk_01",
+            "items/pex_ch_tlfb_oth_mdma_wk_02",
+            "items/pex_ch_tlfb_oth_mdma_wk_03",
+            "items/pex_ch_tlfb_oth_mdma_wk_04",
+            "items/pex_ch_tlfb_oth_mdma_wk_05",
+            "items/pex_ch_tlfb_oth_mdma_wk_06",
+            "items/pex_ch_tlfb_oth_mdma_wk_07",
+            "items/pex_ch_tlfb_oth_mdma_wk_08",
+            "items/pex_ch_tlfb_oth_mdma_wk_09",
+            "items/pex_ch_tlfb_oth_pcp_wk_01",
+            "items/pex_ch_tlfb_oth_pcp_wk_02",
+            "items/pex_ch_tlfb_oth_pcp_wk_03",
+            "items/pex_ch_tlfb_oth_pcp_wk_04",
+            "items/pex_ch_tlfb_oth_pcp_wk_05",
+            "items/pex_ch_tlfb_oth_pcp_wk_06",
+            "items/pex_ch_tlfb_oth_pcp_wk_07",
+            "items/pex_ch_tlfb_oth_pcp_wk_08",
+            "items/pex_ch_tlfb_oth_pcp_wk_09",
+            "items/pex_ch_tlfb_oth_psicbn_wk_01",
+            "items/pex_ch_tlfb_oth_psicbn_wk_02",
+            "items/pex_ch_tlfb_oth_psicbn_wk_03",
+            "items/pex_ch_tlfb_oth_psicbn_wk_04",
+            "items/pex_ch_tlfb_oth_psicbn_wk_05",
+            "items/pex_ch_tlfb_oth_psicbn_wk_06",
+            "items/pex_ch_tlfb_oth_psicbn_wk_07",
+            "items/pex_ch_tlfb_oth_psicbn_wk_08",
+            "items/pex_ch_tlfb_oth_psicbn_wk_09",
+            "items/pex_ch_tlfb_oth_synthcbd_wk_01",
+            "items/pex_ch_tlfb_oth_synthcbd_wk_02",
+            "items/pex_ch_tlfb_oth_synthcbd_wk_03",
+            "items/pex_ch_tlfb_oth_synthcbd_wk_04",
+            "items/pex_ch_tlfb_oth_synthcbd_wk_05",
+            "items/pex_ch_tlfb_oth_synthcbd_wk_06",
+            "items/pex_ch_tlfb_oth_synthcbd_wk_07",
+            "items/pex_ch_tlfb_oth_synthcbd_wk_08",
+            "items/pex_ch_tlfb_oth_synthcbd_wk_09",
             "items/pex_ch_tlfb_self_report_alcohol",
-            "items/pex_ch_tlfb_self_report_opioid",
             "items/pex_ch_tlfb_self_report_cannabis",
             "items/pex_ch_tlfb_self_report_nicotine",
+            "items/pex_ch_tlfb_self_report_opioid",
             "items/pex_ch_tlfb_self_report_stimulant",
-            "items/pex_ch_tlfb_administration"
+            "items/pex_ch_tlfb_ster_wk_01",
+            "items/pex_ch_tlfb_ster_wk_02",
+            "items/pex_ch_tlfb_ster_wk_03",
+            "items/pex_ch_tlfb_ster_wk_04",
+            "items/pex_ch_tlfb_ster_wk_05",
+            "items/pex_ch_tlfb_ster_wk_06",
+            "items/pex_ch_tlfb_ster_wk_07",
+            "items/pex_ch_tlfb_ster_wk_08",
+            "items/pex_ch_tlfb_ster_wk_09",
+            "items/pex_ch_tlfb_stim_ampht_wk_01",
+            "items/pex_ch_tlfb_stim_ampht_wk_02",
+            "items/pex_ch_tlfb_stim_ampht_wk_03",
+            "items/pex_ch_tlfb_stim_ampht_wk_04",
+            "items/pex_ch_tlfb_stim_ampht_wk_05",
+            "items/pex_ch_tlfb_stim_ampht_wk_06",
+            "items/pex_ch_tlfb_stim_ampht_wk_07",
+            "items/pex_ch_tlfb_stim_ampht_wk_08",
+            "items/pex_ch_tlfb_stim_ampht_wk_09",
+            "items/pex_ch_tlfb_stim_crckcoc_wk_01",
+            "items/pex_ch_tlfb_stim_crckcoc_wk_02",
+            "items/pex_ch_tlfb_stim_crckcoc_wk_03",
+            "items/pex_ch_tlfb_stim_crckcoc_wk_04",
+            "items/pex_ch_tlfb_stim_crckcoc_wk_05",
+            "items/pex_ch_tlfb_stim_crckcoc_wk_06",
+            "items/pex_ch_tlfb_stim_crckcoc_wk_07",
+            "items/pex_ch_tlfb_stim_crckcoc_wk_08",
+            "items/pex_ch_tlfb_stim_crckcoc_wk_09",
+            "items/pex_ch_tlfb_stim_mamp_wk_01",
+            "items/pex_ch_tlfb_stim_mamp_wk_02",
+            "items/pex_ch_tlfb_stim_mamp_wk_03",
+            "items/pex_ch_tlfb_stim_mamp_wk_04",
+            "items/pex_ch_tlfb_stim_mamp_wk_05",
+            "items/pex_ch_tlfb_stim_mamp_wk_06",
+            "items/pex_ch_tlfb_stim_mamp_wk_07",
+            "items/pex_ch_tlfb_stim_mamp_wk_08",
+            "items/pex_ch_tlfb_stim_mamp_wk_09",
+            "items/pex_ch_tlfb_stim_pdrcoc_wk_01",
+            "items/pex_ch_tlfb_stim_pdrcoc_wk_02",
+            "items/pex_ch_tlfb_stim_pdrcoc_wk_03",
+            "items/pex_ch_tlfb_stim_pdrcoc_wk_04",
+            "items/pex_ch_tlfb_stim_pdrcoc_wk_05",
+            "items/pex_ch_tlfb_stim_pdrcoc_wk_06",
+            "items/pex_ch_tlfb_stim_pdrcoc_wk_07",
+            "items/pex_ch_tlfb_stim_pdrcoc_wk_08",
+            "items/pex_ch_tlfb_stim_pdrcoc_wk_09",
+            "items/pex_ch_tlfb_stim_presstim_wk_01",
+            "items/pex_ch_tlfb_stim_presstim_wk_02",
+            "items/pex_ch_tlfb_stim_presstim_wk_03",
+            "items/pex_ch_tlfb_stim_presstim_wk_04",
+            "items/pex_ch_tlfb_stim_presstim_wk_05",
+            "items/pex_ch_tlfb_stim_presstim_wk_06",
+            "items/pex_ch_tlfb_stim_presstim_wk_07",
+            "items/pex_ch_tlfb_stim_presstim_wk_08",
+            "items/pex_ch_tlfb_stim_presstim_wk_09",
+            "items/pex_ch_tlfb_stim_wk_01",
+            "items/pex_ch_tlfb_stim_wk_02",
+            "items/pex_ch_tlfb_stim_wk_03",
+            "items/pex_ch_tlfb_stim_wk_04",
+            "items/pex_ch_tlfb_stim_wk_05",
+            "items/pex_ch_tlfb_stim_wk_06",
+            "items/pex_ch_tlfb_stim_wk_07",
+            "items/pex_ch_tlfb_stim_wk_08",
+            "items/pex_ch_tlfb_stim_wk_09",
+            "items/pex_ch_tlfb_thc_mjedi_wk_01",
+            "items/pex_ch_tlfb_thc_mjedi_wk_02",
+            "items/pex_ch_tlfb_thc_mjedi_wk_03",
+            "items/pex_ch_tlfb_thc_mjedi_wk_04",
+            "items/pex_ch_tlfb_thc_mjedi_wk_05",
+            "items/pex_ch_tlfb_thc_mjedi_wk_06",
+            "items/pex_ch_tlfb_thc_mjedi_wk_07",
+            "items/pex_ch_tlfb_thc_mjedi_wk_08",
+            "items/pex_ch_tlfb_thc_mjedi_wk_09",
+            "items/pex_ch_tlfb_thc_mjtinct_wk_01",
+            "items/pex_ch_tlfb_thc_mjtinct_wk_02",
+            "items/pex_ch_tlfb_thc_mjtinct_wk_03",
+            "items/pex_ch_tlfb_thc_mjtinct_wk_04",
+            "items/pex_ch_tlfb_thc_mjtinct_wk_05",
+            "items/pex_ch_tlfb_thc_mjtinct_wk_06",
+            "items/pex_ch_tlfb_thc_mjtinct_wk_07",
+            "items/pex_ch_tlfb_thc_mjtinct_wk_08",
+            "items/pex_ch_tlfb_thc_mjtinct_wk_09",
+            "items/pex_ch_tlfb_thc_smkdmjfl_wk_01",
+            "items/pex_ch_tlfb_thc_smkdmjfl_wk_02",
+            "items/pex_ch_tlfb_thc_smkdmjfl_wk_03",
+            "items/pex_ch_tlfb_thc_smkdmjfl_wk_04",
+            "items/pex_ch_tlfb_thc_smkdmjfl_wk_05",
+            "items/pex_ch_tlfb_thc_smkdmjfl_wk_06",
+            "items/pex_ch_tlfb_thc_smkdmjfl_wk_07",
+            "items/pex_ch_tlfb_thc_smkdmjfl_wk_08",
+            "items/pex_ch_tlfb_thc_smkdmjfl_wk_09",
+            "items/pex_ch_tlfb_thc_smkdmjoil_wk_01",
+            "items/pex_ch_tlfb_thc_smkdmjoil_wk_02",
+            "items/pex_ch_tlfb_thc_smkdmjoil_wk_03",
+            "items/pex_ch_tlfb_thc_smkdmjoil_wk_04",
+            "items/pex_ch_tlfb_thc_smkdmjoil_wk_05",
+            "items/pex_ch_tlfb_thc_smkdmjoil_wk_06",
+            "items/pex_ch_tlfb_thc_smkdmjoil_wk_07",
+            "items/pex_ch_tlfb_thc_smkdmjoil_wk_08",
+            "items/pex_ch_tlfb_thc_smkdmjoil_wk_09",
+            "items/pex_ch_tlfb_thc_thcalc_wk_01",
+            "items/pex_ch_tlfb_thc_thcalc_wk_02",
+            "items/pex_ch_tlfb_thc_thcalc_wk_03",
+            "items/pex_ch_tlfb_thc_thcalc_wk_04",
+            "items/pex_ch_tlfb_thc_thcalc_wk_05",
+            "items/pex_ch_tlfb_thc_thcalc_wk_06",
+            "items/pex_ch_tlfb_thc_thcalc_wk_07",
+            "items/pex_ch_tlfb_thc_thcalc_wk_08",
+            "items/pex_ch_tlfb_thc_thcalc_wk_09",
+            "items/pex_ch_tlfb_thc_vpmjfl_wk_01",
+            "items/pex_ch_tlfb_thc_vpmjfl_wk_02",
+            "items/pex_ch_tlfb_thc_vpmjfl_wk_03",
+            "items/pex_ch_tlfb_thc_vpmjfl_wk_04",
+            "items/pex_ch_tlfb_thc_vpmjfl_wk_05",
+            "items/pex_ch_tlfb_thc_vpmjfl_wk_06",
+            "items/pex_ch_tlfb_thc_vpmjfl_wk_07",
+            "items/pex_ch_tlfb_thc_vpmjfl_wk_08",
+            "items/pex_ch_tlfb_thc_vpmjfl_wk_09",
+            "items/pex_ch_tlfb_thc_vpmjoil_wk_01",
+            "items/pex_ch_tlfb_thc_vpmjoil_wk_02",
+            "items/pex_ch_tlfb_thc_vpmjoil_wk_03",
+            "items/pex_ch_tlfb_thc_vpmjoil_wk_04",
+            "items/pex_ch_tlfb_thc_vpmjoil_wk_05",
+            "items/pex_ch_tlfb_thc_vpmjoil_wk_06",
+            "items/pex_ch_tlfb_thc_vpmjoil_wk_07",
+            "items/pex_ch_tlfb_thc_vpmjoil_wk_08",
+            "items/pex_ch_tlfb_thc_vpmjoil_wk_09",
+            "items/pex_ch_tlfb_thc_wk_01",
+            "items/pex_ch_tlfb_thc_wk_02",
+            "items/pex_ch_tlfb_thc_wk_03",
+            "items/pex_ch_tlfb_thc_wk_04",
+            "items/pex_ch_tlfb_thc_wk_05",
+            "items/pex_ch_tlfb_thc_wk_06",
+            "items/pex_ch_tlfb_thc_wk_07",
+            "items/pex_ch_tlfb_thc_wk_08",
+            "items/pex_ch_tlfb_thc_wk_09",
+            "items/pex_ch_tlfb_tlfb_total_nb_sessions"
         ],
         "addProperties": [
             {
-                "isAbout": "items/pex_ch_tlfb_date_taken",
+                "isAbout": "items/pex_ch_tlfb_adjusted_age",
                 "isVis": true,
-                "variableName": "pex_ch_tlfb_date_taken"
+                "variableName": "pex_ch_tlfb_adjusted_age"
             },
             {
-                "isAbout": "items/pex_ch_tlfb_tlfb_total_nb_sessions",
+                "isAbout": "items/pex_ch_tlfb_administration",
                 "isVis": true,
-                "variableName": "pex_ch_tlfb_tlfb_total_nb_sessions"
+                "variableName": "pex_ch_tlfb_administration"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_beer_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_beer_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_beer_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_beer_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_beer_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_beer_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_beer_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_beer_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_beer_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_beer_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_beer_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_beer_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_beer_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_beer_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_beer_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_beer_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_beer_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_beer_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_spirits_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_spirits_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_spirits_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_spirits_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_spirits_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_spirits_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_spirits_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_spirits_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_spirits_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_spirits_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_spirits_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_spirits_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_spirits_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_spirits_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_spirits_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_spirits_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_spirits_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_spirits_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_wine_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_wine_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_wine_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_wine_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_wine_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_wine_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_wine_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_wine_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_wine_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_wine_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_wine_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_wine_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_wine_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_wine_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_wine_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_wine_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_alc_wine_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_alc_wine_wk_09"
             },
             {
                 "isAbout": "items/pex_ch_tlfb_alc_wk_01",
@@ -190,186 +679,6 @@
                 "variableName": "pex_ch_tlfb_alc_wk_09"
             },
             {
-                "isAbout": "items/pex_ch_tlfb_nic_wk_01",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_nic_wk_01"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_nic_wk_02",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_nic_wk_02"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_nic_wk_03",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_nic_wk_03"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_nic_wk_04",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_nic_wk_04"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_nic_wk_05",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_nic_wk_05"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_nic_wk_06",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_nic_wk_06"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_nic_wk_07",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_nic_wk_07"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_nic_wk_08",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_nic_wk_08"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_nic_wk_09",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_nic_wk_09"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_thc_wk_01",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_thc_wk_01"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_thc_wk_02",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_thc_wk_02"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_thc_wk_03",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_thc_wk_03"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_thc_wk_04",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_thc_wk_04"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_thc_wk_05",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_thc_wk_05"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_thc_wk_06",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_thc_wk_06"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_thc_wk_07",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_thc_wk_07"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_thc_wk_08",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_thc_wk_08"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_thc_wk_09",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_thc_wk_09"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_opd_wk_01",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_opd_wk_01"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_opd_wk_02",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_opd_wk_02"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_opd_wk_03",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_opd_wk_03"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_opd_wk_04",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_opd_wk_04"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_opd_wk_05",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_opd_wk_05"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_opd_wk_06",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_opd_wk_06"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_opd_wk_07",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_opd_wk_07"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_opd_wk_08",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_opd_wk_08"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_opd_wk_09",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_opd_wk_09"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_stim_wk_01",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_stim_wk_01"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_stim_wk_02",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_stim_wk_02"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_stim_wk_03",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_stim_wk_03"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_stim_wk_04",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_stim_wk_04"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_stim_wk_05",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_stim_wk_05"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_stim_wk_06",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_stim_wk_06"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_stim_wk_07",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_stim_wk_07"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_stim_wk_08",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_stim_wk_08"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_stim_wk_09",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_stim_wk_09"
-            },
-            {
                 "isAbout": "items/pex_ch_tlfb_anx_wk_01",
                 "isVis": true,
                 "variableName": "pex_ch_tlfb_anx_wk_01"
@@ -415,94 +724,9 @@
                 "variableName": "pex_ch_tlfb_anx_wk_09"
             },
             {
-                "isAbout": "items/pex_ch_tlfb_hallu_wk_01",
+                "isAbout": "items/pex_ch_tlfb_candidate_age",
                 "isVis": true,
-                "variableName": "pex_ch_tlfb_hallu_wk_01"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_hallu_wk_02",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_hallu_wk_02"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_hallu_wk_03",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_hallu_wk_03"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_hallu_wk_04",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_hallu_wk_04"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_hallu_wk_05",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_hallu_wk_05"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_hallu_wk_06",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_hallu_wk_06"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_hallu_wk_07",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_hallu_wk_07"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_hallu_wk_08",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_hallu_wk_08"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_hallu_wk_09",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_hallu_wk_09"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_ster_wk_01",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_ster_wk_01"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_ster_wk_02",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_ster_wk_02"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_ster_wk_03",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_ster_wk_03"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_ster_wk_04",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_ster_wk_04"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_ster_wk_05",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_ster_wk_05"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_ster_wk_06",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_ster_wk_06"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_ster_wk_07",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_ster_wk_07"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_ster_wk_08",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_ster_wk_08"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_ster_wk_09",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_ster_wk_09"
+                "variableName": "pex_ch_tlfb_candidate_age"
             },
             {
                 "isAbout": "items/pex_ch_tlfb_cbd_wk_01",
@@ -550,6 +774,61 @@
                 "variableName": "pex_ch_tlfb_cbd_wk_09"
             },
             {
+                "isAbout": "items/pex_ch_tlfb_date_taken",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_date_taken"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_gestational_age",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_gestational_age"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_hallu_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_hallu_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_hallu_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_hallu_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_hallu_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_hallu_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_hallu_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_hallu_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_hallu_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_hallu_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_hallu_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_hallu_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_hallu_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_hallu_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_hallu_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_hallu_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_hallu_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_hallu_wk_09"
+            },
+            {
                 "isAbout": "items/pex_ch_tlfb_inh_wk_01",
                 "isVis": true,
                 "variableName": "pex_ch_tlfb_inh_wk_01"
@@ -593,51 +872,6 @@
                 "isAbout": "items/pex_ch_tlfb_inh_wk_09",
                 "isVis": true,
                 "variableName": "pex_ch_tlfb_inh_wk_09"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_mdma_wk_01",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_mdma_wk_01"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_mdma_wk_02",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_mdma_wk_02"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_mdma_wk_03",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_mdma_wk_03"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_mdma_wk_04",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_mdma_wk_04"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_mdma_wk_05",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_mdma_wk_05"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_mdma_wk_06",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_mdma_wk_06"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_mdma_wk_07",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_mdma_wk_07"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_mdma_wk_08",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_mdma_wk_08"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_mdma_wk_09",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_mdma_wk_09"
             },
             {
                 "isAbout": "items/pex_ch_tlfb_ket_wk_01",
@@ -730,14 +964,1224 @@
                 "variableName": "pex_ch_tlfb_krtm_wk_09"
             },
             {
+                "isAbout": "items/pex_ch_tlfb_mdma_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_mdma_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_mdma_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_mdma_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_mdma_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_mdma_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_mdma_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_mdma_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_mdma_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_mdma_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_mdma_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_mdma_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_mdma_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_mdma_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_mdma_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_mdma_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_mdma_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_mdma_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cig_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cig_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cig_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cig_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cig_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cig_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cig_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cig_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cig_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cig_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cig_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cig_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cig_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cig_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cig_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cig_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cig_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cig_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cigr_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cigr_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cigr_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cigr_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cigr_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cigr_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cigr_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cigr_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cigr_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cigr_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cigr_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cigr_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cigr_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cigr_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cigr_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cigr_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cigr_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cigr_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cigrll_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cigrll_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cigrll_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cigrll_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cigrll_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cigrll_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cigrll_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cigrll_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cigrll_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cigrll_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cigrll_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cigrll_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cigrll_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cigrll_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cigrll_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cigrll_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_cigrll_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_cigrll_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_ecig_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_ecig_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_ecig_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_ecig_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_ecig_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_ecig_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_ecig_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_ecig_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_ecig_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_ecig_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_ecig_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_ecig_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_ecig_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_ecig_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_ecig_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_ecig_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_ecig_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_ecig_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_nicrepl_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_nicrepl_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_nicrepl_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_nicrepl_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_nicrepl_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_nicrepl_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_nicrepl_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_nicrepl_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_nicrepl_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_nicrepl_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_nicrepl_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_nicrepl_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_nicrepl_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_nicrepl_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_nicrepl_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_nicrepl_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_nicrepl_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_nicrepl_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_pipe_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_pipe_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_pipe_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_pipe_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_pipe_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_pipe_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_pipe_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_pipe_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_pipe_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_pipe_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_pipe_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_pipe_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_pipe_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_pipe_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_pipe_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_pipe_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_pipe_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_pipe_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_smkltbc_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_smkltbc_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_smkltbc_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_smkltbc_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_smkltbc_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_smkltbc_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_smkltbc_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_smkltbc_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_smkltbc_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_smkltbc_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_smkltbc_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_smkltbc_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_smkltbc_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_smkltbc_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_smkltbc_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_smkltbc_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_smkltbc_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_smkltbc_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_nic_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_nic_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_bupn_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_bupn_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_bupn_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_bupn_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_bupn_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_bupn_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_bupn_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_bupn_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_bupn_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_bupn_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_bupn_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_bupn_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_bupn_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_bupn_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_bupn_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_bupn_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_bupn_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_bupn_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_fent_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_fent_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_fent_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_fent_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_fent_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_fent_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_fent_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_fent_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_fent_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_fent_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_fent_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_fent_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_fent_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_fent_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_fent_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_fent_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_fent_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_fent_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_her_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_her_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_her_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_her_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_her_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_her_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_her_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_her_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_her_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_her_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_her_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_her_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_her_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_her_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_her_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_her_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_her_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_her_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_methdn_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_methdn_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_methdn_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_methdn_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_methdn_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_methdn_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_methdn_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_methdn_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_methdn_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_methdn_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_methdn_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_methdn_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_methdn_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_methdn_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_methdn_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_methdn_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_methdn_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_methdn_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_presopd_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_presopd_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_presopd_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_presopd_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_presopd_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_presopd_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_presopd_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_presopd_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_presopd_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_presopd_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_presopd_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_presopd_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_presopd_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_presopd_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_presopd_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_presopd_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_presopd_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_presopd_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_opd_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_opd_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_andrster_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_andrster_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_andrster_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_andrster_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_andrster_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_andrster_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_andrster_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_andrster_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_andrster_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_andrster_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_andrster_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_andrster_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_andrster_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_andrster_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_andrster_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_andrster_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_andrster_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_andrster_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_bzo_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_bzo_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_bzo_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_bzo_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_bzo_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_bzo_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_bzo_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_bzo_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_bzo_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_bzo_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_bzo_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_bzo_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_bzo_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_bzo_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_bzo_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_bzo_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_bzo_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_bzo_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_cbd_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_cbd_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_cbd_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_cbd_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_cbd_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_cbd_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_cbd_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_cbd_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_cbd_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_cbd_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_cbd_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_cbd_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_cbd_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_cbd_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_cbd_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_cbd_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_cbd_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_cbd_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_ghb_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_ghb_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_ghb_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_ghb_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_ghb_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_ghb_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_ghb_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_ghb_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_ghb_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_ghb_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_ghb_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_ghb_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_ghb_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_ghb_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_ghb_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_ghb_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_ghb_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_ghb_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_inh_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_inh_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_inh_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_inh_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_inh_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_inh_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_inh_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_inh_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_inh_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_inh_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_inh_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_inh_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_inh_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_inh_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_inh_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_inh_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_inh_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_inh_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_ket_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_ket_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_ket_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_ket_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_ket_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_ket_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_ket_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_ket_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_ket_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_ket_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_ket_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_ket_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_ket_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_ket_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_ket_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_ket_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_ket_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_ket_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_krtm_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_krtm_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_krtm_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_krtm_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_krtm_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_krtm_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_krtm_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_krtm_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_krtm_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_krtm_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_krtm_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_krtm_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_krtm_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_krtm_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_krtm_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_krtm_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_krtm_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_krtm_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_lsdoth_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_lsdoth_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_lsdoth_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_lsdoth_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_lsdoth_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_lsdoth_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_lsdoth_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_lsdoth_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_lsdoth_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_lsdoth_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_lsdoth_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_lsdoth_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_lsdoth_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_lsdoth_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_lsdoth_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_lsdoth_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_lsdoth_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_lsdoth_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_mdma_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_mdma_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_mdma_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_mdma_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_mdma_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_mdma_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_mdma_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_mdma_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_mdma_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_mdma_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_mdma_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_mdma_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_mdma_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_mdma_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_mdma_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_mdma_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_mdma_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_mdma_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_pcp_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_pcp_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_pcp_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_pcp_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_pcp_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_pcp_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_pcp_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_pcp_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_pcp_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_pcp_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_pcp_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_pcp_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_pcp_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_pcp_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_pcp_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_pcp_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_pcp_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_pcp_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_psicbn_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_psicbn_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_psicbn_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_psicbn_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_psicbn_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_psicbn_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_psicbn_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_psicbn_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_psicbn_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_psicbn_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_psicbn_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_psicbn_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_psicbn_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_psicbn_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_psicbn_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_psicbn_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_psicbn_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_psicbn_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_synthcbd_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_synthcbd_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_synthcbd_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_synthcbd_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_synthcbd_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_synthcbd_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_synthcbd_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_synthcbd_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_synthcbd_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_synthcbd_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_synthcbd_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_synthcbd_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_synthcbd_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_synthcbd_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_synthcbd_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_synthcbd_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_oth_synthcbd_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_oth_synthcbd_wk_09"
+            },
+            {
                 "isAbout": "items/pex_ch_tlfb_self_report_alcohol",
                 "isVis": true,
                 "variableName": "pex_ch_tlfb_self_report_alcohol"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_self_report_opioid",
-                "isVis": true,
-                "variableName": "pex_ch_tlfb_self_report_opioid"
             },
             {
                 "isAbout": "items/pex_ch_tlfb_self_report_cannabis",
@@ -750,14 +2194,694 @@
                 "variableName": "pex_ch_tlfb_self_report_nicotine"
             },
             {
+                "isAbout": "items/pex_ch_tlfb_self_report_opioid",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_self_report_opioid"
+            },
+            {
                 "isAbout": "items/pex_ch_tlfb_self_report_stimulant",
                 "isVis": true,
                 "variableName": "pex_ch_tlfb_self_report_stimulant"
             },
             {
-                "isAbout": "items/pex_ch_tlfb_administration",
+                "isAbout": "items/pex_ch_tlfb_ster_wk_01",
                 "isVis": true,
-                "variableName": "pex_ch_tlfb_administration"
+                "variableName": "pex_ch_tlfb_ster_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_ster_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_ster_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_ster_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_ster_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_ster_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_ster_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_ster_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_ster_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_ster_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_ster_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_ster_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_ster_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_ster_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_ster_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_ster_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_ster_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_ampht_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_ampht_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_ampht_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_ampht_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_ampht_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_ampht_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_ampht_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_ampht_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_ampht_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_ampht_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_ampht_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_ampht_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_ampht_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_ampht_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_ampht_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_ampht_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_ampht_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_ampht_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_crckcoc_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_crckcoc_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_crckcoc_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_crckcoc_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_crckcoc_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_crckcoc_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_crckcoc_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_crckcoc_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_crckcoc_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_crckcoc_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_crckcoc_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_crckcoc_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_crckcoc_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_crckcoc_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_crckcoc_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_crckcoc_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_crckcoc_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_crckcoc_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_mamp_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_mamp_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_mamp_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_mamp_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_mamp_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_mamp_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_mamp_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_mamp_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_mamp_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_mamp_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_mamp_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_mamp_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_mamp_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_mamp_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_mamp_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_mamp_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_mamp_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_mamp_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_pdrcoc_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_pdrcoc_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_pdrcoc_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_pdrcoc_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_pdrcoc_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_pdrcoc_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_pdrcoc_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_pdrcoc_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_pdrcoc_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_pdrcoc_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_pdrcoc_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_pdrcoc_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_pdrcoc_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_pdrcoc_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_pdrcoc_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_pdrcoc_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_pdrcoc_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_pdrcoc_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_presstim_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_presstim_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_presstim_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_presstim_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_presstim_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_presstim_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_presstim_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_presstim_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_presstim_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_presstim_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_presstim_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_presstim_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_presstim_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_presstim_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_presstim_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_presstim_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_presstim_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_presstim_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_stim_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_stim_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_mjedi_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_mjedi_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_mjedi_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_mjedi_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_mjedi_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_mjedi_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_mjedi_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_mjedi_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_mjedi_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_mjedi_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_mjedi_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_mjedi_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_mjedi_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_mjedi_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_mjedi_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_mjedi_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_mjedi_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_mjedi_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_mjtinct_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_mjtinct_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_mjtinct_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_mjtinct_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_mjtinct_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_mjtinct_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_mjtinct_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_mjtinct_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_mjtinct_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_mjtinct_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_mjtinct_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_mjtinct_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_mjtinct_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_mjtinct_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_mjtinct_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_mjtinct_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_mjtinct_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_mjtinct_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_smkdmjfl_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_smkdmjfl_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_smkdmjfl_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_smkdmjfl_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_smkdmjfl_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_smkdmjfl_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_smkdmjfl_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_smkdmjfl_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_smkdmjfl_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_smkdmjfl_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_smkdmjfl_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_smkdmjfl_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_smkdmjfl_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_smkdmjfl_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_smkdmjfl_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_smkdmjfl_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_smkdmjfl_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_smkdmjfl_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_smkdmjoil_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_smkdmjoil_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_smkdmjoil_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_smkdmjoil_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_smkdmjoil_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_smkdmjoil_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_smkdmjoil_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_smkdmjoil_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_smkdmjoil_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_smkdmjoil_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_smkdmjoil_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_smkdmjoil_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_smkdmjoil_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_smkdmjoil_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_smkdmjoil_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_smkdmjoil_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_smkdmjoil_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_smkdmjoil_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_thcalc_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_thcalc_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_thcalc_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_thcalc_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_thcalc_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_thcalc_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_thcalc_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_thcalc_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_thcalc_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_thcalc_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_thcalc_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_thcalc_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_thcalc_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_thcalc_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_thcalc_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_thcalc_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_thcalc_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_thcalc_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_vpmjfl_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_vpmjfl_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_vpmjfl_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_vpmjfl_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_vpmjfl_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_vpmjfl_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_vpmjfl_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_vpmjfl_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_vpmjfl_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_vpmjfl_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_vpmjfl_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_vpmjfl_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_vpmjfl_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_vpmjfl_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_vpmjfl_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_vpmjfl_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_vpmjfl_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_vpmjfl_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_vpmjoil_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_vpmjoil_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_vpmjoil_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_vpmjoil_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_vpmjoil_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_vpmjoil_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_vpmjoil_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_vpmjoil_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_vpmjoil_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_vpmjoil_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_vpmjoil_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_vpmjoil_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_vpmjoil_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_vpmjoil_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_vpmjoil_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_vpmjoil_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_vpmjoil_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_vpmjoil_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_wk_01",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_wk_02",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_wk_03",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_wk_04",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_wk_05",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_wk_06",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_wk_07",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_wk_08",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_thc_wk_09",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_thc_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_tlfb_total_nb_sessions",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_tlfb_total_nb_sessions"
             }
         ],
         "shuffle": false

@@ -18,24 +18,39 @@
             "value": "Tabular Imaging"
         },
         {
+            "column": "sub_domain",
+            "source": "nbdc",
+            "value": "Structural MRI"
+        },
+        {
             "column": "source",
             "source": "nbdc",
             "value": "Child"
         },
         {
+            "column": "metric",
+            "source": "nbdc",
+            "value": "T2 Volume"
+        },
+        {
+            "column": "atlas",
+            "source": "nbdc",
+            "value": "Subcortical"
+        },
+        {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/smri"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/smri/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "img_bibsnet_t2w_aseg_vol_0028"
+            "value": "img_bibsnet_t2w_aseg_vol_0026"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "img_bibsnet_t2w_aseg_vol_0028"
+            "value": "img_bibsnet_t2w_aseg_vol_0026"
         },
         {
             "column": "activity",

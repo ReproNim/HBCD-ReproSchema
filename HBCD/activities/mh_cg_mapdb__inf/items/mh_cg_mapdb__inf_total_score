@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/bcgi/maps-tl"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/bcgi/maps-tl/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "mh_cg_mapdb_inf_0024"
+            "value": "mh_cg_mapdb_inf_0021"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "mh_cg_mapdb_inf_0024"
+            "value": "mh_cg_mapdb_inf_0021"
         },
         {
             "column": "activity",

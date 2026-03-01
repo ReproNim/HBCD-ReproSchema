@@ -13,24 +13,34 @@
             "value": "Tabular EEG"
         },
         {
+            "column": "sub_domain",
+            "source": "nbdc",
+            "value": "Preprocessing Report"
+        },
+        {
             "column": "source",
             "source": "nbdc",
             "value": "Child"
         },
         {
+            "column": "metric",
+            "source": "nbdc",
+            "value": "Video Resting State"
+        },
+        {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/videors"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/tasks/#video-resting-state-task"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "eeg_made_rs_eeg_ppr_0007"
+            "value": "eeg_made_rs_eeg_ppr_0009"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "eeg_made_rs_eeg_ppr_0007"
+            "value": "eeg_made_rs_eeg_ppr_0009"
         },
         {
             "column": "activity",

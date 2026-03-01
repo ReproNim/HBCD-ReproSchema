@@ -1,0 +1,56 @@
+{
+    "id": "ncl_ch_cdiwges_ncl_ch_cdiwg__es__wd__first_012",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Neurocognition and Language"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/neurocog/macarthur-bates/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "ncl_ch_cdiwges_0391"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "ncl_ch_cdiwges_0391"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "ncl_ch_cdiwges"
+        }
+    ],
+    "prefLabel": {
+        "en": "ncl_ch_cdiwges_ncl_ch_cdiwg__es__wd__first_012"
+    },
+    "question": {
+        "en": "Levanta los hombros y/o extiendo sus manos hacia los lados como para decir \u201a\u00c4\u00fad\u221a\u2265nde est\u221a\u00b0\u201a\u00c4\u00f9 o \u201a\u00c4\u00fase fue\u201a\u00c4\u00f9."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

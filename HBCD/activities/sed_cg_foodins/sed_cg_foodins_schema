@@ -9,14 +9,13 @@
         "order": [
             "items/sed_cg_foodins_date_taken",
             "items/sed_cg_foodins_candidate_age",
-            "items/sed_cg_foodins_gestational_age",
-            "items/sed_cg_foodins_adjusted_age",
             "items/sed_cg_foodins_lang",
-            "items/sed_cg_foodins_location",
             "items/sed_cg_foodins_001",
             "items/sed_cg_foodins_002",
+            "items/sed_cg_foodins_administration",
             "items/sed_cg_foodins_category",
-            "items/sed_cg_foodins_administration"
+            "items/sed_cg_foodins_gestational_age",
+            "items/sed_cg_foodins_adjusted_age"
         ],
         "addProperties": [
             {
@@ -30,24 +29,9 @@
                 "variableName": "sed_cg_foodins_candidate_age"
             },
             {
-                "isAbout": "items/sed_cg_foodins_gestational_age",
-                "isVis": true,
-                "variableName": "sed_cg_foodins_gestational_age"
-            },
-            {
-                "isAbout": "items/sed_cg_foodins_adjusted_age",
-                "isVis": true,
-                "variableName": "sed_cg_foodins_adjusted_age"
-            },
-            {
                 "isAbout": "items/sed_cg_foodins_lang",
                 "isVis": true,
                 "variableName": "sed_cg_foodins_lang"
-            },
-            {
-                "isAbout": "items/sed_cg_foodins_location",
-                "isVis": true,
-                "variableName": "sed_cg_foodins_location"
             },
             {
                 "isAbout": "items/sed_cg_foodins_001",
@@ -60,14 +44,24 @@
                 "variableName": "sed_cg_foodins_002"
             },
             {
+                "isAbout": "items/sed_cg_foodins_administration",
+                "isVis": true,
+                "variableName": "sed_cg_foodins_administration"
+            },
+            {
                 "isAbout": "items/sed_cg_foodins_category",
                 "isVis": true,
                 "variableName": "sed_cg_foodins_category"
             },
             {
-                "isAbout": "items/sed_cg_foodins_administration",
+                "isAbout": "items/sed_cg_foodins_gestational_age",
                 "isVis": true,
-                "variableName": "sed_cg_foodins_administration"
+                "variableName": "sed_cg_foodins_gestational_age"
+            },
+            {
+                "isAbout": "items/sed_cg_foodins_adjusted_age",
+                "isVis": true,
+                "variableName": "sed_cg_foodins_adjusted_age"
             }
         ],
         "shuffle": false

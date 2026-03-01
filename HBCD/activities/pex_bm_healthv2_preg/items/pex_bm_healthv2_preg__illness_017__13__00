@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0532"
+            "value": "pex_bm_healthv2_preg_0526"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0532"
+            "value": "pex_bm_healthv2_preg_0526"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_healthv2_preg__illness_017__13__00"
     },
     "question": {
-        "en": "How many hours or days did the fever last? {pex_bm_healthv2_preg_i_illness_017_i_13_i_01} {pex_bm_healthv2_preg_i_illness_017_i_13_i_02} {pex_bm_healthv2_preg_i_illness_017_i_13_i_dk}"
+        "en": "How many hours or days did the fever last? Hours: {pex_bm_healthv2_preg_i_illness_017_i_13_i_01}Days: {pex_bm_healthv2_preg_i_illness_017_i_13_i_02} {pex_bm_healthv2_preg_i_illness_017_i_13_i_dk}"
     },
     "responseOptions": {
         "valueType": [

@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/bcgi/ibqr"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/bcgi/ibqr/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "mh_cg_ibqr_0025"
+            "value": "mh_cg_ibqr_0022"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "mh_cg_ibqr_0025"
+            "value": "mh_cg_ibqr_0022"
         },
         {
             "column": "activity",

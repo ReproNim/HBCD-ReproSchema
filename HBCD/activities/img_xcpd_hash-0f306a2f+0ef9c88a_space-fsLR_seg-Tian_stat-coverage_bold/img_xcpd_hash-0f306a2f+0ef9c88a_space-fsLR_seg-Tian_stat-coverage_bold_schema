@@ -1,0 +1,329 @@
+{
+    "id": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_candidate_age",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_adjusted_age",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-head-m-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-head-l-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-body-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-tail-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VPm-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VPl-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VAi-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VAs-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-DAm-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-DAl-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-VA-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-DA-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-VP-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-DP-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-VA-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-DA-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-body-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-tail-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_lAMY-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_mAMY-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-DP-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_NAc-shell-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_NAc-core-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_pGP-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_aGP-rh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-head-m-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-head-l-l_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-body-l_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-tail-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VPm-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VPl-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VAi-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VAs-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-DAm-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-DAl-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-VA-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-DA-l_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-VP-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-DP-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-VA-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-DA-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-body-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-tail-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_lAMY-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_mAMY-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-DP-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_NAc-shell-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_NAc-core-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_pGP-lh_hash-0f306a2f+0ef9c88a",
+            "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_aGP-lh_hash-0f306a2f+0ef9c88a"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_candidate_age",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_candidate_age"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_adjusted_age",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_adjusted_age"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-head-m-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-head-m-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-head-l-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-head-l-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-body-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-body-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-tail-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-tail-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VPm-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VPm-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VPl-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VPl-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VAi-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VAi-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VAs-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VAs-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-DAm-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-DAm-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-DAl-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-DAl-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-VA-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-VA-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-DA-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-DA-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-VP-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-VP-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-DP-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-DP-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-VA-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-VA-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-DA-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-DA-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-body-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-body-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-tail-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-tail-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_lAMY-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_lAMY-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_mAMY-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_mAMY-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-DP-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-DP-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_NAc-shell-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_NAc-shell-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_NAc-core-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_NAc-core-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_pGP-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_pGP-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_aGP-rh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_aGP-rh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-head-m-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-head-m-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-head-l-l_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-head-l-l_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-body-l_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-body-l_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-tail-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_HIP-tail-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VPm-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VPm-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VPl-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VPl-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VAi-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VAi-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VAs-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-VAs-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-DAm-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-DAm-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-DAl-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-DAl-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-VA-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-VA-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-DA-l_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-DA-l_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-VP-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-VP-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-DP-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_PUT-DP-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-VA-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-VA-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-DA-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-DA-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-body-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-body-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-tail-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_CAU-tail-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_lAMY-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_lAMY-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_mAMY-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_mAMY-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-DP-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_THA-DP-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_NAc-shell-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_NAc-shell-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_NAc-core-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_NAc-core-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_pGP-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_pGP-lh_hash-0f306a2f+0ef9c88a"
+            },
+            {
+                "isAbout": "items/img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_aGP-lh_hash-0f306a2f+0ef9c88a",
+                "isVis": true,
+                "variableName": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-Tian_stat-coverage_bold_aGP-lh_hash-0f306a2f+0ef9c88a"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/physhealth/foodinsecurity"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/foodinsecurity/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "sed_cg_foodins_0008"
+            "value": "sed_cg_foodins_0005"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "sed_cg_foodins_0008"
+            "value": "sed_cg_foodins_0005"
         },
         {
             "column": "activity",

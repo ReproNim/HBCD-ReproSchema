@@ -20,7 +20,7 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/physhealth/bf"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/physhealth/bf/"
         },
         {
             "column": "name_short",
@@ -50,7 +50,8 @@
         ]
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "static",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

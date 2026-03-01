@@ -1,0 +1,56 @@
+{
+    "id": "ncl_ch_cdiwges_ncl_ch_cdiwg__es__strtalk_002",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Neurocognition and Language"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/neurocog/macarthur-bates/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "ncl_ch_cdiwges_0037"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "ncl_ch_cdiwges_0037"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "ncl_ch_cdiwges"
+        }
+    ],
+    "prefLabel": {
+        "en": "ncl_ch_cdiwges_ncl_ch_cdiwg__es__strtalk_002"
+    },
+    "question": {
+        "en": "Algunos ni\u221a\u00b1os nombran las cosas que ven. Se pasean por la casa y al ver objetos o personas, dicen sus nombres. \u00ac\u00f8Con qu\u221a\u00a9 frecuencia cree usted que su hijo/a haga esto?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

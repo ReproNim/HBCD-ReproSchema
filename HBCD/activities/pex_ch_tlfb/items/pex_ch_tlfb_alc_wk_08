@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/su/tlfb"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/su/tlfb/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_ch_tlfb_0010"
+            "value": "pex_ch_tlfb_0037"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_ch_tlfb_0010"
+            "value": "pex_ch_tlfb_0037"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_ch_tlfb_alc_wk_08"
     },
     "question": {
-        "en": "Alcohol"
+        "en": "Self-reported frequency use for Alcohol for week 8"
     },
     "responseOptions": {
         "valueType": [

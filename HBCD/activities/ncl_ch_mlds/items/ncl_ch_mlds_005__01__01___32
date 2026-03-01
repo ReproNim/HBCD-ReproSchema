@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/neurocog/mlds"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/neurocog/mlds/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "ncl_ch_mlds_0257"
+            "value": "ncl_ch_mlds_0254"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "ncl_ch_mlds_0257"
+            "value": "ncl_ch_mlds_0254"
         },
         {
             "column": "activity",

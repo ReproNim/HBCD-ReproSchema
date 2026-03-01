@@ -9,18 +9,17 @@
         "order": [
             "items/mh_cg_pms__cc__inf_date_taken",
             "items/mh_cg_pms__cc__inf_candidate_age",
-            "items/mh_cg_pms__cc__inf_gestational_age",
-            "items/mh_cg_pms__cc__inf_adjusted_age",
             "items/mh_cg_pms__cc__inf_lang",
-            "items/mh_cg_pms__cc__inf_location",
             "items/mh_cg_pms__cc__inf_001",
             "items/mh_cg_pms__cc__inf_002",
             "items/mh_cg_pms__cc__inf_003",
             "items/mh_cg_pms__cc__inf_004",
             "items/mh_cg_pms__cc__inf_005",
             "items/mh_cg_pms__cc__inf_total_score",
-            "items/mh_cg_pms__cc__inf_answered_count",
-            "items/mh_cg_pms__cc__inf_administration"
+            "items/mh_cg_pms__cc__inf_administration",
+            "items/mh_cg_pms__cc__inf_note",
+            "items/mh_cg_pms__cc__inf_gestational_age",
+            "items/mh_cg_pms__cc__inf_adjusted_age"
         ],
         "addProperties": [
             {
@@ -34,24 +33,9 @@
                 "variableName": "mh_cg_pms__cc__inf_candidate_age"
             },
             {
-                "isAbout": "items/mh_cg_pms__cc__inf_gestational_age",
-                "isVis": true,
-                "variableName": "mh_cg_pms__cc__inf_gestational_age"
-            },
-            {
-                "isAbout": "items/mh_cg_pms__cc__inf_adjusted_age",
-                "isVis": true,
-                "variableName": "mh_cg_pms__cc__inf_adjusted_age"
-            },
-            {
                 "isAbout": "items/mh_cg_pms__cc__inf_lang",
                 "isVis": true,
                 "variableName": "mh_cg_pms__cc__inf_lang"
-            },
-            {
-                "isAbout": "items/mh_cg_pms__cc__inf_location",
-                "isVis": true,
-                "variableName": "mh_cg_pms__cc__inf_location"
             },
             {
                 "isAbout": "items/mh_cg_pms__cc__inf_001",
@@ -84,14 +68,24 @@
                 "variableName": "mh_cg_pms__cc__inf_total_score"
             },
             {
-                "isAbout": "items/mh_cg_pms__cc__inf_answered_count",
-                "isVis": true,
-                "variableName": "mh_cg_pms__cc__inf_answered_count"
-            },
-            {
                 "isAbout": "items/mh_cg_pms__cc__inf_administration",
                 "isVis": true,
                 "variableName": "mh_cg_pms__cc__inf_administration"
+            },
+            {
+                "isAbout": "items/mh_cg_pms__cc__inf_note",
+                "isVis": true,
+                "variableName": "mh_cg_pms__cc__inf_note"
+            },
+            {
+                "isAbout": "items/mh_cg_pms__cc__inf_gestational_age",
+                "isVis": true,
+                "variableName": "mh_cg_pms__cc__inf_gestational_age"
+            },
+            {
+                "isAbout": "items/mh_cg_pms__cc__inf_adjusted_age",
+                "isVis": true,
+                "variableName": "mh_cg_pms__cc__inf_adjusted_age"
             }
         ],
         "shuffle": false

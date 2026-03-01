@@ -1,0 +1,119 @@
+{
+    "id": "sed_cg_leadexp_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_cg_leadexp"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_cg_leadexp_date_taken",
+            "items/sed_cg_leadexp_candidate_age",
+            "items/sed_cg_leadexp_lang",
+            "items/sed_cg_leadexp_location",
+            "items/sed_cg_leadexp_001",
+            "items/sed_cg_leadexp_002",
+            "items/sed_cg_leadexp_003",
+            "items/sed_cg_leadexp_004",
+            "items/sed_cg_leadexp_005",
+            "items/sed_cg_leadexp_006",
+            "items/sed_cg_leadexp_007",
+            "items/sed_cg_leadexp_008",
+            "items/sed_cg_leadexp_009",
+            "items/sed_cg_leadexp_010",
+            "items/sed_cg_leadexp_administration",
+            "items/sed_cg_leadexp_gestational_age",
+            "items/sed_cg_leadexp_adjusted_age"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_cg_leadexp_date_taken",
+                "isVis": true,
+                "variableName": "sed_cg_leadexp_date_taken"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_candidate_age",
+                "isVis": true,
+                "variableName": "sed_cg_leadexp_candidate_age"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_lang",
+                "isVis": true,
+                "variableName": "sed_cg_leadexp_lang"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_location",
+                "isVis": true,
+                "variableName": "sed_cg_leadexp_location"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_001",
+                "isVis": true,
+                "variableName": "sed_cg_leadexp_001"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_002",
+                "isVis": true,
+                "variableName": "sed_cg_leadexp_002"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_003",
+                "isVis": true,
+                "variableName": "sed_cg_leadexp_003"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_004",
+                "isVis": true,
+                "variableName": "sed_cg_leadexp_004"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_005",
+                "isVis": true,
+                "variableName": "sed_cg_leadexp_005"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_006",
+                "isVis": true,
+                "variableName": "sed_cg_leadexp_006"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_007",
+                "isVis": true,
+                "variableName": "sed_cg_leadexp_007"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_008",
+                "isVis": true,
+                "variableName": "sed_cg_leadexp_008"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_009",
+                "isVis": true,
+                "variableName": "sed_cg_leadexp_009"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_010",
+                "isVis": true,
+                "variableName": "sed_cg_leadexp_010"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_administration",
+                "isVis": true,
+                "variableName": "sed_cg_leadexp_administration"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_gestational_age",
+                "isVis": true,
+                "variableName": "sed_cg_leadexp_gestational_age"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_adjusted_age",
+                "isVis": true,
+                "variableName": "sed_cg_leadexp_adjusted_age"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

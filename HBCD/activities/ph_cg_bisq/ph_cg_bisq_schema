@@ -1,0 +1,245 @@
+{
+    "id": "ph_cg_bisq_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ph_cg_bisq"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ph_cg_bisq_date_taken",
+            "items/ph_cg_bisq_candidate_age",
+            "items/ph_cg_bisq_location",
+            "items/ph_cg_bisq_001",
+            "items/ph_cg_bisq_pb_001",
+            "items/ph_cg_bisq_pb_002",
+            "items/ph_cg_bisq_pb_003",
+            "items/ph_cg_bisq_pb_004",
+            "items/ph_cg_bisq_pb_005",
+            "items/ph_cg_bisq_pb_006",
+            "items/ph_cg_bisq_pp_001",
+            "items/ph_cg_bisq_is_001",
+            "items/ph_cg_bisq_pb_007",
+            "items/ph_cg_bisq_pb_008",
+            "items/ph_cg_bisq_is_002",
+            "items/ph_cg_bisq_002___1",
+            "items/ph_cg_bisq_002___2",
+            "items/ph_cg_bisq_002___3",
+            "items/ph_cg_bisq_002___4",
+            "items/ph_cg_bisq_002___5",
+            "items/ph_cg_bisq_is_003",
+            "items/ph_cg_bisq_is_003__01",
+            "items/ph_cg_bisq_is_003__02",
+            "items/ph_cg_bisq_003",
+            "items/ph_cg_bisq_is_004__01",
+            "items/ph_cg_bisq_is_004__02",
+            "items/ph_cg_bisq_pp_002",
+            "items/ph_cg_bisq_004",
+            "items/ph_cg_bisq_005__01",
+            "items/ph_cg_bisq_005__02",
+            "items/ph_cg_bisq_pp_003",
+            "items/ph_cg_bisq_age_mo",
+            "items/ph_cg_bisq_parent_perception_score",
+            "items/ph_cg_bisq_parent_behavior_score",
+            "items/ph_cg_bisq_total_score",
+            "items/ph_cg_bisq_administration",
+            "items/ph_cg_bisq_gestational_age",
+            "items/ph_cg_bisq_adjusted_age"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ph_cg_bisq_date_taken",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_date_taken"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_candidate_age",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_candidate_age"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_location",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_location"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_001",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_001"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pb_001",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_pb_001"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pb_002",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_pb_002"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pb_003",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_pb_003"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pb_004",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_pb_004"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pb_005",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_pb_005"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pb_006",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_pb_006"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pp_001",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_pp_001"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_is_001",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_is_001"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pb_007",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_pb_007"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pb_008",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_pb_008"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_is_002",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_is_002"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_002___1",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_002___1"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_002___2",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_002___2"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_002___3",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_002___3"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_002___4",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_002___4"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_002___5",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_002___5"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_is_003",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_is_003"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_is_003__01",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_is_003__01"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_is_003__02",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_is_003__02"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_003",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_003"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_is_004__01",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_is_004__01"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_is_004__02",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_is_004__02"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pp_002",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_pp_002"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_004",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_004"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_005__01",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_005__01"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_005__02",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_005__02"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pp_003",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_pp_003"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_age_mo",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_age_mo"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_parent_perception_score",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_parent_perception_score"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_parent_behavior_score",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_parent_behavior_score"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_total_score",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_total_score"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_administration",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_administration"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_gestational_age",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_gestational_age"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_adjusted_age",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_adjusted_age"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

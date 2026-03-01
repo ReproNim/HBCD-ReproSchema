@@ -1,0 +1,56 @@
+{
+    "id": "sed_cg_tic_screener_02_acg_009___other_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Social and Environmental Determinants"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/transitions-in-care/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "sed_cg_tic_screener_0119"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "sed_cg_tic_screener_0119"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "sed_cg_tic_screener"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_cg_tic_screener_02_acg_009___other_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child"
+    },
+    "question": {
+        "en": "Why is {firstName} no longer living with their other parent? Record answer verbatim then code as many as apply from drop down menu [Multi-select]: Other parent has an informal agreement that the new caregiver would take care of the child"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

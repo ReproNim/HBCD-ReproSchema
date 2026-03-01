@@ -7,14 +7,29 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/eeg_qc_task-FACE_candidate_age",
+            "items/eeg_qc_task-FACE_adjusted_age",
             "items/eeg_qc_task-FACE_qc_pass_fail",
             "items/eeg_qc_task-FACE_capping_quality",
             "items/eeg_qc_task-FACE_FACE_UpInv",
             "items/eeg_qc_task-FACE_FACE_Inv",
             "items/eeg_qc_task-FACE_FACE_Obj",
-            "items/eeg_qc_task-FACE_FACE_UpObj"
+            "items/eeg_qc_task-FACE_FACE_UpObj",
+            "items/eeg_qc_task-FACE_stimtracker_artifact",
+            "items/eeg_qc_task-FACE_technical_issues",
+            "items/eeg_qc_task-FACE_technical_issues_notes"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/eeg_qc_task-FACE_candidate_age",
+                "isVis": true,
+                "variableName": "eeg_qc_task-FACE_candidate_age"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-FACE_adjusted_age",
+                "isVis": true,
+                "variableName": "eeg_qc_task-FACE_adjusted_age"
+            },
             {
                 "isAbout": "items/eeg_qc_task-FACE_qc_pass_fail",
                 "isVis": true,
@@ -44,6 +59,21 @@
                 "isAbout": "items/eeg_qc_task-FACE_FACE_UpObj",
                 "isVis": true,
                 "variableName": "eeg_qc_task-FACE_FACE_UpObj"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-FACE_stimtracker_artifact",
+                "isVis": true,
+                "variableName": "eeg_qc_task-FACE_stimtracker_artifact"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-FACE_technical_issues",
+                "isVis": true,
+                "variableName": "eeg_qc_task-FACE_technical_issues"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-FACE_technical_issues_notes",
+                "isVis": true,
+                "variableName": "eeg_qc_task-FACE_technical_issues_notes"
             }
         ],
         "shuffle": false

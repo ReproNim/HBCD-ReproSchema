@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/discr"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/discr/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "sed_bm_phx_discr_0014"
+            "value": "sed_bm_phx_discr_0012"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "sed_bm_phx_discr_0014"
+            "value": "sed_bm_phx_discr_0012"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "sed_bm_phx__discr_009"
     },
     "question": {
-        "en": "Have you ever been unfairly stopped, searched, questioned, physically threatened or abused by the police?"
+        "en": "Have you ever been unfairly stopped, searched, questioned, or physically threatened by the police?"
     },
     "responseOptions": {
         "valueType": [

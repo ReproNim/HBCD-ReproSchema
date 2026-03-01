@@ -20,7 +20,7 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/demo/basicdemo"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/demo/basicdemo/"
         },
         {
             "column": "name_short",
@@ -42,7 +42,7 @@
         "en": "sed_basic_demographics_screen_mother_ethnoracial_acs_by_multi_ethnicity"
     },
     "question": {
-        "en": "Multiracial aggregation by Hispanic and Non-Hispanic distinction (ACS)."
+        "en": "Maternal race and ethnicity (ACS items at Screening, multiracial aggregation by Hispanic and non-Hispanic distinction)"
     },
     "responseOptions": {
         "valueType": [

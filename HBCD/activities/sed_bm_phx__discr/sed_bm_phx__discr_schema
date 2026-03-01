@@ -9,8 +9,6 @@
         "order": [
             "items/sed_bm_phx__discr_date_taken",
             "items/sed_bm_phx__discr_candidate_age",
-            "items/sed_bm_phx__discr_gestational_age",
-            "items/sed_bm_phx__discr_adjusted_age",
             "items/sed_bm_phx__discr_lang",
             "items/sed_bm_phx__discr_location",
             "items/sed_bm_phx__discr_001",
@@ -39,7 +37,9 @@
             "items/sed_bm_phx__discr_006___13",
             "items/sed_bm_phx__discr_006___14",
             "items/sed_bm_phx__discr_006___15",
-            "items/sed_bm_phx__discr_administration"
+            "items/sed_bm_phx__discr_administration",
+            "items/sed_bm_phx__discr_gestational_age",
+            "items/sed_bm_phx__discr_adjusted_age"
         ],
         "addProperties": [
             {
@@ -51,16 +51,6 @@
                 "isAbout": "items/sed_bm_phx__discr_candidate_age",
                 "isVis": true,
                 "variableName": "sed_bm_phx__discr_candidate_age"
-            },
-            {
-                "isAbout": "items/sed_bm_phx__discr_gestational_age",
-                "isVis": true,
-                "variableName": "sed_bm_phx__discr_gestational_age"
-            },
-            {
-                "isAbout": "items/sed_bm_phx__discr_adjusted_age",
-                "isVis": true,
-                "variableName": "sed_bm_phx__discr_adjusted_age"
             },
             {
                 "isAbout": "items/sed_bm_phx__discr_lang",
@@ -206,6 +196,16 @@
                 "isAbout": "items/sed_bm_phx__discr_administration",
                 "isVis": true,
                 "variableName": "sed_bm_phx__discr_administration"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_gestational_age",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_gestational_age"
+            },
+            {
+                "isAbout": "items/sed_bm_phx__discr_adjusted_age",
+                "isVis": true,
+                "variableName": "sed_bm_phx__discr_adjusted_age"
             }
         ],
         "shuffle": false

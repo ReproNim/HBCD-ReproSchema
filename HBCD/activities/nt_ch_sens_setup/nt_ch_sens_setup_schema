@@ -1,0 +1,77 @@
+{
+    "id": "nt_ch_sens_setup_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "nt_ch_sens_setup"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/nt_ch_sens_setup_date_taken",
+            "items/nt_ch_sens_setup_candidate_age",
+            "items/nt_ch_sens_setup_gestational_age",
+            "items/nt_ch_sens_setup_adjusted_age",
+            "items/nt_ch_sens_setup_stp_001",
+            "items/nt_ch_sens_setup_rlg_001__01",
+            "items/nt_ch_sens_setup_llg_001__01",
+            "items/nt_ch_sens_setup_std_001__01",
+            "items/nt_ch_sens_setup_std_001__02",
+            "items/nt_ch_sens_setup_administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/nt_ch_sens_setup_date_taken",
+                "isVis": true,
+                "variableName": "nt_ch_sens_setup_date_taken"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_setup_candidate_age",
+                "isVis": true,
+                "variableName": "nt_ch_sens_setup_candidate_age"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_setup_gestational_age",
+                "isVis": true,
+                "variableName": "nt_ch_sens_setup_gestational_age"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_setup_adjusted_age",
+                "isVis": true,
+                "variableName": "nt_ch_sens_setup_adjusted_age"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_setup_stp_001",
+                "isVis": true,
+                "variableName": "nt_ch_sens_setup_stp_001"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_setup_rlg_001__01",
+                "isVis": true,
+                "variableName": "nt_ch_sens_setup_rlg_001__01"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_setup_llg_001__01",
+                "isVis": true,
+                "variableName": "nt_ch_sens_setup_llg_001__01"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_setup_std_001__01",
+                "isVis": true,
+                "variableName": "nt_ch_sens_setup_std_001__01"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_setup_std_001__02",
+                "isVis": true,
+                "variableName": "nt_ch_sens_setup_std_001__02"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_setup_administration",
+                "isVis": true,
+                "variableName": "nt_ch_sens_setup_administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

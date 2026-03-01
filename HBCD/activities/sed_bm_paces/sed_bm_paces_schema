@@ -9,8 +9,6 @@
         "order": [
             "items/sed_bm_paces_date_taken",
             "items/sed_bm_paces_candidate_age",
-            "items/sed_bm_paces_gestational_age",
-            "items/sed_bm_paces_adjusted_age",
             "items/sed_bm_paces_lang",
             "items/sed_bm_paces_location",
             "items/sed_bm_paces_001",
@@ -24,7 +22,9 @@
             "items/sed_bm_paces_009",
             "items/sed_bm_paces_010",
             "items/sed_bm_paces_summary_score",
-            "items/sed_bm_paces_administration"
+            "items/sed_bm_paces_administration",
+            "items/sed_bm_paces_gestational_age",
+            "items/sed_bm_paces_adjusted_age"
         ],
         "addProperties": [
             {
@@ -36,16 +36,6 @@
                 "isAbout": "items/sed_bm_paces_candidate_age",
                 "isVis": true,
                 "variableName": "sed_bm_paces_candidate_age"
-            },
-            {
-                "isAbout": "items/sed_bm_paces_gestational_age",
-                "isVis": true,
-                "variableName": "sed_bm_paces_gestational_age"
-            },
-            {
-                "isAbout": "items/sed_bm_paces_adjusted_age",
-                "isVis": true,
-                "variableName": "sed_bm_paces_adjusted_age"
             },
             {
                 "isAbout": "items/sed_bm_paces_lang",
@@ -116,6 +106,16 @@
                 "isAbout": "items/sed_bm_paces_administration",
                 "isVis": true,
                 "variableName": "sed_bm_paces_administration"
+            },
+            {
+                "isAbout": "items/sed_bm_paces_gestational_age",
+                "isVis": true,
+                "variableName": "sed_bm_paces_gestational_age"
+            },
+            {
+                "isAbout": "items/sed_bm_paces_adjusted_age",
+                "isVis": true,
+                "variableName": "sed_bm_paces_adjusted_age"
             }
         ],
         "shuffle": false

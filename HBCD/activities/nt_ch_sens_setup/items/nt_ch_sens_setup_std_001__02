@@ -1,0 +1,56 @@
+{
+    "id": "nt_ch_sens_setup_std_001__02",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Novel Tech"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/sensors/wearsensors/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "nt_ch_sens_setup_0009"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "nt_ch_sens_setup_0009"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "nt_ch_sens_setup"
+        }
+    ],
+    "prefLabel": {
+        "en": "nt_ch_sens_setup_std_001__02"
+    },
+    "question": {
+        "en": "b. Start time (24h format, HH:MM, e.g. 13:00) in local time zone"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

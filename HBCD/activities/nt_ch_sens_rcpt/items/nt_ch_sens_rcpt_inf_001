@@ -1,0 +1,56 @@
+{
+    "id": "nt_ch_sens_rcpt_inf_001",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Novel Tech"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/sensors/wearsensors/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "nt_ch_sens_rcpt_0011"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "nt_ch_sens_rcpt_0011"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "nt_ch_sens_rcpt"
+        }
+    ],
+    "prefLabel": {
+        "en": "nt_ch_sens_rcpt_inf_001"
+    },
+    "question": {
+        "en": "3. Was there anything unusual or different about this infant movement sensor data collection?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

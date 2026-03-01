@@ -1,0 +1,76 @@
+{
+    "id": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-4S1056Parcels_stat-mean_desc-curv_morph_RH_SalVentAttn_FrOperIns_13_hash-0f306a2f+0ef9c88a",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "unit",
+            "source": "nbdc",
+            "value": "Mean Curvature (1/millimeter)"
+        },
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular Imaging"
+        },
+        {
+            "column": "sub_domain",
+            "source": "nbdc",
+            "value": "Structural MRI"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "metric",
+            "source": "nbdc",
+            "value": "Curvature"
+        },
+        {
+            "column": "atlas",
+            "source": "nbdc",
+            "value": "4S-1056-Region"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/smri/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "x_0f30_s1056_mcurv_m_0780"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "x_0f30_s1056_mcurv_m_0780"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-4S1056Parcels_stat-mean_desc-curv_morph"
+        }
+    ],
+    "prefLabel": {
+        "en": "img_xcpd_hash-0f306a2f+0ef9c88a_space-fsLR_seg-4S1056Parcels_stat-mean_desc-curv_morph_RH_SalVentAttn_FrOperIns_13_hash-0f306a2f+0ef9c88a"
+    },
+    "question": {
+        "en": "XCP-D 4S-1056-Region Parc. Curvature Values for region RH_SalVentAttn_FrOperIns_13"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -18,14 +18,19 @@
             "value": "Biological Mother"
         },
         {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/mh/apa12/"
+        },
+        {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_apa_0121"
+            "value": "pex_bm_apa_0125"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_apa_0121"
+            "value": "pex_bm_apa_0125"
         },
         {
             "column": "activity",

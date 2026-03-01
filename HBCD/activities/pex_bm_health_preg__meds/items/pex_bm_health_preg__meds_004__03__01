@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_health_preg_meds_0033"
+            "value": "pex_bm_health_preg_meds_0028"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_health_preg_meds_0033"
+            "value": "pex_bm_health_preg_meds_0028"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_health_preg__meds_004__03__01"
     },
     "question": {
-        "en": "Unit of frequency prescription 2"
+        "en": "Second rx per hour"
     },
     "responseOptions": {
         "valueType": [

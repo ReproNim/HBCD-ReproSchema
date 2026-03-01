@@ -1,0 +1,3227 @@
+{
+    "id": "ncl_ch_cdiwgen_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ncl_ch_cdiwgen"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ncl_ch_cdiwgen_date_taken",
+            "items/ncl_ch_cdiwgen_candidate_age",
+            "items/ncl_ch_cdiwgen_early_or_late",
+            "items/ncl_ch_cdiwgen_benchmark_age",
+            "items/ncl_ch_cdiwgen_first_signs",
+            "items/ncl_ch_cdiwgen_phrases",
+            "items/ncl_ch_cdiwgen_phrases_percentile_sex",
+            "items/ncl_ch_cdiwgen_imitation",
+            "items/ncl_ch_cdiwgen_labeling",
+            "items/ncl_ch_cdiwgen_words_understood",
+            "items/ncl_ch_cdiwgen_words_understood_percentile_sex",
+            "items/ncl_ch_cdiwgen_words_understood_percentile_both",
+            "items/ncl_ch_cdiwgen_words_produced",
+            "items/ncl_ch_cdiwgen_words_produced_percentile_sex",
+            "items/ncl_ch_cdiwgen_words_produced_percentile_both",
+            "items/ncl_ch_cdiwgen_first_gestures",
+            "items/ncl_ch_cdiwgen_games_gestures",
+            "items/ncl_ch_cdiwgen_object_gestures",
+            "items/ncl_ch_cdiwgen_adult_gestures",
+            "items/ncl_ch_cdiwgen_parent_gestures",
+            "items/ncl_ch_cdiwgen_early_gestures",
+            "items/ncl_ch_cdiwgen_early_gestures_percentile_sex",
+            "items/ncl_ch_cdiwgen_early_gestures_percentile_both",
+            "items/ncl_ch_cdiwgen_later_gestures",
+            "items/ncl_ch_cdiwgen_later_gestures_percentile_sex",
+            "items/ncl_ch_cdiwgen_later_gestures_percentile_both",
+            "items/ncl_ch_cdiwgen_total_gestures",
+            "items/ncl_ch_cdiwgen_total_gestures_percentile_sex",
+            "items/ncl_ch_cdiwgen_total_gestures_percentile_both",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__firstsigns_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__firstsigns_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__firstsigns_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_010",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_011",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_012",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_013",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_014",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_015",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_016",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_017",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_018",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_019",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_020",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_021",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_022",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_023",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_024",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_025",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_026",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_027",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_028",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__strtalk_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__strtalk_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_nmw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_nmw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_nmw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_010",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_011",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_012",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_013",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_014",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_015",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_016",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_017",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_018",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_019",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_020",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_021",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_022",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_023",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_024",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_025",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_026",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_027",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_028",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_029",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_nmw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_010",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_011",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_012",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_013",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_014",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_015",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_016",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_017",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_018",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_019",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_020",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_021",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_nmw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_nmw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_nmw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_010",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_011",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_012",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_013",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_014",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_015",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_016",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_017",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_018",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_019",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_020",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_021",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_022",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_023",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_024",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_025",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_026",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_027",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_028",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_029",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_010",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_011",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_012",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_013",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_014",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_015",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_016",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_017",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_018",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_019",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_020",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_021",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_nmw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_nmw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_nmw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_nmw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_nmw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_nmw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_010",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_011",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_012",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_013",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_014",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_015",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_016",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_nmw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_nmw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_nmw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_nmw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_010",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_010",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_011",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_012",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_013",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_014",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_015",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_016",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_017",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_018",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_019",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_020",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_021",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_022",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_023",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_024",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_025",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_026",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_027",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_028",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_029",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_030",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_031",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_032",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_033",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_034",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_035",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_010",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_011",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_012",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_013",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_014",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_015",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_016",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_017",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_018",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_019",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_020",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_mw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_mw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_mw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_mw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_mw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_nmw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_nmw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_nmw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_010",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_011",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_012",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_013",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_014",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_015",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_016",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_017",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_018",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_019",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_020",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_021",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_022",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_023",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_024",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_025",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_026",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_010",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_011",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_010",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_nmw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__question_mw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__question_mw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__question_mw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__question_mw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__question_mw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__question_nmw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_nmw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_nmw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_nmw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_nmw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_mw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_mw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_mw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_nmw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_nmw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_nmw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_nmw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_nmw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_010",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_011",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_012",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__games_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__games_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__games_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__games_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__games_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__games_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_010",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_011",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_012",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_013",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_014",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_015",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_016",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_017",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_010",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_011",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_012",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_013",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_010",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_011",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_012",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_013",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_014",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_015",
+            "items/ncl_ch_cdiwgen_administration",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_mw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_mw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_mw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_mw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_mw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_mw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_nmw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_nmw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_010",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_011",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_012",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_013",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_014",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_015",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_016",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_017",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_018",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_010",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_011",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_012",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_010",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_011",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_012",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_013",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_014",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_nmw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_nmw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_nmw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_nmw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_002",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_003",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_004",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_005",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_006",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_007",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_008",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_009",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_010",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_011",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_012",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_013",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_014",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_015",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_016",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_017",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_018",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_nmw_001",
+            "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_nmw_002",
+            "items/ncl_ch_cdiwgen_benchmark_age_adjusted",
+            "items/ncl_ch_cdiwgen_phrases_percentile_sex_adjusted",
+            "items/ncl_ch_cdiwgen_words_understood_percentile_sex_adjusted",
+            "items/ncl_ch_cdiwgen_words_understood_percentile_both_adjusted",
+            "items/ncl_ch_cdiwgen_words_produced_percentile_sex_adjusted",
+            "items/ncl_ch_cdiwgen_words_produced_percentile_both_adjusted",
+            "items/ncl_ch_cdiwgen_early_gestures_percentile_sex_adjusted",
+            "items/ncl_ch_cdiwgen_early_gestures_percentile_both_adjusted",
+            "items/ncl_ch_cdiwgen_later_gestures_percentile_sex_adjusted",
+            "items/ncl_ch_cdiwgen_later_gestures_percentile_both_adjusted",
+            "items/ncl_ch_cdiwgen_total_gestures_percentile_sex_adjusted",
+            "items/ncl_ch_cdiwgen_total_gestures_percentile_both_adjusted",
+            "items/ncl_ch_cdiwgen_gestational_age",
+            "items/ncl_ch_cdiwgen_adjusted_age"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_date_taken",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_date_taken"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_candidate_age",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_candidate_age"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_early_or_late",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_early_or_late"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_benchmark_age",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_benchmark_age"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_first_signs",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_first_signs"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_phrases",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_phrases"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_phrases_percentile_sex",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_phrases_percentile_sex"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_imitation",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_imitation"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_labeling",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_labeling"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_words_understood",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_words_understood"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_words_understood_percentile_sex",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_words_understood_percentile_sex"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_words_understood_percentile_both",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_words_understood_percentile_both"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_words_produced",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_words_produced"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_words_produced_percentile_sex",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_words_produced_percentile_sex"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_words_produced_percentile_both",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_words_produced_percentile_both"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_first_gestures",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_first_gestures"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_games_gestures",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_games_gestures"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_object_gestures",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_object_gestures"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_adult_gestures",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_adult_gestures"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_parent_gestures",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_parent_gestures"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_early_gestures",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_early_gestures"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_early_gestures_percentile_sex",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_early_gestures_percentile_sex"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_early_gestures_percentile_both",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_early_gestures_percentile_both"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_later_gestures",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_later_gestures"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_later_gestures_percentile_sex",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_later_gestures_percentile_sex"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_later_gestures_percentile_both",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_later_gestures_percentile_both"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_total_gestures",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_total_gestures"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_total_gestures_percentile_sex",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_total_gestures_percentile_sex"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_total_gestures_percentile_both",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_total_gestures_percentile_both"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__firstsigns_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__firstsigns_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__firstsigns_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__firstsigns_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__firstsigns_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__firstsigns_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_010",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_010"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_011",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_011"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_012",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_012"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_013",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_013"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_014",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_014"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_015",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_015"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_016",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_016"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_017",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_017"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_018",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_018"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_019",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_019"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_020",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_020"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_021",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_021"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_022",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_022"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_023",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_023"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_024",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_024"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_025",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_025"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_026",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_026"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_027",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_027"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_028",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__phrases_028"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__strtalk_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__strtalk_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__strtalk_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__strtalk_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_mw_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_nmw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_nmw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_nmw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_nmw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_nmw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__sounds_nmw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_010",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_010"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_011",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_011"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_012",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_012"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_013",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_013"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_014",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_014"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_015",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_015"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_016",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_016"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_017",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_017"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_018",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_018"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_019",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_019"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_020",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_020"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_021",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_021"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_022",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_022"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_023",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_023"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_024",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_024"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_025",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_025"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_026",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_026"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_027",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_027"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_028",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_028"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_029",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_mw_029"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__animals_nmw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_mw_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_nmw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__vehicles_nmw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_010",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_010"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_011",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_011"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_012",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_012"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_013",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_013"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_014",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_014"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_015",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_015"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_016",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_016"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_017",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_017"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_018",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_018"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_019",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_019"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_020",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_020"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_021",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_mw_021"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_nmw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_nmw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_nmw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_nmw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_nmw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__furniturerooms_nmw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_010",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_010"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_011",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_011"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_012",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_012"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_013",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_013"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_014",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_014"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_015",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_015"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_016",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_016"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_017",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_017"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_018",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_018"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_019",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_019"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_020",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_020"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_021",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_021"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_022",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_022"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_023",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_023"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_024",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_024"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_025",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_025"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_026",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_026"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_027",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_027"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_028",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_028"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_029",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_mw_029"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__household_nmw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_010",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_010"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_011",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_011"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_012",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_012"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_013",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_013"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_014",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_014"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_015",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_015"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_016",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_016"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_017",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_017"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_018",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_018"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_019",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_019"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_020",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_020"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_021",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_mw_021"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_nmw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_nmw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_nmw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_nmw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_nmw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_nmw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_nmw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_nmw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_nmw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_nmw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_nmw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__outside_nmw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_010",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_010"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_011",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_011"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_012",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_012"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_013",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_013"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_014",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_014"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_015",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_015"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_016",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_mw_016"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_nmw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_nmw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_nmw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_nmw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_nmw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_nmw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_nmw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__people_nmw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_mw_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_010",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__gamesroutines_nmw_010"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_010",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_010"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_011",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_011"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_012",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_012"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_013",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_013"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_014",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_014"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_015",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_015"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_016",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_016"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_017",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_017"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_018",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_018"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_019",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_019"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_020",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_020"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_021",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_021"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_022",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_022"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_023",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_023"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_024",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_024"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_025",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_025"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_026",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_026"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_027",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_027"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_028",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_028"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_029",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_029"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_030",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_030"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_031",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_031"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_032",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_032"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_033",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_033"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_034",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_034"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_035",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_mw_035"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_010",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_010"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_011",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_011"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_012",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_012"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_013",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_013"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_014",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_014"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_015",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_015"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_016",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_016"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_017",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_017"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_018",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_018"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_019",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_019"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_020",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__action_nmw_020"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_mw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_mw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_mw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_mw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_mw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_mw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_mw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_mw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_mw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_mw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_nmw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_nmw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_nmw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_nmw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_nmw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__time_nmw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_010",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_010"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_011",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_011"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_012",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_012"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_013",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_013"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_014",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_014"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_015",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_015"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_016",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_016"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_017",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_017"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_018",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_018"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_019",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_019"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_020",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_020"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_021",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_021"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_022",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_022"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_023",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_023"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_024",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_024"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_025",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_025"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_026",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_mw_026"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_010",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_010"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_011",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__descriptive_nmw_011"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_010",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_mw_010"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_nmw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__pronouns_nmw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__question_mw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__question_mw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__question_mw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__question_mw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__question_mw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__question_mw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__question_mw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__question_mw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__question_mw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__question_mw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__question_nmw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__question_nmw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_mw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_nmw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_nmw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_nmw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_nmw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_nmw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_nmw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_nmw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__locations_nmw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_mw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_mw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_mw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_mw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_mw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_mw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_nmw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_nmw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_nmw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_nmw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_nmw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_nmw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_nmw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_nmw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_nmw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__quantifiers_nmw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_010",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_010"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_011",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_011"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_012",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__first_012"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__games_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__games_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__games_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__games_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__games_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__games_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__games_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__games_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__games_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__games_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__games_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__games_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_010",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_010"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_011",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_011"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_012",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_012"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_013",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_013"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_014",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_014"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_015",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_015"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_016",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_016"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_017",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__objects_017"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_010",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_010"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_011",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_011"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_012",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_012"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_013",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__parent_013"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_010",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_010"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_011",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_011"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_012",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_012"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_013",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_013"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_014",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_014"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_015",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__adult_015"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_administration",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_administration"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_mw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_mw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_mw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_mw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_mw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_mw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_mw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_mw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_mw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_mw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_mw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_mw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_nmw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_nmw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_nmw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__toys_nmw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_010",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_010"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_011",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_011"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_012",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_012"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_013",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_013"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_014",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_014"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_015",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_015"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_016",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_016"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_017",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_017"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_018",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_mw_018"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_010",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_010"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_011",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_011"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_012",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__fooddrink_nmw_012"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_010",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_010"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_011",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_011"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_012",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_012"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_013",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_013"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_014",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_mw_014"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_nmw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_nmw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_nmw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_nmw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_nmw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_nmw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_nmw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__clothing_nmw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_003",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_004",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_005",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_006",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_007",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_007"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_008",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_008"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_009",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_009"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_010",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_010"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_011",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_011"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_012",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_012"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_013",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_013"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_014",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_014"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_015",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_015"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_016",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_016"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_017",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_017"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_018",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_mw_018"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_nmw_001",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_nmw_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_nmw_002",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_ncl_ch_cdiwg__en__wd__bodyparts_nmw_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_benchmark_age_adjusted",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_benchmark_age_adjusted"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_phrases_percentile_sex_adjusted",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_phrases_percentile_sex_adjusted"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_words_understood_percentile_sex_adjusted",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_words_understood_percentile_sex_adjusted"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_words_understood_percentile_both_adjusted",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_words_understood_percentile_both_adjusted"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_words_produced_percentile_sex_adjusted",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_words_produced_percentile_sex_adjusted"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_words_produced_percentile_both_adjusted",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_words_produced_percentile_both_adjusted"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_early_gestures_percentile_sex_adjusted",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_early_gestures_percentile_sex_adjusted"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_early_gestures_percentile_both_adjusted",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_early_gestures_percentile_both_adjusted"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_later_gestures_percentile_sex_adjusted",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_later_gestures_percentile_sex_adjusted"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_later_gestures_percentile_both_adjusted",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_later_gestures_percentile_both_adjusted"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_total_gestures_percentile_sex_adjusted",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_total_gestures_percentile_sex_adjusted"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_total_gestures_percentile_both_adjusted",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_total_gestures_percentile_both_adjusted"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_gestational_age",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_gestational_age"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwgen_adjusted_age",
+                "isVis": true,
+                "variableName": "ncl_ch_cdiwgen_adjusted_age"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.1",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

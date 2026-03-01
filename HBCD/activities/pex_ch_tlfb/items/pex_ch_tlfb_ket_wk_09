@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/su/tlfb"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/su/tlfb/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_ch_tlfb_0110"
+            "value": "pex_ch_tlfb_0086"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_ch_tlfb_0110"
+            "value": "pex_ch_tlfb_0086"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_ch_tlfb_ket_wk_09"
     },
     "question": {
-        "en": "Ketamine"
+        "en": "Self-reported frequency use for Ketamine for week 9"
     },
     "responseOptions": {
         "valueType": [

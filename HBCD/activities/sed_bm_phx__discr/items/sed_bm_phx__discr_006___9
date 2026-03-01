@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/discr"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/discr/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "sed_bm_phx_discr_0026"
+            "value": "sed_bm_phx_discr_0024"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "sed_bm_phx_discr_0026"
+            "value": "sed_bm_phx_discr_0024"
         },
         {
             "column": "activity",

@@ -7,6 +7,8 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/eeg_made_task-VEP_acq-eeg_preprocessingReport_candidate_age",
+            "items/eeg_made_task-VEP_acq-eeg_preprocessingReport_adjusted_age",
             "items/eeg_made_task-VEP_acq-eeg_preprocessingReport_task",
             "items/eeg_made_task-VEP_acq-eeg_preprocessingReport_line_noise",
             "items/eeg_made_task-VEP_acq-eeg_preprocessingReport_reference_for_faster",
@@ -23,6 +25,16 @@
             "items/eeg_made_task-VEP_acq-eeg_preprocessingReport_range_chan_interp_artifact_rej"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/eeg_made_task-VEP_acq-eeg_preprocessingReport_candidate_age",
+                "isVis": true,
+                "variableName": "eeg_made_task-VEP_acq-eeg_preprocessingReport_candidate_age"
+            },
+            {
+                "isAbout": "items/eeg_made_task-VEP_acq-eeg_preprocessingReport_adjusted_age",
+                "isVis": true,
+                "variableName": "eeg_made_task-VEP_acq-eeg_preprocessingReport_adjusted_age"
+            },
             {
                 "isAbout": "items/eeg_made_task-VEP_acq-eeg_preprocessingReport_task",
                 "isVis": true,

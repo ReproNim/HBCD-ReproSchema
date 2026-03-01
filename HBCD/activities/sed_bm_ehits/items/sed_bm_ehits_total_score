@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/ehits"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/ehits/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "sed_bm_ehits_0017"
+            "value": "sed_bm_ehits_0010"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "sed_bm_ehits_0017"
+            "value": "sed_bm_ehits_0010"
         },
         {
             "column": "activity",

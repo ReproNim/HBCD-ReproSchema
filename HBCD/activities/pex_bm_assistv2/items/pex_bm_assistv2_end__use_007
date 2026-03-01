@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_assistv2_0013"
+            "value": "pex_bm_assistv2_0011"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_assistv2_0013"
+            "value": "pex_bm_assistv2_0011"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_assistv2_end__use_007"
     },
     "question": {
-        "en": "Heroin or other illicit (non-prescription) opioids"
+        "en": "Heroin or other illicit opioids (e.g. illicit fentanyl, etc)"
     },
     "responseOptions": {
         "valueType": [

@@ -7,11 +7,26 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/eeg_qc_task-RS_candidate_age",
+            "items/eeg_qc_task-RS_adjusted_age",
             "items/eeg_qc_task-RS_qc_pass_fail",
             "items/eeg_qc_task-RS_capping_quality",
-            "items/eeg_qc_task-RS_total_epochs_post_artifact_rej"
+            "items/eeg_qc_task-RS_total_epochs_post_artifact_rej",
+            "items/eeg_qc_task-RS_stimtracker_artifact",
+            "items/eeg_qc_task-RS_technical_issues",
+            "items/eeg_qc_task-RS_technical_issues_notes"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/eeg_qc_task-RS_candidate_age",
+                "isVis": true,
+                "variableName": "eeg_qc_task-RS_candidate_age"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-RS_adjusted_age",
+                "isVis": true,
+                "variableName": "eeg_qc_task-RS_adjusted_age"
+            },
             {
                 "isAbout": "items/eeg_qc_task-RS_qc_pass_fail",
                 "isVis": true,
@@ -26,6 +41,21 @@
                 "isAbout": "items/eeg_qc_task-RS_total_epochs_post_artifact_rej",
                 "isVis": true,
                 "variableName": "eeg_qc_task-RS_total_epochs_post_artifact_rej"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-RS_stimtracker_artifact",
+                "isVis": true,
+                "variableName": "eeg_qc_task-RS_stimtracker_artifact"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-RS_technical_issues",
+                "isVis": true,
+                "variableName": "eeg_qc_task-RS_technical_issues"
+            },
+            {
+                "isAbout": "items/eeg_qc_task-RS_technical_issues_notes",
+                "isVis": true,
+                "variableName": "eeg_qc_task-RS_technical_issues_notes"
             }
         ],
         "shuffle": false

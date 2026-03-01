@@ -20,7 +20,7 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/neurocog/mlds"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/neurocog/mlds/"
         },
         {
             "column": "name_short",

@@ -20,7 +20,7 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/demo/basicdemo"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/demo/basicdemo/"
         },
         {
             "column": "name_short",
@@ -42,7 +42,7 @@
         "en": "sed_basic_demographics_screen_mother_ethnicity"
     },
     "question": {
-        "en": "Ethnicity: Defined by LORIS 'adm_bm_screen' instrument, field '002'"
+        "en": "Maternal ethnicity (ACS item at enrollment)"
     },
     "responseOptions": {
         "valueType": [

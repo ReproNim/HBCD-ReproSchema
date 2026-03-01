@@ -1,0 +1,56 @@
+{
+    "id": "sed_cg_tic_screener_01_acg_008___prefer_not_to_answer",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Social and Environmental Determinants"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/transitions-in-care/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "sed_cg_tic_screener_0046"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "sed_cg_tic_screener_0046"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "sed_cg_tic_screener"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_cg_tic_screener_01_acg_008___prefer_not_to_answer"
+    },
+    "question": {
+        "en": "Why is {firstName} no longer living with [name of consented parent]? Record answer verbatim then code as many as apply from drop down menu [Multi-select]: Prefer not to answer"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

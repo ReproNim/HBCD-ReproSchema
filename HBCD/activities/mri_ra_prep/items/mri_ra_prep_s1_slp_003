@@ -1,0 +1,61 @@
+{
+    "id": "mri_ra_prep_s1_slp_003",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular Imaging"
+        },
+        {
+            "column": "sub_domain",
+            "source": "nbdc",
+            "value": "Administrative"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Research Assistant"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/prescan-questionnaire/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "mri_ra_prep_0014"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "mri_ra_prep_0014"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "mri_ra_prep"
+        }
+    ],
+    "prefLabel": {
+        "en": "mri_ra_prep_s1_slp_003"
+    },
+    "question": {
+        "en": "Length of nap routine"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

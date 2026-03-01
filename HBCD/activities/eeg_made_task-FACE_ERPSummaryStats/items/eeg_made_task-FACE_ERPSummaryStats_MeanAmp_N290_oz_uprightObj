@@ -1,0 +1,71 @@
+{
+    "id": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_oz_uprightObj",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "unit",
+            "source": "nbdc",
+            "value": "\u00b5V"
+        },
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Tabular EEG"
+        },
+        {
+            "column": "sub_domain",
+            "source": "nbdc",
+            "value": "Event-Related Potential"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Child"
+        },
+        {
+            "column": "metric",
+            "source": "nbdc",
+            "value": "Faces"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/tasks/#faces-task"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "eeg_made_task_face_ss_0030"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "eeg_made_task_face_ss_0030"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "eeg_made_task-FACE_ERPSummaryStats"
+        }
+    ],
+    "prefLabel": {
+        "en": "eeg_made_task-FACE_ERPSummaryStats_MeanAmp_N290_oz_uprightObj"
+    },
+    "question": {
+        "en": "Mean amplitude of the N290 ERP component at the Oz electrode cluster for uprightObj face trials during the Upright/Object block."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0497"
+            "value": "pex_bm_healthv2_preg_0493"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_preg_0497"
+            "value": "pex_bm_healthv2_preg_0493"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_healthv2_preg__illness_015__12__dk"
     },
     "question": {
-        "en": "dk/decline temp illness 1"
+        "en": "dk/decline temp 1"
     },
     "responseOptions": {
         "valueType": [

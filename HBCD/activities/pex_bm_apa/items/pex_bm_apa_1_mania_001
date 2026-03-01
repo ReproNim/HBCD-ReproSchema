@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/mh/apa12"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/pregexp/mh/apa12/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_apa_0010"
+            "value": "pex_bm_apa_0008"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_apa_0010"
+            "value": "pex_bm_apa_0008"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_apa_1_mania_001"
     },
     "question": {
-        "en": "Sleeping less then usual, but still have a lot of energy?"
+        "en": "Sleeping less than usual, but still have a lot of energy?"
     },
     "responseOptions": {
         "valueType": [

@@ -9,8 +9,6 @@
         "order": [
             "items/pex_bm_health_preg__chroncond_date_taken",
             "items/pex_bm_health_preg__chroncond_candidate_age",
-            "items/pex_bm_health_preg__chroncond_gestational_age",
-            "items/pex_bm_health_preg__chroncond_adjusted_age",
             "items/pex_bm_health_preg__chroncond_lang",
             "items/pex_bm_health_preg__chroncond_001___1",
             "items/pex_bm_health_preg__chroncond_001___2",
@@ -62,7 +60,9 @@
             "items/pex_bm_health_preg__chroncond_013__11",
             "items/pex_bm_health_preg__chroncond_013__12",
             "items/pex_bm_health_preg__chroncond_013__13",
-            "items/pex_bm_health_preg__chroncond_administration"
+            "items/pex_bm_health_preg__chroncond_administration",
+            "items/pex_bm_health_preg__chroncond_gestational_age",
+            "items/pex_bm_health_preg__chroncond_adjusted_age"
         ],
         "addProperties": [
             {
@@ -74,16 +74,6 @@
                 "isAbout": "items/pex_bm_health_preg__chroncond_candidate_age",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__chroncond_candidate_age"
-            },
-            {
-                "isAbout": "items/pex_bm_health_preg__chroncond_gestational_age",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__chroncond_gestational_age"
-            },
-            {
-                "isAbout": "items/pex_bm_health_preg__chroncond_adjusted_age",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__chroncond_adjusted_age"
             },
             {
                 "isAbout": "items/pex_bm_health_preg__chroncond_lang",
@@ -344,6 +334,16 @@
                 "isAbout": "items/pex_bm_health_preg__chroncond_administration",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__chroncond_administration"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__chroncond_gestational_age",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__chroncond_gestational_age"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__chroncond_adjusted_age",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__chroncond_adjusted_age"
             }
         ],
         "shuffle": false
