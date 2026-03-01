@@ -135,16 +135,7 @@ def convert_to_reproschema(csv_path, version):
     if output_dir.exists():
         shutil.rmtree(output_dir)
 
-    # Generate temporary YAML config
-    yaml_content = f"""protocol_description: The Healthy Brain and Child Development (HBCD) Study Protocol
-  - converted from NBDC data dictionary
-protocol_display_name: HBCD Protocol (NBDC)
-protocol_name: HBCD
-source: NBDCtoolsData
-source_version: '{version}'
-"""
-    yaml_path = Path("data") / "temp_config.yaml"
-    yaml_path.write_text(yaml_content)
+    yaml_path = Path("hbcd_nbdc2rs.yaml")
 
     result = subprocess.run(
         [
@@ -157,9 +148,6 @@ source_version: '{version}'
         capture_output=True,
         text=True
     )
-
-    # Clean up temp YAML
-    yaml_path.unlink(missing_ok=True)
 
     if result.returncode != 0:
         print(f"Error during conversion: {result.stderr}")

@@ -1,0 +1,6 @@
+protocol_description: The Healthy Brain and Child Development (HBCD) Study Protocol
+  - converted from NBDC data dictionary
+protocol_display_name: HBCD Protocol (NBDC)
+protocol_name: HBCD
+source: NBDCtoolsData
+source_version: '1.1'
