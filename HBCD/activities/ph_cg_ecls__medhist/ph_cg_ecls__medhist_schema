@@ -9,6 +9,9 @@
         "order": [
             "items/ph_cg_ecls__medhist_date_taken",
             "items/ph_cg_ecls__medhist_candidate_age",
+            "items/ph_cg_ecls__medhist_gestational_age",
+            "items/ph_cg_ecls__medhist_adjusted_age",
+            "items/ph_cg_ecls__medhist_lang",
             "items/ph_cg_ecls__medhist_001",
             "items/ph_cg_ecls__medhist_002",
             "items/ph_cg_ecls__medhist_003",
@@ -135,6 +138,7 @@
             "items/ph_cg_ecls__medhist_026___20",
             "items/ph_cg_ecls__medhist_026___21",
             "items/ph_cg_ecls__medhist_026__01",
+            "items/ph_cg_ecls__medhist_026__02",
             "items/ph_cg_ecls__medhist_026__03",
             "items/ph_cg_ecls__medhist_027___1",
             "items/ph_cg_ecls__medhist_027___2",
@@ -201,10 +205,7 @@
             "items/ph_cg_ecls__medhist__injury_07___5",
             "items/ph_cg_ecls__medhist__injury_08",
             "items/ph_cg_ecls__medhist__injury_09",
-            "items/ph_cg_ecls__medhist_administration",
-            "items/ph_cg_ecls__medhist_026__02",
-            "items/ph_cg_ecls__medhist_gestational_age",
-            "items/ph_cg_ecls__medhist_adjusted_age"
+            "items/ph_cg_ecls__medhist_administration"
         ],
         "addProperties": [
             {
@@ -216,6 +217,21 @@
                 "isAbout": "items/ph_cg_ecls__medhist_candidate_age",
                 "isVis": true,
                 "variableName": "ph_cg_ecls__medhist_candidate_age"
+            },
+            {
+                "isAbout": "items/ph_cg_ecls__medhist_gestational_age",
+                "isVis": true,
+                "variableName": "ph_cg_ecls__medhist_gestational_age"
+            },
+            {
+                "isAbout": "items/ph_cg_ecls__medhist_adjusted_age",
+                "isVis": true,
+                "variableName": "ph_cg_ecls__medhist_adjusted_age"
+            },
+            {
+                "isAbout": "items/ph_cg_ecls__medhist_lang",
+                "isVis": true,
+                "variableName": "ph_cg_ecls__medhist_lang"
             },
             {
                 "isAbout": "items/ph_cg_ecls__medhist_001",
@@ -848,6 +864,11 @@
                 "variableName": "ph_cg_ecls__medhist_026__01"
             },
             {
+                "isAbout": "items/ph_cg_ecls__medhist_026__02",
+                "isVis": true,
+                "variableName": "ph_cg_ecls__medhist_026__02"
+            },
+            {
                 "isAbout": "items/ph_cg_ecls__medhist_026__03",
                 "isVis": true,
                 "variableName": "ph_cg_ecls__medhist_026__03"
@@ -1181,21 +1202,6 @@
                 "isAbout": "items/ph_cg_ecls__medhist_administration",
                 "isVis": true,
                 "variableName": "ph_cg_ecls__medhist_administration"
-            },
-            {
-                "isAbout": "items/ph_cg_ecls__medhist_026__02",
-                "isVis": true,
-                "variableName": "ph_cg_ecls__medhist_026__02"
-            },
-            {
-                "isAbout": "items/ph_cg_ecls__medhist_gestational_age",
-                "isVis": true,
-                "variableName": "ph_cg_ecls__medhist_gestational_age"
-            },
-            {
-                "isAbout": "items/ph_cg_ecls__medhist_adjusted_age",
-                "isVis": true,
-                "variableName": "ph_cg_ecls__medhist_adjusted_age"
             }
         ],
         "shuffle": false

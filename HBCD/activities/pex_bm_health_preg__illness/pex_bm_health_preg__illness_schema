@@ -9,6 +9,8 @@
         "order": [
             "items/pex_bm_health_preg__illness_date_taken",
             "items/pex_bm_health_preg__illness_candidate_age",
+            "items/pex_bm_health_preg__illness_gestational_age",
+            "items/pex_bm_health_preg__illness_adjusted_age",
             "items/pex_bm_health_preg__illness_lang",
             "items/pex_bm_health_preg__illness__covid_001",
             "items/pex_bm_health_preg__illness__covid_002",
@@ -48,8 +50,8 @@
             "items/pex_bm_health_preg__illness_003__12__dk",
             "items/pex_bm_health_preg__illness_003__13__00",
             "items/pex_bm_health_preg__illness_003__13__01",
-            "items/pex_bm_health_preg__illness_003__13__dk",
             "items/pex_bm_health_preg__illness_003__13__02",
+            "items/pex_bm_health_preg__illness_003__13__dk",
             "items/pex_bm_health_preg__illness_004__01",
             "items/pex_bm_health_preg__illness_004__dk",
             "items/pex_bm_health_preg__illness_004__02",
@@ -66,8 +68,8 @@
             "items/pex_bm_health_preg__illness_004__12__dk",
             "items/pex_bm_health_preg__illness_004__13__00",
             "items/pex_bm_health_preg__illness_004__13__01",
-            "items/pex_bm_health_preg__illness_004__13__dk",
             "items/pex_bm_health_preg__illness_004__13__02",
+            "items/pex_bm_health_preg__illness_004__13__dk",
             "items/pex_bm_health_preg__illness_005__01",
             "items/pex_bm_health_preg__illness_005__dk",
             "items/pex_bm_health_preg__illness_005__02",
@@ -84,8 +86,8 @@
             "items/pex_bm_health_preg__illness_005__12__dk",
             "items/pex_bm_health_preg__illness_005__13__00",
             "items/pex_bm_health_preg__illness_005__13__01",
-            "items/pex_bm_health_preg__illness_005__13__dk",
             "items/pex_bm_health_preg__illness_005__13__02",
+            "items/pex_bm_health_preg__illness_005__13__dk",
             "items/pex_bm_health_preg__illness_006__01",
             "items/pex_bm_health_preg__illness_006__dk",
             "items/pex_bm_health_preg__illness_006__02",
@@ -102,8 +104,8 @@
             "items/pex_bm_health_preg__illness_006__12__dk",
             "items/pex_bm_health_preg__illness_006__13__00",
             "items/pex_bm_health_preg__illness_006__13__01",
-            "items/pex_bm_health_preg__illness_006__13__dk",
             "items/pex_bm_health_preg__illness_006__13__02",
+            "items/pex_bm_health_preg__illness_006__13__dk",
             "items/pex_bm_health_preg__illness_007__01",
             "items/pex_bm_health_preg__illness_007__dk",
             "items/pex_bm_health_preg__illness_007__02",
@@ -120,8 +122,8 @@
             "items/pex_bm_health_preg__illness_007__12__dk",
             "items/pex_bm_health_preg__illness_007__13__00",
             "items/pex_bm_health_preg__illness_007__13__01",
-            "items/pex_bm_health_preg__illness_007__13__dk",
             "items/pex_bm_health_preg__illness_007__13__02",
+            "items/pex_bm_health_preg__illness_007__13__dk",
             "items/pex_bm_health_preg__illness_008__01",
             "items/pex_bm_health_preg__illness_008__dk",
             "items/pex_bm_health_preg__illness_008__02",
@@ -138,8 +140,8 @@
             "items/pex_bm_health_preg__illness_008__12__dk",
             "items/pex_bm_health_preg__illness_008__13__00",
             "items/pex_bm_health_preg__illness_008__13__01",
-            "items/pex_bm_health_preg__illness_008__13__dk",
             "items/pex_bm_health_preg__illness_008__13__02",
+            "items/pex_bm_health_preg__illness_008__13__dk",
             "items/pex_bm_health_preg__illness_009__01",
             "items/pex_bm_health_preg__illness_009__dk",
             "items/pex_bm_health_preg__illness_009__02",
@@ -156,8 +158,8 @@
             "items/pex_bm_health_preg__illness_009__12__dk",
             "items/pex_bm_health_preg__illness_009__13__00",
             "items/pex_bm_health_preg__illness_009__13__01",
-            "items/pex_bm_health_preg__illness_009__13__dk",
             "items/pex_bm_health_preg__illness_009__13__02",
+            "items/pex_bm_health_preg__illness_009__13__dk",
             "items/pex_bm_health_preg__illness_010__01",
             "items/pex_bm_health_preg__illness_010__dk",
             "items/pex_bm_health_preg__illness_010__02",
@@ -174,8 +176,8 @@
             "items/pex_bm_health_preg__illness_010__12__dk",
             "items/pex_bm_health_preg__illness_010__13__00",
             "items/pex_bm_health_preg__illness_010__13__01",
-            "items/pex_bm_health_preg__illness_010__13__dk",
             "items/pex_bm_health_preg__illness_010__13__02",
+            "items/pex_bm_health_preg__illness_010__13__dk",
             "items/pex_bm_health_preg__illness_011__01",
             "items/pex_bm_health_preg__illness_011__dk",
             "items/pex_bm_health_preg__illness_011__02",
@@ -192,8 +194,8 @@
             "items/pex_bm_health_preg__illness_011__12__dk",
             "items/pex_bm_health_preg__illness_011__13__00",
             "items/pex_bm_health_preg__illness_011__13__01",
-            "items/pex_bm_health_preg__illness_011__13__dk",
             "items/pex_bm_health_preg__illness_011__13__02",
+            "items/pex_bm_health_preg__illness_011__13__dk",
             "items/pex_bm_health_preg__illness_012__01",
             "items/pex_bm_health_preg__illness_012__dk",
             "items/pex_bm_health_preg__illness_012__02",
@@ -210,11 +212,9 @@
             "items/pex_bm_health_preg__illness_012__12__dk",
             "items/pex_bm_health_preg__illness_012__13__00",
             "items/pex_bm_health_preg__illness_012__13__01",
-            "items/pex_bm_health_preg__illness_012__13__dk",
             "items/pex_bm_health_preg__illness_012__13__02",
-            "items/pex_bm_health_preg__illness_administration",
-            "items/pex_bm_health_preg__illness_gestational_age",
-            "items/pex_bm_health_preg__illness_adjusted_age"
+            "items/pex_bm_health_preg__illness_012__13__dk",
+            "items/pex_bm_health_preg__illness_administration"
         ],
         "addProperties": [
             {
@@ -226,6 +226,16 @@
                 "isAbout": "items/pex_bm_health_preg__illness_candidate_age",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__illness_candidate_age"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__illness_gestational_age",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__illness_gestational_age"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__illness_adjusted_age",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__illness_adjusted_age"
             },
             {
                 "isAbout": "items/pex_bm_health_preg__illness_lang",
@@ -423,14 +433,14 @@
                 "variableName": "pex_bm_health_preg__illness_003__13__01"
             },
             {
-                "isAbout": "items/pex_bm_health_preg__illness_003__13__dk",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__illness_003__13__dk"
-            },
-            {
                 "isAbout": "items/pex_bm_health_preg__illness_003__13__02",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__illness_003__13__02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__illness_003__13__dk",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__illness_003__13__dk"
             },
             {
                 "isAbout": "items/pex_bm_health_preg__illness_004__01",
@@ -513,14 +523,14 @@
                 "variableName": "pex_bm_health_preg__illness_004__13__01"
             },
             {
-                "isAbout": "items/pex_bm_health_preg__illness_004__13__dk",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__illness_004__13__dk"
-            },
-            {
                 "isAbout": "items/pex_bm_health_preg__illness_004__13__02",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__illness_004__13__02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__illness_004__13__dk",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__illness_004__13__dk"
             },
             {
                 "isAbout": "items/pex_bm_health_preg__illness_005__01",
@@ -603,14 +613,14 @@
                 "variableName": "pex_bm_health_preg__illness_005__13__01"
             },
             {
-                "isAbout": "items/pex_bm_health_preg__illness_005__13__dk",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__illness_005__13__dk"
-            },
-            {
                 "isAbout": "items/pex_bm_health_preg__illness_005__13__02",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__illness_005__13__02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__illness_005__13__dk",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__illness_005__13__dk"
             },
             {
                 "isAbout": "items/pex_bm_health_preg__illness_006__01",
@@ -693,14 +703,14 @@
                 "variableName": "pex_bm_health_preg__illness_006__13__01"
             },
             {
-                "isAbout": "items/pex_bm_health_preg__illness_006__13__dk",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__illness_006__13__dk"
-            },
-            {
                 "isAbout": "items/pex_bm_health_preg__illness_006__13__02",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__illness_006__13__02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__illness_006__13__dk",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__illness_006__13__dk"
             },
             {
                 "isAbout": "items/pex_bm_health_preg__illness_007__01",
@@ -783,14 +793,14 @@
                 "variableName": "pex_bm_health_preg__illness_007__13__01"
             },
             {
-                "isAbout": "items/pex_bm_health_preg__illness_007__13__dk",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__illness_007__13__dk"
-            },
-            {
                 "isAbout": "items/pex_bm_health_preg__illness_007__13__02",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__illness_007__13__02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__illness_007__13__dk",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__illness_007__13__dk"
             },
             {
                 "isAbout": "items/pex_bm_health_preg__illness_008__01",
@@ -873,14 +883,14 @@
                 "variableName": "pex_bm_health_preg__illness_008__13__01"
             },
             {
-                "isAbout": "items/pex_bm_health_preg__illness_008__13__dk",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__illness_008__13__dk"
-            },
-            {
                 "isAbout": "items/pex_bm_health_preg__illness_008__13__02",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__illness_008__13__02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__illness_008__13__dk",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__illness_008__13__dk"
             },
             {
                 "isAbout": "items/pex_bm_health_preg__illness_009__01",
@@ -963,14 +973,14 @@
                 "variableName": "pex_bm_health_preg__illness_009__13__01"
             },
             {
-                "isAbout": "items/pex_bm_health_preg__illness_009__13__dk",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__illness_009__13__dk"
-            },
-            {
                 "isAbout": "items/pex_bm_health_preg__illness_009__13__02",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__illness_009__13__02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__illness_009__13__dk",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__illness_009__13__dk"
             },
             {
                 "isAbout": "items/pex_bm_health_preg__illness_010__01",
@@ -1053,14 +1063,14 @@
                 "variableName": "pex_bm_health_preg__illness_010__13__01"
             },
             {
-                "isAbout": "items/pex_bm_health_preg__illness_010__13__dk",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__illness_010__13__dk"
-            },
-            {
                 "isAbout": "items/pex_bm_health_preg__illness_010__13__02",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__illness_010__13__02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__illness_010__13__dk",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__illness_010__13__dk"
             },
             {
                 "isAbout": "items/pex_bm_health_preg__illness_011__01",
@@ -1143,14 +1153,14 @@
                 "variableName": "pex_bm_health_preg__illness_011__13__01"
             },
             {
-                "isAbout": "items/pex_bm_health_preg__illness_011__13__dk",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__illness_011__13__dk"
-            },
-            {
                 "isAbout": "items/pex_bm_health_preg__illness_011__13__02",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__illness_011__13__02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__illness_011__13__dk",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__illness_011__13__dk"
             },
             {
                 "isAbout": "items/pex_bm_health_preg__illness_012__01",
@@ -1233,29 +1243,19 @@
                 "variableName": "pex_bm_health_preg__illness_012__13__01"
             },
             {
-                "isAbout": "items/pex_bm_health_preg__illness_012__13__dk",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__illness_012__13__dk"
-            },
-            {
                 "isAbout": "items/pex_bm_health_preg__illness_012__13__02",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__illness_012__13__02"
             },
             {
+                "isAbout": "items/pex_bm_health_preg__illness_012__13__dk",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__illness_012__13__dk"
+            },
+            {
                 "isAbout": "items/pex_bm_health_preg__illness_administration",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__illness_administration"
-            },
-            {
-                "isAbout": "items/pex_bm_health_preg__illness_gestational_age",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__illness_gestational_age"
-            },
-            {
-                "isAbout": "items/pex_bm_health_preg__illness_adjusted_age",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__illness_adjusted_age"
             }
         ],
         "shuffle": false

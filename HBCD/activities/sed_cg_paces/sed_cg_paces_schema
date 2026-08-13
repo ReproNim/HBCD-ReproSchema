@@ -9,6 +9,9 @@
         "order": [
             "items/sed_cg_paces_date_taken",
             "items/sed_cg_paces_candidate_age",
+            "items/sed_cg_paces_gestational_age",
+            "items/sed_cg_paces_adjusted_age",
+            "items/sed_cg_paces_lang",
             "items/sed_cg_paces_location",
             "items/sed_cg_paces_001",
             "items/sed_cg_paces_002",
@@ -23,9 +26,8 @@
             "items/sed_cg_paces_011",
             "items/sed_cg_paces_012",
             "items/sed_cg_paces_total_score",
-            "items/sed_cg_paces_administration",
-            "items/sed_cg_paces_gestational_age",
-            "items/sed_cg_paces_adjusted_age"
+            "items/sed_cg_paces_total_score_note",
+            "items/sed_cg_paces_administration"
         ],
         "addProperties": [
             {
@@ -37,6 +39,21 @@
                 "isAbout": "items/sed_cg_paces_candidate_age",
                 "isVis": true,
                 "variableName": "sed_cg_paces_candidate_age"
+            },
+            {
+                "isAbout": "items/sed_cg_paces_gestational_age",
+                "isVis": true,
+                "variableName": "sed_cg_paces_gestational_age"
+            },
+            {
+                "isAbout": "items/sed_cg_paces_adjusted_age",
+                "isVis": true,
+                "variableName": "sed_cg_paces_adjusted_age"
+            },
+            {
+                "isAbout": "items/sed_cg_paces_lang",
+                "isVis": true,
+                "variableName": "sed_cg_paces_lang"
             },
             {
                 "isAbout": "items/sed_cg_paces_location",
@@ -109,19 +126,14 @@
                 "variableName": "sed_cg_paces_total_score"
             },
             {
+                "isAbout": "items/sed_cg_paces_total_score_note",
+                "isVis": true,
+                "variableName": "sed_cg_paces_total_score_note"
+            },
+            {
                 "isAbout": "items/sed_cg_paces_administration",
                 "isVis": true,
                 "variableName": "sed_cg_paces_administration"
-            },
-            {
-                "isAbout": "items/sed_cg_paces_gestational_age",
-                "isVis": true,
-                "variableName": "sed_cg_paces_gestational_age"
-            },
-            {
-                "isAbout": "items/sed_cg_paces_adjusted_age",
-                "isVis": true,
-                "variableName": "sed_cg_paces_adjusted_age"
             }
         ],
         "shuffle": false

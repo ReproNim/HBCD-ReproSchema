@@ -35,7 +35,7 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/tasks/#visual-evoked-potential-task"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/eeg/"
         },
         {
             "column": "name_short",

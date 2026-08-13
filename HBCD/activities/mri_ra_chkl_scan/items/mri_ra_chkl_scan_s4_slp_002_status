@@ -1,0 +1,56 @@
+{
+    "id": "mri_ra_chkl_scan_s4_slp_002_status",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "MRI"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Research Assistant"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/mri-forms/#mri-scan-session-data-summary-forms"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "mri_ra_chkl_scan_0293"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "mri_ra_chkl_scan_0293"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "mri_ra_chkl_scan"
+        }
+    ],
+    "prefLabel": {
+        "en": "mri_ra_chkl_scan_s4_slp_002_status"
+    },
+    "question": {
+        "en": "Time first asleep"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

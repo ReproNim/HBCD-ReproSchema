@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "sed_bm_demo_child_0092"
+            "value": "sed_bm_demo_child_0025"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "sed_bm_demo_child_0092"
+            "value": "sed_bm_demo_child_0025"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "sed_bm_demo_child__relat_002__01"
     },
     "question": {
-        "en": "How many days per month do you live with the child?"
+        "en": "How many days per MONTH do you live with the child?"
     },
     "responseOptions": {
         "valueType": [

@@ -25,17 +25,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/prescan-questionnaire/"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/mri-forms/#pre-scan-questionnaire"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "mri_ra_prep_0034"
+            "value": "mri_ra_prep_0037"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "mri_ra_prep_0034"
+            "value": "mri_ra_prep_0037"
         },
         {
             "column": "activity",

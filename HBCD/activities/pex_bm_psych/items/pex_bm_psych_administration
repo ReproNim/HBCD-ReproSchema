@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_psych_0051"
+            "value": "pex_bm_psych_0053"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_psych_0051"
+            "value": "pex_bm_psych_0053"
         },
         {
             "column": "activity",

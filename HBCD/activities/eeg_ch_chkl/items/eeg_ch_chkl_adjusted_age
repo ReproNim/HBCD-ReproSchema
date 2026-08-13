@@ -30,12 +30,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "eeg_ch_chkl_0020"
+            "value": "eeg_ch_chkl_0004"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "eeg_ch_chkl_0020"
+            "value": "eeg_ch_chkl_0004"
         },
         {
             "column": "activity",
@@ -55,8 +55,7 @@
         ]
     },
     "ui": {
-        "inputType": "static",
-        "readonlyValue": true
+        "inputType": "text"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

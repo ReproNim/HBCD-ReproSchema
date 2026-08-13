@@ -9,6 +9,8 @@
         "order": [
             "items/mh_cg_chaos_date_taken",
             "items/mh_cg_chaos_candidate_age",
+            "items/mh_cg_chaos_gestational_age",
+            "items/mh_cg_chaos_adjusted_age",
             "items/mh_cg_chaos_lang",
             "items/mh_cg_chaos_001",
             "items/mh_cg_chaos_002",
@@ -26,9 +28,7 @@
             "items/mh_cg_chaos_014",
             "items/mh_cg_chaos_015",
             "items/mh_cg_chaos_total_score",
-            "items/mh_cg_chaos_administration",
-            "items/mh_cg_chaos_gestational_age",
-            "items/mh_cg_chaos_adjusted_age"
+            "items/mh_cg_chaos_administration"
         ],
         "addProperties": [
             {
@@ -40,6 +40,16 @@
                 "isAbout": "items/mh_cg_chaos_candidate_age",
                 "isVis": true,
                 "variableName": "mh_cg_chaos_candidate_age"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_gestational_age",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_gestational_age"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_adjusted_age",
+                "isVis": true,
+                "variableName": "mh_cg_chaos_adjusted_age"
             },
             {
                 "isAbout": "items/mh_cg_chaos_lang",
@@ -130,16 +140,6 @@
                 "isAbout": "items/mh_cg_chaos_administration",
                 "isVis": true,
                 "variableName": "mh_cg_chaos_administration"
-            },
-            {
-                "isAbout": "items/mh_cg_chaos_gestational_age",
-                "isVis": true,
-                "variableName": "mh_cg_chaos_gestational_age"
-            },
-            {
-                "isAbout": "items/mh_cg_chaos_adjusted_age",
-                "isVis": true,
-                "variableName": "mh_cg_chaos_adjusted_age"
             }
         ],
         "shuffle": false

@@ -9,6 +9,9 @@
         "order": [
             "items/ph_cg_pms__pags_date_taken",
             "items/ph_cg_pms__pags_candidate_age",
+            "items/ph_cg_pms__pags_gestational_age",
+            "items/ph_cg_pms__pags_adjusted_age",
+            "items/ph_cg_pms__pags_lang",
             "items/ph_cg_pms__pags_location",
             "items/ph_cg_pms__pags_001",
             "items/ph_cg_pms__pags_002",
@@ -27,9 +30,13 @@
             "items/ph_cg_pms__pags_010___6",
             "items/ph_cg_pms__pags_010___7",
             "items/ph_cg_pms__pags_011",
-            "items/ph_cg_pms__pags_administration",
-            "items/ph_cg_pms__pags_gestational_age",
-            "items/ph_cg_pms__pags_adjusted_age"
+            "items/ph_cg_pms__pags_total_score",
+            "items/ph_cg_pms__pags_total_score_note",
+            "items/ph_cg_pms__pags_t_score",
+            "items/ph_cg_pms__pags_t_score_note",
+            "items/ph_cg_pms__pags_se_score",
+            "items/ph_cg_pms__pags_se_score_note",
+            "items/ph_cg_pms__pags_administration"
         ],
         "addProperties": [
             {
@@ -41,6 +48,21 @@
                 "isAbout": "items/ph_cg_pms__pags_candidate_age",
                 "isVis": true,
                 "variableName": "ph_cg_pms__pags_candidate_age"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_gestational_age",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_gestational_age"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_adjusted_age",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_adjusted_age"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_lang",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_lang"
             },
             {
                 "isAbout": "items/ph_cg_pms__pags_location",
@@ -133,19 +155,39 @@
                 "variableName": "ph_cg_pms__pags_011"
             },
             {
+                "isAbout": "items/ph_cg_pms__pags_total_score",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_total_score"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_total_score_note",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_total_score_note"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_t_score",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_t_score"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_t_score_note",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_t_score_note"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_se_score",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_se_score"
+            },
+            {
+                "isAbout": "items/ph_cg_pms__pags_se_score_note",
+                "isVis": true,
+                "variableName": "ph_cg_pms__pags_se_score_note"
+            },
+            {
                 "isAbout": "items/ph_cg_pms__pags_administration",
                 "isVis": true,
                 "variableName": "ph_cg_pms__pags_administration"
-            },
-            {
-                "isAbout": "items/ph_cg_pms__pags_gestational_age",
-                "isVis": true,
-                "variableName": "ph_cg_pms__pags_gestational_age"
-            },
-            {
-                "isAbout": "items/ph_cg_pms__pags_adjusted_age",
-                "isVis": true,
-                "variableName": "ph_cg_pms__pags_adjusted_age"
             }
         ],
         "shuffle": false

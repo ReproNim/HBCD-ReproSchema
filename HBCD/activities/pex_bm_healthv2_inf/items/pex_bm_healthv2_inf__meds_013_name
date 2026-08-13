@@ -3,6 +3,11 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
+            "column": "instruction",
+            "source": "nbdc",
+            "value": "[Instruction may be partial or correspond to a previous section in the form. See wiki for more information.] PLEASE HAND IPAD BACK TO THE RESEARCH ASSOCIATE"
+        },
+        {
             "column": "study",
             "source": "nbdc",
             "value": "Core"
@@ -25,12 +30,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_inf_0103"
+            "value": "pex_bm_healthv2_inf_0106"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_healthv2_inf_0103"
+            "value": "pex_bm_healthv2_inf_0106"
         },
         {
             "column": "activity",

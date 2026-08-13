@@ -20,17 +20,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/physhealth/medical-history/"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/physhealth/medhx/"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "ph_cg_ecls__medhist_0197"
+            "value": "ph_cg_ecls__medhist_0003"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "ph_cg_ecls__medhist_0197"
+            "value": "ph_cg_ecls__medhist_0003"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "ph_cg_ecls__medhist_gestational_age"
     },
     "question": {
-        "en": "Gestational Age (Weeks)"
+        "en": "Gestational Age at Administration (Weeks)"
     },
     "responseOptions": {
         "valueType": [

@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_apa_0138"
+            "value": "pex_bm_apa_0127"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_apa_0138"
+            "value": "pex_bm_apa_0127"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_apa_apa2_mania_note"
     },
     "question": {
-        "en": "APA 2 Altman Self-Rating Mania Scale ASRM - scoring note for missing or scores not calculated"
+        "en": "Notes related to scoring output for 'APA-2 - Mania Subscale - Score'"
     },
     "responseOptions": {
         "valueType": [

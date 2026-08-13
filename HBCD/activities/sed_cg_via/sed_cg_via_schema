@@ -9,6 +9,8 @@
         "order": [
             "items/sed_cg_via_date_taken",
             "items/sed_cg_via_candidate_age",
+            "items/sed_cg_via_gestational_age",
+            "items/sed_cg_via_adjusted_age",
             "items/sed_cg_via_lang",
             "items/sed_cg_via_location",
             "items/sed_cg_via_001",
@@ -128,11 +130,9 @@
             "items/sed_cg_via_023",
             "items/sed_cg_via_021",
             "items/sed_cg_via_022",
-            "items/sed_cg_via_total_score_even",
             "items/sed_cg_via_total_score_odd",
-            "items/sed_cg_via_administration",
-            "items/sed_cg_via_gestational_age",
-            "items/sed_cg_via_adjusted_age"
+            "items/sed_cg_via_total_score_even",
+            "items/sed_cg_via_administration"
         ],
         "addProperties": [
             {
@@ -144,6 +144,16 @@
                 "isAbout": "items/sed_cg_via_candidate_age",
                 "isVis": true,
                 "variableName": "sed_cg_via_candidate_age"
+            },
+            {
+                "isAbout": "items/sed_cg_via_gestational_age",
+                "isVis": true,
+                "variableName": "sed_cg_via_gestational_age"
+            },
+            {
+                "isAbout": "items/sed_cg_via_adjusted_age",
+                "isVis": true,
+                "variableName": "sed_cg_via_adjusted_age"
             },
             {
                 "isAbout": "items/sed_cg_via_lang",
@@ -741,29 +751,19 @@
                 "variableName": "sed_cg_via_022"
             },
             {
-                "isAbout": "items/sed_cg_via_total_score_even",
-                "isVis": true,
-                "variableName": "sed_cg_via_total_score_even"
-            },
-            {
                 "isAbout": "items/sed_cg_via_total_score_odd",
                 "isVis": true,
                 "variableName": "sed_cg_via_total_score_odd"
             },
             {
+                "isAbout": "items/sed_cg_via_total_score_even",
+                "isVis": true,
+                "variableName": "sed_cg_via_total_score_even"
+            },
+            {
                 "isAbout": "items/sed_cg_via_administration",
                 "isVis": true,
                 "variableName": "sed_cg_via_administration"
-            },
-            {
-                "isAbout": "items/sed_cg_via_gestational_age",
-                "isVis": true,
-                "variableName": "sed_cg_via_gestational_age"
-            },
-            {
-                "isAbout": "items/sed_cg_via_adjusted_age",
-                "isVis": true,
-                "variableName": "sed_cg_via_adjusted_age"
             }
         ],
         "shuffle": false

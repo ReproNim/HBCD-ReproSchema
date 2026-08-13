@@ -9,6 +9,8 @@
         "order": [
             "items/mh_cg_fad_date_taken",
             "items/mh_cg_fad_candidate_age",
+            "items/mh_cg_fad_gestational_age",
+            "items/mh_cg_fad_adjusted_age",
             "items/mh_cg_fad_lang",
             "items/mh_cg_fad_001__02",
             "items/mh_cg_fad_001__04",
@@ -17,9 +19,7 @@
             "items/mh_cg_fad_001__10",
             "items/mh_cg_fad_001__12",
             "items/mh_cg_fad_total_score",
-            "items/mh_cg_fad_administration",
-            "items/mh_cg_fad_gestational_age",
-            "items/mh_cg_fad_adjusted_age"
+            "items/mh_cg_fad_administration"
         ],
         "addProperties": [
             {
@@ -31,6 +31,16 @@
                 "isAbout": "items/mh_cg_fad_candidate_age",
                 "isVis": true,
                 "variableName": "mh_cg_fad_candidate_age"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_gestational_age",
+                "isVis": true,
+                "variableName": "mh_cg_fad_gestational_age"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_adjusted_age",
+                "isVis": true,
+                "variableName": "mh_cg_fad_adjusted_age"
             },
             {
                 "isAbout": "items/mh_cg_fad_lang",
@@ -76,16 +86,6 @@
                 "isAbout": "items/mh_cg_fad_administration",
                 "isVis": true,
                 "variableName": "mh_cg_fad_administration"
-            },
-            {
-                "isAbout": "items/mh_cg_fad_gestational_age",
-                "isVis": true,
-                "variableName": "mh_cg_fad_gestational_age"
-            },
-            {
-                "isAbout": "items/mh_cg_fad_adjusted_age",
-                "isVis": true,
-                "variableName": "mh_cg_fad_adjusted_age"
             }
         ],
         "shuffle": false

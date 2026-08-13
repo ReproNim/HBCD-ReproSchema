@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "sed_cg_cabr_sf_0042"
+            "value": "sed_cg_cabr_sf_0004"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "sed_cg_cabr_sf_0042"
+            "value": "sed_cg_cabr_sf_0004"
         },
         {
             "column": "activity",
@@ -50,8 +50,7 @@
         ]
     },
     "ui": {
-        "inputType": "static",
-        "readonlyValue": true
+        "inputType": "text"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

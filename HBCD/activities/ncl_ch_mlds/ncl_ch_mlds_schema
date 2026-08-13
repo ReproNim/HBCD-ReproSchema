@@ -9,6 +9,8 @@
         "order": [
             "items/ncl_ch_mlds_date_taken",
             "items/ncl_ch_mlds_candidate_age",
+            "items/ncl_ch_mlds_gestational_age",
+            "items/ncl_ch_mlds_adjusted_age",
             "items/ncl_ch_mlds_lang",
             "items/ncl_ch_mlds_001__01___1",
             "items/ncl_ch_mlds_001__01___2",
@@ -827,9 +829,7 @@
             "items/ncl_ch_mlds_home_es",
             "items/ncl_ch_mlds_en",
             "items/ncl_ch_mlds_es",
-            "items/ncl_ch_mlds_administration",
-            "items/ncl_ch_mlds_gestational_age",
-            "items/ncl_ch_mlds_adjusted_age"
+            "items/ncl_ch_mlds_administration"
         ],
         "addProperties": [
             {
@@ -841,6 +841,16 @@
                 "isAbout": "items/ncl_ch_mlds_candidate_age",
                 "isVis": true,
                 "variableName": "ncl_ch_mlds_candidate_age"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_gestational_age",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_gestational_age"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_adjusted_age",
+                "isVis": true,
+                "variableName": "ncl_ch_mlds_adjusted_age"
             },
             {
                 "isAbout": "items/ncl_ch_mlds_lang",
@@ -4936,16 +4946,6 @@
                 "isAbout": "items/ncl_ch_mlds_administration",
                 "isVis": true,
                 "variableName": "ncl_ch_mlds_administration"
-            },
-            {
-                "isAbout": "items/ncl_ch_mlds_gestational_age",
-                "isVis": true,
-                "variableName": "ncl_ch_mlds_gestational_age"
-            },
-            {
-                "isAbout": "items/ncl_ch_mlds_adjusted_age",
-                "isVis": true,
-                "variableName": "ncl_ch_mlds_adjusted_age"
             }
         ],
         "shuffle": false

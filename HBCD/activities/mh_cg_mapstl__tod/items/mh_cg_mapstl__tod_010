@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "mh_cg_mapstl__tod_0013"
+            "value": "mh_cg_mapstl__tod_0015"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "mh_cg_mapstl__tod_0013"
+            "value": "mh_cg_mapstl__tod_0015"
         },
         {
             "column": "activity",

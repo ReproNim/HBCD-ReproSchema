@@ -11,6 +11,7 @@
             "items/nt_ch_sens_setup_candidate_age",
             "items/nt_ch_sens_setup_gestational_age",
             "items/nt_ch_sens_setup_adjusted_age",
+            "items/nt_ch_sens_setup_lang",
             "items/nt_ch_sens_setup_stp_001",
             "items/nt_ch_sens_setup_rlg_001__01",
             "items/nt_ch_sens_setup_llg_001__01",
@@ -38,6 +39,11 @@
                 "isAbout": "items/nt_ch_sens_setup_adjusted_age",
                 "isVis": true,
                 "variableName": "nt_ch_sens_setup_adjusted_age"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_setup_lang",
+                "isVis": true,
+                "variableName": "nt_ch_sens_setup_lang"
             },
             {
                 "isAbout": "items/nt_ch_sens_setup_stp_001",

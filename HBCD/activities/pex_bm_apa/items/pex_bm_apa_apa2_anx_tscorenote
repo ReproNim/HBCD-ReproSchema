@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_apa_0124"
+            "value": "pex_bm_apa_0130"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_apa_0124"
+            "value": "pex_bm_apa_0130"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_apa_apa2_anx_tscorenote"
     },
     "question": {
-        "en": "APA 2 PROMIS Emotional Distress - Anxiety t-scoring note for missing or scores not calculated"
+        "en": "Notes related to scoring output for 'APA-2 - Anxiety Subscale - t-score'"
     },
     "responseOptions": {
         "valueType": [

@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_apa_0104"
+            "value": "pex_bm_apa_0106"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_apa_0104"
+            "value": "pex_bm_apa_0106"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_apa_apa1_anger"
     },
     "question": {
-        "en": "Anger score"
+        "en": "APA Level 1 Anger Total"
     },
     "responseOptions": {
         "valueType": [

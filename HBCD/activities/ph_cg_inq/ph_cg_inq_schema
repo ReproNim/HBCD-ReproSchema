@@ -9,6 +9,9 @@
         "order": [
             "items/ph_cg_inq_date_taken",
             "items/ph_cg_inq_candidate_age",
+            "items/ph_cg_inq_gestational_age",
+            "items/ph_cg_inq_adjusted_age",
+            "items/ph_cg_inq_lang",
             "items/ph_cg_inq_001",
             "items/ph_cg_inq_002",
             "items/ph_cg_inq_002__01",
@@ -107,9 +110,7 @@
             "items/ph_cg_inq_007__16__01",
             "items/ph_cg_inq_007__16__02",
             "items/ph_cg_inq_007__16__03",
-            "items/ph_cg_inq_administration",
-            "items/ph_cg_inq_gestational_age",
-            "items/ph_cg_inq_adjusted_age"
+            "items/ph_cg_inq_administration"
         ],
         "addProperties": [
             {
@@ -121,6 +122,21 @@
                 "isAbout": "items/ph_cg_inq_candidate_age",
                 "isVis": true,
                 "variableName": "ph_cg_inq_candidate_age"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_gestational_age",
+                "isVis": true,
+                "variableName": "ph_cg_inq_gestational_age"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_adjusted_age",
+                "isVis": true,
+                "variableName": "ph_cg_inq_adjusted_age"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_lang",
+                "isVis": true,
+                "variableName": "ph_cg_inq_lang"
             },
             {
                 "isAbout": "items/ph_cg_inq_001",
@@ -616,16 +632,6 @@
                 "isAbout": "items/ph_cg_inq_administration",
                 "isVis": true,
                 "variableName": "ph_cg_inq_administration"
-            },
-            {
-                "isAbout": "items/ph_cg_inq_gestational_age",
-                "isVis": true,
-                "variableName": "ph_cg_inq_gestational_age"
-            },
-            {
-                "isAbout": "items/ph_cg_inq_adjusted_age",
-                "isVis": true,
-                "variableName": "ph_cg_inq_adjusted_age"
             }
         ],
         "shuffle": false

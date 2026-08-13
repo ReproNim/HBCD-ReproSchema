@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "ph_cg_screenq_0024"
+            "value": "ph_cg_screenq_0027"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "ph_cg_screenq_0024"
+            "value": "ph_cg_screenq_0027"
         },
         {
             "column": "activity",

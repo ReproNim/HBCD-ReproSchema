@@ -9,6 +9,8 @@
         "order": [
             "items/ncl_cg_spm2__inf_date_taken",
             "items/ncl_cg_spm2__inf_candidate_age",
+            "items/ncl_cg_spm2__inf_gestational_age",
+            "items/ncl_cg_spm2__inf_adjusted_age",
             "items/ncl_cg_spm2__inf_lang",
             "items/ncl_cg_spm2__inf_location",
             "items/ncl_cg_spm2__inf_soc_001",
@@ -95,6 +97,7 @@
             "items/ncl_cg_spm2__inf_vis_raw_score",
             "items/ncl_cg_spm2__inf_hea_raw_score",
             "items/ncl_cg_spm2__inf_tou_raw_score",
+            "items/ncl_cg_spm2__inf_tstsml_raw_score",
             "items/ncl_cg_spm2__inf_bod_raw_score",
             "items/ncl_cg_spm2__inf_bal_raw_score",
             "items/ncl_cg_spm2__inf_pla_raw_score",
@@ -104,6 +107,7 @@
             "items/ncl_cg_spm2__inf_vis_t_score",
             "items/ncl_cg_spm2__inf_hea_t_score",
             "items/ncl_cg_spm2__inf_tou_t_score",
+            "items/ncl_cg_spm2__inf_tstsml_t_score",
             "items/ncl_cg_spm2__inf_bod_t_score",
             "items/ncl_cg_spm2__inf_bal_t_score",
             "items/ncl_cg_spm2__inf_pla_t_score",
@@ -112,15 +116,11 @@
             "items/ncl_cg_spm2__inf_status_vis",
             "items/ncl_cg_spm2__inf_status_hea",
             "items/ncl_cg_spm2__inf_status_tou",
+            "items/ncl_cg_spm2__inf_status_tstsml",
             "items/ncl_cg_spm2__inf_status_bod",
             "items/ncl_cg_spm2__inf_status_bal",
             "items/ncl_cg_spm2__inf_status_pla",
-            "items/ncl_cg_spm2__inf_administration",
-            "items/ncl_cg_spm2__inf_tstsml_raw_score",
-            "items/ncl_cg_spm2__inf_tstsml_t_score",
-            "items/ncl_cg_spm2__inf_status_tstsml",
-            "items/ncl_cg_spm2__inf_gestational_age",
-            "items/ncl_cg_spm2__inf_adjusted_age"
+            "items/ncl_cg_spm2__inf_administration"
         ],
         "addProperties": [
             {
@@ -132,6 +132,16 @@
                 "isAbout": "items/ncl_cg_spm2__inf_candidate_age",
                 "isVis": true,
                 "variableName": "ncl_cg_spm2__inf_candidate_age"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_gestational_age",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_gestational_age"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__inf_adjusted_age",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_adjusted_age"
             },
             {
                 "isAbout": "items/ncl_cg_spm2__inf_lang",
@@ -564,6 +574,11 @@
                 "variableName": "ncl_cg_spm2__inf_tou_raw_score"
             },
             {
+                "isAbout": "items/ncl_cg_spm2__inf_tstsml_raw_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_tstsml_raw_score"
+            },
+            {
                 "isAbout": "items/ncl_cg_spm2__inf_bod_raw_score",
                 "isVis": true,
                 "variableName": "ncl_cg_spm2__inf_bod_raw_score"
@@ -609,6 +624,11 @@
                 "variableName": "ncl_cg_spm2__inf_tou_t_score"
             },
             {
+                "isAbout": "items/ncl_cg_spm2__inf_tstsml_t_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_tstsml_t_score"
+            },
+            {
                 "isAbout": "items/ncl_cg_spm2__inf_bod_t_score",
                 "isVis": true,
                 "variableName": "ncl_cg_spm2__inf_bod_t_score"
@@ -649,6 +669,11 @@
                 "variableName": "ncl_cg_spm2__inf_status_tou"
             },
             {
+                "isAbout": "items/ncl_cg_spm2__inf_status_tstsml",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__inf_status_tstsml"
+            },
+            {
                 "isAbout": "items/ncl_cg_spm2__inf_status_bod",
                 "isVis": true,
                 "variableName": "ncl_cg_spm2__inf_status_bod"
@@ -667,31 +692,6 @@
                 "isAbout": "items/ncl_cg_spm2__inf_administration",
                 "isVis": true,
                 "variableName": "ncl_cg_spm2__inf_administration"
-            },
-            {
-                "isAbout": "items/ncl_cg_spm2__inf_tstsml_raw_score",
-                "isVis": true,
-                "variableName": "ncl_cg_spm2__inf_tstsml_raw_score"
-            },
-            {
-                "isAbout": "items/ncl_cg_spm2__inf_tstsml_t_score",
-                "isVis": true,
-                "variableName": "ncl_cg_spm2__inf_tstsml_t_score"
-            },
-            {
-                "isAbout": "items/ncl_cg_spm2__inf_status_tstsml",
-                "isVis": true,
-                "variableName": "ncl_cg_spm2__inf_status_tstsml"
-            },
-            {
-                "isAbout": "items/ncl_cg_spm2__inf_gestational_age",
-                "isVis": true,
-                "variableName": "ncl_cg_spm2__inf_gestational_age"
-            },
-            {
-                "isAbout": "items/ncl_cg_spm2__inf_adjusted_age",
-                "isVis": true,
-                "variableName": "ncl_cg_spm2__inf_adjusted_age"
             }
         ],
         "shuffle": false

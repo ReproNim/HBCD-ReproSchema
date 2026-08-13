@@ -1,0 +1,56 @@
+{
+    "id": "mri_ra_chkl_data_s4_004",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "MRI"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Research Assistant"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/mri-forms/#mri-scan-session-data-summary-forms"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "mri_ra_chkl_data_0462"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "mri_ra_chkl_data_0462"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "mri_ra_chkl_data"
+        }
+    ],
+    "prefLabel": {
+        "en": "mri_ra_chkl_data_s4_004"
+    },
+    "question": {
+        "en": "Did sites meet the minimum of 7 min 30 sec of low motion fMRI data needed to meet the minimum threshold?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

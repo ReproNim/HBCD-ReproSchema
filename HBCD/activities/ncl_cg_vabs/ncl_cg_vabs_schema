@@ -9,6 +9,9 @@
         "order": [
             "items/ncl_cg_vabs_date_taken",
             "items/ncl_cg_vabs_candidate_age",
+            "items/ncl_cg_vabs_gestational_age",
+            "items/ncl_cg_vabs_lang",
+            "items/ncl_cg_vabs_lang_admin",
             "items/ncl_cg_vabs_age_years_months",
             "items/ncl_cg_vabs_age_months",
             "items/ncl_cg_vabs_age_years",
@@ -161,7 +164,6 @@
             "items/ncl_cg_vabs_fine_motor_vs_minus_score",
             "items/ncl_cg_vabs_fine_motor_strength_score",
             "items/ncl_cg_vabs_fine_motor_base_rate_score",
-            "items/ncl_cg_vabs_administration",
             "items/ncl_cg_vabs_comm_daily_std_score",
             "items/ncl_cg_vabs_comm_daily_std_score_2",
             "items/ncl_cg_vabs_comm_daily_std_diff_score",
@@ -192,11 +194,11 @@
             "items/ncl_cg_vabs_soc_motor_std_diff_score",
             "items/ncl_cg_vabs_soc_motor_sig_diff_score",
             "items/ncl_cg_vabs_soc_motor_base_rate_score",
-            "items/ncl_cg_vabs_reseptive_expressive_std_score",
-            "items/ncl_cg_vabs_reseptive_expressive_std_score_2",
-            "items/ncl_cg_vabs_reseptive_expressive_std_diff_score",
-            "items/ncl_cg_vabs_reseptive_expressive_sig_diff_score",
-            "items/ncl_cg_vabs_reseptive_expressive_base_rate_score",
+            "items/ncl_cg_vabs_receptive_expressive_std_score",
+            "items/ncl_cg_vabs_receptive_expressive_std_score_2",
+            "items/ncl_cg_vabs_receptive_expressive_std_diff_score",
+            "items/ncl_cg_vabs_receptive_expressive_sig_diff_score",
+            "items/ncl_cg_vabs_receptive_expressive_base_rate_score",
             "items/ncl_cg_vabs_inter_relation_std_score",
             "items/ncl_cg_vabs_inter_relation_std_score_2",
             "items/ncl_cg_vabs_inter_relation_std_diff_score",
@@ -207,8 +209,7 @@
             "items/ncl_cg_vabs_gross_fine_motor_std_diff_score",
             "items/ncl_cg_vabs_gross_fine_motor_sig_diff_score",
             "items/ncl_cg_vabs_gross_fine_motor_base_rate_score",
-            "items/ncl_cg_vabs_gestational_age",
-            "items/ncl_cg_vabs_adjusted_age"
+            "items/ncl_cg_vabs_administration"
         ],
         "addProperties": [
             {
@@ -220,6 +221,21 @@
                 "isAbout": "items/ncl_cg_vabs_candidate_age",
                 "isVis": true,
                 "variableName": "ncl_cg_vabs_candidate_age"
+            },
+            {
+                "isAbout": "items/ncl_cg_vabs_gestational_age",
+                "isVis": true,
+                "variableName": "ncl_cg_vabs_gestational_age"
+            },
+            {
+                "isAbout": "items/ncl_cg_vabs_lang",
+                "isVis": true,
+                "variableName": "ncl_cg_vabs_lang"
+            },
+            {
+                "isAbout": "items/ncl_cg_vabs_lang_admin",
+                "isVis": true,
+                "variableName": "ncl_cg_vabs_lang_admin"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_age_years_months",
@@ -982,11 +998,6 @@
                 "variableName": "ncl_cg_vabs_fine_motor_base_rate_score"
             },
             {
-                "isAbout": "items/ncl_cg_vabs_administration",
-                "isVis": true,
-                "variableName": "ncl_cg_vabs_administration"
-            },
-            {
                 "isAbout": "items/ncl_cg_vabs_comm_daily_std_score",
                 "isVis": true,
                 "variableName": "ncl_cg_vabs_comm_daily_std_score"
@@ -1137,29 +1148,29 @@
                 "variableName": "ncl_cg_vabs_soc_motor_base_rate_score"
             },
             {
-                "isAbout": "items/ncl_cg_vabs_reseptive_expressive_std_score",
+                "isAbout": "items/ncl_cg_vabs_receptive_expressive_std_score",
                 "isVis": true,
-                "variableName": "ncl_cg_vabs_reseptive_expressive_std_score"
+                "variableName": "ncl_cg_vabs_receptive_expressive_std_score"
             },
             {
-                "isAbout": "items/ncl_cg_vabs_reseptive_expressive_std_score_2",
+                "isAbout": "items/ncl_cg_vabs_receptive_expressive_std_score_2",
                 "isVis": true,
-                "variableName": "ncl_cg_vabs_reseptive_expressive_std_score_2"
+                "variableName": "ncl_cg_vabs_receptive_expressive_std_score_2"
             },
             {
-                "isAbout": "items/ncl_cg_vabs_reseptive_expressive_std_diff_score",
+                "isAbout": "items/ncl_cg_vabs_receptive_expressive_std_diff_score",
                 "isVis": true,
-                "variableName": "ncl_cg_vabs_reseptive_expressive_std_diff_score"
+                "variableName": "ncl_cg_vabs_receptive_expressive_std_diff_score"
             },
             {
-                "isAbout": "items/ncl_cg_vabs_reseptive_expressive_sig_diff_score",
+                "isAbout": "items/ncl_cg_vabs_receptive_expressive_sig_diff_score",
                 "isVis": true,
-                "variableName": "ncl_cg_vabs_reseptive_expressive_sig_diff_score"
+                "variableName": "ncl_cg_vabs_receptive_expressive_sig_diff_score"
             },
             {
-                "isAbout": "items/ncl_cg_vabs_reseptive_expressive_base_rate_score",
+                "isAbout": "items/ncl_cg_vabs_receptive_expressive_base_rate_score",
                 "isVis": true,
-                "variableName": "ncl_cg_vabs_reseptive_expressive_base_rate_score"
+                "variableName": "ncl_cg_vabs_receptive_expressive_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_inter_relation_std_score",
@@ -1212,14 +1223,9 @@
                 "variableName": "ncl_cg_vabs_gross_fine_motor_base_rate_score"
             },
             {
-                "isAbout": "items/ncl_cg_vabs_gestational_age",
+                "isAbout": "items/ncl_cg_vabs_administration",
                 "isVis": true,
-                "variableName": "ncl_cg_vabs_gestational_age"
-            },
-            {
-                "isAbout": "items/ncl_cg_vabs_adjusted_age",
-                "isVis": true,
-                "variableName": "ncl_cg_vabs_adjusted_age"
+                "variableName": "ncl_cg_vabs_administration"
             }
         ],
         "shuffle": false

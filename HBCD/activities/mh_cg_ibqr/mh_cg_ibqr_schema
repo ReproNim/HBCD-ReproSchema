@@ -9,6 +9,8 @@
         "order": [
             "items/mh_cg_ibqr_date_taken",
             "items/mh_cg_ibqr_candidate_age",
+            "items/mh_cg_ibqr_gestational_age",
+            "items/mh_cg_ibqr_adjusted_age",
             "items/mh_cg_ibqr_lang",
             "items/mh_cg_ibqr_surg_001",
             "items/mh_cg_ibqr_surg_002",
@@ -62,8 +64,10 @@
             "items/mh_cg_ibqr_efrt_score",
             "items/mh_cg_ibqr_beh_score",
             "items/mh_cg_ibqr_administration",
-            "items/mh_cg_ibqr_gestational_age",
-            "items/mh_cg_ibqr_adjusted_age"
+            "items/mh_cg_ibqr_surg_score_note",
+            "items/mh_cg_ibqr_neg_score_note",
+            "items/mh_cg_ibqr_efrt_score_note",
+            "items/mh_cg_ibqr_beh_score_note"
         ],
         "addProperties": [
             {
@@ -75,6 +79,16 @@
                 "isAbout": "items/mh_cg_ibqr_candidate_age",
                 "isVis": true,
                 "variableName": "mh_cg_ibqr_candidate_age"
+            },
+            {
+                "isAbout": "items/mh_cg_ibqr_gestational_age",
+                "isVis": true,
+                "variableName": "mh_cg_ibqr_gestational_age"
+            },
+            {
+                "isAbout": "items/mh_cg_ibqr_adjusted_age",
+                "isVis": true,
+                "variableName": "mh_cg_ibqr_adjusted_age"
             },
             {
                 "isAbout": "items/mh_cg_ibqr_lang",
@@ -342,14 +356,24 @@
                 "variableName": "mh_cg_ibqr_administration"
             },
             {
-                "isAbout": "items/mh_cg_ibqr_gestational_age",
+                "isAbout": "items/mh_cg_ibqr_surg_score_note",
                 "isVis": true,
-                "variableName": "mh_cg_ibqr_gestational_age"
+                "variableName": "mh_cg_ibqr_surg_score_note"
             },
             {
-                "isAbout": "items/mh_cg_ibqr_adjusted_age",
+                "isAbout": "items/mh_cg_ibqr_neg_score_note",
                 "isVis": true,
-                "variableName": "mh_cg_ibqr_adjusted_age"
+                "variableName": "mh_cg_ibqr_neg_score_note"
+            },
+            {
+                "isAbout": "items/mh_cg_ibqr_efrt_score_note",
+                "isVis": true,
+                "variableName": "mh_cg_ibqr_efrt_score_note"
+            },
+            {
+                "isAbout": "items/mh_cg_ibqr_beh_score_note",
+                "isVis": true,
+                "variableName": "mh_cg_ibqr_beh_score_note"
             }
         ],
         "shuffle": false

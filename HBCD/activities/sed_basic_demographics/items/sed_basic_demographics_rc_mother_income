@@ -42,7 +42,7 @@
         "en": "sed_basic_demographics_rc_mother_income"
     },
     "question": {
-        "en": "Defined by REDCap at V01 'sed_bm_demo' instrument, field 'income_002'"
+        "en": "Which of these categories best describes your TOTAL COMBINED HOUSEHOLD INCOME for the past 12 months? This should include income (before taxes and deductions) from all sources, wages, rent from properties, social security, disability and/or veteran's benefits, unemployment benefits, workman's compensation, help from relative (include child payments and alimony), and so on. Defined by REDCap at V01 'sed_bm_demo' instrument, field 'income_002'"
     },
     "responseOptions": {
         "valueType": [

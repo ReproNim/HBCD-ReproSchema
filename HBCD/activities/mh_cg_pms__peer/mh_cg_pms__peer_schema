@@ -9,6 +9,8 @@
         "order": [
             "items/mh_cg_pms__peer_date_taken",
             "items/mh_cg_pms__peer_candidate_age",
+            "items/mh_cg_pms__peer_gestational_age",
+            "items/mh_cg_pms__peer_adjusted_age",
             "items/mh_cg_pms__peer_lang",
             "items/mh_cg_pms__peer_001",
             "items/mh_cg_pms__peer_002__01",
@@ -16,11 +18,9 @@
             "items/mh_cg_pms__peer_002__03",
             "items/mh_cg_pms__peer_002__04",
             "items/mh_cg_pms__peer_total_score",
-            "items/mh_cg_pms__peer_administration",
             "items/mh_cg_pms__peer_answered_count",
             "items/mh_cg_pms__peer_note",
-            "items/mh_cg_pms__peer_gestational_age",
-            "items/mh_cg_pms__peer_adjusted_age"
+            "items/mh_cg_pms__peer_administration"
         ],
         "addProperties": [
             {
@@ -32,6 +32,16 @@
                 "isAbout": "items/mh_cg_pms__peer_candidate_age",
                 "isVis": true,
                 "variableName": "mh_cg_pms__peer_candidate_age"
+            },
+            {
+                "isAbout": "items/mh_cg_pms__peer_gestational_age",
+                "isVis": true,
+                "variableName": "mh_cg_pms__peer_gestational_age"
+            },
+            {
+                "isAbout": "items/mh_cg_pms__peer_adjusted_age",
+                "isVis": true,
+                "variableName": "mh_cg_pms__peer_adjusted_age"
             },
             {
                 "isAbout": "items/mh_cg_pms__peer_lang",
@@ -69,11 +79,6 @@
                 "variableName": "mh_cg_pms__peer_total_score"
             },
             {
-                "isAbout": "items/mh_cg_pms__peer_administration",
-                "isVis": true,
-                "variableName": "mh_cg_pms__peer_administration"
-            },
-            {
                 "isAbout": "items/mh_cg_pms__peer_answered_count",
                 "isVis": true,
                 "variableName": "mh_cg_pms__peer_answered_count"
@@ -84,14 +89,9 @@
                 "variableName": "mh_cg_pms__peer_note"
             },
             {
-                "isAbout": "items/mh_cg_pms__peer_gestational_age",
+                "isAbout": "items/mh_cg_pms__peer_administration",
                 "isVis": true,
-                "variableName": "mh_cg_pms__peer_gestational_age"
-            },
-            {
-                "isAbout": "items/mh_cg_pms__peer_adjusted_age",
-                "isVis": true,
-                "variableName": "mh_cg_pms__peer_adjusted_age"
+                "variableName": "mh_cg_pms__peer_administration"
             }
         ],
         "shuffle": false

@@ -102,6 +102,7 @@
             "items/pex_ch_tlfb_krtm_wk_07",
             "items/pex_ch_tlfb_krtm_wk_08",
             "items/pex_ch_tlfb_krtm_wk_09",
+            "items/pex_ch_tlfb_lang",
             "items/pex_ch_tlfb_mdma_wk_01",
             "items/pex_ch_tlfb_mdma_wk_02",
             "items/pex_ch_tlfb_mdma_wk_03",
@@ -962,6 +963,11 @@
                 "isAbout": "items/pex_ch_tlfb_krtm_wk_09",
                 "isVis": true,
                 "variableName": "pex_ch_tlfb_krtm_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_lang",
+                "isVis": true,
+                "variableName": "pex_ch_tlfb_lang"
             },
             {
                 "isAbout": "items/pex_ch_tlfb_mdma_wk_01",

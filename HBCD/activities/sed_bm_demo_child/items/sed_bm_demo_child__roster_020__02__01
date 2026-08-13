@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "sed_bm_demo_child_0190"
+            "value": "sed_bm_demo_child_0123"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "sed_bm_demo_child_0190"
+            "value": "sed_bm_demo_child_0123"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "sed_bm_demo_child__roster_020__02__01"
     },
     "question": {
-        "en": "Number of adults (18 years of age or older)"
+        "en": "Number of children 17 years or younger living in household 2 (Excluding focal child)"
     },
     "responseOptions": {
         "valueType": [

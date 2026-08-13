@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "ph_ch_anthro_0014"
+            "value": "ph_ch_anthro_0025"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "ph_ch_anthro_0014"
+            "value": "ph_ch_anthro_0025"
         },
         {
             "column": "activity",

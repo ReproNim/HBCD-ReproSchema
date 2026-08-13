@@ -9,6 +9,8 @@
         "order": [
             "items/pex_bm_assistv3_date_taken",
             "items/pex_bm_assistv3_candidate_age",
+            "items/pex_bm_assistv3_gestational_age",
+            "items/pex_bm_assistv3_adjusted_age",
             "items/pex_bm_assistv3_lang",
             "items/pex_bm_assistv3_location",
             "items/pex_bm_assistv3_3m__use_001",
@@ -68,9 +70,7 @@
             "items/pex_bm_assistv3_3m__perform_017",
             "items/pex_bm_assistv3_3m__perform_018",
             "items/pex_bm_assistv3_3m__perform_019",
-            "items/pex_bm_assistv3_administration",
-            "items/pex_bm_assistv3_gestational_age",
-            "items/pex_bm_assistv3_adjusted_age"
+            "items/pex_bm_assistv3_administration"
         ],
         "addProperties": [
             {
@@ -82,6 +82,16 @@
                 "isAbout": "items/pex_bm_assistv3_candidate_age",
                 "isVis": true,
                 "variableName": "pex_bm_assistv3_candidate_age"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_gestational_age",
+                "isVis": true,
+                "variableName": "pex_bm_assistv3_gestational_age"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_adjusted_age",
+                "isVis": true,
+                "variableName": "pex_bm_assistv3_adjusted_age"
             },
             {
                 "isAbout": "items/pex_bm_assistv3_lang",
@@ -382,16 +392,6 @@
                 "isAbout": "items/pex_bm_assistv3_administration",
                 "isVis": true,
                 "variableName": "pex_bm_assistv3_administration"
-            },
-            {
-                "isAbout": "items/pex_bm_assistv3_gestational_age",
-                "isVis": true,
-                "variableName": "pex_bm_assistv3_gestational_age"
-            },
-            {
-                "isAbout": "items/pex_bm_assistv3_adjusted_age",
-                "isVis": true,
-                "variableName": "pex_bm_assistv3_adjusted_age"
             }
         ],
         "shuffle": false

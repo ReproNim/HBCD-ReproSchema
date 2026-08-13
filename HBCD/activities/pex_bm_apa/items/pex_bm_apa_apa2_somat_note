@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_apa_0126"
+            "value": "pex_bm_apa_0134"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_apa_0126"
+            "value": "pex_bm_apa_0134"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_apa_apa2_somat_note"
     },
     "question": {
-        "en": "APA 2 Somatic Symptoms-PHQ-15 - scoring note for missing or scores not calculated"
+        "en": "Notes related to scoring output for 'APA-2 - Somatic Symptoms Subscale - Score'"
     },
     "responseOptions": {
         "valueType": [

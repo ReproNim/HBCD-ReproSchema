@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "sed_cg_cabr_sf_0034"
+            "value": "sed_cg_cabr_sf_0036"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "sed_cg_cabr_sf_0034"
+            "value": "sed_cg_cabr_sf_0036"
         },
         {
             "column": "activity",

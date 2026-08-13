@@ -9,6 +9,8 @@
         "order": [
             "items/mh_cg_pms__selfreg_date_taken",
             "items/mh_cg_pms__selfreg_candidate_age",
+            "items/mh_cg_pms__selfreg_gestational_age",
+            "items/mh_cg_pms__selfreg_adjusted_age",
             "items/mh_cg_pms__selfreg_lang",
             "items/mh_cg_pms__selfreg_002",
             "items/mh_cg_pms__selfreg_003",
@@ -16,11 +18,9 @@
             "items/mh_cg_pms__selfreg_005",
             "items/mh_cg_pms__selfreg_001",
             "items/mh_cg_pms__selfreg_total_score",
-            "items/mh_cg_pms__selfreg_administration",
             "items/mh_cg_pms__selfreg_answered_count",
             "items/mh_cg_pms__selfreg_note",
-            "items/mh_cg_pms__selfreg_gestational_age",
-            "items/mh_cg_pms__selfreg_adjusted_age"
+            "items/mh_cg_pms__selfreg_administration"
         ],
         "addProperties": [
             {
@@ -32,6 +32,16 @@
                 "isAbout": "items/mh_cg_pms__selfreg_candidate_age",
                 "isVis": true,
                 "variableName": "mh_cg_pms__selfreg_candidate_age"
+            },
+            {
+                "isAbout": "items/mh_cg_pms__selfreg_gestational_age",
+                "isVis": true,
+                "variableName": "mh_cg_pms__selfreg_gestational_age"
+            },
+            {
+                "isAbout": "items/mh_cg_pms__selfreg_adjusted_age",
+                "isVis": true,
+                "variableName": "mh_cg_pms__selfreg_adjusted_age"
             },
             {
                 "isAbout": "items/mh_cg_pms__selfreg_lang",
@@ -69,11 +79,6 @@
                 "variableName": "mh_cg_pms__selfreg_total_score"
             },
             {
-                "isAbout": "items/mh_cg_pms__selfreg_administration",
-                "isVis": true,
-                "variableName": "mh_cg_pms__selfreg_administration"
-            },
-            {
                 "isAbout": "items/mh_cg_pms__selfreg_answered_count",
                 "isVis": true,
                 "variableName": "mh_cg_pms__selfreg_answered_count"
@@ -84,14 +89,9 @@
                 "variableName": "mh_cg_pms__selfreg_note"
             },
             {
-                "isAbout": "items/mh_cg_pms__selfreg_gestational_age",
+                "isAbout": "items/mh_cg_pms__selfreg_administration",
                 "isVis": true,
-                "variableName": "mh_cg_pms__selfreg_gestational_age"
-            },
-            {
-                "isAbout": "items/mh_cg_pms__selfreg_adjusted_age",
-                "isVis": true,
-                "variableName": "mh_cg_pms__selfreg_adjusted_age"
+                "variableName": "mh_cg_pms__selfreg_administration"
             }
         ],
         "shuffle": false

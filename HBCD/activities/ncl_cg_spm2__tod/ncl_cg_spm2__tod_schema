@@ -9,6 +9,8 @@
         "order": [
             "items/ncl_cg_spm2__tod_date_taken",
             "items/ncl_cg_spm2__tod_candidate_age",
+            "items/ncl_cg_spm2__tod_gestational_age",
+            "items/ncl_cg_spm2__tod_adjusted_age",
             "items/ncl_cg_spm2__tod_lang",
             "items/ncl_cg_spm2__tod_soc_001",
             "items/ncl_cg_spm2__tod_soc_002",
@@ -94,6 +96,7 @@
             "items/ncl_cg_spm2__tod_vis_raw_score",
             "items/ncl_cg_spm2__tod_hea_raw_score",
             "items/ncl_cg_spm2__tod_tou_raw_score",
+            "items/ncl_cg_spm2__tod_tstsml_raw_score",
             "items/ncl_cg_spm2__tod_bod_raw_score",
             "items/ncl_cg_spm2__tod_bal_raw_score",
             "items/ncl_cg_spm2__tod_pla_raw_score",
@@ -103,14 +106,11 @@
             "items/ncl_cg_spm2__tod_vis_t_score",
             "items/ncl_cg_spm2__tod_hea_t_score",
             "items/ncl_cg_spm2__tod_tou_t_score",
+            "items/ncl_cg_spm2__tod_tstsml_t_score",
             "items/ncl_cg_spm2__tod_bod_t_score",
             "items/ncl_cg_spm2__tod_bal_t_score",
             "items/ncl_cg_spm2__tod_pla_t_score",
-            "items/ncl_cg_spm2__tod_administration",
-            "items/ncl_cg_spm2__tod_tstsml_raw_score",
-            "items/ncl_cg_spm2__tod_tstsml_t_score",
-            "items/ncl_cg_spm2__tod_gestational_age",
-            "items/ncl_cg_spm2__tod_adjusted_age"
+            "items/ncl_cg_spm2__tod_administration"
         ],
         "addProperties": [
             {
@@ -122,6 +122,16 @@
                 "isAbout": "items/ncl_cg_spm2__tod_candidate_age",
                 "isVis": true,
                 "variableName": "ncl_cg_spm2__tod_candidate_age"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_gestational_age",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_gestational_age"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2__tod_adjusted_age",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_adjusted_age"
             },
             {
                 "isAbout": "items/ncl_cg_spm2__tod_lang",
@@ -549,6 +559,11 @@
                 "variableName": "ncl_cg_spm2__tod_tou_raw_score"
             },
             {
+                "isAbout": "items/ncl_cg_spm2__tod_tstsml_raw_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_tstsml_raw_score"
+            },
+            {
                 "isAbout": "items/ncl_cg_spm2__tod_bod_raw_score",
                 "isVis": true,
                 "variableName": "ncl_cg_spm2__tod_bod_raw_score"
@@ -594,6 +609,11 @@
                 "variableName": "ncl_cg_spm2__tod_tou_t_score"
             },
             {
+                "isAbout": "items/ncl_cg_spm2__tod_tstsml_t_score",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2__tod_tstsml_t_score"
+            },
+            {
                 "isAbout": "items/ncl_cg_spm2__tod_bod_t_score",
                 "isVis": true,
                 "variableName": "ncl_cg_spm2__tod_bod_t_score"
@@ -612,26 +632,6 @@
                 "isAbout": "items/ncl_cg_spm2__tod_administration",
                 "isVis": true,
                 "variableName": "ncl_cg_spm2__tod_administration"
-            },
-            {
-                "isAbout": "items/ncl_cg_spm2__tod_tstsml_raw_score",
-                "isVis": true,
-                "variableName": "ncl_cg_spm2__tod_tstsml_raw_score"
-            },
-            {
-                "isAbout": "items/ncl_cg_spm2__tod_tstsml_t_score",
-                "isVis": true,
-                "variableName": "ncl_cg_spm2__tod_tstsml_t_score"
-            },
-            {
-                "isAbout": "items/ncl_cg_spm2__tod_gestational_age",
-                "isVis": true,
-                "variableName": "ncl_cg_spm2__tod_gestational_age"
-            },
-            {
-                "isAbout": "items/ncl_cg_spm2__tod_adjusted_age",
-                "isVis": true,
-                "variableName": "ncl_cg_spm2__tod_adjusted_age"
             }
         ],
         "shuffle": false

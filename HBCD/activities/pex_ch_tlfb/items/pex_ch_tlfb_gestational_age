@@ -42,7 +42,7 @@
         "en": "pex_ch_tlfb_gestational_age"
     },
     "question": {
-        "en": "Gestational Age (Weeks)"
+        "en": "Gestational Age at Administration (Weeks)"
     },
     "responseOptions": {
         "valueType": [

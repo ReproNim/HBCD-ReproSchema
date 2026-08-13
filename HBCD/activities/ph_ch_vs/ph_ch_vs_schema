@@ -11,6 +11,7 @@
             "items/ph_ch_vs_candidate_age",
             "items/ph_ch_vs_gestational_age",
             "items/ph_ch_vs_adjusted_age",
+            "items/ph_ch_vs_lang",
             "items/ph_ch_vs_eye_001",
             "items/ph_ch_vs_eye_002",
             "items/ph_ch_vs_eye_002__01___strabismus",
@@ -57,6 +58,11 @@
                 "isAbout": "items/ph_ch_vs_adjusted_age",
                 "isVis": true,
                 "variableName": "ph_ch_vs_adjusted_age"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_lang",
+                "isVis": true,
+                "variableName": "ph_ch_vs_lang"
             },
             {
                 "isAbout": "items/ph_ch_vs_eye_001",

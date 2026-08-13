@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "nt_ch_sens_qtn_2_0010"
+            "value": "nt_ch_sens_qtn_2_0012"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "nt_ch_sens_qtn_2_0010"
+            "value": "nt_ch_sens_qtn_2_0012"
         },
         {
             "column": "activity",

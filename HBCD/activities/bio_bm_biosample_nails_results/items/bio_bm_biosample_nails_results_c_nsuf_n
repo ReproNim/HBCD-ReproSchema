@@ -3,6 +3,11 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
+            "column": "unit",
+            "source": "nbdc",
+            "value": "pg/mg"
+        },
+        {
             "column": "study",
             "source": "nbdc",
             "value": "Core"
@@ -25,12 +30,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "bio_bm_nails_results_0136"
+            "value": "bio_bm_nails_results_0098"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "bio_bm_nails_results_0136"
+            "value": "bio_bm_nails_results_0098"
         },
         {
             "column": "activity",

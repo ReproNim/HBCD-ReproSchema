@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "ncl_ch_cdiwges_0160"
+            "value": "ncl_ch_cdiwges_0275"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "ncl_ch_cdiwges_0160"
+            "value": "ncl_ch_cdiwges_0275"
         },
         {
             "column": "activity",

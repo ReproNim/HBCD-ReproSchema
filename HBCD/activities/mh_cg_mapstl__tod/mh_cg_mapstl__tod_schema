@@ -9,6 +9,8 @@
         "order": [
             "items/mh_cg_mapstl__tod_date_taken",
             "items/mh_cg_mapstl__tod_candidate_age",
+            "items/mh_cg_mapstl__tod_gestational_age",
+            "items/mh_cg_mapstl__tod_adjusted_age",
             "items/mh_cg_mapstl__tod_lang",
             "items/mh_cg_mapstl__tod_001",
             "items/mh_cg_mapstl__tod_002",
@@ -51,9 +53,9 @@
             "items/mh_cg_mapstl__tod_039",
             "items/mh_cg_mapstl__tod_040",
             "items/mh_cg_mapstl__tod_total_score",
-            "items/mh_cg_mapstl__tod_administration",
-            "items/mh_cg_mapstl__tod_gestational_age",
-            "items/mh_cg_mapstl__tod_adjusted_age"
+            "items/mh_cg_mapstl__tod_total_score_note",
+            "items/mh_cg_mapstl__tod_prorated_score",
+            "items/mh_cg_mapstl__tod_administration"
         ],
         "addProperties": [
             {
@@ -65,6 +67,16 @@
                 "isAbout": "items/mh_cg_mapstl__tod_candidate_age",
                 "isVis": true,
                 "variableName": "mh_cg_mapstl__tod_candidate_age"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_gestational_age",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_gestational_age"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_adjusted_age",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_adjusted_age"
             },
             {
                 "isAbout": "items/mh_cg_mapstl__tod_lang",
@@ -277,19 +289,19 @@
                 "variableName": "mh_cg_mapstl__tod_total_score"
             },
             {
+                "isAbout": "items/mh_cg_mapstl__tod_total_score_note",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_total_score_note"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl__tod_prorated_score",
+                "isVis": true,
+                "variableName": "mh_cg_mapstl__tod_prorated_score"
+            },
+            {
                 "isAbout": "items/mh_cg_mapstl__tod_administration",
                 "isVis": true,
                 "variableName": "mh_cg_mapstl__tod_administration"
-            },
-            {
-                "isAbout": "items/mh_cg_mapstl__tod_gestational_age",
-                "isVis": true,
-                "variableName": "mh_cg_mapstl__tod_gestational_age"
-            },
-            {
-                "isAbout": "items/mh_cg_mapstl__tod_adjusted_age",
-                "isVis": true,
-                "variableName": "mh_cg_mapstl__tod_adjusted_age"
             }
         ],
         "shuffle": false

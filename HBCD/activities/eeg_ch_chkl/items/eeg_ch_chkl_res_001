@@ -30,12 +30,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "eeg_ch_chkl_0014"
+            "value": "eeg_ch_chkl_0018"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "eeg_ch_chkl_0014"
+            "value": "eeg_ch_chkl_0018"
         },
         {
             "column": "activity",

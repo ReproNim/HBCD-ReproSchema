@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "sed_cg_tic_screener_0014"
+            "value": "sed_cg_tic_screener_0015"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "sed_cg_tic_screener_0014"
+            "value": "sed_cg_tic_screener_0015"
         },
         {
             "column": "activity",

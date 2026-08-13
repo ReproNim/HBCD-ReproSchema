@@ -9,6 +9,8 @@
         "order": [
             "items/pex_bm_assistv2_date_taken",
             "items/pex_bm_assistv2_candidate_age",
+            "items/pex_bm_assistv2_gestational_age",
+            "items/pex_bm_assistv2_adjusted_age",
             "items/pex_bm_assistv2_lang",
             "items/pex_bm_assistv2_location",
             "items/pex_bm_assistv2_end__use_001",
@@ -98,9 +100,7 @@
             "items/pex_bm_assistv2_end__use_015__03",
             "items/pex_bm_assistv2_end__use_015__04",
             "items/pex_bm_assistv2_end__use_015__05",
-            "items/pex_bm_assistv2_administration",
-            "items/pex_bm_assistv2_gestational_age",
-            "items/pex_bm_assistv2_adjusted_age"
+            "items/pex_bm_assistv2_administration"
         ],
         "addProperties": [
             {
@@ -112,6 +112,16 @@
                 "isAbout": "items/pex_bm_assistv2_candidate_age",
                 "isVis": true,
                 "variableName": "pex_bm_assistv2_candidate_age"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv2_gestational_age",
+                "isVis": true,
+                "variableName": "pex_bm_assistv2_gestational_age"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv2_adjusted_age",
+                "isVis": true,
+                "variableName": "pex_bm_assistv2_adjusted_age"
             },
             {
                 "isAbout": "items/pex_bm_assistv2_lang",
@@ -562,16 +572,6 @@
                 "isAbout": "items/pex_bm_assistv2_administration",
                 "isVis": true,
                 "variableName": "pex_bm_assistv2_administration"
-            },
-            {
-                "isAbout": "items/pex_bm_assistv2_gestational_age",
-                "isVis": true,
-                "variableName": "pex_bm_assistv2_gestational_age"
-            },
-            {
-                "isAbout": "items/pex_bm_assistv2_adjusted_age",
-                "isVis": true,
-                "variableName": "pex_bm_assistv2_adjusted_age"
             }
         ],
         "shuffle": false

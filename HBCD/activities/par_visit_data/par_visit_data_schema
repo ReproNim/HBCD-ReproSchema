@@ -24,11 +24,16 @@
             "items/par_visit_data_su_flag_tlfb_bm_cannabis",
             "items/par_visit_data_su_flag_tlfb_bm_stimulant",
             "items/par_visit_data_su_flag_tlfb_bm_alcohol",
-            "items/par_visit_data_su_flag_bio_bm_stim",
-            "items/par_visit_data_su_flag_bio_bm_cannabinoid",
-            "items/par_visit_data_su_flag_bio_bm_opioid",
-            "items/par_visit_data_su_flag_bio_bm_ethanol",
-            "items/par_visit_data_su_flag_bio_bm_nicotine"
+            "items/par_visit_data_su_flag_bio_bm_urine_stim",
+            "items/par_visit_data_su_flag_bio_bm_urine_cannabinoid",
+            "items/par_visit_data_su_flag_bio_bm_urine_opioid",
+            "items/par_visit_data_su_flag_bio_bm_urine_ethanol",
+            "items/par_visit_data_su_flag_bio_bm_urine_nicotine",
+            "items/par_visit_data_su_flag_bio_bm_nails_stim",
+            "items/par_visit_data_su_flag_bio_bm_nails_cannabinoid",
+            "items/par_visit_data_su_flag_bio_bm_nails_opioid",
+            "items/par_visit_data_su_flag_bio_bm_nails_ethanol",
+            "items/par_visit_data_su_flag_bio_bm_nails_nicotine"
         ],
         "addProperties": [
             {
@@ -117,29 +122,54 @@
                 "variableName": "par_visit_data_su_flag_tlfb_bm_alcohol"
             },
             {
-                "isAbout": "items/par_visit_data_su_flag_bio_bm_stim",
+                "isAbout": "items/par_visit_data_su_flag_bio_bm_urine_stim",
                 "isVis": true,
-                "variableName": "par_visit_data_su_flag_bio_bm_stim"
+                "variableName": "par_visit_data_su_flag_bio_bm_urine_stim"
             },
             {
-                "isAbout": "items/par_visit_data_su_flag_bio_bm_cannabinoid",
+                "isAbout": "items/par_visit_data_su_flag_bio_bm_urine_cannabinoid",
                 "isVis": true,
-                "variableName": "par_visit_data_su_flag_bio_bm_cannabinoid"
+                "variableName": "par_visit_data_su_flag_bio_bm_urine_cannabinoid"
             },
             {
-                "isAbout": "items/par_visit_data_su_flag_bio_bm_opioid",
+                "isAbout": "items/par_visit_data_su_flag_bio_bm_urine_opioid",
                 "isVis": true,
-                "variableName": "par_visit_data_su_flag_bio_bm_opioid"
+                "variableName": "par_visit_data_su_flag_bio_bm_urine_opioid"
             },
             {
-                "isAbout": "items/par_visit_data_su_flag_bio_bm_ethanol",
+                "isAbout": "items/par_visit_data_su_flag_bio_bm_urine_ethanol",
                 "isVis": true,
-                "variableName": "par_visit_data_su_flag_bio_bm_ethanol"
+                "variableName": "par_visit_data_su_flag_bio_bm_urine_ethanol"
             },
             {
-                "isAbout": "items/par_visit_data_su_flag_bio_bm_nicotine",
+                "isAbout": "items/par_visit_data_su_flag_bio_bm_urine_nicotine",
                 "isVis": true,
-                "variableName": "par_visit_data_su_flag_bio_bm_nicotine"
+                "variableName": "par_visit_data_su_flag_bio_bm_urine_nicotine"
+            },
+            {
+                "isAbout": "items/par_visit_data_su_flag_bio_bm_nails_stim",
+                "isVis": true,
+                "variableName": "par_visit_data_su_flag_bio_bm_nails_stim"
+            },
+            {
+                "isAbout": "items/par_visit_data_su_flag_bio_bm_nails_cannabinoid",
+                "isVis": true,
+                "variableName": "par_visit_data_su_flag_bio_bm_nails_cannabinoid"
+            },
+            {
+                "isAbout": "items/par_visit_data_su_flag_bio_bm_nails_opioid",
+                "isVis": true,
+                "variableName": "par_visit_data_su_flag_bio_bm_nails_opioid"
+            },
+            {
+                "isAbout": "items/par_visit_data_su_flag_bio_bm_nails_ethanol",
+                "isVis": true,
+                "variableName": "par_visit_data_su_flag_bio_bm_nails_ethanol"
+            },
+            {
+                "isAbout": "items/par_visit_data_su_flag_bio_bm_nails_nicotine",
+                "isVis": true,
+                "variableName": "par_visit_data_su_flag_bio_bm_nails_nicotine"
             }
         ],
         "shuffle": false

@@ -9,6 +9,8 @@
         "order": [
             "items/sed_bm_demo_child_date_taken",
             "items/sed_bm_demo_child_candidate_age",
+            "items/sed_bm_demo_child_gestational_age",
+            "items/sed_bm_demo_child_adjusted_age",
             "items/sed_bm_demo_child_lang",
             "items/sed_bm_demo_child_location",
             "items/sed_bm_demo_child__herit_001___0",
@@ -19,75 +21,6 @@
             "items/sed_bm_demo_child__herit_001___5",
             "items/sed_bm_demo_child__herit_001___6",
             "items/sed_bm_demo_child__herit_001___7",
-            "items/sed_bm_demo_child__herit_001__01___0",
-            "items/sed_bm_demo_child__herit_001__01___1",
-            "items/sed_bm_demo_child__herit_001__01___2",
-            "items/sed_bm_demo_child__herit_001__01___3",
-            "items/sed_bm_demo_child__herit_001__02___0",
-            "items/sed_bm_demo_child__herit_001__02___1",
-            "items/sed_bm_demo_child__herit_001__02___2",
-            "items/sed_bm_demo_child__herit_001__02___3",
-            "items/sed_bm_demo_child__herit_001__02___4",
-            "items/sed_bm_demo_child__herit_001__02___5",
-            "items/sed_bm_demo_child__herit_001__02___6",
-            "items/sed_bm_demo_child__herit_001__02___7",
-            "items/sed_bm_demo_child__herit_001__02___8",
-            "items/sed_bm_demo_child__herit_001__02___9",
-            "items/sed_bm_demo_child__herit_001__03___0",
-            "items/sed_bm_demo_child__herit_001__03___1",
-            "items/sed_bm_demo_child__herit_001__03___2",
-            "items/sed_bm_demo_child__herit_001__03___3",
-            "items/sed_bm_demo_child__herit_001__03___4",
-            "items/sed_bm_demo_child__herit_001__03___5",
-            "items/sed_bm_demo_child__herit_001__03___6",
-            "items/sed_bm_demo_child__herit_001__03___7",
-            "items/sed_bm_demo_child__herit_001__03___8",
-            "items/sed_bm_demo_child__herit_001__03___9",
-            "items/sed_bm_demo_child__herit_001__03___10",
-            "items/sed_bm_demo_child__herit_001__03___11",
-            "items/sed_bm_demo_child__herit_001__04___0",
-            "items/sed_bm_demo_child__herit_001__04___1",
-            "items/sed_bm_demo_child__herit_001__04___2",
-            "items/sed_bm_demo_child__herit_001__04___3",
-            "items/sed_bm_demo_child__herit_001__04___4",
-            "items/sed_bm_demo_child__herit_001__04___5",
-            "items/sed_bm_demo_child__herit_001__04___6",
-            "items/sed_bm_demo_child__herit_001__04___7",
-            "items/sed_bm_demo_child__herit_001__04___8",
-            "items/sed_bm_demo_child__herit_001__04___9",
-            "items/sed_bm_demo_child__herit_001__05___0",
-            "items/sed_bm_demo_child__herit_001__05___1",
-            "items/sed_bm_demo_child__herit_001__05___2",
-            "items/sed_bm_demo_child__herit_001__05___3",
-            "items/sed_bm_demo_child__herit_001__05___4",
-            "items/sed_bm_demo_child__herit_001__05___5",
-            "items/sed_bm_demo_child__herit_001__05___6",
-            "items/sed_bm_demo_child__herit_001__05___7",
-            "items/sed_bm_demo_child__herit_001__05___8",
-            "items/sed_bm_demo_child__herit_001__05___9",
-            "items/sed_bm_demo_child__herit_001__05___10",
-            "items/sed_bm_demo_child__herit_001__06___0",
-            "items/sed_bm_demo_child__herit_001__06___1",
-            "items/sed_bm_demo_child__herit_001__06___2",
-            "items/sed_bm_demo_child__herit_001__06___3",
-            "items/sed_bm_demo_child__herit_001__06___4",
-            "items/sed_bm_demo_child__herit_001__06___5",
-            "items/sed_bm_demo_child__herit_001__06___6",
-            "items/sed_bm_demo_child__herit_001__06___7",
-            "items/sed_bm_demo_child__herit_001__06___8",
-            "items/sed_bm_demo_child__herit_001__06___9",
-            "items/sed_bm_demo_child__herit_001__07___0",
-            "items/sed_bm_demo_child__herit_001__07___1",
-            "items/sed_bm_demo_child__herit_001__07___2",
-            "items/sed_bm_demo_child__herit_001__07___3",
-            "items/sed_bm_demo_child__herit_001__07___4",
-            "items/sed_bm_demo_child__herit_001__07___5",
-            "items/sed_bm_demo_child__herit_001__07___6",
-            "items/sed_bm_demo_child__herit_001__07___7",
-            "items/sed_bm_demo_child__herit_001__07___8",
-            "items/sed_bm_demo_child__herit_001__07___9",
-            "items/sed_bm_demo_child__herit_001__07___10",
-            "items/sed_bm_demo_child__herit_001__07___11",
             "items/sed_bm_demo_child__herit_002___1",
             "items/sed_bm_demo_child__herit_002___2",
             "items/sed_bm_demo_child__herit_002___3",
@@ -282,9 +215,7 @@
             "items/sed_bm_demo_child__roster_036__05",
             "items/sed_bm_demo_child__roster_036__06",
             "items/sed_bm_demo_child__income_001",
-            "items/sed_bm_demo_child_administration",
-            "items/sed_bm_demo_child_gestational_age",
-            "items/sed_bm_demo_child_adjusted_age"
+            "items/sed_bm_demo_child_administration"
         ],
         "addProperties": [
             {
@@ -296,6 +227,16 @@
                 "isAbout": "items/sed_bm_demo_child_candidate_age",
                 "isVis": true,
                 "variableName": "sed_bm_demo_child_candidate_age"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_gestational_age",
+                "isVis": true,
+                "variableName": "sed_bm_demo_child_gestational_age"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_adjusted_age",
+                "isVis": true,
+                "variableName": "sed_bm_demo_child_adjusted_age"
             },
             {
                 "isAbout": "items/sed_bm_demo_child_lang",
@@ -346,351 +287,6 @@
                 "isAbout": "items/sed_bm_demo_child__herit_001___7",
                 "isVis": true,
                 "variableName": "sed_bm_demo_child__herit_001___7"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__01___0",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__01___0"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__01___1",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__01___1"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__01___2",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__01___2"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__01___3",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__01___3"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__02___0",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__02___0"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__02___1",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__02___1"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__02___2",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__02___2"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__02___3",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__02___3"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__02___4",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__02___4"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__02___5",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__02___5"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__02___6",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__02___6"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__02___7",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__02___7"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__02___8",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__02___8"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__02___9",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__02___9"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__03___0",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__03___0"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__03___1",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__03___1"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__03___2",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__03___2"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__03___3",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__03___3"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__03___4",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__03___4"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__03___5",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__03___5"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__03___6",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__03___6"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__03___7",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__03___7"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__03___8",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__03___8"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__03___9",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__03___9"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__03___10",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__03___10"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__03___11",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__03___11"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__04___0",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__04___0"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__04___1",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__04___1"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__04___2",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__04___2"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__04___3",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__04___3"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__04___4",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__04___4"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__04___5",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__04___5"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__04___6",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__04___6"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__04___7",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__04___7"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__04___8",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__04___8"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__04___9",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__04___9"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__05___0",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__05___0"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__05___1",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__05___1"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__05___2",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__05___2"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__05___3",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__05___3"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__05___4",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__05___4"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__05___5",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__05___5"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__05___6",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__05___6"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__05___7",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__05___7"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__05___8",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__05___8"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__05___9",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__05___9"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__05___10",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__05___10"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__06___0",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__06___0"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__06___1",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__06___1"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__06___2",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__06___2"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__06___3",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__06___3"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__06___4",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__06___4"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__06___5",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__06___5"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__06___6",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__06___6"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__06___7",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__06___7"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__06___8",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__06___8"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__06___9",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__06___9"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__07___0",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__07___0"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__07___1",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__07___1"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__07___2",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__07___2"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__07___3",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__07___3"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__07___4",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__07___4"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__07___5",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__07___5"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__07___6",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__07___6"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__07___7",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__07___7"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__07___8",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__07___8"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__07___9",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__07___9"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__07___10",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__07___10"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child__herit_001__07___11",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child__herit_001__07___11"
             },
             {
                 "isAbout": "items/sed_bm_demo_child__herit_002___1",
@@ -1666,16 +1262,6 @@
                 "isAbout": "items/sed_bm_demo_child_administration",
                 "isVis": true,
                 "variableName": "sed_bm_demo_child_administration"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child_gestational_age",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child_gestational_age"
-            },
-            {
-                "isAbout": "items/sed_bm_demo_child_adjusted_age",
-                "isVis": true,
-                "variableName": "sed_bm_demo_child_adjusted_age"
             }
         ],
         "shuffle": false

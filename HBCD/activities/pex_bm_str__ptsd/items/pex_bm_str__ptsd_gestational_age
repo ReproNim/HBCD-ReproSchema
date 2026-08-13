@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "pex_bm_str_ptsd_0020"
+            "value": "pex_bm_str_ptsd_0003"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "pex_bm_str_ptsd_0020"
+            "value": "pex_bm_str_ptsd_0003"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "pex_bm_str__ptsd_gestational_age"
     },
     "question": {
-        "en": "Gestational Age (Weeks)"
+        "en": "Gestational Age at Administration (Weeks)"
     },
     "responseOptions": {
         "valueType": [

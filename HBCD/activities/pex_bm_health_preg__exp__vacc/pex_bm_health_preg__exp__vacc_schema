@@ -9,6 +9,8 @@
         "order": [
             "items/pex_bm_health_preg__exp__vacc_date_taken",
             "items/pex_bm_health_preg__exp__vacc_candidate_age",
+            "items/pex_bm_health_preg__exp__vacc_gestational_age",
+            "items/pex_bm_health_preg__exp__vacc_adjusted_age",
             "items/pex_bm_health_preg__exp__vacc_lang",
             "items/pex_bm_health_preg__exp__vacc_001",
             "items/pex_bm_health_preg__exp__vacc_002___0",
@@ -68,9 +70,7 @@
             "items/pex_bm_health_preg__exp__vacc_016___1",
             "items/pex_bm_health_preg__exp__vacc_016___2",
             "items/pex_bm_health_preg__exp__vacc_016___3",
-            "items/pex_bm_health_preg__exp__vacc_administration",
-            "items/pex_bm_health_preg__exp__vacc_gestational_age",
-            "items/pex_bm_health_preg__exp__vacc_adjusted_age"
+            "items/pex_bm_health_preg__exp__vacc_administration"
         ],
         "addProperties": [
             {
@@ -82,6 +82,16 @@
                 "isAbout": "items/pex_bm_health_preg__exp__vacc_candidate_age",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__exp__vacc_candidate_age"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__exp__vacc_gestational_age",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__exp__vacc_gestational_age"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__exp__vacc_adjusted_age",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__exp__vacc_adjusted_age"
             },
             {
                 "isAbout": "items/pex_bm_health_preg__exp__vacc_lang",
@@ -382,16 +392,6 @@
                 "isAbout": "items/pex_bm_health_preg__exp__vacc_administration",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__exp__vacc_administration"
-            },
-            {
-                "isAbout": "items/pex_bm_health_preg__exp__vacc_gestational_age",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__exp__vacc_gestational_age"
-            },
-            {
-                "isAbout": "items/pex_bm_health_preg__exp__vacc_adjusted_age",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__exp__vacc_adjusted_age"
             }
         ],
         "shuffle": false

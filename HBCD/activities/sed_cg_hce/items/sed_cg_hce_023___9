@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "sed_cg_hce_0070"
+            "value": "sed_cg_hce_0072"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "sed_cg_hce_0070"
+            "value": "sed_cg_hce_0072"
         },
         {
             "column": "activity",

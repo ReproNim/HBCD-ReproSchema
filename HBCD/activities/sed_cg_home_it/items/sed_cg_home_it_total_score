@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "sed_cg_home_it_0018"
+            "value": "sed_cg_home_it_0020"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "sed_cg_home_it_0018"
+            "value": "sed_cg_home_it_0020"
         },
         {
             "column": "activity",
@@ -46,7 +46,7 @@
     },
     "responseOptions": {
         "valueType": [
-            "xsd:string"
+            "xsd:integer"
         ]
     },
     "ui": {

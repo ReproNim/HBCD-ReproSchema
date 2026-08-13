@@ -9,6 +9,8 @@
         "order": [
             "items/sed_cg_home_it_date_taken",
             "items/sed_cg_home_it_candidate_age",
+            "items/sed_cg_home_it_gestational_age",
+            "items/sed_cg_home_it_adjusted_age",
             "items/sed_cg_home_it_lang",
             "items/sed_cg_home_it_001",
             "items/sed_cg_home_it_002",
@@ -26,8 +28,9 @@
             "items/sed_cg_home_it_total_emotional_support",
             "items/sed_cg_home_it_total_score",
             "items/sed_cg_home_it_administration",
-            "items/sed_cg_home_it_gestational_age",
-            "items/sed_cg_home_it_adjusted_age"
+            "items/sed_cg_home_it_total_cognitive_stimulation_note",
+            "items/sed_cg_home_it_total_emotional_support_note",
+            "items/sed_cg_home_it_total_score_note"
         ],
         "addProperties": [
             {
@@ -39,6 +42,16 @@
                 "isAbout": "items/sed_cg_home_it_candidate_age",
                 "isVis": true,
                 "variableName": "sed_cg_home_it_candidate_age"
+            },
+            {
+                "isAbout": "items/sed_cg_home_it_gestational_age",
+                "isVis": true,
+                "variableName": "sed_cg_home_it_gestational_age"
+            },
+            {
+                "isAbout": "items/sed_cg_home_it_adjusted_age",
+                "isVis": true,
+                "variableName": "sed_cg_home_it_adjusted_age"
             },
             {
                 "isAbout": "items/sed_cg_home_it_lang",
@@ -126,14 +139,19 @@
                 "variableName": "sed_cg_home_it_administration"
             },
             {
-                "isAbout": "items/sed_cg_home_it_gestational_age",
+                "isAbout": "items/sed_cg_home_it_total_cognitive_stimulation_note",
                 "isVis": true,
-                "variableName": "sed_cg_home_it_gestational_age"
+                "variableName": "sed_cg_home_it_total_cognitive_stimulation_note"
             },
             {
-                "isAbout": "items/sed_cg_home_it_adjusted_age",
+                "isAbout": "items/sed_cg_home_it_total_emotional_support_note",
                 "isVis": true,
-                "variableName": "sed_cg_home_it_adjusted_age"
+                "variableName": "sed_cg_home_it_total_emotional_support_note"
+            },
+            {
+                "isAbout": "items/sed_cg_home_it_total_score_note",
+                "isVis": true,
+                "variableName": "sed_cg_home_it_total_score_note"
             }
         ],
         "shuffle": false

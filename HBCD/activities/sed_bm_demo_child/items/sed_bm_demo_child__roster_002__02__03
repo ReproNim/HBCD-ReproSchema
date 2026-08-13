@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "sed_bm_demo_child_0106"
+            "value": "sed_bm_demo_child_0039"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "sed_bm_demo_child_0106"
+            "value": "sed_bm_demo_child_0039"
         },
         {
             "column": "activity",
@@ -42,7 +42,7 @@
         "en": "sed_bm_demo_child__roster_002__02__03"
     },
     "question": {
-        "en": "Total number in household"
+        "en": "Total number of people living in household 1 (Excluding the focal child)"
     },
     "responseOptions": {
         "valueType": [

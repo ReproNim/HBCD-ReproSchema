@@ -9,6 +9,9 @@
         "order": [
             "items/pex_bm_subst_date_taken",
             "items/pex_bm_subst_candidate_age",
+            "items/pex_bm_subst_gestational_age",
+            "items/pex_bm_subst_adjusted_age",
+            "items/pex_bm_subst_lang",
             "items/pex_bm_subst_location",
             "items/pex_bm_subst_1tri_start",
             "items/pex_bm_subst_1tri_end",
@@ -255,9 +258,7 @@
             "items/pex_bm_subst_stimulants_006__03__01",
             "items/pex_bm_subst_stimulants_006__04",
             "items/pex_bm_subst_stimulants_006__04__01",
-            "items/pex_bm_subst_administration",
-            "items/pex_bm_subst_gestational_age",
-            "items/pex_bm_subst_adjusted_age"
+            "items/pex_bm_subst_administration"
         ],
         "addProperties": [
             {
@@ -269,6 +270,21 @@
                 "isAbout": "items/pex_bm_subst_candidate_age",
                 "isVis": true,
                 "variableName": "pex_bm_subst_candidate_age"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_gestational_age",
+                "isVis": true,
+                "variableName": "pex_bm_subst_gestational_age"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_adjusted_age",
+                "isVis": true,
+                "variableName": "pex_bm_subst_adjusted_age"
+            },
+            {
+                "isAbout": "items/pex_bm_subst_lang",
+                "isVis": true,
+                "variableName": "pex_bm_subst_lang"
             },
             {
                 "isAbout": "items/pex_bm_subst_location",
@@ -1504,16 +1520,6 @@
                 "isAbout": "items/pex_bm_subst_administration",
                 "isVis": true,
                 "variableName": "pex_bm_subst_administration"
-            },
-            {
-                "isAbout": "items/pex_bm_subst_gestational_age",
-                "isVis": true,
-                "variableName": "pex_bm_subst_gestational_age"
-            },
-            {
-                "isAbout": "items/pex_bm_subst_adjusted_age",
-                "isVis": true,
-                "variableName": "pex_bm_subst_adjusted_age"
             }
         ],
         "shuffle": false

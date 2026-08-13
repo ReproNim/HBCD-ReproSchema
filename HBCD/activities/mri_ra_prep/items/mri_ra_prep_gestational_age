@@ -25,17 +25,17 @@
         {
             "column": "url_table",
             "source": "nbdc",
-            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/prescan-questionnaire/"
+            "value": "https://docs.hbcdstudy.org/latest/instruments/mri/mri-forms/#pre-scan-questionnaire"
         },
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "mri_ra_prep_0055"
+            "value": "mri_ra_prep_0003"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "mri_ra_prep_0055"
+            "value": "mri_ra_prep_0003"
         },
         {
             "column": "activity",
@@ -47,7 +47,7 @@
         "en": "mri_ra_prep_gestational_age"
     },
     "question": {
-        "en": "Gestational Age (Weeks)"
+        "en": "Gestational Age at Administration (Weeks)"
     },
     "responseOptions": {
         "valueType": [

@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "mh_cg_ecbq_0006"
+            "value": "mh_cg_ecbq_0055"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "mh_cg_ecbq_0006"
+            "value": "mh_cg_ecbq_0055"
         },
         {
             "column": "activity",

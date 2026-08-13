@@ -249,6 +249,8 @@
             "../activities/img_xcpd_hash-2afa9081+0ef9c88a_space-fsLR_seg-Tian_stat-reho_bold/img_xcpd_hash-2afa9081+0ef9c88a_space-fsLR_seg-Tian_stat-reho_bold_schema",
             "../activities/mh_cg_chaos/mh_cg_chaos_schema",
             "../activities/mh_cg_ecbq/mh_cg_ecbq_schema",
+            "../activities/mh_cg_erica_3_9m/mh_cg_erica_3_9m_schema",
+            "../activities/mh_cg_erica_rel_3_9m/mh_cg_erica_rel_3_9m_schema",
             "../activities/mh_cg_fad/mh_cg_fad_schema",
             "../activities/mh_cg_ibqr/mh_cg_ibqr_schema",
             "../activities/mh_cg_mapdb__inf/mh_cg_mapdb__inf_schema",
@@ -257,6 +259,8 @@
             "../activities/mh_cg_pms__cc__inf/mh_cg_pms__cc__inf_schema",
             "../activities/mh_cg_pms__peer/mh_cg_pms__peer_schema",
             "../activities/mh_cg_pms__selfreg/mh_cg_pms__selfreg_schema",
+            "../activities/mri_ra_chkl_data/mri_ra_chkl_data_schema",
+            "../activities/mri_ra_chkl_scan/mri_ra_chkl_scan_schema",
             "../activities/mri_ra_prep/mri_ra_prep_schema",
             "../activities/ncl_cg_spm2__inf/ncl_cg_spm2__inf_schema",
             "../activities/ncl_cg_spm2__tod/ncl_cg_spm2__tod_schema",
@@ -2233,6 +2237,22 @@
                 "variableName": "mh_cg_ecbq_schema"
             },
             {
+                "isAbout": "../activities/mh_cg_erica_3_9m/mh_cg_erica_3_9m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica 3 9M"
+                },
+                "variableName": "mh_cg_erica_3_9m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_rel_3_9m/mh_cg_erica_rel_3_9m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica Rel 3 9M"
+                },
+                "variableName": "mh_cg_erica_rel_3_9m_schema"
+            },
+            {
                 "isAbout": "../activities/mh_cg_fad/mh_cg_fad_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2295,6 +2315,22 @@
                     "en": "Mh Cg Pms  Selfreg"
                 },
                 "variableName": "mh_cg_pms__selfreg_schema"
+            },
+            {
+                "isAbout": "../activities/mri_ra_chkl_data/mri_ra_chkl_data_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mri Ra Chkl Data"
+                },
+                "variableName": "mri_ra_chkl_data_schema"
+            },
+            {
+                "isAbout": "../activities/mri_ra_chkl_scan/mri_ra_chkl_scan_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mri Ra Chkl Scan"
+                },
+                "variableName": "mri_ra_chkl_scan_schema"
             },
             {
                 "isAbout": "../activities/mri_ra_prep/mri_ra_prep_schema",

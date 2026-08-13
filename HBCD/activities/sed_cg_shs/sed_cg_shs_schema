@@ -9,6 +9,8 @@
         "order": [
             "items/sed_cg_shs_date_taken",
             "items/sed_cg_shs_candidate_age",
+            "items/sed_cg_shs_gestational_age",
+            "items/sed_cg_shs_adjusted_age",
             "items/sed_cg_shs_lang",
             "items/sed_cg_shs_location",
             "items/sed_cg_shs_001",
@@ -19,9 +21,7 @@
             "items/sed_cg_shs_002__01___3",
             "items/sed_cg_shs_002__01___4",
             "items/sed_cg_shs_002__01___5",
-            "items/sed_cg_shs_administration",
-            "items/sed_cg_shs_gestational_age",
-            "items/sed_cg_shs_adjusted_age"
+            "items/sed_cg_shs_administration"
         ],
         "addProperties": [
             {
@@ -33,6 +33,16 @@
                 "isAbout": "items/sed_cg_shs_candidate_age",
                 "isVis": true,
                 "variableName": "sed_cg_shs_candidate_age"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_gestational_age",
+                "isVis": true,
+                "variableName": "sed_cg_shs_gestational_age"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_adjusted_age",
+                "isVis": true,
+                "variableName": "sed_cg_shs_adjusted_age"
             },
             {
                 "isAbout": "items/sed_cg_shs_lang",
@@ -88,16 +98,6 @@
                 "isAbout": "items/sed_cg_shs_administration",
                 "isVis": true,
                 "variableName": "sed_cg_shs_administration"
-            },
-            {
-                "isAbout": "items/sed_cg_shs_gestational_age",
-                "isVis": true,
-                "variableName": "sed_cg_shs_gestational_age"
-            },
-            {
-                "isAbout": "items/sed_cg_shs_adjusted_age",
-                "isVis": true,
-                "variableName": "sed_cg_shs_adjusted_age"
             }
         ],
         "shuffle": false

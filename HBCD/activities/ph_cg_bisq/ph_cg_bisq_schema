@@ -9,6 +9,9 @@
         "order": [
             "items/ph_cg_bisq_date_taken",
             "items/ph_cg_bisq_candidate_age",
+            "items/ph_cg_bisq_gestational_age",
+            "items/ph_cg_bisq_adjusted_age",
+            "items/ph_cg_bisq_lang",
             "items/ph_cg_bisq_location",
             "items/ph_cg_bisq_001",
             "items/ph_cg_bisq_pb_001",
@@ -42,9 +45,7 @@
             "items/ph_cg_bisq_parent_perception_score",
             "items/ph_cg_bisq_parent_behavior_score",
             "items/ph_cg_bisq_total_score",
-            "items/ph_cg_bisq_administration",
-            "items/ph_cg_bisq_gestational_age",
-            "items/ph_cg_bisq_adjusted_age"
+            "items/ph_cg_bisq_administration"
         ],
         "addProperties": [
             {
@@ -56,6 +57,21 @@
                 "isAbout": "items/ph_cg_bisq_candidate_age",
                 "isVis": true,
                 "variableName": "ph_cg_bisq_candidate_age"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_gestational_age",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_gestational_age"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_adjusted_age",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_adjusted_age"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_lang",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_lang"
             },
             {
                 "isAbout": "items/ph_cg_bisq_location",
@@ -226,16 +242,6 @@
                 "isAbout": "items/ph_cg_bisq_administration",
                 "isVis": true,
                 "variableName": "ph_cg_bisq_administration"
-            },
-            {
-                "isAbout": "items/ph_cg_bisq_gestational_age",
-                "isVis": true,
-                "variableName": "ph_cg_bisq_gestational_age"
-            },
-            {
-                "isAbout": "items/ph_cg_bisq_adjusted_age",
-                "isVis": true,
-                "variableName": "ph_cg_bisq_adjusted_age"
             }
         ],
         "shuffle": false

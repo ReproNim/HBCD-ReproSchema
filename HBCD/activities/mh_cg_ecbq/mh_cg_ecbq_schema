@@ -9,12 +9,9 @@
         "order": [
             "items/mh_cg_ecbq_date_taken",
             "items/mh_cg_ecbq_candidate_age",
+            "items/mh_cg_ecbq_gestational_age",
+            "items/mh_cg_ecbq_adjusted_age",
             "items/mh_cg_ecbq_lang",
-            "items/mh_cg_ecbq_surg_score",
-            "items/mh_cg_ecbq_neg_score",
-            "items/mh_cg_ecbq_efrt_score",
-            "items/mh_cg_ecbq_beh_score",
-            "items/mh_cg_ecbq_administration",
             "items/mh_cg_ecbq_beh__neg_001",
             "items/mh_cg_ecbq_neg_001",
             "items/mh_cg_ecbq_surg_001",
@@ -62,8 +59,11 @@
             "items/mh_cg_ecbq_beh_009",
             "items/mh_cg_ecbq_beh_010",
             "items/mh_cg_ecbq_beh_011",
-            "items/mh_cg_ecbq_gestational_age",
-            "items/mh_cg_ecbq_adjusted_age"
+            "items/mh_cg_ecbq_surg_score",
+            "items/mh_cg_ecbq_neg_score",
+            "items/mh_cg_ecbq_efrt_score",
+            "items/mh_cg_ecbq_beh_score",
+            "items/mh_cg_ecbq_administration"
         ],
         "addProperties": [
             {
@@ -77,34 +77,19 @@
                 "variableName": "mh_cg_ecbq_candidate_age"
             },
             {
+                "isAbout": "items/mh_cg_ecbq_gestational_age",
+                "isVis": true,
+                "variableName": "mh_cg_ecbq_gestational_age"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_adjusted_age",
+                "isVis": true,
+                "variableName": "mh_cg_ecbq_adjusted_age"
+            },
+            {
                 "isAbout": "items/mh_cg_ecbq_lang",
                 "isVis": true,
                 "variableName": "mh_cg_ecbq_lang"
-            },
-            {
-                "isAbout": "items/mh_cg_ecbq_surg_score",
-                "isVis": true,
-                "variableName": "mh_cg_ecbq_surg_score"
-            },
-            {
-                "isAbout": "items/mh_cg_ecbq_neg_score",
-                "isVis": true,
-                "variableName": "mh_cg_ecbq_neg_score"
-            },
-            {
-                "isAbout": "items/mh_cg_ecbq_efrt_score",
-                "isVis": true,
-                "variableName": "mh_cg_ecbq_efrt_score"
-            },
-            {
-                "isAbout": "items/mh_cg_ecbq_beh_score",
-                "isVis": true,
-                "variableName": "mh_cg_ecbq_beh_score"
-            },
-            {
-                "isAbout": "items/mh_cg_ecbq_administration",
-                "isVis": true,
-                "variableName": "mh_cg_ecbq_administration"
             },
             {
                 "isAbout": "items/mh_cg_ecbq_beh__neg_001",
@@ -342,14 +327,29 @@
                 "variableName": "mh_cg_ecbq_beh_011"
             },
             {
-                "isAbout": "items/mh_cg_ecbq_gestational_age",
+                "isAbout": "items/mh_cg_ecbq_surg_score",
                 "isVis": true,
-                "variableName": "mh_cg_ecbq_gestational_age"
+                "variableName": "mh_cg_ecbq_surg_score"
             },
             {
-                "isAbout": "items/mh_cg_ecbq_adjusted_age",
+                "isAbout": "items/mh_cg_ecbq_neg_score",
                 "isVis": true,
-                "variableName": "mh_cg_ecbq_adjusted_age"
+                "variableName": "mh_cg_ecbq_neg_score"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_efrt_score",
+                "isVis": true,
+                "variableName": "mh_cg_ecbq_efrt_score"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_beh_score",
+                "isVis": true,
+                "variableName": "mh_cg_ecbq_beh_score"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_administration",
+                "isVis": true,
+                "variableName": "mh_cg_ecbq_administration"
             }
         ],
         "shuffle": false

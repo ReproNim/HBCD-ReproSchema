@@ -9,6 +9,8 @@
         "order": [
             "items/sed_cg_cabr_sf_date_taken",
             "items/sed_cg_cabr_sf_candidate_age",
+            "items/sed_cg_cabr_sf_gestational_age",
+            "items/sed_cg_cabr_sf_adjusted_age",
             "items/sed_cg_cabr_sf_lang",
             "items/sed_cg_cabr_sf_location",
             "items/sed_cg_cabr_sf_001",
@@ -46,9 +48,7 @@
             "items/sed_cg_cabr_sf_016",
             "items/sed_cg_cabr_sf_016__01",
             "items/sed_cg_cabr_sf_total_score",
-            "items/sed_cg_cabr_sf_administration",
-            "items/sed_cg_cabr_sf_gestational_age",
-            "items/sed_cg_cabr_sf_adjusted_age"
+            "items/sed_cg_cabr_sf_administration"
         ],
         "addProperties": [
             {
@@ -60,6 +60,16 @@
                 "isAbout": "items/sed_cg_cabr_sf_candidate_age",
                 "isVis": true,
                 "variableName": "sed_cg_cabr_sf_candidate_age"
+            },
+            {
+                "isAbout": "items/sed_cg_cabr_sf_gestational_age",
+                "isVis": true,
+                "variableName": "sed_cg_cabr_sf_gestational_age"
+            },
+            {
+                "isAbout": "items/sed_cg_cabr_sf_adjusted_age",
+                "isVis": true,
+                "variableName": "sed_cg_cabr_sf_adjusted_age"
             },
             {
                 "isAbout": "items/sed_cg_cabr_sf_lang",
@@ -250,16 +260,6 @@
                 "isAbout": "items/sed_cg_cabr_sf_administration",
                 "isVis": true,
                 "variableName": "sed_cg_cabr_sf_administration"
-            },
-            {
-                "isAbout": "items/sed_cg_cabr_sf_gestational_age",
-                "isVis": true,
-                "variableName": "sed_cg_cabr_sf_gestational_age"
-            },
-            {
-                "isAbout": "items/sed_cg_cabr_sf_adjusted_age",
-                "isVis": true,
-                "variableName": "sed_cg_cabr_sf_adjusted_age"
             }
         ],
         "shuffle": false

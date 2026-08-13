@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "mh_cg_pms__peer_0004"
+            "value": "mh_cg_pms__peer_0006"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "mh_cg_pms__peer_0004"
+            "value": "mh_cg_pms__peer_0006"
         },
         {
             "column": "activity",

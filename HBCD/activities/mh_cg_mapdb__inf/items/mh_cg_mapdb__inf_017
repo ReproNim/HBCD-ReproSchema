@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "mh_cg_mapdb_inf_0020"
+            "value": "mh_cg_mapdb_inf_0022"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "mh_cg_mapdb_inf_0020"
+            "value": "mh_cg_mapdb_inf_0022"
         },
         {
             "column": "activity",

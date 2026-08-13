@@ -3,6 +3,11 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
+            "column": "unit",
+            "source": "nbdc",
+            "value": "pg/mL"
+        },
+        {
             "column": "study",
             "source": "nbdc",
             "value": "Core"
@@ -25,12 +30,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "bio_bm_urine_results_0145"
+            "value": "bio_bm_urine_results_0104"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "bio_bm_urine_results_0145"
+            "value": "bio_bm_urine_results_0104"
         },
         {
             "column": "activity",

@@ -1,0 +1,56 @@
+{
+    "id": "sed_bm_demo_roster_023__05",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "study",
+            "source": "nbdc",
+            "value": "Core"
+        },
+        {
+            "column": "domain",
+            "source": "nbdc",
+            "value": "Social and Environmental Determinants"
+        },
+        {
+            "column": "source",
+            "source": "nbdc",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "url_table",
+            "source": "nbdc",
+            "value": "https://docs.hbcdstudy.org/latest/instruments/SED/demo-cg/"
+        },
+        {
+            "column": "name_short",
+            "source": "nbdc",
+            "value": "sed_bm_demo_0075"
+        },
+        {
+            "column": "name_stata",
+            "source": "nbdc",
+            "value": "sed_bm_demo_0075"
+        },
+        {
+            "column": "activity",
+            "source": "nbdc",
+            "value": "sed_bm_demo"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_bm_demo_roster_023__05"
+    },
+    "question": {
+        "en": "Since your child was born, how many total times has your family moved or changed primary residences? If your child lives in multiple households, report the number of moves for the household the child spends the majority of their time."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

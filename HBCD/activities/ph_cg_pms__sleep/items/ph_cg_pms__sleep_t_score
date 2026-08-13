@@ -25,12 +25,12 @@
         {
             "column": "name_short",
             "source": "nbdc",
-            "value": "ph_cg_pms__sleep_0012"
+            "value": "ph_cg_pms__sleep_0016"
         },
         {
             "column": "name_stata",
             "source": "nbdc",
-            "value": "ph_cg_pms__sleep_0012"
+            "value": "ph_cg_pms__sleep_0016"
         },
         {
             "column": "activity",
@@ -46,7 +46,7 @@
     },
     "responseOptions": {
         "valueType": [
-            "xsd:string"
+            "xsd:decimal"
         ]
     },
     "ui": {

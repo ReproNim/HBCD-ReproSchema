@@ -9,6 +9,8 @@
         "order": [
             "items/pex_bm_health_preg__erhosp_date_taken",
             "items/pex_bm_health_preg__erhosp_candidate_age",
+            "items/pex_bm_health_preg__erhosp_gestational_age",
+            "items/pex_bm_health_preg__erhosp_adjusted_age",
             "items/pex_bm_health_preg__erhosp_lang",
             "items/pex_bm_health_preg__erhosp_001",
             "items/pex_bm_health_preg__erhosp_002__00",
@@ -178,9 +180,7 @@
             "items/pex_bm_health_preg__erhosp_024__03__00",
             "items/pex_bm_health_preg__erhosp_024__03",
             "items/pex_bm_health_preg__erhosp_024__03_dk",
-            "items/pex_bm_health_preg__erhosp_administration",
-            "items/pex_bm_health_preg__erhosp_gestational_age",
-            "items/pex_bm_health_preg__erhosp_adjusted_age"
+            "items/pex_bm_health_preg__erhosp_administration"
         ],
         "addProperties": [
             {
@@ -192,6 +192,16 @@
                 "isAbout": "items/pex_bm_health_preg__erhosp_candidate_age",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__erhosp_candidate_age"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__erhosp_gestational_age",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__erhosp_gestational_age"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg__erhosp_adjusted_age",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg__erhosp_adjusted_age"
             },
             {
                 "isAbout": "items/pex_bm_health_preg__erhosp_lang",
@@ -1042,16 +1052,6 @@
                 "isAbout": "items/pex_bm_health_preg__erhosp_administration",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg__erhosp_administration"
-            },
-            {
-                "isAbout": "items/pex_bm_health_preg__erhosp_gestational_age",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__erhosp_gestational_age"
-            },
-            {
-                "isAbout": "items/pex_bm_health_preg__erhosp_adjusted_age",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg__erhosp_adjusted_age"
             }
         ],
         "shuffle": false

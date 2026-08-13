@@ -9,6 +9,9 @@
         "order": [
             "items/mri_ra_prep_date_taken",
             "items/mri_ra_prep_candidate_age",
+            "items/mri_ra_prep_gestational_age",
+            "items/mri_ra_prep_adjusted_age",
+            "items/mri_ra_prep_lang",
             "items/mri_ra_prep_s1_bsi_002___bottle_feeding",
             "items/mri_ra_prep_s1_bsi_002___breast_feeding",
             "items/mri_ra_prep_s1_bsi_002___bath",
@@ -60,9 +63,7 @@
             "items/mri_ra_prep_s1_soa_004",
             "items/mri_ra_prep_s1_soa_005",
             "items/mri_ra_prep_s1_soa_006",
-            "items/mri_ra_prep_administration",
-            "items/mri_ra_prep_gestational_age",
-            "items/mri_ra_prep_adjusted_age"
+            "items/mri_ra_prep_administration"
         ],
         "addProperties": [
             {
@@ -74,6 +75,21 @@
                 "isAbout": "items/mri_ra_prep_candidate_age",
                 "isVis": true,
                 "variableName": "mri_ra_prep_candidate_age"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_gestational_age",
+                "isVis": true,
+                "variableName": "mri_ra_prep_gestational_age"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_adjusted_age",
+                "isVis": true,
+                "variableName": "mri_ra_prep_adjusted_age"
+            },
+            {
+                "isAbout": "items/mri_ra_prep_lang",
+                "isVis": true,
+                "variableName": "mri_ra_prep_lang"
             },
             {
                 "isAbout": "items/mri_ra_prep_s1_bsi_002___bottle_feeding",
@@ -334,16 +350,6 @@
                 "isAbout": "items/mri_ra_prep_administration",
                 "isVis": true,
                 "variableName": "mri_ra_prep_administration"
-            },
-            {
-                "isAbout": "items/mri_ra_prep_gestational_age",
-                "isVis": true,
-                "variableName": "mri_ra_prep_gestational_age"
-            },
-            {
-                "isAbout": "items/mri_ra_prep_adjusted_age",
-                "isVis": true,
-                "variableName": "mri_ra_prep_adjusted_age"
             }
         ],
         "shuffle": false

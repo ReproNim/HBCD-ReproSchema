@@ -11,6 +11,7 @@
             "items/nt_ch_sens_rcpt_candidate_age",
             "items/nt_ch_sens_rcpt_gestational_age",
             "items/nt_ch_sens_rcpt_adjusted_age",
+            "items/nt_ch_sens_rcpt_lang",
             "items/nt_ch_sens_rcpt_rlg_001",
             "items/nt_ch_sens_rcpt_rlg_001__01",
             "items/nt_ch_sens_rcpt_rlg_001__02",
@@ -40,6 +41,11 @@
                 "isAbout": "items/nt_ch_sens_rcpt_adjusted_age",
                 "isVis": true,
                 "variableName": "nt_ch_sens_rcpt_adjusted_age"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_rcpt_lang",
+                "isVis": true,
+                "variableName": "nt_ch_sens_rcpt_lang"
             },
             {
                 "isAbout": "items/nt_ch_sens_rcpt_rlg_001",

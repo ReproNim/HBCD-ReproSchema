@@ -9,6 +9,8 @@
         "order": [
             "items/ph_cg_phx__bfh_date_taken",
             "items/ph_cg_phx__bfh_candidate_age",
+            "items/ph_cg_phx__bfh_gestational_age",
+            "items/ph_cg_phx__bfh_adjusted_age",
             "items/ph_cg_phx__bfh_lang",
             "items/ph_cg_phx__bfh_location",
             "items/ph_cg_phx__bfh_001",
@@ -24,9 +26,7 @@
             "items/ph_cg_phx__bfh_003__02",
             "items/ph_cg_phx__bfh_003__dk",
             "items/ph_cg_phx__bfh_003__01_dk",
-            "items/ph_cg_phx__bfh_administration",
-            "items/ph_cg_phx__bfh_gestational_age",
-            "items/ph_cg_phx__bfh_adjusted_age"
+            "items/ph_cg_phx__bfh_administration"
         ],
         "addProperties": [
             {
@@ -38,6 +38,16 @@
                 "isAbout": "items/ph_cg_phx__bfh_candidate_age",
                 "isVis": true,
                 "variableName": "ph_cg_phx__bfh_candidate_age"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_gestational_age",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_gestational_age"
+            },
+            {
+                "isAbout": "items/ph_cg_phx__bfh_adjusted_age",
+                "isVis": true,
+                "variableName": "ph_cg_phx__bfh_adjusted_age"
             },
             {
                 "isAbout": "items/ph_cg_phx__bfh_lang",
@@ -118,16 +128,6 @@
                 "isAbout": "items/ph_cg_phx__bfh_administration",
                 "isVis": true,
                 "variableName": "ph_cg_phx__bfh_administration"
-            },
-            {
-                "isAbout": "items/ph_cg_phx__bfh_gestational_age",
-                "isVis": true,
-                "variableName": "ph_cg_phx__bfh_gestational_age"
-            },
-            {
-                "isAbout": "items/ph_cg_phx__bfh_adjusted_age",
-                "isVis": true,
-                "variableName": "ph_cg_phx__bfh_adjusted_age"
             }
         ],
         "shuffle": false

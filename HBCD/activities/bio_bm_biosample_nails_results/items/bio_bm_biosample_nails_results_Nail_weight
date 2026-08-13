@@ -3,6 +3,11 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
+            "column": "unit",
+            "source": "nbdc",
+            "value": "mg"
+        },
+        {
             "column": "study",
             "source": "nbdc",
             "value": "Core"
@@ -42,7 +47,7 @@
         "en": "bio_bm_biosample_nails_results_Nail_weight"
     },
     "question": {
-        "en": "Weight of nails available to assay"
+        "en": "Nail weight reported by USDTL upon receipt of the sample"
     },
     "responseOptions": {
         "valueType": [
